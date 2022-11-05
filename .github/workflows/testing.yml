@@ -51,11 +51,6 @@ jobs:
         env:
           CI: false
 
-      - name: Update tag ref
-        uses: EndBug/latest-tag@latest
-        with:
-          tag-name: ${{ github.ref_name }}
-
       - name: Bundle files
         run: |
           mkdir -p ./temp/ox_inventory
