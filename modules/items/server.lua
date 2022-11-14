@@ -108,7 +108,7 @@ CreateThread(function()
 					if not ItemList[formatName] then
 						fileSize += 1
 
-						file[fileSize] = (itemFormat):format(formatName, item.label:gsub("'", "\\'"):lower(), item.weight, item.stack, item.close, item.description and ('"%s"'):format(item.description) or 'nil')
+						file[fileSize] = (itemFormat):format(formatName, item.label:gsub("'", "\\'"):lower(), item.weight, item.stack, item.close, item.description and json.encode(item.description) or 'nil')
 						ItemList[formatName] = item
 					end
 				end
@@ -192,7 +192,7 @@ CreateThread(function()
 					if not ItemList[formatName] then
 						fileSize += 1
 
-						file[fileSize] = (itemFormat):format(formatName, item.label:gsub("'", "\\'"):lower(), item.weight, item.stack, item.close, item.description and ('"%s"'):format(item.description) or 'nil')
+						file[fileSize] = (itemFormat):format(formatName, item.label:gsub("'", "\\'"):lower(), item.weight, item.stack, item.close, item.description and json.encode(item.description) or 'nil')
 						ItemList[formatName] = item
 					end
 				end
@@ -247,6 +247,7 @@ end
 function Items.Metadata(inv, item, metadata, count)
 	if type(inv) ~= 'table' then inv = Inventory(inv) end
 	if not item.weapon then metadata = not metadata and {} or type(metadata) == 'string' and {type=metadata} or metadata end
+	if not count then count = 1 end
 
 	if item.weapon then
 		if type(metadata) ~= 'table' then metadata = {} end
@@ -275,19 +276,19 @@ function Items.Metadata(inv, item, metadata, count)
 			count = 1
 			metadata.container = metadata.container or GenerateText(3)..os.time()
 			metadata.size = container.size
-		elseif item.name == 'identification' then
-			count = 1
-			if next(metadata) == nil then
+		elseif not next(metadata) then
+			if item.name == 'identification' then
+				count = 1
 				metadata = {
 					type = inv.player.name,
 					description = locale('identification', (inv.player.sex) and locale('male') or locale('female'), inv.player.dateofbirth)
 				}
+			elseif item.name == 'garbage' then
+				local trashType = trash[math.random(1, #trash)]
+				metadata.image = trashType.image
+				metadata.weight = trashType.weight
+				metadata.description = trashType.description
 			end
-		elseif item.name == 'garbage' then
-			local trashType = trash[math.random(1, #trash)]
-			metadata.image = trashType.image
-			metadata.weight = trashType.weight
-			metadata.description = trashType.description
 		end
 
 		if not metadata?.durability then
