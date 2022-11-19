@@ -347,7 +347,7 @@ return {
 		stack = true,
 		close = true,
 		description = nil
-	},weight = 500,
+	},
 
 	['red_sulfur'] = {
 		label = 'red sulfur',
