@@ -840,18 +840,18 @@ return {
 	    client = {
 			status = { thirst = 200000 },
 			usetime = 2500,
-			notification = 'Vous avez bu une limonade !'
+			notification = 'Vous avez bu une limonade !',
 	    }
 	},
 
 	['orange_juice'] = {
-	    label = 'Jus daurange', 
+	    label = "Jus d'orange", 
 	    weight = 350,
 	    stack = true,
 	    client = {
 			status = { thirst = 200000 },
 			usetime = 2500,
-			notification = 'Vous avez bu du jus daurange' 
+			notification = "Vous avez bu du jus d'orange",
 	    }
 	},
 
