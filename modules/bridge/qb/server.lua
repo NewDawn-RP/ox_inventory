@@ -153,16 +153,16 @@ function server.buyLicense(inv, license)
 	if not player then return end
 
 	if player.PlayerData.metadata.licences[license] then
-		return false, 'has_weapon_license'
+		return false, 'already_have'
 	elseif Inventory.GetItem(inv, 'money', false, true) < license.price then
-		return false, 'poor_weapon_license'
+		return false, 'can_not_afford'
 	end
 
 	Inventory.RemoveItem(inv, 'money', license.price)
 	player.PlayerData.metadata.licences.weapon = true
 	player.Functions.SetMetaData('licences', player.PlayerData.metadata.licences)
 
-	return true, 'bought_weapon_license'
+	return true, 'have_purchased'
 end
 
 --- Takes traditional item data and updates it to support ox_inventory, i.e.
@@ -189,7 +189,7 @@ function server.convertInventory(playerId, items)
 					local amount = player.Functions.GetMoney(name == 'money' and 'cash' or name)
 
 					if amount then
-						items[#items + 1] = {amount = amount}
+						items[#items + 1] = { name = name, amount = amount }
 					end
 				end
 			end
@@ -198,7 +198,7 @@ function server.convertInventory(playerId, items)
 		for _, data in pairs(items) do
 			local item = Items(data.name)
 
-			if item and data then
+			if item?.name then
 				local metadata, count = Items.Metadata(playerId, item, data.info, data.amount or data.count or 1)
 				local weight = Inventory.SlotWeight(item, {count = count, metadata = metadata})
 				totalWeight += weight
@@ -210,3 +210,22 @@ function server.convertInventory(playerId, items)
 		return returnData, totalWeight
 	end
 end
+
+function server.setPlayerStatus(playerId, values)
+	local Player = QBCore.Functions.GetPlayer(playerId)
+
+	if not Player then return end
+
+	local playerMetadata = Player.PlayerData.metadata
+
+	for name, value in pairs(values) do
+		if playerMetadata[name] then
+			if value > 100 or value < -100 then
+				value = value * 0.0001
+			end
+
+			Player.Functions.SetMetaData(name, playerMetadata[name] + value)
+		end
+	end
+end
+
