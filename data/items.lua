@@ -999,4 +999,64 @@ return {
 		label = 'Scrap Metal',
 		weight = 80,
 	},
+
+	['pickaxe'] = {
+		label = 'Pioche',
+		weight = 5000,
+	},
+
+	['emerald'] = {
+		label = 'Emeraude',
+		weight = 100,
+	},
+
+	['diamond'] = {
+		label = 'Diamant',
+		weight = 50,
+	},
+
+	['copper'] = {
+		label = 'Cuivre',
+		weight = 1000,
+	},
+
+	['iron'] = {
+		label = 'Fer',
+		weight = 1500,
+	},
+
+	['steel'] = {
+		label = 'Acier',
+		weight = 2000,
+	},
+
+	['fishingrod'] = {
+		label = 'Canne à pêche',
+		weight = 3000,
+	},
+
+	['fishbait'] = {
+		label = 'Appât',
+		weight = 100,
+	},
+
+	['anchovy'] = {
+		label = 'Anchoi',
+		weight = 150,
+	},
+
+	['trout'] = {
+		label = 'Truite',
+		weight = 2000,
+	},
+
+	['salmon'] = {
+		label = 'Saumon',
+		weight = 2000,
+	},
+
+	['tuna'] = {
+		label = 'Thon',
+		weight = 2000,
+	},
 }
