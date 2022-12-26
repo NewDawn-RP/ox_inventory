@@ -1059,4 +1059,26 @@ return {
 		label = 'Thon',
 		weight = 2000,
 	},
+	
+	['spray'] = {
+		label = 'Bombe de tag',
+		weight = 250,
+		close = true,
+		consume = 0,
+		client = {},
+		server = {
+			export = 'rcore_spray.spray',
+		},
+	},
+	
+	['spray_remover'] = {
+		label = 'Nettoyant Graffiti',
+		weight = 250,
+		close = true,
+		consume = 0,
+		client = {},
+		server = {
+			export = 'rcore_spray.spray_remover',
+		},
+	},
 }
