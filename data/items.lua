@@ -601,7 +601,7 @@ return {
 	    stack = true,
 	},
 
-	['pair_of_handcuffs'] = {
+	['handcuffs'] = {
 	    label = 'Paire de menottes',
 	    weight = 125,
 	    stack = true,
