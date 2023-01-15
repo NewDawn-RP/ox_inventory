@@ -1081,4 +1081,66 @@ return {
 			export = 'rcore_spray.spray_remover',
 		},
 	},
+
+	['drill_work'] = {
+		label = 'Perçeuse de chantier',
+		weight = 7000,
+	},
+
+	['drill'] = {
+		label = 'Perçeuse',
+		weight = 1000,
+	},
+
+	['cutter'] = {
+		label = 'Perçeuse',
+		weight = 1500,
+	},
+
+	['c4_bomb'] = {
+		label = 'Paté de C4',
+		weight = 700,
+	},
+
+	['thermite_bomb'] = {
+		label = 'Bombe Incendiaire',
+		weight = 1000,
+		stack = true,
+	},
+
+	['laptop'] = {
+		label = 'PC Portable',
+		weight = 1500,
+		stack = false,
+	},
+
+	['hack_usb'] = {
+		label = 'Clé USB Douteuse',
+		weight = 20,
+		stack = true,
+	},
+
+	['rolex'] = {
+		label = 'Montre Rolex',
+		weight = 150,
+		stack = true,
+	},
+
+	['ring'] = {
+		label = 'Bague',
+		weight = 50,
+		stack = true,
+	},
+
+	['necklace'] = {
+		label = 'Collier de pierres précieuses',
+		weight = 150,
+		stack = true,
+	},
+
+	['gasmask'] = {
+		label = 'Masque à gaz',
+		weight = 300,
+		stack = false,
+	},
 }
