@@ -454,12 +454,6 @@ return {
 	    stack = true,
 	},
 
-	['tuna'] = {
-	    label = 'Thon',
-	    weight = 185,
-	    stack = true,
-	},
-
 	['sardine'] = {
 	    label = 'Sardine',
 	    weight = 150,
@@ -1056,8 +1050,9 @@ return {
 	},
 
 	['tuna'] = {
-		label = 'Thon',
-		weight = 2000,
+	    label = 'Thon',
+	    weight = 1000,
+	    stack = true,
 	},
 	
 	['spray'] = {
