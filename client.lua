@@ -294,7 +294,7 @@ local function useItem(data, cb)
 		local success, response = pcall(cb, result and slotData)
 
 		if not success and response then
-			print(('^1An error occurred while calling item "%s" callback!\n^1SCRIPT ERROR: %s^0'):format(result.name, response))
+			print(('^1An error occurred while calling item "%s" callback!\n^1SCRIPT ERROR: %s^0'):format(slotData.name, response))
 		end
 	end
 
@@ -361,29 +361,22 @@ local function useSlot(slot)
 					useItem(data, function(data)
 						if data then
 							if data.name == currentWeapon.ammo then
-								local missingAmmo = 0
+								local missingAmmo = maxAmmo - currentAmmo
 								local newAmmo = 0
-								missingAmmo = maxAmmo - currentAmmo
 
 								if missingAmmo > data.count then newAmmo = currentAmmo + data.count else newAmmo = maxAmmo end
 								if newAmmo < 0 then newAmmo = 0 end
 
-								SetPedAmmo(playerPed, currentWeapon.hash, newAmmo)
-
-								if not cache.vehicle then
-									MakePedReload(playerPed)
-								else
-									lib.disableControls:Add(68)
-									RefillAmmoInstantly(playerPed)
-								end
-
 								currentWeapon.metadata.ammo = newAmmo
-								TriggerServerEvent('ox_inventory:updateWeapon', 'load', currentWeapon.metadata.ammo)
 
 								if cache.vehicle then
-									Wait(300)
-									lib.disableControls:Remove(68)
+									SetAmmoInClip(playerPed, currentWeapon.hash, newAmmo)
+								else
+									SetPedAmmo(playerPed, currentWeapon.hash, newAmmo)
+									MakePedReload(playerPed)
 								end
+
+								TriggerServerEvent('ox_inventory:updateWeapon', 'load', currentWeapon.metadata.ammo)
 							end
 						end
 					end)
@@ -504,21 +497,21 @@ local function registerCommands()
 		description = locale('open_player_inventory'),
 		defaultKey = client.keys[1],
 		onPressed = function()
-			if not invOpen then
-				local closest = lib.points.closest()
-
-				if closest and closest.currentDistance < 1.2 then
-					if closest.inv == 'crafting' then
-						return client.openInventory('crafting', { id = closest.id, index = closest.index })
-					elseif closest.inv ~= 'license' and closest.inv ~= 'policeevidence' then
-						return client.openInventory(closest.inv or 'drop', { id = closest.invId, type = closest.type })
-					end
-				end
-
-				return client.openInventory()
+			if invOpen then
+				return client.closeInventory()
 			end
 
-			client.closeInventory()
+			local closest = lib.points.closest()
+
+			if closest and closest.currentDistance < 1.2 and (not closest.instance or closest.instance == currentInstance) then
+				if closest.inv == 'crafting' then
+					return client.openInventory('crafting', { id = closest.id, index = closest.index })
+				elseif closest.inv ~= 'license' and closest.inv ~= 'policeevidence' then
+					return client.openInventory(closest.inv or 'drop', { id = closest.invId, type = closest.type })
+				end
+			end
+
+			return client.openInventory()
 		end
 	})
 
@@ -1201,11 +1194,19 @@ RegisterNetEvent('ox_inventory:setPlayerInventory', function(currentDrops, inven
 		local weaponHash = GetSelectedPedWeapon(playerPed)
 
 		if currentWeapon and weaponHash ~= currentWeapon.hash then
-			TriggerServerEvent('ox_inventory:updateWeapon')
-			currentWeapon = Weapon.Disarm(currentWeapon, true)
+			local weaponCount = Items[currentWeapon.name]?.count
 
-			if weaponHash == `WEAPON_HANDCUFFS` or weaponHash == `WEAPON_GARBAGEBAG` or weaponHash == `WEAPON_BRIEFCASE` or weaponHash == `WEAPON_BRIEFCASE_02` then
-				SetCurrentPedWeapon(playerPed, weaponHash --[[@as number]], true)
+			if weaponCount > 0 then
+				SetCurrentPedWeapon(playerPed, currentWeapon.hash, true)
+				SetAmmoInClip(playerPed, currentWeapon.hash, currentWeapon.metadata.ammo)
+				SetPedCurrentWeaponVisible(playerPed, true, false, false, false)
+			else
+				TriggerServerEvent('ox_inventory:updateWeapon')
+				currentWeapon = Weapon.Disarm(currentWeapon, true)
+
+				if weaponHash == `WEAPON_HANDCUFFS` or weaponHash == `WEAPON_GARBAGEBAG` or weaponHash == `WEAPON_BRIEFCASE` or weaponHash == `WEAPON_BRIEFCASE_02` then
+					SetCurrentPedWeapon(playerPed, weaponHash, true)
+				end
 			end
 		end
 
@@ -1285,13 +1286,15 @@ RegisterNetEvent('ox_inventory:setPlayerInventory', function(currentDrops, inven
 								SetPedInfiniteAmmo(playerPed, false, currentWeapon.hash)
 							end
 
-						else currentAmmo = GetAmmoInPedWeapon(playerPed, currentWeapon.hash) end
+						else
+							currentAmmo = GetAmmoInPedWeapon(playerPed, currentWeapon.hash)
+						end
+
 						currentWeapon.metadata.ammo = (currentWeapon.metadata.ammo < currentAmmo) and 0 or currentAmmo
 
 						if currentAmmo <= 0 then
 							if cache.vehicle then
-								SetCurrentPedWeapon(playerPed, currentWeapon.hash, true)
-								SetPedCurrentWeaponVisible(playerPed, true, false, false, false)
+								TaskSwapWeapon(playerPed, true)
 							end
 
 							if currentWeapon?.ammo and client.autoreload and canUseItem(true) then
