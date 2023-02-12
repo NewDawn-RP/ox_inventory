@@ -1138,4 +1138,112 @@ return {
 		weight = 300,
 		stack = false,
 	},
+
+	['topdress'] = {
+		label 		= 'Haut',
+		description = 'Haut',
+		weight 		= 100,
+		stack 		= true,
+		close 		= true,
+		client = {
+			anim = { dict = 'clothingshirt', clip = 'try_shirt_positive_d', flag = 51 },
+			usetime = 1200,
+		}
+	},
+
+  	['jacket'] = {
+		label 		= 'Veste',
+		description = 'Veste',
+		weight 		= 100,
+		stack 		= true,
+		close 		= true,
+		client = {
+			anim = { dict = 'clothingshirt', clip = 'try_shirt_positive_d', flag = 51 },
+			usetime = 1200,
+		}
+	},
+
+  	['trousers'] = {
+		label 		= 'Pantalon',
+		description = 'Pantalon',
+		weight 		= 100,
+		stack 		= true,
+		close 		= true,
+		client = {
+			anim = { dict = 're@construction', clip = 'out_of_breath', flag = 51 },
+			usetime = 1200,
+		}
+	},
+
+  	['shoes'] = {
+		label 		= 'Chaussures',
+		description = 'Chaussures',
+		weight 		= 100,
+		stack 		= true,
+		close 		= true,
+		client = {
+			anim = { dict = 'random@domestic', clip = 'pickup_low', flag = 0 },
+			usetime = 1200,
+		}
+	},
+
+  	['hat'] = {
+		label 		= 'Couvre-chef',
+		description = 'Couvre-chef',
+		weight 		= 100,
+		stack 		= true,
+		close 		= true,
+		client = {
+			anim = { dict = 'missheist_agency2ahelmet', clip = 'take_off_helmet_stand', flag = 51 },
+			usetime = 1200,
+		}
+	},
+
+  	['glasses'] = {
+		label 		= 'Lunettes',
+		description = 'Lunettes',
+		weight 		= 100,
+		stack 		= true,
+		close 		= true,
+		client = {
+			anim = { dict = 'clothingspecs', clip = 'take_off', flag = 51 },
+			usetime = 1200,
+		}
+	},
+
+  	['earaccess'] = {
+		label 		= "Accessoires d'oreilles",
+		description = "Accessoires d'oreilles",
+		weight 		= 100,
+		stack 		= true,
+		close 		= true,
+		client = {
+			anim = { dict = 'mp_cp_stolen_tut', clip = 'b_think', flag = 51 },
+			usetime = 1200,
+		}
+	},
+
+  	['chain'] = {
+		label 		= 'Torso Accessories',
+		description     = 'Torso Accessories',
+		weight 		= 100,
+		stack 		= true,
+		close 		= true,
+		client = {
+			anim = { dict = 'clothingtie', clip = 'try_tie_positive_a', flag = 51 },
+			usetime = 2500,
+		}
+	},
+
+  	['watch'] = {
+		label 		= 'Montre',
+		description     = 'Montre',
+		weight 		= 100,
+		stack 		= true,
+		close 		= true,
+		client = {
+			anim = { dict = 'nmt_3_rcm-10', clip = 'cs_nigel_dual-10', flag = 51 },
+			usetime = 900,
+		}
+	},
 }
