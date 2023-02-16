@@ -1246,4 +1246,12 @@ return {
 			usetime = 900,
 		}
 	},
+	
+	['medbag'] = {
+		label = 'Saccoche médicale',
+		weight = 4000,
+		server = {
+			export = 'lexinor_hospital.medbag',
+		},
+	},
 }
