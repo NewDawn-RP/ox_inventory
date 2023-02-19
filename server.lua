@@ -54,7 +54,7 @@ function server.setPlayerInventory(player, data)
 		inv.player.ped = GetPlayerPed(player.source)
 
 		if server.syncInventory then server.syncInventory(inv) end
-		TriggerClientEvent('ox_inventory:setPlayerInventory', player.source, Inventory.Drops, inventory, totalWeight, inv.player, player.source)
+		TriggerClientEvent('ox_inventory:setPlayerInventory', player.source, Inventory.Drops, inventory, totalWeight, inv.player)
 	end
 end
 exports('setPlayerInventory', server.setPlayerInventory)
@@ -208,7 +208,7 @@ lib.callback.register('ox_inventory:useItem', function(source, itemName, slot, m
 		if not data then return end
 
 		slot = data.slot
-		local durability = data.metadata?.durability
+		local durability = data.metadata?.durability --[[@as number|boolean|nil]]
 		local consume = item.consume
 
 		if durability and consume then

@@ -390,6 +390,7 @@ local function useSlot(slot)
 						if weaponSlot == result.slot then return end
 					end
 
+					currentWeapon = item
 					currentWeapon = Weapon.Equip(item, data)
 
 					if IsCinematicCamRendering() then SetCinematicModeActive(false) end
@@ -849,11 +850,11 @@ local function updateInventory(items, weight)
 end
 
 RegisterNetEvent('ox_inventory:updateSlots', function(items, weights, count, removed)
-	if source == '' then return end
+	if source == '' or not next(items) then return end
 
-	local item = items[1].item
+	local item = items[1]?.item
 
-	if currentWeapon?.slot == item.slot and item.metadata then
+	if currentWeapon?.slot == item?.slot and item.metadata then
 		currentWeapon.metadata = item.metadata
 		TriggerEvent('ox_inventory:currentWeapon', currentWeapon)
 	end
@@ -948,7 +949,7 @@ local function createDrop(dropId, data)
 		model = data.model
 	})
 
-	if client.dropprops then
+	if point.model or client.dropprops then
 		point.distance = 30
 		point.onEnter = onEnterDrop
 		point.onExit = onExitDrop
@@ -964,7 +965,7 @@ RegisterNetEvent('ox_inventory:createDrop', function(dropId, data, owner, slot)
 		createDrop(dropId, data)
 	end
 
-	if owner == PlayerData.source then
+	if owner == cache.serverId then
 		if currentWeapon?.slot == slot then
 			currentWeapon = Weapon.Disarm(currentWeapon)
 		end
@@ -1039,12 +1040,12 @@ lib.onCache('seat', function(seat)
 	Utils.WeaponWheel(false)
 end)
 
-RegisterNetEvent('ox_inventory:setPlayerInventory', function(currentDrops, inventory, weight, player, source)
+RegisterNetEvent('ox_inventory:setPlayerInventory', function(currentDrops, inventory, weight, player)
 	if source == '' then return end
 
 	PlayerData = player
 	PlayerData.id = cache.playerId
-	PlayerData.source = source
+	PlayerData.source = cache.serverId
 
 	setmetatable(PlayerData, {
 		__index = function(self, key)
@@ -1054,7 +1055,7 @@ RegisterNetEvent('ox_inventory:setPlayerInventory', function(currentDrops, inven
 		end
 	})
 
-	if setStateBagHandler then setStateBagHandler(('player:%s'):format(source)) end
+	if setStateBagHandler then setStateBagHandler(('player:%s'):format(cache.serverId)) end
 
 	local ItemData = table.create(0, #Items)
 
@@ -1231,23 +1232,29 @@ RegisterNetEvent('ox_inventory:setPlayerInventory', function(currentDrops, inven
 
 		local weaponHash = GetSelectedPedWeapon(playerPed)
 
-		if currentWeapon and weaponHash ~= currentWeapon.hash then
-			local weaponCount = Items[currentWeapon.name]?.count
+		if currentWeapon then
+			if weaponHash ~= currentWeapon.hash and currentWeapon.timer then
+				local weaponCount = Items[currentWeapon.name]?.count
 
-			if weaponCount > 0 then
-				SetCurrentPedWeapon(playerPed, currentWeapon.hash, true)
-				SetAmmoInClip(playerPed, currentWeapon.hash, currentWeapon.metadata.ammo)
-				SetPedCurrentWeaponVisible(playerPed, true, false, false, false)
+				if weaponCount > 0 then
+					SetCurrentPedWeapon(playerPed, currentWeapon.hash, true)
+					SetAmmoInClip(playerPed, currentWeapon.hash, currentWeapon.metadata.ammo)
+					SetPedCurrentWeaponVisible(playerPed, true, false, false, false)
 
-				weaponHash = GetSelectedPedWeapon(playerPed)
+					weaponHash = GetSelectedPedWeapon(playerPed)
+				end
+
+				if weaponHash ~= currentWeapon.hash then
+					TriggerServerEvent('ox_inventory:updateWeapon')
+					currentWeapon = Weapon.Disarm(currentWeapon, true)
+				end
 			end
+		elseif client.weaponmismatch and weaponHash ~= `WEAPON_UNARMED` then
+			local weaponType = GetWeapontypeGroup(weaponHash)
 
-			if weaponHash ~= currentWeapon.hash then
-				TriggerServerEvent('ox_inventory:updateWeapon')
-				currentWeapon = Weapon.Disarm(currentWeapon, true)
-
-				if weaponHash == `WEAPON_HANDCUFFS` or weaponHash == `WEAPON_GARBAGEBAG` or weaponHash == `WEAPON_BRIEFCASE` or weaponHash == `WEAPON_BRIEFCASE_02` then
-					SetCurrentPedWeapon(playerPed, weaponHash, true)
+			if weaponType ~= 0 and weaponType ~= `GROUP_UNARMED` then
+				if weaponHash ~= `WEAPON_HANDCUFFS` and weaponHash ~= `WEAPON_GARBAGEBAG` then
+					Weapon.Disarm(currentWeapon, true)
 				end
 			end
 		end
@@ -1298,7 +1305,7 @@ RegisterNetEvent('ox_inventory:setPlayerInventory', function(currentDrops, inven
 				DisableControlAction(0, 37, true)
 			end
 
-			if currentWeapon then
+			if currentWeapon and currentWeapon.timer then
 				DisableControlAction(0, 80, true)
 				DisableControlAction(0, 140, true)
 
