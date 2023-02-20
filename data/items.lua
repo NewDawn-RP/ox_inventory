@@ -1254,4 +1254,21 @@ return {
 			export = 'lexinor_hospital.medbag',
 		},
 	},
+	
+	['bag'] = {
+		label = 'Sac à bandoulière',
+		weight = 220,
+		stack = false,
+		consume = 0,
+		server = {
+			export = "lexinor_commons.bag",
+		},
+		client = {
+			remove = function(total)
+				if total == 0 then
+					SetPedComponentVariation(cache.ped, 5, 0, 0, 0)
+				end
+			end
+		}
+	},
 }
