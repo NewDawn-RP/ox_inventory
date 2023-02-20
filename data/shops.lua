@@ -178,5 +178,39 @@ return {
 		model = {
 			`prop_vend_soda_02`, `prop_vend_fridge01`, `prop_vend_water_01`, `prop_vend_soda_01`
 		}
-	}
+	},
+	
+	Bagshop = {
+		name = 'Magasin de sacs',
+		blip = {
+			id = 59, colour = 69, scale = 0.8
+		}, inventory = {
+			{ name = 'bag', price = 150, metadata = {['drawableId'] = 82, ['textureId'] = 0, ['paletteId'] = 0, ['bagType'] = "Sac spécial rouge"} },
+			{ name = 'bag', price = 150, metadata = {['drawableId'] = 82, ['textureId'] = 1, ['paletteId'] = 0, ['bagType'] = "Sac spécial rouge"} },
+			{ name = 'bag', price = 150, metadata = {['drawableId'] = 82, ['textureId'] = 2, ['paletteId'] = 0, ['bagType'] = "Sac spécial rouge"} },
+			{ name = 'bag', price = 150, metadata = {['drawableId'] = 82, ['textureId'] = 3, ['paletteId'] = 0, ['bagType'] = "Sac spécial rouge"} },
+			{ name = 'bag', price = 150, metadata = {['drawableId'] = 82, ['textureId'] = 4, ['paletteId'] = 0, ['bagType'] = "Sac spécial rouge"} },
+			{ name = 'bag', price = 150, metadata = {['drawableId'] = 82, ['textureId'] = 5, ['paletteId'] = 0, ['bagType'] = "Sac spécial rouge"} },
+			{ name = 'bag', price = 150, metadata = {['drawableId'] = 82, ['textureId'] = 6, ['paletteId'] = 0, ['bagType'] = "Sac spécial rouge"} },
+			{ name = 'bag', price = 150, metadata = {['drawableId'] = 82, ['textureId'] = 7, ['paletteId'] = 0, ['bagType'] = "Sac spécial rouge"} },
+			{ name = 'bag', price = 150, metadata = {['drawableId'] = 86, ['textureId'] = 0, ['paletteId'] = 0, ['bagType'] = "Sac spécial rouge"} },
+			{ name = 'bag', price = 150, metadata = {['drawableId'] = 86, ['textureId'] = 1, ['paletteId'] = 0, ['bagType'] = "Sac spécial rouge"} },
+			{ name = 'bag', price = 150, metadata = {['drawableId'] = 86, ['textureId'] = 2, ['paletteId'] = 0, ['bagType'] = "Sac spécial rouge"} },
+			{ name = 'bag', price = 150, metadata = {['drawableId'] = 86, ['textureId'] = 3, ['paletteId'] = 0, ['bagType'] = "Sac spécial rouge"} },
+			{ name = 'bag', price = 150, metadata = {['drawableId'] = 86, ['textureId'] = 4, ['paletteId'] = 0, ['bagType'] = "Sac spécial rouge"} },
+			{ name = 'bag', price = 150, metadata = {['drawableId'] = 86, ['textureId'] = 5, ['paletteId'] = 0, ['bagType'] = "Sac spécial rouge"} },
+			{ name = 'bag', price = 150, metadata = {['drawableId'] = 86, ['textureId'] = 6, ['paletteId'] = 0, ['bagType'] = "Sac spécial rouge"} },
+			{ name = 'bag', price = 150, metadata = {['drawableId'] = 86, ['textureId'] = 7, ['paletteId'] = 0, ['bagType'] = "Sac spécial rouge"} },
+			{ name = 'bag', price = 150, metadata = {['drawableId'] = 86, ['textureId'] = 8, ['paletteId'] = 0, ['bagType'] = "Sac spécial rouge"} },
+		}, locations = {
+			vec3(126.9940, -224.1859, 54.5578),
+		}, targets = {
+			{
+                ped = `s_f_y_shop_mid`,
+                scenario = 'WORLD_HUMAN_AA_COFFEE',
+                loc = vec3(126.9940, -224.1859, 53.5578),
+                heading = 70.9453,
+            },
+		}
+	},
 }
