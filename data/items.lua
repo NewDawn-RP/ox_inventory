@@ -1256,7 +1256,8 @@ return {
 	},
 	
 	['bag'] = {
-		label = 'Sac à bandoulière',
+		label = "Sac",
+		description = "Sac à bandoulière"
 		weight = 220,
 		stack = false,
 		consume = 0,
