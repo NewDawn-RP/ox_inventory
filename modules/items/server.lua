@@ -21,6 +21,12 @@ Items.containers = {
 		whitelist = {
 			['pizza'] = true -- Pizza box for pizza only
 		}
+	},
+	['bag'] = {
+		size = {15, 130000},
+		blacklist = {
+			['bag'] = true -- No bag!
+		}
 	}
 }
 
