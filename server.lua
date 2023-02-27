@@ -25,7 +25,7 @@ function server.setPlayerInventory(player, data)
 		local ostime = os.time()
 
 		for _, v in pairs(data) do
-			if type(v) == 'number' or not v.count then
+			if type(v) == 'number' or not v.count or not v.slot then
 				if server.convertInventory then
 					inventory, totalWeight = server.convertInventory(player.source, data)
 					break
@@ -210,6 +210,7 @@ lib.callback.register('ox_inventory:useItem', function(source, itemName, slot, m
 		slot = data.slot
 		local durability = data.metadata?.durability --[[@as number|boolean|nil]]
 		local consume = item.consume
+		local label = data.metadata.label or item.label
 
 		if durability and consume then
 			if durability > 100 then
@@ -218,26 +219,28 @@ lib.callback.register('ox_inventory:useItem', function(source, itemName, slot, m
 				if ostime > durability then
 					inventory.items[slot].metadata.durability = 0
 
-					return TriggerClientEvent('ox_lib:notify', source, { type = 'error', description = locale('no_durability', data.label) })
+					return TriggerClientEvent('ox_lib:notify', source, { type = 'error', description = locale('no_durability', label) })
 				elseif consume ~= 0 and consume < 1 then
 					local degrade = (data.metadata.degrade or item.degrade) * 60
 					local percentage = ((durability - ostime) * 100) / degrade
 
 					if percentage < consume * 100 then
-						return TriggerClientEvent('ox_lib:notify', source, { type = 'error', description = locale('not_enough_durability', data.label) })
+						return TriggerClientEvent('ox_lib:notify', source, { type = 'error', description = locale('not_enough_durability', label) })
 					end
 				end
 			elseif durability <= 0 then
-				return TriggerClientEvent('ox_lib:notify', source, { type = 'error', description = locale('no_durability', data.label) })
+				return TriggerClientEvent('ox_lib:notify', source, { type = 'error', description = locale('no_durability', label) })
+			elseif consume ~= 0 and consume < 1 and durability < consume * 100 then
+				return TriggerClientEvent('ox_lib:notify', source, { type = 'error', description = locale('not_enough_durability', label) })
 			end
 
 			if data.count > 1 and consume < 1 and consume > 0 and not Inventory.GetEmptySlot(inventory) then
-				return TriggerClientEvent('ox_lib:notify', source, { type = 'error', description = locale('cannot_use', data.label) })
+				return TriggerClientEvent('ox_lib:notify', source, { type = 'error', description = locale('cannot_use', label) })
 			end
 		end
 
 		if item and data and data.count > 0 and data.name == item.name then
-			data = {name=data.name, label=data.label, count=data.count, slot=slot, metadata=data.metadata}
+			data = {name=data.name, label=label, count=data.count, slot=slot, metadata=data.metadata}
 
 			if item.weapon then
 				inventory.weapon = inventory.weapon ~= slot and slot or nil
@@ -509,7 +512,7 @@ lib.addCommand('clearinv', {
 	},
 	restricted = 'group.admin',
 }, function(source, args)
-	Inventory.Clear(tonumber(args.target) or args.target)
+	Inventory.Clear(tonumber(args.invId) or args.invId == 'me' and source or args.invId)
 end)
 
 lib.addCommand('saveinv', {

@@ -1885,6 +1885,7 @@ RegisterServerEvent('ox_inventory:giveItem', function(slot, target, count)
 			toType = toInventory.type,
 			count = data.count,
 			action = 'give',
+			fromSlot = data,
 		}) then
 			Inventory.RemoveItem(fromInventory, item, count, data.metadata, slot)
 			Inventory.AddItem(toInventory, item, count, data.metadata)
@@ -1898,7 +1899,7 @@ RegisterServerEvent('ox_inventory:giveItem', function(slot, target, count)
 	end
 end)
 
-RegisterServerEvent('ox_inventory:updateWeapon', function(action, value, slot)
+RegisterServerEvent('ox_inventory:updateWeapon', function(action, value, slot, specialAmmo)
 	local inventory = Inventories[source]
 
 	if not inventory then return end
@@ -1939,8 +1940,9 @@ RegisterServerEvent('ox_inventory:updateWeapon', function(action, value, slot)
 				local ammo = Items(weapon.name).ammoname
 				local diff = value - weapon.metadata.ammo
 
-				if Inventory.RemoveItem(inventory, ammo, diff) then
+				if Inventory.RemoveItem(inventory, ammo, diff, specialAmmo) then
 					weapon.metadata.ammo = value
+					weapon.metadata.specialAmmo = specialAmmo
 					weapon.weight = Inventory.SlotWeight(item, weapon)
 				end
 			elseif action == 'throw' then
@@ -1993,7 +1995,7 @@ lib.callback.register('ox_inventory:removeAmmoFromWeapon', function(source, slot
 
 	if not item or not item.ammoname then return end
 
-	if Inventory.AddItem(inventory, item.ammoname, slotData.metadata.ammo) then
+	if Inventory.AddItem(inventory, item.ammoname, slotData.metadata.ammo, { type = slotData.metadata.specialAmmo or nil }) then
 		slotData.metadata.ammo = 0
 		slotData.weight = Inventory.SlotWeight(item, slotData)
 
