@@ -1266,4 +1266,40 @@ return {
 			end
 		}
 	},
+	
+	['paintinge'] = {
+		label = 'Painture E',
+		weight = 200,
+		stack = true,
+	},
+	
+	['paintingf'] = {
+		label = 'Painture F',
+		weight = 200,
+		stack = true,
+	},
+	
+	['paintingg'] = {
+		label = 'Painture G',
+		weight = 200,
+		stack = true,
+	},
+	
+	['paintingh'] = {
+		label = 'Painture H',
+		weight = 200,
+		stack = true,
+	},
+	
+	['paintingi'] = {
+		label = 'Painture I',
+		weight = 200,
+		stack = true,
+	},
+	
+	['paintingj'] = {
+		label = 'Painture J',
+		weight = 200,
+		stack = true,
+	},
 }
