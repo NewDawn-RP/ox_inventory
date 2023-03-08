@@ -659,12 +659,6 @@ return {
 	    stack = true,
 	},
 
-	['serreflex'] = {
-	    label = 'Serreflex',
-	    weight = 175,
-	    stack = true,
-	},
-
 	['diving_equipment'] = {
 	    label = 'Equipement de plongée',
 	    weight = 1500,
@@ -1088,8 +1082,8 @@ return {
 	},
 
 	['cutter'] = {
-		label = 'Perçeuse',
-		weight = 1500,
+		label = 'Cutter',
+		weight = 100,
 	},
 
 	['c4_bomb'] = {
