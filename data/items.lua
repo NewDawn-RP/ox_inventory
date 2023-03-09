@@ -1304,25 +1304,25 @@ return {
 	},
 	
 	['vanBottle'] = {
-		label = 'Peinture Panelli',
+		label = 'Vase Panelli',
 		weight = 200,
 		stack = false,
 	},
 	
 	['vanDiamond'] = {
-		label = 'Peinture Diamant',
+		label = 'Diamant Van Lex',
 		weight = 200,
 		stack = false,
 	},
 	
 	['vanNecklace'] = {
-		label = 'Peinture Pandito',
+		label = 'Collier Pandito',
 		weight = 200,
 		stack = false,
 	},
 	
 	['vanPanther'] = {
-		label = 'Peinture Panthère',
+		label = 'Panthère Van Lex',
 		weight = 200,
 		stack = false,
 	},
