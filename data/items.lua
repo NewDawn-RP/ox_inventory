@@ -1268,38 +1268,62 @@ return {
 	},
 	
 	['paintinge'] = {
-		label = 'Painture E',
+		label = 'Peinture E',
 		weight = 200,
-		stack = true,
+		stack = false,
 	},
 	
 	['paintingf'] = {
-		label = 'Painture F',
+		label = 'Peinture F',
 		weight = 200,
-		stack = true,
+		stack = false,
 	},
 	
 	['paintingg'] = {
-		label = 'Painture G',
+		label = 'Peinture G',
 		weight = 200,
-		stack = true,
+		stack = false,
 	},
 	
 	['paintingh'] = {
-		label = 'Painture H',
+		label = 'Peinture H',
 		weight = 200,
-		stack = true,
+		stack = false,
 	},
 	
 	['paintingi'] = {
-		label = 'Painture I',
+		label = 'Peinture I',
 		weight = 200,
-		stack = true,
+		stack = false,
 	},
 	
 	['paintingj'] = {
-		label = 'Painture J',
+		label = 'Peinture J',
 		weight = 200,
-		stack = true,
+		stack = false,
+	},
+	
+	['vanBottle'] = {
+		label = 'Peinture Panelli',
+		weight = 200,
+		stack = false,
+	},
+	
+	['vanDiamond'] = {
+		label = 'Peinture Diamant',
+		weight = 200,
+		stack = false,
+	},
+	
+	['vanNecklace'] = {
+		label = 'Peinture Pandito',
+		weight = 200,
+		stack = false,
+	},
+	
+	['vanPanther'] = {
+		label = 'Peinture Panthère',
+		weight = 200,
+		stack = false,
 	},
 }
