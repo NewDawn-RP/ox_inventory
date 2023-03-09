@@ -1303,25 +1303,25 @@ return {
 		stack = false,
 	},
 	
-	['vanBottle'] = {
+	['van_bottle'] = {
 		label = 'Vase Panelli',
 		weight = 200,
 		stack = false,
 	},
 	
-	['vanDiamond'] = {
+	['van_diamond'] = {
 		label = 'Diamant Van Lex',
 		weight = 200,
 		stack = false,
 	},
 	
-	['vanNecklace'] = {
+	['van_necklace'] = {
 		label = 'Collier Pandito',
 		weight = 200,
 		stack = false,
 	},
 	
-	['vanPanther'] = {
+	['van_panther'] = {
 		label = 'Panthère Van Lex',
 		weight = 200,
 		stack = false,
