@@ -1,8 +1,8 @@
 if not lib then return end
 
 local CraftingBenches = {}
-local Items = server.items
-local Inventory = server.inventory
+local Items = require 'modules.items.server'
+local Inventory = require 'modules.inventory.server'
 
 ---@param id number
 ---@param data table
@@ -74,6 +74,8 @@ lib.callback.register('ox_inventory:openCraftingBench', function(source, id, ind
 
 	return { label = left.label, type = left.type, slots = left.slots, weight = left.weight, maxWeight = left.maxWeight }
 end)
+
+local TriggerEventHooks = require 'modules.hooks.server'
 
 lib.callback.register('ox_inventory:craftItem', function(source, id, index, recipeId, toSlot)
 	local left, bench = Inventory(source), CraftingBenches[id]
@@ -220,7 +222,7 @@ lib.callback.register('ox_inventory:craftItem', function(source, id, index, reci
 				Inventory.AddItem(left, craftedItem, recipe.count or 1, recipe.metadata or {}, craftedItem.stack and toSlot or nil)
 			end
 
-			return true
+			return success
 		end
 	end
 end)

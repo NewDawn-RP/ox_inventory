@@ -1,7 +1,6 @@
 if not lib then return end
 
----@type { [string]: OxClientItem }
-local Items = shared.items
+local Items = require 'modules.items.shared' --[[@as { [string]: OxClientItem }]]
 
 local function displayMetadata(metadata, value)
 	local data = metadata
@@ -252,4 +251,5 @@ end)
 
 exports('Items', GetItem)
 exports('ItemList', GetItem)
-client.items = Items
+
+return Items
