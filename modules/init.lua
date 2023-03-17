@@ -18,24 +18,26 @@ do
 		shared.police = { shared.police }
 	end
 
-	local police = table.create(0, #shared.police)
+	local police = table.create(0, shared.police and #shared.police or 0)
 
-	for i = 1, #shared.police do
+	for i = 1, #police do
 		police[shared.police[i]] = 0
 	end
 
 	shared.police = police
 
-	local ignoreweapons = table.create(0, #shared.ignoreweapons + 3)
+	local ignoreweapons = table.create(0, (shared.ignoreweapons and #shared.ignoreweapons or 0) + 3)
 
-	for i = 1, #shared.ignoreweapons do
-		ignoreweapons[shared.ignoreweapons[i]] = true
+	for i = 1, #ignoreweapons do
+		local weapon = shared.ignoreweapons[i]
+		ignoreweapons[tonumber(weapon) or joaat(weapon)] = true
 	end
 
+	ignoreweapons[`WEAPON_UNARMED`] = true
+	ignoreweapons[`WEAPON_HANDCUFFS`] = true
+	ignoreweapons[`WEAPON_GARBAGEBAG`] = true
+
 	shared.ignoreweapons = ignoreweapons
-	shared.ignoreweapons[`WEAPON_UNARMED`] = true
-	shared.ignoreweapons[`WEAPON_HANDCUFFS`] = true
-	shared.ignoreweapons[`WEAPON_GARBAGEBAG`] = true
 end
 
 if IsDuplicityVersion() then
