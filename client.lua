@@ -495,7 +495,7 @@ local function useSlot(slot)
 						AddAmmoToPed(playerPed, currentWeapon.hash, addAmmo)
 						Wait(100)
 						MakePedReload(playerPed)
-							
+
 						SetTimeout(100, function()
 							while IsPedReloading(playerPed) do
 								DisableControlAction(0, 22, true)
@@ -1342,7 +1342,7 @@ RegisterNetEvent('ox_inventory:setPlayerInventory', function(currentDrops, inven
 					currentWeapon = Weapon.Disarm(currentWeapon, true)
 				end
 			end
-		elseif client.weaponmismatch and not shared.ignoreweapons[weaponHash] then
+		elseif client.weaponmismatch and not client.ignoreweapons[weaponHash] then
 			local weaponType = GetWeapontypeGroup(weaponHash)
 
 			if weaponType ~= 0 and weaponType ~= `GROUP_UNARMED` then
@@ -1636,7 +1636,7 @@ lib.callback.register('ox_inventory:startCrafting', function(id, recipe)
 	recipe = CraftingBenches[id].items[recipe]
 
 	return lib.progressCircle({
-		label = locale('crafting_item', Items[recipe.name].label),
+		label = locale('crafting_item', recipe.metadata?.label or Items[recipe.name].label),
 		duration = recipe.duration or 3000,
 		canCancel = true,
 		disable = {
