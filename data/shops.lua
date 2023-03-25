@@ -12,7 +12,7 @@
 
 return {
 	General = {
-		name = 'Shop',
+		name = 'Superette',
 		blip = {
 			id = 59, colour = 69, scale = 0.8
 		}, inventory = {
@@ -76,12 +76,15 @@ return {
 		blip = {
 			id = 402, colour = 69, scale = 0.8
 		}, inventory = {
-			{ name = 'lockpick', price = 10 }
+			{ name = 'lockpick', price = 10 },
+			{ name = 'WEAPON_HAMMER', price = 450 },
 		}, locations = {
 			vec3(2748.0, 3473.0, 55.67),
-			vec3(342.99, -1298.26, 32.51)
+			vec3(342.99, -1298.26, 32.51),
+			vec3(342.8647, -1297.8219, 32.5097),
 		}, targets = {
-			{ loc = vec3(2746.8, 3473.13, 55.67), length = 0.6, width = 3.0, heading = 65.0, minZ = 55.0, maxZ = 56.8, distance = 3.0 }
+			{ loc = vec3(2746.8, 3473.13, 55.67), length = 0.6, width = 3.0, heading = 65.0, minZ = 55.0, maxZ = 56.8, distance = 3.0 },
+			{ loc = vec3(342.8647, -1297.8219, 32.5097), length = 0.6, width = 3.0, heading = 65.0, minZ = 55.0, maxZ = 56.8, distance = 3.0 },z
 		}
 	},
 
@@ -159,13 +162,20 @@ return {
 		inventory = {
 			{ name = 'WEAPON_DAGGER', price = 5000, metadata = { registered = false	}, currency = 'black_money' },
 			{ name = 'WEAPON_CERAMICPISTOL', price = 50000, metadata = { registered = false }, currency = 'black_money' },
+			{ name = 'WEAPON_PISTOL', price = 35000, metadata = { registered = false }, currency = 'black_money' },
 			{ name = 'at_suppressor_light', price = 50000, currency = 'black_money' },
+			{ name = 'ammo-9', price = 500, currency = 'black_money' },
 			{ name = 'ammo-rifle', price = 1000, currency = 'black_money' },
 			{ name = 'ammo-rifle2', price = 1000, currency = 'black_money' }
 		}, locations = {
-			vec3(309.09, -913.75, 56.46)
+			vec3(309.09, -913.75, 56.46),
 		}, targets = {
-
+			{
+                ped = `a_m_o_salton_01`,
+                scenario = 'WORLD_HUMAN_SMOKING',
+                loc = vec3(346.7274, -199.5583, 53.2218),
+                heading = 61.4530,
+            },
 		}
 	},
 
@@ -203,6 +213,52 @@ return {
                 scenario = 'WORLD_HUMAN_AA_COFFEE',
                 loc = vec3(126.9940, -224.1859, 53.5578),
                 heading = 70.9453,
+            },
+		}
+	},
+
+	Wholesaler = {
+		name = 'Grossiste Alimentaire',
+		groups = {
+			['upnatom'] = 0,
+		},
+		blip = {
+			id = 615, colour = 69, scale = 0.8
+		}, inventory = {
+			{ name = 'salad', price = 10 },			
+			{ name = 'bread', price = 10 },
+			{ name = 'beef_meat', price = 10 },
+			{ name = 'pig_meat', price = 10 },
+			{ name = 'chicken_meat', price = 10 },
+			{ name = 'bread', price = 10 },
+		}, locations = {
+			vec3(-275.3181, -2502.7573, 5.0006),
+		}, targets = {
+			{
+                ped = `cs_nigel`,
+                scenario = 'WORLD_HUMAN_SMOKING',
+                loc = vec3(-275.3181, -2502.7573, 5.0006),
+                heading = 149.7102,
+            },
+		}
+	},
+	{
+		name = 'Grossiste Alcool',
+		groups = {
+			['vine'] = 0,
+		},
+		blip = {
+			id = 615, colour = 69, scale = 0.8
+		}, inventory = {
+			{ name = 'bottle', price = 10 },
+		}, locations = {
+			vec3(858.5559, -3203.3850, 4.9950),
+		}, targets = {
+			{
+                ped = `ig_solomon`,
+                scenario = 'WORLD_HUMAN_SMOKING',
+                loc = vec3(858.5559, -3203.3850, 4.9950),
+                heading = 185.1613,
             },
 		}
 	},
