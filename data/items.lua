@@ -565,12 +565,8 @@ return {
 
 	['repair_kit'] = {
 	    label = 'Kit de réparation',
-	    weight = 350,
-	    stack = true,
-	    client = {
-			usetime = 10000,
-			notification = 'Vous avez utilisé un kit de réparation !'
-	    }
+	    weight = 3000,
+	    stack = false,
 	},
 
 	['restart_kit'] = {
@@ -786,6 +782,17 @@ return {
 			status = { hunger = 100000 },
 			usetime = 2500,
 			notification = 'Vous avez mangé des frites !'
+	    }
+	},
+	
+	['veggie_burger'] = {
+	    label = 'Burger Végétarien',
+	    weight = 220,
+	    stack = true,
+	    client = {
+			status = { hunger = 200000 },
+			usetime = 2500,
+			notification = 'Vous avez mangé un Hamburger !'
 	    }
 	},
 
