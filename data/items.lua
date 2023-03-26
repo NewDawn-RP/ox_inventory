@@ -759,7 +759,7 @@ return {
 
 	['grappe_juice'] = {
 	    label = 'Jus de raisin',
-	    weight = 350,
+	    weight = 1000,
 	    stack = true,
 	    client = {
 			status = { thirst = 200000 },

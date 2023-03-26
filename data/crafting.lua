@@ -83,7 +83,7 @@ return {
 				name = 'wine_bottle',
 				ingredients = {
 					bottle = 1,
-					grappe_juice = 1,
+					grappe_juice = 2,
 				},
 				duration = 5000,
 				count = 1,
@@ -99,11 +99,34 @@ return {
 			},
 		},
 		points = {
-			vec3(-1928.8765, 2059.5520, 140.8371),
+			vec3(-1919.2549, 2029.0627, 140.7380),
 		},
 		zones = {
 			{
-				coords = vec3(-1928.8765, 2059.5520, 140.8371), 
+				coords = vec3(-1919.2549, 2029.0627, 140.7380), 
+				size = vec3(3, 3, 3),
+				distance = 2.5,
+			},
+		},
+	},
+	{
+		groups = { ["vine"] = 0 },
+		items = {
+			{
+				name = 'grappe_juice',
+				ingredients = {
+					grappe = 10,
+				},
+				duration = 10000,
+				count = 1,
+			},
+		},
+		points = {
+			vec3(-1913.4572, 2026.9689, 140.7386),
+		},
+		zones = {
+			{
+				coords = vec3(-1913.4572, 2026.9689, 140.7386), 
 				size = vec3(3, 3, 3),
 				distance = 2.5,
 			},
