@@ -829,7 +829,7 @@ return {
 	    }
 	},
 
-	['limonad'] = {
+	['lemonade'] = {
 	    label = 'Limonade',
 	    weight = 350,
 	    stack = true,

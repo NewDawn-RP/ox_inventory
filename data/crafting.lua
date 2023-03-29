@@ -132,4 +132,51 @@ return {
 			},
 		},
 	},
+	{
+		groups = { ["cafe"] = 0 },
+		items = {
+			{
+				name = 'coffee',
+				ingredients = {
+					water = 1,
+				},
+				duration = 7000,
+				count = 1,
+			},
+			{
+				name = 'hot_chocolate',
+				ingredients = {
+					water = 1,
+				},
+				duration = 7000,
+				count = 1,
+			},
+			{
+				name = 'lemonade',
+				ingredients = {
+					water = 1,
+				},
+				duration = 7000,
+				count = 1,
+			},
+			{
+				name = 'orange_juice',
+				ingredients = {
+					water = 1,
+				},
+				duration = 7000,
+				count = 1,
+			},
+		},
+		points = {
+			vec3(-1919.2549, 2029.0627, 140.7380),
+		},
+		zones = {
+			{
+				coords = vec3(-1919.2549, 2029.0627, 140.7380), 
+				size = vec3(3, 3, 3),
+				distance = 2.5,
+			},
+		},
+	},
 }
