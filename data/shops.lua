@@ -72,12 +72,15 @@ return {
 	},
 
 	YouTool = {
-		name = 'YouTool',
+		name = "Magasin de bricolage",
 		blip = {
 			id = 402, colour = 69, scale = 0.8
 		}, inventory = {
-			{ name = 'lockpick', price = 10 },
+			{ name = 'lockpick', price = 50 },
 			{ name = 'WEAPON_HAMMER', price = 450 },
+			{ name = 'fishingrod', price = 300 },
+			{ name = 'fishbait', price = 70 },
+			{ name = 'pickaxe', price = 350 },
 		}, locations = {
 			vec3(2748.0, 3473.0, 55.67),
 			vec3(342.99, -1298.26, 32.51),
