@@ -43,20 +43,22 @@ return {
 	},
 
 	['black_money'] = {
-		label = 'Dirty Money',
+		label = 'Argent Sale',
 	},
 
 	['burger'] = {
-		label = 'Burger',
-		weight = 220,
-		client = {
-			status = { hunger = 200000 },
-			anim = 'eating',
-			prop = 'burger',
-			usetime = 2500,
-			notification = 'You ate a delicious burger'
-		},
-	},
+        label = 'Hamburger',
+        weight = 350,
+        stack = true,
+        close = true,
+        client = {
+            status = { hunger = 230000 },
+            anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+            prop = { model = 'prop_cs_burger_01', 
+            pos = vec3(0.05, -0.02, -0.03), rot = vec3(150.0, 340.0, 170.0) },
+            usetime = 7500,
+        },
+    },
 
 	['cola'] = {
 		label = 'eCola',
@@ -81,11 +83,11 @@ return {
 	},
 
 	['garbage'] = {
-		label = 'Garbage',
+		label = 'Ordures',
 	},
 
 	['paperbag'] = {
-		label = 'Paper Bag',
+		label = 'Sac en papier',
 		weight = 1,
 		stack = false,
 		close = false,
@@ -109,12 +111,12 @@ return {
 	},
 
 	['lockpick'] = {
-		label = 'Lockpick',
+		label = 'Kit de crochetage',
 		weight = 160,
 	},
 
 	['phone'] = {
-		label = 'Phone',
+		label = 'Téléphone',
 		weight = 190,
 		stack = false,
 		consume = 0,
@@ -134,11 +136,11 @@ return {
 	},
 
 	['money'] = {
-		label = 'Money',
+		label = 'Argent liquide',
 	},
 
 	['mustard'] = {
-		label = 'Mustard',
+		label = 'Moutarde',
 		weight = 500,
 		client = {
 			status = { hunger = 25000, thirst = 25000 },
@@ -150,7 +152,7 @@ return {
 	},
 
 	['water'] = {
-		label = 'Water',
+		label = 'Eau',
 		weight = 500,
 		client = {
 			status = { thirst = 200000 },
@@ -170,7 +172,7 @@ return {
 	},
 
 	['armour'] = {
-		label = 'Bulletproof Vest',
+		label = 'Gilet Pare-Balles',
 		weight = 3000,
 		stack = false,
 		client = {
@@ -1332,5 +1334,15 @@ return {
 		label = 'Panthère Van Lex',
 		weight = 200,
 		stack = false,
+	},
+
+	['id_card'] = {
+		label = "Carte d'identité",
+		weight = 200,
+		stack = false,
+		close = true,
+		server = {
+			export = "jsfour-idcard.readIDCard",
+		},
 	},
 }

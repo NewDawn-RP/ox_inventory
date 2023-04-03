@@ -265,4 +265,29 @@ return {
             },
 		}
 	},
+	
+	Identity = {
+		name = "Papiers d'identité",
+		blip = {
+			id = 615, colour = 69, scale = 0.8
+		}, inventory = {
+			{ name = 'id_card', price = 10 },
+		}, locations = {
+			vec3(612.3859, -3.4227, 81.7601),
+			vec3(614.1615, 1.6654, 81.7600),
+		}, targets = {
+			{
+                ped = `S_F_Y_Cop_01`,
+                scenario = 'WORLD_HUMAN_STAND_IMPATIENT',
+                loc = vec3(612.3859, -3.4227, 81.7601),
+                heading = 246.6936,
+            },
+			{
+                ped = `S_M_Y_Cop_01`,
+                scenario = 'WORLD_HUMAN_STAND_IMPATIENT',
+                loc = vec3(614.1615, 1.6654, 81.7600),
+                heading = 252.6106,
+            },
+		}
+	},
 }
