@@ -269,9 +269,9 @@ return {
 	Identity = {
 		name = "Papiers d'identité",
 		blip = {
-			id = 615, colour = 69, scale = 0.8
+			id = 498, colour = 69, scale = 0.8
 		}, inventory = {
-			{ name = 'id_card', price = 10 },
+			{ name = 'id_card', price = 500 },
 		}, locations = {
 			vec3(612.3859, -3.4227, 81.7601),
 			vec3(614.1615, 1.6654, 81.7600),
