@@ -1351,7 +1351,30 @@ return {
 		stack = false,
 		close = true,
 		server = {
-			export = "jsfour-idcard.readIDCard",
+			export = "lexinor_id.readIDCard",
 		},
+		cardType = "id",
+	},
+
+	['driver_card'] = {
+		label = "Permis de conduire",
+		weight = 200,
+		stack = false,
+		close = true,
+		server = {
+			export = "lexinor_id.readIDCard",
+		},
+		cardType = "driver",
+	},
+
+	['weapons_card'] = {
+		label = "Licence d'armes",
+		weight = 200,
+		stack = false,
+		close = true,
+		server = {
+			export = "lexinor_id.readIDCard",
+		},
+		cardType = "weapon",
 	},
 }
