@@ -79,15 +79,22 @@ return {
 			{ name = 'lockpick', price = 50 },
 			{ name = 'WEAPON_HAMMER', price = 450 },
 			{ name = 'fishingrod', price = 300 },
-			{ name = 'fishbait', price = 70 },
 			{ name = 'pickaxe', price = 350 },
+			{ name = 'garden_pitcher', price = 200 },
+			{ name = 'garden_shovel', price = 350 },
 		}, locations = {
 			vec3(2748.0, 3473.0, 55.67),
 			vec3(342.99, -1298.26, 32.51),
 			vec3(342.8647, -1297.8219, 32.5097),
 		}, targets = {
 			{ loc = vec3(2746.8, 3473.13, 55.67), length = 0.6, width = 3.0, heading = 65.0, minZ = 55.0, maxZ = 56.8, distance = 3.0 },
-			{ loc = vec3(342.8647, -1297.8219, 32.5097), length = 0.6, width = 3.0, heading = 65.0, minZ = 55.0, maxZ = 56.8, distance = 3.0 },z
+			{ loc = vec3(342.8647, -1297.8219, 32.5097), length = 0.6, width = 3.0, heading = 65.0, minZ = 55.0, maxZ = 56.8, distance = 3.0 },
+			{
+                ped = `a_m_m_farmer_01`,
+                scenario = 'WORLD_HUMAN_SMOKING',
+                loc = vec3(1708.9453, 4724.8789, 41.1745),
+                heading = 15.1502,
+            },
 		}
 	},
 
@@ -123,25 +130,25 @@ return {
 		}
 	},
 
-	PoliceArmoury = {
-		name = 'Police Armoury',
-		groups = shared.police,
-		blip = {
-			id = 110, colour = 84, scale = 0.8
-		}, inventory = {
-			{ name = 'ammo-9', price = 5, },
-			{ name = 'ammo-rifle', price = 5, },
-			{ name = 'WEAPON_FLASHLIGHT', price = 200 },
-			{ name = 'WEAPON_NIGHTSTICK', price = 100 },
-			{ name = 'WEAPON_PISTOL', price = 500, metadata = { registered = true, serial = 'POL' }, license = 'weapon' },
-			{ name = 'WEAPON_CARBINERIFLE', price = 1000, metadata = { registered = true, serial = 'POL' }, license = 'weapon', grade = 3 },
-			{ name = 'WEAPON_STUNGUN', price = 500, metadata = { registered = true, serial = 'POL'} }
-		}, locations = {
-			vec3(451.51, -979.44, 30.68)
-		}, targets = {
-			{ loc = vec3(453.21, -980.03, 30.68), length = 0.5, width = 3.0, heading = 270.0, minZ = 30.5, maxZ = 32.0, distance = 6 }
-		}
-	},
+	-- PoliceArmoury = {
+	-- 	name = 'Police Armoury',
+	-- 	groups = shared.police,
+	-- 	blip = {
+	-- 		id = 110, colour = 84, scale = 0.8
+	-- 	}, inventory = {
+	-- 		{ name = 'ammo-9', price = 5, },
+	-- 		{ name = 'ammo-rifle', price = 5, },
+	-- 		{ name = 'WEAPON_FLASHLIGHT', price = 200 },
+	-- 		{ name = 'WEAPON_NIGHTSTICK', price = 100 },
+	-- 		{ name = 'WEAPON_PISTOL', price = 500, metadata = { registered = true, serial = 'POL' }, license = 'weapon' },
+	-- 		{ name = 'WEAPON_CARBINERIFLE', price = 1000, metadata = { registered = true, serial = 'POL' }, license = 'weapon', grade = 3 },
+	-- 		{ name = 'WEAPON_STUNGUN', price = 500, metadata = { registered = true, serial = 'POL'} }
+	-- 	}, locations = {
+	-- 		vec3(451.51, -979.44, 30.68)
+	-- 	}, targets = {
+	-- 		{ loc = vec3(453.21, -980.03, 30.68), length = 0.5, width = 3.0, heading = 270.0, minZ = 30.5, maxZ = 32.0, distance = 6 }
+	-- 	}
+	-- },
 
 	Medicine = {
 		name = 'Cabinet Médical',
@@ -169,7 +176,10 @@ return {
 			{ name = 'at_suppressor_light', price = 50000, currency = 'black_money' },
 			{ name = 'ammo-9', price = 500, currency = 'black_money' },
 			{ name = 'ammo-rifle', price = 1000, currency = 'black_money' },
-			{ name = 'ammo-rifle2', price = 1000, currency = 'black_money' }
+			{ name = 'ammo-rifle2', price = 1000, currency = 'black_money' },
+			{ name = 'weed_seed', price = 1500, currency = 'black_money' },
+			{ name = 'cocaine_seed', price = 2500, currency = 'black_money' },
+			{ name = 'heroin_seed', price = 2000, currency = 'black_money' },
 		}, locations = {
 			vec3(309.09, -913.75, 56.46),
 		}, targets = {
@@ -196,7 +206,7 @@ return {
 	Bagshop = {
 		name = 'Magasin de sacs',
 		blip = {
-			id = 59, colour = 69, scale = 0.8
+			id = 586, colour = 69, scale = 0.8
 		}, inventory = {
 			{ name = 'bag', price = 150, metadata = {['drawableId'] = 82, ['textureId'] = 0, ['paletteId'] = 0, ['label'] = "Sac noir"} },
 			{ name = 'bag', price = 150, metadata = {['drawableId'] = 82, ['textureId'] = 1, ['paletteId'] = 0, ['label'] = "Sac bleu"} },
@@ -208,8 +218,6 @@ return {
 			{ name = 'bag', price = 150, metadata = {['drawableId'] = 82, ['textureId'] = 7, ['paletteId'] = 0, ['label'] = "Sac rose"} },
 			{ name = 'bag', price = 150, metadata = {['drawableId'] = 86, ['textureId'] = 0, ['paletteId'] = 0, ['label'] = "Sac BIGNESS blanc"} },
 			{ name = 'bag', price = 150, metadata = {['drawableId'] = 86, ['textureId'] = 1, ['paletteId'] = 0, ['label'] = "Sac BIGNESS rouge"} },
-		}, locations = {
-			vec3(126.9940, -224.1859, 54.5578),
 		}, targets = {
 			{
                 ped = `s_f_y_shop_mid`,
@@ -217,10 +225,38 @@ return {
                 loc = vec3(126.9940, -224.1859, 53.5578),
                 heading = 70.9453,
             },
+			{
+                ped = `s_f_y_shop_mid`,
+                scenario = 'WORLD_HUMAN_AA_COFFEE',
+                loc = vec3(424.8846, -811.4457, 28.4911),
+                heading = 356.4657,
+            },
 		}
 	},
 
 	Wholesaler = {
+		name = 'Grossiste Agricole',
+		blip = {
+			id = 615, colour = 69, scale = 0.8
+		}, inventory = {
+			{ name = 'corn_seed', price = 30 },			
+			{ name = 'tomato_seed', price = 30 },
+			{ name = 'wheat_seed', price = 30 },
+			{ name = 'broccoli_seed', price = 30 },
+			{ name = 'carrot_seed', price = 30 },
+			{ name = 'potato_seed', price = 30 },
+			{ name = 'pickle_seed', price = 30 },
+			{ name = 'fishbait', price = 70 },
+		}, targets = {
+			{
+                ped = `a_m_m_farmer_01`,
+                scenario = 'WORLD_HUMAN_SMOKING',
+                loc = vec3(1710.5261, 4728.5288, 41.1441),
+                heading = 101.3029,
+            },
+		}
+	},
+	{
 		name = 'Grossiste Alimentaire',
 		groups = {
 			['upnatom'] = 0,
@@ -234,8 +270,6 @@ return {
 			{ name = 'pig_meat', price = 10 },
 			{ name = 'chicken_meat', price = 10 },
 			{ name = 'bread', price = 10 },
-		}, locations = {
-			vec3(-275.3181, -2502.7573, 5.0006),
 		}, targets = {
 			{
                 ped = `cs_nigel`,
@@ -254,8 +288,6 @@ return {
 			id = 615, colour = 69, scale = 0.8
 		}, inventory = {
 			{ name = 'bottle', price = 10 },
-		}, locations = {
-			vec3(858.5559, -3203.3850, 4.9950),
 		}, targets = {
 			{
                 ped = `ig_solomon`,
@@ -265,16 +297,13 @@ return {
             },
 		}
 	},
-	
+
 	Identity = {
 		name = "Papiers d'identité",
 		blip = {
-			id = 498, colour = 69, scale = 0.8
+			id = 615, colour = 69, scale = 0.8
 		}, inventory = {
-			{ name = 'id_card', price = 500 },
-		}, locations = {
-			vec3(612.3859, -3.4227, 81.7601),
-			vec3(614.1615, 1.6654, 81.7600),
+			{ name = 'id_card', price = 10 },
 		}, targets = {
 			{
                 ped = `S_F_Y_Cop_01`,
