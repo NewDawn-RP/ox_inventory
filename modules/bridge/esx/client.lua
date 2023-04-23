@@ -25,15 +25,18 @@ end
 RegisterNetEvent('esx:onPlayerLogout', onLogout)
 
 AddEventHandler('esx:setPlayerData', function(key, value)
-	if not PlayerData.loaded or GetInvokingResource() ~= 'es_extended' then return end
+    if not PlayerData.loaded or GetInvokingResource() ~= 'es_extended' then return end
 
-	if key == 'job' then
-		key = 'groups'
-		value = { [value.name] = value.grade }
-	end
+    if key == 'job' then
+        key = 'groups'
+        value = { [value.name] = value.grade }
+    elseif key == 'faction' then
+        key = 'groups'
+        value = { [value.name] = value.grade }
+    end
 
-	PlayerData[key] = value
-	OnPlayerData(key, value)
+    PlayerData[key] = value
+    OnPlayerData(key, value)
 end)
 
 RegisterNetEvent('esx_policejob:handcuff', function()

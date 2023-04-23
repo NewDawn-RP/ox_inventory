@@ -15,6 +15,13 @@ AddEventHandler('esx:setJob', function(source, job, lastJob)
 	inventory.player.groups[job.name] = job.grade
 end)
 
+AddEventHandler('esx:setFaction', function(source, faction, lastFaction)
+    local inventory = Inventory(source)
+    if not inventory then return end
+    inventory.player.groups[lastFaction.name] = nil
+    inventory.player.groups[faction.name] = faction.grade
+end)
+
 local ESX
 
 SetTimeout(500, function()
@@ -40,17 +47,18 @@ server.accounts = {
 
 ---@diagnostic disable-next-line: duplicate-set-field
 function server.setPlayerData(player)
-	local groups = {
-		[player.job.name] = player.job.grade
-	}
+    local groups = {
+        [player.job.name] = player.job.grade,
+        [player.faction.name] = player.faction.grade
+    }
 
-	return {
-		source = player.source,
-		name = player.name,
-		groups = groups,
-		sex = player.sex or player.variables.sex,
-		dateofbirth = player.dateofbirth or player.variables.dateofbirth,
-	}
+    return {
+        source = player.source,
+        name = player.name,
+        groups = groups,
+        sex = player.sex or player.variables.sex,
+        dateofbirth = player.dateofbirth or player.variables.dateofbirth,
+    }
 end
 
 ---@diagnostic disable-next-line: duplicate-set-field
