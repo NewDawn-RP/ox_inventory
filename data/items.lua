@@ -1379,7 +1379,7 @@ return {
 	},
 
 	['corn_seed'] = {
-		label = 'Corn Seed',
+		label = 'Graine de Maïs',
 		weight = 1,
 		stack = true,
 		close = true,
@@ -1387,22 +1387,22 @@ return {
 	},
 	
 	['corn_raw'] = {
-		label = 'Raw Corn',
+		label = '[Brute] Maïs',
 		weight = 1,
 		stack = true,
 		close = true,
-		description = "You will need to process this."
+		description = "A besoin d'être transformé"
 	},
 	
 	['corn'] = {
-		label = 'Corn',
+		label = 'Maïs',
 		weight = 1,
 		stack = true,
 		close = true,
 	},
 	
 	['tomato_seed'] = {
-		label = 'Tomato Seed',
+		label = 'Graine de Tomate',
 		weight = 1,
 		stack = true,
 		close = true,
@@ -1410,22 +1410,22 @@ return {
 	},
 	
 	['tomato_raw'] = {
-		label = 'Raw Tomato',
+		label = '[Brute] Tomate',
 		weight = 1,
 		stack = true,
 		close = true,
-		description = "You will need to process this."
+		description = "A besoin d'être transformé"
 	},
 	
 	['tomato'] = {
-		label = 'Tomato',
+		label = 'Tomate',
 		weight = 1,
 		stack = true,
 		close = true,
 	},
 	
 	['wheat_seed'] = {
-		label = 'Graine Blé',
+		label = 'Graine de Blé',
 		weight = 1,
 		stack = true,
 		close = true,
@@ -1437,7 +1437,7 @@ return {
 		weight = 1,
 		stack = true,
 		close = true,
-		description = "You will need to process this."
+		description = "A besoin d'être transformé"
 	},
 	
 	['wheat'] = {
@@ -1448,7 +1448,7 @@ return {
 	},
 	
 	['broccoli_seed'] = {
-		label = 'Broccoli Seed',
+		label = 'Graine de Broccoli',
 		weight = 1,
 		stack = true,
 		close = true,
@@ -1456,11 +1456,11 @@ return {
 	},
 	
 	['broccoli_raw'] = {
-		label = 'Raw Broccoli',
+		label = '[Brute] Broccoli',
 		weight = 1,
 		stack = true,
 		close = true,
-		description = "You will need to process this."
+		description = "A besoin d'être transformé"
 	},
 	
 	['broccoli'] = {
@@ -1471,7 +1471,7 @@ return {
 	},
 	
 	['carrot_seed'] = {
-		label = 'Carrot Seed',
+		label = 'Graine de Carrote',
 		weight = 1,
 		stack = true,
 		close = true,
@@ -1479,22 +1479,22 @@ return {
 	},
 	
 	['carrot_raw'] = {
-		label = 'Raw Carrot',
+		label = '[Brute] Carrote',
 		weight = 1,
 		stack = true,
 		close = true,
-		description = "You will need to process this."
+		description = "A besoin d'être transformé"
 	},
 	
 	['carrot'] = {
-		label = 'Carrot',
+		label = 'Carrote',
 		weight = 1,
 		stack = true,
 		close = true,
 	},
 	
 	['potato_seed'] = {
-		label = 'Potato Seed',
+		label = 'Graine de Patate',
 		weight = 1,
 		stack = true,
 		close = true,
@@ -1502,22 +1502,22 @@ return {
 	},
 	
 	['potato_raw'] = {
-		label = 'Raw Potato',
+		label = '[Brute] Patate',
 		weight = 1,
 		stack = true,
 		close = true,
-		description = "You will need to process this."
+		description = "A besoin d'être transformé"
 	},
 	
 	['potato'] = {
-		label = 'Potato',
+		label = 'Patate',
 		weight = 1,
 		stack = true,
 		close = true,
 	},
 	
 	['pickle_seed'] = {
-		label = 'Pickle Seed',
+		label = 'Graine de Cornichon',
 		weight = 1,
 		stack = true,
 		close = true,
@@ -1525,22 +1525,22 @@ return {
 	},
 	
 	['pickle_raw'] = {
-		label = 'Raw Pickle',
+		label = '[Brute] Cornichon',
 		weight = 1,
 		stack = true,
 		close = true,
-		description = "You will need to process this."
+		description = "A besoin d'être transformé"
 	},
 	
 	['pickle'] = {
-		label = 'Pickle',
+		label = 'Cornichon',
 		weight = 1,
 		stack = true,
 		close = true,
 	},
 	
 	['weed_seed'] = {
-		label = 'Weed Seed',
+		label = 'Graine de Marijuana',
 		weight = 1,
 		stack = true,
 		close = true,
@@ -1548,22 +1548,22 @@ return {
 	},
 	
 	['weed_raw'] = {
-		label = 'Raw Weed',
+		label = '[Brute] Marijuana',
 		weight = 1,
 		stack = true,
 		close = true,
-		description = "You will need to process this."
+		description = "A besoin d'être transformé"
 	},
 	
 	['weed'] = {
-		label = 'Weed',
+		label = 'Marijuana',
 		weight = 1,
 		stack = true,
 		close = true,
 	},
 	
 	['cocaine_seed'] = {
-		label = 'Cocaine Seed',
+		label = 'Graine de Coca',
 		weight = 1,
 		stack = true,
 		close = true,
@@ -1571,11 +1571,11 @@ return {
 	},
 	
 	['cocaine_raw'] = {
-		label = 'Raw Cocaine',
+		label = 'Coca',
 		weight = 1,
 		stack = true,
 		close = true,
-		description = "You will need to process this."
+		description = "A besoin d'être transformé"
 	},
 	
 	['cocaine'] = {
@@ -1586,7 +1586,7 @@ return {
 	},
 	
 	['heroin_seed'] = {
-		label = 'Heroin Seed',
+		label = "Graine d'Heroine",
 		weight = 1,
 		stack = true,
 		close = true,
@@ -1594,30 +1594,30 @@ return {
 	},
 	
 	['heroin_raw'] = {
-		label = 'Raw Heroin',
+		label = '[Brute] Heroine',
 		weight = 1,
 		stack = true,
 		close = true,
-		description = "You will need to process this."
+		description = "A besoin d'être transformé"
 	},
 	
 	['heroin'] = {
-		label = 'Heroin',
+		label = 'Heroine',
 		weight = 1,
 		stack = true,
 		close = true,
 	},
 	
 	['garden_pitcher'] = {
-		label = 'Garden Pitcher',
-		weight = 1,
+		label = 'Arrosoir',
+		weight = 2000,
 		stack = true,
 		close = true,
 	},
 	
 	['garden_shovel'] = {
-		label = 'Garden Shovel',
-		weight = 1,
+		label = 'Bêche',
+		weight = 5000,
 		stack = true,
 		close = true,
 	},
