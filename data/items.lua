@@ -1383,7 +1383,7 @@ return {
 		weight = 1,
 		stack = true,
 		close = true,
-		description = "This is a seed that grows corn."
+		description = "Une graine qui fait permet de faire pousser du maïs."
 	},
 	
 	['corn_raw'] = {
@@ -1406,7 +1406,7 @@ return {
 		weight = 1,
 		stack = true,
 		close = true,
-		description = "This is a seed that grows a tomato."
+		description = "Une graine qui fait permet de faire pousser une tomate."
 	},
 	
 	['tomato_raw'] = {
@@ -1429,7 +1429,7 @@ return {
 		weight = 1,
 		stack = true,
 		close = true,
-		description = "This is a seed that grows Blé."
+		description = "Une graine qui fait permet de faire pousser du blé."
 	},
 	
 	['wheat_raw'] = {
@@ -1452,7 +1452,7 @@ return {
 		weight = 1,
 		stack = true,
 		close = true,
-		description = "This is a seed that grows broccoli."
+		description = "Une graine qui fait permet de faire pousser un broccoli."
 	},
 	
 	['broccoli_raw'] = {
@@ -1475,7 +1475,7 @@ return {
 		weight = 1,
 		stack = true,
 		close = true,
-		description = "This is a seed that grows a carrot."
+		description = "Une graine qui fait permet de faire pousser une carrote."
 	},
 	
 	['carrot_raw'] = {
@@ -1498,7 +1498,7 @@ return {
 		weight = 1,
 		stack = true,
 		close = true,
-		description = "This is a seed that grows a potato."
+		description = "Une graine qui fait permet de faire pousser une patate."
 	},
 	
 	['potato_raw'] = {
@@ -1521,7 +1521,7 @@ return {
 		weight = 1,
 		stack = true,
 		close = true,
-		description = "This is a seed that grows a pickle."
+		description = "Une graine qui fait permet de faire pousser un cornichon."
 	},
 	
 	['pickle_raw'] = {
@@ -1544,7 +1544,7 @@ return {
 		weight = 1,
 		stack = true,
 		close = true,
-		description = "This is a seed that grows weed."
+		description = "Une graine qui fait permet de faire pousser de la marijuana."
 	},
 	
 	['weed_raw'] = {
@@ -1567,7 +1567,7 @@ return {
 		weight = 1,
 		stack = true,
 		close = true,
-		description = "This is a seed that grows cocaine."
+		description = "Une graine qui fait permet de faire pousser de la coca."
 	},
 	
 	['cocaine_raw'] = {
@@ -1586,15 +1586,15 @@ return {
 	},
 	
 	['heroin_seed'] = {
-		label = "Graine d'Heroine",
+		label = "Graine d'Héroine",
 		weight = 1,
 		stack = true,
 		close = true,
-		description = "This is a seed that grows heroin."
+		description = "Une graine qui fait permet de faire pousser de l'héroine."
 	},
 	
 	['heroin_raw'] = {
-		label = '[Brute] Heroine',
+		label = '[Brute] Héroine',
 		weight = 1,
 		stack = true,
 		close = true,
@@ -1602,7 +1602,7 @@ return {
 	},
 	
 	['heroin'] = {
-		label = 'Heroine',
+		label = 'Héroine',
 		weight = 1,
 		stack = true,
 		close = true,
