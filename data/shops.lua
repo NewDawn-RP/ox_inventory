@@ -206,9 +206,6 @@ return {
 
 	BlackMarketArms = {
 		name = 'Marché Noir',
-		blip = {
-			id = 403, colour = 69, scale = 0.8
-		},
 		inventory = {
 			{ name = 'hack_usb', price = 700, metadata = { registered = false	}, currency = 'black_money' },
 			{ name = 'WEAPON_DAGGER', price = 5000, metadata = { registered = false	}, currency = 'black_money' },
