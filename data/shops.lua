@@ -103,30 +103,67 @@ return {
 		blip = {
 			id = 110, colour = 69, scale = 0.8
 		}, inventory = {
-			{ name = 'ammo-9', price = 5, },
-			{ name = 'WEAPON_KNIFE', price = 200 },
-			{ name = 'WEAPON_BAT', price = 100 },
-			{ name = 'WEAPON_PISTOL', price = 1000, metadata = { registered = true }, license = 'weapon' }
-		}, locations = {
-			vec3(-662.180, -934.961, 21.829),
-			vec3(810.25, -2157.60, 29.62),
-			vec3(1693.44, 3760.16, 34.71),
-			vec3(-330.24, 6083.88, 31.45),
-			vec3(252.63, -50.00, 69.94),
-			vec3(22.56, -1109.89, 29.80),
-			vec3(2567.69, 294.38, 108.73),
-			vec3(-1117.58, 2698.61, 18.55),
-			vec3(842.44, -1033.42, 28.19)
+			{ name = 'ammo-9', price = 15, },
+			{ name = 'ammo-45', price = 30, },
+			{ name = 'WEAPON_KNIFE', price = 2000 },
+			{ name = 'WEAPON_BAT', price = 500 },
+			{ name = 'WEAPON_PISTOL', price = 7000, metadata = { registered = true }, license = 'weapon' },
+			{ name = 'WEAPON_HEAVYPISTOL', price = 12000, metadata = { registered = true }, license = 'weapon' },
 		}, targets = {
-			{ loc = vec3(-660.92, -934.10, 21.94), length = 0.6, width = 0.5, heading = 180.0, minZ = 21.8, maxZ = 22.2, distance = 2.0 },
-			{ loc = vec3(808.86, -2158.50, 29.73), length = 0.6, width = 0.5, heading = 360.0, minZ = 29.6, maxZ = 30.0, distance = 2.0 },
-			{ loc = vec3(1693.57, 3761.60, 34.82), length = 0.6, width = 0.5, heading = 227.39, minZ = 34.7, maxZ = 35.1, distance = 2.0 },
-			{ loc = vec3(-330.29, 6085.54, 31.57), length = 0.6, width = 0.5, heading = 225.0, minZ = 31.4, maxZ = 31.8, distance = 2.0 },
-			{ loc = vec3(252.85, -51.62, 70.0), length = 0.6, width = 0.5, heading = 70.0, minZ = 69.9, maxZ = 70.3, distance = 2.0 },
-			{ loc = vec3(23.68, -1106.46, 29.91), length = 0.6, width = 0.5, heading = 160.0, minZ = 29.8, maxZ = 30.2, distance = 2.0 },
-			{ loc = vec3(2566.59, 293.13, 108.85), length = 0.6, width = 0.5, heading = 360.0, minZ = 108.7, maxZ = 109.1, distance = 2.0 },
-			{ loc = vec3(-1117.61, 2700.26, 18.67), length = 0.6, width = 0.5, heading = 221.82, minZ = 18.5, maxZ = 18.9, distance = 2.0 },
-			{ loc = vec3(841.05, -1034.76, 28.31), length = 0.6, width = 0.5, heading = 360.0, minZ = 28.2, maxZ = 28.6, distance = 2.0 }
+			{
+                ped = `S_M_Y_AmmuCity_01`,
+                scenario = 'WORLD_HUMAN_GUARD_STAND',
+                loc = vec3(-662.2042, -933.5153, 21.8292),
+                heading = 182.1464,
+            },
+			{
+                ped = `S_M_Y_AmmuCity_01`,
+                scenario = 'WORLD_HUMAN_GUARD_STAND',
+                loc = vec3(809.9865, -2159.0735, 28.6190),
+                heading = 359.5728,
+            },
+			{
+                ped = `S_M_M_AmmuCountry`,
+                scenario = 'WORLD_HUMAN_GUARD_STAND',
+                loc = vec3(1692.2480, 3761.0295, 33.7053),
+                heading = 230.6599,
+            },
+			{
+                ped = `S_M_M_AmmuCountry`,
+                scenario = 'WORLD_HUMAN_GUARD_STAND',
+                loc = vec3(-331.8233, 6084.8467, 30.4548),
+                heading = 229.1231,
+            },
+			{
+                ped = `S_M_Y_AmmuCity_01`,
+                scenario = 'WORLD_HUMAN_GUARD_STAND',
+                loc = vec3(253.7716, -50.5880, 68.9410),
+                heading = 70.4539,
+            },
+			{
+                ped = `S_M_Y_AmmuCity_01`,
+                scenario = 'WORLD_HUMAN_GUARD_STAND',
+                loc = vec3(22.5021, -1105.4338, 28.7970),
+                heading = 164.6027,
+            },
+			{
+                ped = `S_M_Y_AmmuCity_01`,
+                scenario = 'WORLD_HUMAN_GUARD_STAND',
+                loc = vec3(2567.8167, 292.6396, 107.7348),
+                heading = 1.1424,
+            },
+			{
+                ped = `S_M_Y_AmmuCity_01`,
+                scenario = 'WORLD_HUMAN_GUARD_STAND',
+                loc = vec3(-1118.9590, 2699.7830, 18.5541),
+                heading = 222.6167,
+            },
+			{
+                ped = `S_M_Y_AmmuCity_01`,
+                scenario = 'WORLD_HUMAN_GUARD_STAND',
+                loc = vec3(842.3391, -1035.2838, 27.1948),
+                heading = 1.1650,
+            },
 		}
 	},
 
@@ -168,20 +205,23 @@ return {
 	},
 
 	BlackMarketArms = {
-		name = 'Marché Noir (Arms)',
+		name = 'Marché Noir',
+		blip = {
+			id = 403, colour = 69, scale = 0.8
+		},
 		inventory = {
+			{ name = 'hack_usb', price = 700, metadata = { registered = false	}, currency = 'black_money' },
 			{ name = 'WEAPON_DAGGER', price = 5000, metadata = { registered = false	}, currency = 'black_money' },
 			{ name = 'WEAPON_CERAMICPISTOL', price = 50000, metadata = { registered = false }, currency = 'black_money' },
 			{ name = 'WEAPON_PISTOL', price = 35000, metadata = { registered = false }, currency = 'black_money' },
 			{ name = 'at_suppressor_light', price = 50000, currency = 'black_money' },
 			{ name = 'ammo-9', price = 500, currency = 'black_money' },
+			{ name = 'ammo-45', price = 700, currency = 'black_money' },
 			{ name = 'ammo-rifle', price = 1000, currency = 'black_money' },
 			{ name = 'ammo-rifle2', price = 1000, currency = 'black_money' },
 			{ name = 'weed_seed', price = 1500, currency = 'black_money' },
 			{ name = 'cocaine_seed', price = 2500, currency = 'black_money' },
 			{ name = 'heroin_seed', price = 2000, currency = 'black_money' },
-		}, locations = {
-			vec3(309.09, -913.75, 56.46),
 		}, targets = {
 			{
                 ped = `a_m_o_salton_01`,
@@ -239,7 +279,7 @@ return {
 		blip = {
 			id = 615, colour = 69, scale = 0.8
 		}, inventory = {
-			{ name = 'corn_seed', price = 30 },			
+			{ name = 'corn_seed', price = 30 },
 			{ name = 'tomato_seed', price = 30 },
 			{ name = 'wheat_seed', price = 30 },
 			{ name = 'broccoli_seed', price = 30 },
@@ -264,7 +304,7 @@ return {
 		blip = {
 			id = 615, colour = 69, scale = 0.8
 		}, inventory = {
-			{ name = 'salad', price = 10 },			
+			{ name = 'salad', price = 10 },
 			{ name = 'bread', price = 10 },
 			{ name = 'beef_meat', price = 10 },
 			{ name = 'pig_meat', price = 10 },
@@ -280,7 +320,7 @@ return {
 		}
 	},
 	{
-		name = 'Grossiste Alcool',
+		name = "Grossiste d'Alcool",
 		groups = {
 			['vine'] = 0,
 		},
