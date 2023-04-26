@@ -94,7 +94,7 @@ return {
 	    client = {
 			status = { hunger = 200000 },
 			usetime = 2500,
-			notification = 'Vous avez mangé un Hamburger !'
+			notification = 'Vous avez mangé un Burger au poulet !'
 	    }
 	},
 	
