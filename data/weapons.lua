@@ -16,8 +16,8 @@ return {
 
 		['WEAPON_ASSAULTRIFLE'] = {
 			label = 'Assault Rifle',
-			weight = 4500,
-			durability = 0.03,
+			weight = 15000,
+			durability = 0,
 			ammoname = 'ammo-rifle2',
 		},
 
@@ -95,8 +95,8 @@ return {
 
 		['WEAPON_CARBINERIFLE'] = {
 			label = 'Carbine Rifle',
-			weight = 3100,
-			durability = 0.03,
+			weight = 15000,
+			durability = 0,
 			ammoname = 'ammo-rifle'
 		},
 
@@ -165,8 +165,8 @@ return {
 
 		['WEAPON_COMPACTRIFLE'] = {
 			label = 'Compact Rifle',
-			weight = 3600,
-			durability = 0.05,
+			weight = 15000,
+			durability = 0,
 			ammoname = 'ammo-rifle2'
 		},
 
@@ -184,8 +184,8 @@ return {
 
 		['WEAPON_DBSHOTGUN'] = {
 			label = 'Double Barrel Shotgun',
-			weight = 3175,
-			durability = 0.4,
+			weight = 10000,
+			durability = 0,
 			ammoname = 'ammo-shotgun'
 		},
 
@@ -349,8 +349,8 @@ return {
 
 		['WEAPON_MACHINEPISTOL'] = {
 			label = 'Machine Pistol',
-			weight = 1400,
-			durability = 0.05,
+			weight = 10000,
+			durability = 0,
 			ammoname = 'ammo-9'
 		},
 
@@ -391,8 +391,8 @@ return {
 
 		['WEAPON_MICROSMG'] = {
 			label = 'Micro SMG',
-			weight = 3000,
-			durability = 0.1,
+			weight = 10000,
+			durability = 0,
 			ammoname = 'ammo-45'
 		},
 
@@ -412,7 +412,7 @@ return {
 
 		['WEAPON_MOLOTOV'] = {
 			label = 'Molotov',
-			weight = 1800,
+			weight = 2000,
 			throwable = true,
 		},
 
@@ -456,22 +456,22 @@ return {
 
 		['WEAPON_PISTOL'] = {
 			label = 'Pistol',
-			weight = 1130,
-			durability = 0.1,
+			weight = 5000,
+			durability = 0,
 			ammoname = 'ammo-9',
 		},
 
 		['WEAPON_PISTOL50'] = {
 			label = 'Pistol .50',
-			weight = 2000,
-			durability = 0.1,
+			weight = 5000,
+			durability = 0,
 			ammoname = 'ammo-50'
 		},
 
 		['WEAPON_PISTOL_MK2'] = {
 			label = 'Pistol MK2',
-			weight = 1000,
-			durability = 0.5,
+			weight = 5000,
+			durability = 0,
 			ammoname = 'ammo-9'
 		},
 
@@ -557,8 +557,8 @@ return {
 
 		['WEAPON_SAWNOFFSHOTGUN'] = {
 			label = 'Sawn Off Shotgun',
-			weight = 2380,
-			durability = 0.1,
+			weight = 10000,
+			durability = 0,
 			ammoname = 'ammo-shotgun'
 		},
 
@@ -597,8 +597,8 @@ return {
 
 		['WEAPON_SNSPISTOL'] = {
 			label = 'SNS Pistol',
-			weight = 465,
-			durability = 0.1,
+			weight = 5000,
+			durability = 0,
 			ammoname = 'ammo-45'
 		},
 
