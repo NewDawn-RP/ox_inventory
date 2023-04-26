@@ -207,23 +207,35 @@ return {
 	BlackMarketArms = {
 		name = 'Marché Noir',
 		inventory = {
-			{ name = 'hack_usb', price = 700, metadata = { registered = false	}, currency = 'black_money' },
-			{ name = 'WEAPON_DAGGER', price = 5000, metadata = { registered = false	}, currency = 'black_money' },
-			{ name = 'WEAPON_CERAMICPISTOL', price = 50000, metadata = { registered = false }, currency = 'black_money' },
-			{ name = 'WEAPON_PISTOL', price = 35000, metadata = { registered = false }, currency = 'black_money' },
-			{ name = 'at_suppressor_light', price = 50000, currency = 'black_money' },
-			{ name = 'ammo-9', price = 500, currency = 'black_money' },
-			{ name = 'ammo-45', price = 700, currency = 'black_money' },
-			{ name = 'ammo-rifle', price = 1000, currency = 'black_money' },
-			{ name = 'ammo-rifle2', price = 1000, currency = 'black_money' },
-			{ name = 'weed_seed', price = 1500, currency = 'black_money' },
-			{ name = 'cocaine_seed', price = 2500, currency = 'black_money' },
-			{ name = 'heroin_seed', price = 2000, currency = 'black_money' },
+			{ name = 'lockpick', price = 2000, currency = 'black_money' },
+			{ name = 'serflex', price = 2000, currency = 'black_money' },
+			{ name = 'WEAPON_SNSPISTOL', price = 50000, metadata = { registered = false }, currency = 'black_money' },
 		}, targets = {
 			{
                 ped = `a_m_o_salton_01`,
                 scenario = 'WORLD_HUMAN_SMOKING',
                 loc = vec3(346.7274, -199.5583, 53.2218),
+                heading = 61.4530,
+            },
+		}
+	},
+
+	BlackMarketBiz = {
+		name = 'Marché Noir',
+		inventory = {
+			{ name = 'hack_usb', price = 2000, currency = 'black_money' },
+			{ name = 'lockpick', price = 1000, currency = 'black_money' },
+			{ name = 'serflex', price = 1000, currency = 'black_money' },
+			{ name = 'drill', price = 5000,	 currency = 'black_money' },
+			{ name = 'laptop', price = 15000, currency = 'black_money' },
+			{ name = 'cutter', price = 3000, currency = 'black_money' },
+			{ name = 'thermite_bomb', price = 10000, currency = 'black_money' },
+			{ name = 'c4_bomb', price = 20000, currency = 'black_money' },
+		}, targets = {
+			{
+                ped = `a_m_o_salton_01`,
+                scenario = 'WORLD_HUMAN_SMOKING',
+                loc = vec3(348.7274, -199.5583, 53.2218),
                 heading = 61.4530,
             },
 		}
