@@ -88,10 +88,9 @@ return {
 
 	['paperbag'] = {
 		label = 'Sac en papier',
-		weight = 1,
+		weight = 1000,
 		stack = false,
-		close = false,
-		consume = 0
+		close = false,		
 	},
 
 	['identification'] = {
@@ -112,7 +111,8 @@ return {
 
 	['lockpick'] = {
 		label = 'Kit de crochetage',
-		weight = 160,
+		weight = 1000,
+		consume = 0.05,
 	},
 
 	['phone'] = {
@@ -379,7 +379,8 @@ return {
 
 	['serflex'] = {
 		label = 'Serflex',
-		weight = 500,
+		weight = 1000,
+		consume = 0.10,
 	},
 
 	['rope'] = {
@@ -1018,7 +1019,8 @@ return {
 
 	['diamond'] = {
 		label = 'Diamant',
-		weight = 50,
+		weight = 1000,
+		stack = true,
 	},
 
 	['copper'] = {
@@ -1096,17 +1098,19 @@ return {
 
 	['drill'] = {
 		label = 'Perçeuse',
-		weight = 1000,
+		weight = 2000,
+		consume = 0.5,
 	},
 
 	['cutter'] = {
 		label = 'Cutter',
-		weight = 100,
+		weight = 1000,
 	},
 
 	['c4_bomb'] = {
 		label = 'Paté de C4',
-		weight = 700,
+		weight = 1000,
+		stack = true,
 	},
 
 	['thermite_bomb'] = {
@@ -1117,31 +1121,32 @@ return {
 
 	['laptop'] = {
 		label = 'PC Portable',
-		weight = 1500,
+		weight = 2000,
 		stack = false,
 	},
 
 	['hack_usb'] = {
 		label = 'Clé USB Douteuse',
-		weight = 20,
+		weight = 1000,
 		stack = true,
+		consume = 0.2,
 	},
 
 	['rolex'] = {
 		label = 'Montre Rolex',
-		weight = 150,
+		weight = 1000,
 		stack = true,
 	},
 
 	['ring'] = {
 		label = 'Bague',
-		weight = 50,
+		weight = 1000,
 		stack = true,
 	},
 
 	['necklace'] = {
 		label = 'Collier de pierres précieuses',
-		weight = 150,
+		weight = 1000,
 		stack = true,
 	},
 
@@ -1540,31 +1545,31 @@ return {
 	},
 	
 	['weed_seed'] = {
-		label = 'Graine de Marijuana',
-		weight = 1,
+		label = 'Graine de weed',
+		weight = 1000,
 		stack = true,
 		close = true,
 		description = "Une graine qui fait permet de faire pousser de la marijuana."
 	},
 	
 	['weed_raw'] = {
-		label = '[Brute] Marijuana',
-		weight = 1,
+		label = '[Brute] Weed',
+		weight = 1000,
 		stack = true,
 		close = true,
 		description = "A besoin d'être transformé"
 	},
 	
 	['weed'] = {
-		label = 'Marijuana',
-		weight = 1,
+		label = 'Weed',
+		weight = 1000,
 		stack = true,
 		close = true,
 	},
 	
 	['cocaine_seed'] = {
 		label = 'Graine de Coca',
-		weight = 1,
+		weight = 1000,
 		stack = true,
 		close = true,
 		description = "Une graine qui fait permet de faire pousser de la coca."
@@ -1572,7 +1577,7 @@ return {
 	
 	['cocaine_raw'] = {
 		label = 'Coca',
-		weight = 1,
+		weight = 1000,
 		stack = true,
 		close = true,
 		description = "A besoin d'être transformé"
@@ -1580,30 +1585,30 @@ return {
 	
 	['cocaine'] = {
 		label = 'Cocaine',
-		weight = 1,
+		weight = 1000,
 		stack = true,
 		close = true,
 	},
 	
-	['heroin_seed'] = {
-		label = "Graine d'Héroine",
-		weight = 1,
+	['opium_seed'] = {
+		label = "Graine d'opium",
+		weight = 1000,
 		stack = true,
 		close = true,
-		description = "Une graine qui fait permet de faire pousser de l'héroine."
+		description = "Une graine qui permet de faire pousser de l'opium."
 	},
 	
-	['heroin_raw'] = {
-		label = '[Brute] Héroine',
-		weight = 1,
+	['opium_raw'] = {
+		label = '[Brute] Opium',
+		weight = 1000,
 		stack = true,
 		close = true,
 		description = "A besoin d'être transformé"
 	},
 	
-	['heroin'] = {
-		label = 'Héroine',
-		weight = 1,
+	['opium'] = {
+		label = 'Opium',
+		weight = 1000,
 		stack = true,
 		close = true,
 	},
