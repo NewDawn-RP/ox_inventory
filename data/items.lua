@@ -56,8 +56,11 @@ return {
 	    weight = 200,
 	    stack = true,
 	    client = {
-			status = { hunger = 800000 },
-			usetime = 2500,
+			status = { hunger = 200000 },
+            anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+            prop = { model = 'prop_sandwich_01', 
+            pos = vec3(0.05, -0.02, -0.03), rot = vec3(150.0, 340.0, 170.0) },
+            usetime = 7500,
 			notification = 'Vous avez mangé du pain !'
 	    }
 	},
