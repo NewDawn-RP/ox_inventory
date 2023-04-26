@@ -883,6 +883,12 @@ return {
 		close = true,
 	},
 
+	['onion'] = {
+	    label = 'Oignon',
+	    weight = 185,
+	    stack = true,
+	},
+
 	['potato'] = {
 		label = 'Pomme de terre',
 		weight = 1,
@@ -955,6 +961,12 @@ return {
 	    stack = true,
 	},
 
+	['beef_steak'] = {
+	    label = 'Steak de boeuf',
+	    weight = 185,
+	    stack = true,
+	},
+
 	['pig_meat'] = {
 	    label = 'Viande de porc',
 	    weight = 185,
@@ -975,6 +987,18 @@ return {
 
 	['flour'] = {
 	    label = 'Farine',
+	    weight = 185,
+	    stack = true,
+	},
+
+	['salad'] = {
+	    label = 'Salade',
+	    weight = 185,
+	    stack = true,
+	},
+
+	['bacon'] = {
+	    label = 'Bacon',
 	    weight = 185,
 	    stack = true,
 	},
