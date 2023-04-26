@@ -811,7 +811,7 @@ return {
 		},
 	},
 
-	--------------------------- [Items de fabrication] Légumes, Viandes, Pâtes, Mer,...
+	--------------------------- [Items de fabrication] Légumes, Fruits, Viandes, Pâtes, Mer,...
 
 	['burger_bread'] = {
 	    label = 'Pain à burger',
@@ -881,6 +881,18 @@ return {
 		weight = 1,
 		stack = true,
 		close = true,
+	},
+
+	['vanilla_syrup'] = {
+	    label = 'Sirop de vanille',
+	    weight = 185,
+	    stack = true,
+	},
+
+	['strawberry'] = {
+	    label = 'Fraise',
+	    weight = 185,
+	    stack = true,
 	},
 
 	['onion'] = {
@@ -999,6 +1011,42 @@ return {
 
 	['bacon'] = {
 	    label = 'Bacon',
+	    weight = 185,
+	    stack = true,
+	},
+
+	['milk'] = {
+	    label = 'Lait',
+	    weight = 185,
+	    stack = true,
+	},
+
+	['coffee_beans'] = {
+	    label = 'Café en grains',
+	    weight = 185,
+	    stack = true,
+	},
+
+	['kiwi'] = {
+	    label = 'Kiwi',
+	    weight = 185,
+	    stack = true,
+	},
+
+	['raspberry'] = {
+	    label = 'Framboise',
+	    weight = 185,
+	    stack = true,
+	},
+
+	['pineapple'] = {
+	    label = 'Ananas',
+	    weight = 185,
+	    stack = true,
+	},
+
+	['caramel_syrup'] = {
+	    label = 'Sirop de caramel',
 	    weight = 185,
 	    stack = true,
 	},
@@ -2125,6 +2173,12 @@ return {
 		weight = 1000,
 		stack = false,
 		close = false,		
+	},
+
+	['used_cup'] = {
+	    label = 'Gobelet usagé',
+	    weight = 185,
+	    stack = true,
 	},
 
 	--------------------------- [Items Chasse]
