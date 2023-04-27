@@ -871,6 +871,7 @@ return {
 	    label = 'Pâte à pizza',
 	    weight = 125,
 	    stack = true,
+		description = "Ingrédient pour pizza",
 	},
 
 	['tomato_sauce'] = {
@@ -1309,6 +1310,7 @@ return {
 	['diving_equipment'] = {
 	    label = 'Equipement de plongée',
 	    weight = 1500,
+		close = true,
 	    stack = true,
 	    client = {
 			usetime = 5000,
@@ -1321,6 +1323,7 @@ return {
 		description = "Sac à bandoulière",
 		weight = 220,
 		stack = false,
+		close = true,
 		consume = 0,
 		server = {
 			export = "lexinor_commons.bag",
@@ -1353,6 +1356,7 @@ return {
 	['bandage'] = {
 		label = 'Bandage',
 		weight = 115,
+		close = true,
 		client = {
 			anim = { dict = 'missheistdockssetup1clipboard@idle_a', clip = 'idle_a', flag = 49 },
 			prop = { model = `prop_rolled_sock_02`, pos = vec3(-0.14, -0.14, -0.08), rot = vec3(-50.0, -50.0, 0.0) },
@@ -1370,6 +1374,7 @@ return {
 	['medikit'] = {
 	    label = 'Trousse de secours',
 	    weight = 250,
+		close = true,
 	    stack = true,
 	    client = {
 			usetime = 3500,
