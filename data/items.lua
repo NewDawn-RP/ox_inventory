@@ -55,8 +55,10 @@ return {
 	    label = 'Pain',
 	    weight = 200,
 	    stack = true,
+		close = true,
 	    client = {
-			status = { hunger = 200000 },
+			status = { hunger = 90000 },
+			description = "Du pain, rien de plus",
             anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
             prop = { model = 'prop_sandwich_01', 
             pos = vec3(0.05, -0.02, -0.03), rot = vec3(150.0, 340.0, 170.0) },
@@ -501,11 +503,12 @@ return {
 	['water'] = {
 		label = 'Eau',
 		weight = 500,
+		description = "De quoi se raffraichir",
 		client = {
 			status = { thirst = 200000 },
 			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
 			prop = { model = `prop_ld_flow_bottle`, pos = vec3(0.03, 0.03, 0.02), rot = vec3(0.0, 0.0, -1.5) },
-			usetime = 2500,
+			usetime = 5000,
 			cancel = true,
 			notification = 'Vous vous êtes rafraichit !'
 		}
@@ -514,11 +517,14 @@ return {
 	['cola'] = {
 		label = 'eCola',
 		weight = 350,
+		description = "Une canette de Ecola plus ou moins fraiche",
 		client = {
 			status = { thirst = 850000 },
 			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
-			prop = { model = `prop_ecola_can`, pos = vec3(0.01, 0.01, 0.06), rot = vec3(5.0, 5.0, -180.5) },
-			usetime = 2500,
+			prop = { model = `prop_ecola_can`, 
+			pos = vec3(0.01, 0.01, 0.06), 
+			rot = vec3(5.0, 5.0, -180.5) },
+			usetime = 5000,
 			notification = 'Vous avez bu un Ecola !'
 		}
 	},
@@ -549,7 +555,7 @@ return {
 			status = { thirst = 850000 },
 			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
 			prop = { model = 'prop_orang_can_01', 
-			pos = vec3(0.0, 0.0, 0.0), rot = vec3(0.0, 0.0, 130.0) },
+			pos = vec3(0.005, -0.001, 0.08), rot = vec3(0.0, 0.0, 160.0) },
 			usetime = 5000,
 			notification = 'Vous avez bu un Iced Tea !'
 		}
@@ -559,9 +565,14 @@ return {
 	    label = 'jus de raisin',
 	    weight = 1000,
 	    stack = true,
+		close = true,
+		description = "Jus issu d'une récolte au nord de la ville",
 	    client = {
 			status = { thirst = 850000 },
-			usetime = 2500,
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = 'prop_drink_redwine', 
+			pos = vec3(0.005, -0.001, 0.08), rot = vec3(0.0, 0.0, 160.0) },
+			usetime = 5000,
 			notification = 'Vous avez bu du jus de raisin !'
 	    }
 	},
@@ -581,9 +592,14 @@ return {
 	    label = "Jus d'orange", 
 	    weight = 350,
 	    stack = true,
+		description = "Jus d'oranges en provenance du Mexique",
+		close = true,
 	    client = {
 			status = { thirst = 850000 },
-			usetime = 2500,
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = 'prop_orang_can_01', 
+			pos = vec3(0.0, 0.0, 0.0), rot = vec3(0.0, 0.0, 130.0) },
+			usetime = 5000,
 			notification = "Vous avez bu du jus d'orange",
 	    }
 	},
@@ -603,9 +619,14 @@ return {
 	    label = 'Chocolat Chaud', 
 	    weight = 275,
 	    stack = true,
+		description = "Un délicieux chocolat chaud",
+		close = true,
 	    client = {
 			status = { thirst = 150000 },
-			usetime = 2500,
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = 'ng_proc_coffee_01a', 
+			pos = vec3(0.008, 0.0, -0.05), rot = vec3(0.0, 0.0, -40.0) },
+			usetime = 7500,
 			notification = 'Vous avez bu un chocolat chaud !' 
 	    }
 	},
@@ -696,22 +717,48 @@ return {
 	['great_vintage'] = {
 		label = 'Grand cru',
 		weight = 400,
+		close = true,
 		stack = true,
+		description = "Vin rouge d'exeption, légèrement onéreux",
 		client = {
 			status = { drunk = 120000 },
-			usetime = 2500,
-			notification = 'Vous avez bu un grand cru !'
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = 'prop_drink_redwine', 
+			pos = vec3(0.005, -0.001, 0.08), rot = vec3(0.0, 0.0, 160.0) },
+			usetime = 9000,
+			notification = 'Vous avez bu du vin rouge !'
 		}
 	},
 
-	['wine_bottle'] = {
-	    label = 'Bouteille de vin',
+	['red_wine'] = {
+	    label = 'Vin rouge',
 	    weight = 400,
+		close = true,
+	    stack = true,
+		description = "Vin rouge cuvée 2022",
+	    client = {
+			status = { drunk = 120000 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = 'prop_drink_redwine', 
+			pos = vec3(0.005, -0.001, 0.08), rot = vec3(0.0, 0.0, 160.0) },
+			usetime = 9000,
+			notification = 'Vous avez bu du vin rouge !'
+	    }
+	},
+
+	['champain'] = {
+	    label = 'Champagne',
+	    weight = 400,
+		close = true,
+		description = "Un champagne français qualitatif",
 	    stack = true,
 	    client = {
 			status = { drunk = 120000 },
-			usetime = 2500,
-			notification = 'Vous avez bu du vin !'
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = 'prop_drink_whtwine', 
+			pos = vec3(0.005, -0.001, 0.08), rot = vec3(0.0, 0.0, 160.0) },
+			usetime = 9000,
+			notification = 'Vous avez bu du champagne !'
 	    }
 	},
 
@@ -817,6 +864,7 @@ return {
 	    label = 'Pain à burger',
 	    weight = 125,
 	    stack = true,
+		description = "Ingrédient pour Hamburger ",
 	},
 
 	['pizza_dough'] = {
