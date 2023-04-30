@@ -1938,7 +1938,7 @@ return {
 
 	['gofast_card'] = {
 		label = 'Carte téléphonique',
-		description = "Carte téléphonique de l'opérateur Lex Inc."
+		description = "Carte téléphonique de l'opérateur Lex Inc.",
 		weight = 1000,
 		stack = true,
 	},
