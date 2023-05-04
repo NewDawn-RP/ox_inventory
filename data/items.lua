@@ -357,7 +357,7 @@ return {
 		close = true,
 		description = "Un délicieux milkshake aux multifruits",
 		client = {
-			status = { hunger = 400000 },
+			status = { hunger = 450000 },
 			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
 			prop = { model = 'ng_proc_coffee_01a', 
 			pos = vec3(0.008, 0.0, -0.05), rot = vec3(0.0, 0.0, -40.0) },
@@ -409,7 +409,7 @@ return {
 		close = true,
 		description = "Une délicieuse guimauve entre deux biscuits",
 		client = {
-			status = { hunger = 120000 },
+			status = { hunger = 180000 },
 			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
 			prop = { model = 'bzzz_food_dessert_a', 
 			bone = 18905,
@@ -505,7 +505,7 @@ return {
 		weight = 500,
 		description = "De quoi se raffraichir",
 		client = {
-			status = { thirst = 200000 },
+			status = { thirst = 150000 },
 			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
 			prop = { model = `prop_ld_flow_bottle`, pos = vec3(0.03, 0.03, 0.02), rot = vec3(0.0, 0.0, -1.5) },
 			usetime = 5000,
@@ -519,7 +519,7 @@ return {
 		weight = 350,
 		description = "Une canette de Ecola plus ou moins fraiche",
 		client = {
-			status = { thirst = 850000 },
+			status = { thirst = 250000 },
 			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
 			prop = { model = `prop_ecola_can`, 
 			pos = vec3(0.01, 0.01, 0.06), 
@@ -536,7 +536,7 @@ return {
 		close = true,
 		description = "Boisson fraiche, pétillante et 100% sucre",
 		client = {
-			status = { thirst = 850000 },
+			status = { thirst = 250000 },
 			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
 			prop = { model = 'ng_proc_sodacan_01b', 
 			pos = vec3(0.005, -0.001, 0.08), rot = vec3(0.0, 0.0, 160.0) },
@@ -552,7 +552,7 @@ return {
 		close = true,
 		description = "Un bon thé froid presque naturel",
 		client = {
-			status = { thirst = 850000 },
+			status = { thirst = 250000 },
 			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
 			prop = { model = 'prop_orang_can_01', 
 			pos = vec3(0.005, -0.001, 0.08), rot = vec3(0.0, 0.0, 160.0) },
@@ -562,13 +562,13 @@ return {
 	},
 
 	['grappe_juice'] = {
-	    label = 'jus de raisin',
+	    label = 'Jus de raisin',
 	    weight = 1000,
 	    stack = true,
 		close = true,
 		description = "Jus issu d'une récolte au nord de la ville",
 	    client = {
-			status = { thirst = 850000 },
+			status = { thirst = 285000 },
 			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
 			prop = { model = 'prop_drink_redwine', 
 			pos = vec3(0.005, -0.001, 0.08), rot = vec3(0.0, 0.0, 160.0) },
@@ -582,7 +582,7 @@ return {
 	    weight = 350,
 	    stack = true,
 	    client = {
-			status = { thirst = 850000 },
+			status = { thirst = 250000 },
 			usetime = 2500,
 			notification = 'Vous avez bu une limonade !',
 	    }
@@ -595,7 +595,7 @@ return {
 		description = "Jus d'oranges en provenance du Mexique",
 		close = true,
 	    client = {
-			status = { thirst = 850000 },
+			status = { thirst = 285000 },
 			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
 			prop = { model = 'prop_orang_can_01', 
 			pos = vec3(0.0, 0.0, 0.0), rot = vec3(0.0, 0.0, 130.0) },
@@ -622,7 +622,7 @@ return {
 		description = "Un délicieux chocolat chaud",
 		close = true,
 	    client = {
-			status = { thirst = 150000 },
+			status = { thirst = 600000 },
 			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
 			prop = { model = 'ng_proc_coffee_01a', 
 			pos = vec3(0.008, 0.0, -0.05), rot = vec3(0.0, 0.0, -40.0) },
@@ -654,7 +654,7 @@ return {
 		close = true,
 		description = "Un délicieux cappuccino",
 		client = {
-			status = { thirst = 850000 },
+			status = { thirst = 875000 },
 			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
 			prop = { model = 'ng_proc_coffee_01a', 
 			pos = vec3(0.008, 0.0, -0.05), rot = vec3(0.0, 0.0, -40.0) },
@@ -714,24 +714,40 @@ return {
 	
 	--------------------------- [Boissons Alcoolisées]
 
-	['great_vintage'] = {
-		label = 'Grand cru',
+	['black_pinot'] = {
+		label = 'Pinot noir',
 		weight = 400,
 		close = true,
 		stack = true,
-		description = "Vin rouge d'exeption, légèrement onéreux",
+		description = "Vin rouge d'exeption",
 		client = {
 			status = { drunk = 120000 },
 			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
 			prop = { model = 'prop_drink_redwine', 
 			pos = vec3(0.005, -0.001, 0.08), rot = vec3(0.0, 0.0, 160.0) },
 			usetime = 9000,
-			notification = 'Vous avez bu du vin rouge !'
+			notification = 'Vous avez bu un Pinot noir !'
+		}
+	},
+
+	['white_pinot'] = {
+		label = 'Pinot blanc',
+		weight = 400,
+		close = true,
+		stack = true,
+		description = "Vin blanc d'exeption",
+		client = {
+			status = { drunk = 120000 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = 'prop_drink_whtwine', 
+			pos = vec3(0.005, -0.001, 0.08), rot = vec3(0.0, 0.0, 160.0) },
+			usetime = 9000,
+			notification = 'Vous avez bu un Pinot blanc !'
 		}
 	},
 
 	['red_wine'] = {
-	    label = 'Vin rouge',
+	    label = 'Cabernet sauvignon',
 	    weight = 400,
 		close = true,
 	    stack = true,
@@ -746,19 +762,51 @@ return {
 	    }
 	},
 
-	['champain'] = {
-	    label = 'Champagne',
+	['white_wine'] = {
+	    label = 'Chardonnay',
 	    weight = 400,
 		close = true,
-		description = "Un champagne français qualitatif",
 	    stack = true,
+		description = "Vin blanc cuvée 2022",
 	    client = {
 			status = { drunk = 120000 },
 			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
 			prop = { model = 'prop_drink_whtwine', 
 			pos = vec3(0.005, -0.001, 0.08), rot = vec3(0.0, 0.0, 160.0) },
 			usetime = 9000,
+			notification = 'Vous avez bu du vin blanc !'
+	    }
+	},
+
+	['champain'] = {
+	    label = 'Champagne',
+	    weight = 400,
+		close = true,
+		description = "Un champagne de haute facture",
+	    stack = true,
+	    client = {
+			status = { drunk = 100000 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = 'prop_drink_whtwine', 
+			pos = vec3(0.005, -0.001, 0.08), rot = vec3(0.0, 0.0, 160.0) },
+			usetime = 9000,
 			notification = 'Vous avez bu du champagne !'
+	    }
+	},
+
+	['sparkling_wine'] = {
+	    label = 'Vin mousseux',
+	    weight = 400,
+		close = true,
+		description = "Un Vin mousseux qualitatif",
+	    stack = true,
+	    client = {
+			status = { drunk = 100000 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = 'prop_drink_whtwine', 
+			pos = vec3(0.005, -0.001, 0.08), rot = vec3(0.0, 0.0, 160.0) },
+			usetime = 9000,
+			notification = 'Vous avez bu du Vin mousseux !'
 	    }
 	},
 
@@ -769,7 +817,7 @@ return {
 		close = true,
 		description = "Bonne bière ambrée importée du Mexique",
 		client = {
-			status = { drunk = 90000 },
+			status = { drunk = 90000, thrist = 150000 },
 			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
 			prop = { model = 'prop_beer_bottle', 
 			pos = vec3(0.02, -0.01, -0.14), rot = vec3(1.0, 5.0, -182.5) },
@@ -785,7 +833,7 @@ return {
 		close = true,
 		description = "Bonne bière brune importée d'Allemagne",
 		client = {
-			status = { drunk = 90000 },
+			status = { drunk = 90000, thrist = 150000 },
 			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
 			prop = { model = 'prop_beerdusche', 
 			pos = vec3(0.01, -0.01, -0.12), rot = vec3(5.0, 5.0, -180.5) },
@@ -801,7 +849,7 @@ return {
 		close = true,
 		description = "Bonne bière blanche importée d'Italie",
 		client = {
-			status = { drunk = 90000 },
+			status = { drunk = 90000, thrist = 150000 },
 			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
 			prop = { model = 'prop_beer_stz', 
 			pos = vec3(0.01, -0.02, -0.15), rot = vec3(5.0, 5.0, -180.5) },
@@ -817,7 +865,7 @@ return {
 		close = true,
 		description = "Bonne bière blonde fabriquée en brasserie américaine",
 		client = {
-			status = { drunk = 90000 },
+			status = { drunk = 90000, thrist = 150000 },
 			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
 			prop = { model = 'prop_beer_patriot', 
 			pos = vec3(0.01, -0.02, -0.15), rot = vec3(5.0, 5.0, -180.5) },
@@ -902,6 +950,21 @@ return {
 		weight = 2000,
 	},
 
+	['alcohol_annexed'] = {
+		label = 'Alcool annexé',
+		weight = 200,
+	},
+
+	['sugar'] = {
+		label = 'Sucre liquide',
+		weight = 200,
+	},
+
+	['label'] = {
+		label = 'Étiquette',
+		weight = 50,
+	},
+
 	['salmon'] = {
 		label = 'Saumon',
 		weight = 2000,
@@ -913,8 +976,8 @@ return {
 	    stack = true,
 	},
 
-	['grappe'] = {
-	    label = 'Raisin',
+	['bunch_of_grapes'] = {
+	    label = 'Grappe de raisins',
 	    weight = 125,
 	    stack = true,
 	},
@@ -1100,6 +1163,23 @@ return {
 	    stack = true,
 	},
 
+	['chocolate_powder'] = {
+	    label = 'Chocolat en poudre',
+	    weight = 185,
+	    stack = true,
+	},
+
+	['marshmallow'] = {
+	    label = 'Guimauve',
+	    weight = 185,
+	    stack = true,
+	},
+
+	['biscuit'] = {
+	    label = 'Biscuit',
+	    weight = 185,
+	    stack = true,
+	},
 	--------------------------- [Agriculture]
 
 	['fertilizer'] = {
@@ -1268,6 +1348,49 @@ return {
 	    weight = 280,
 	    stack = true,
 	},
+
+	['neutralbtl_bp'] = { -- Bouteille neutre pour pinot
+	    label = 'Bouteille neutre de pinot noir',
+	    weight = 200,
+	    stack = true,
+	},
+
+	['neutralbtl_wp'] = { 
+	    label = 'Bouteille neutre de pinot blanc',
+	    weight = 200,
+	    stack = true,
+	},
+
+	['neutralbtl_cs'] = { 
+	    label = 'Bouteille neutre de Cabernet sauvigon',
+	    weight = 200,
+	    stack = true,
+	},
+
+	['neutralbtl_ch'] = { 
+	    label = 'Bouteille neutre de Chardonnay',
+	    weight = 200,
+	    stack = true,
+	},
+
+	['neutralbtl_chp'] = { 
+	    label = 'Bouteille neutre de Champagne',
+	    weight = 200,
+	    stack = true,
+	},
+
+	['neutralbtl_vm'] = { 
+	    label = 'Bouteille neutre de Vin mousseux',
+	    weight = 200,
+	    stack = true,
+	},
+
+	['neutralbtl_jdr'] = { 
+	    label = 'Bouteille neutre de Jus de raisin',
+	    weight = 200,
+	    stack = true,
+	},
+
 
 	--------------------------- [Outillage, informatique et équipement légal]
 
@@ -1473,6 +1596,12 @@ return {
 	['fishing_crate'] = {
 	    label = 'Cagette de pêche',
 	    weight = 350,
+	    stack = true,
+	},
+
+	['glass_bottle'] = {
+	    label = 'Bouteille en verre',
+	    weight = 125,
 	    stack = true,
 	},
 
