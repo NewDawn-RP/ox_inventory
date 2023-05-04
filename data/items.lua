@@ -2065,6 +2065,13 @@ return {
 		weight = 500,
 	},
 
+	['gofast_card'] = {
+		label = 'Carte téléphonique',
+		description = "Carte téléphonique de l'opérateur Lex Inc.",
+		weight = 1000,
+		stack = true,
+	},
+
 	--------------------------- ILLEGAL [Items de création de drogues]
 
 	['hydrogen'] = {
