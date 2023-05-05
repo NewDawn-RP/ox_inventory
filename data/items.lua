@@ -1343,6 +1343,12 @@ return {
 	    stack = true,
 	},
 
+	['natural_ferment'] = {
+	    label = 'Ferment naturel',
+	    weight = 125,
+	    stack = true,
+	},
+
 	['bone'] = {
 	    label = 'Os',
 	    weight = 280,
