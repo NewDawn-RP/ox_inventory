@@ -92,7 +92,7 @@ return {
 			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
 			prop = { model = 'prop_cs_burger_01', 
 			pos = vec3(0.05, -0.02, -0.03), rot = vec3(150.0, 340.0, 170.0) },
-			usetime = 2500,
+			usetime = 7500,
 			notification = 'Vous avez mangé un Triple Burger !'
 		}
 	},
@@ -108,7 +108,7 @@ return {
 			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
 			prop = { model = 'prop_cs_burger_01', 
 			pos = vec3(0.05, -0.02, -0.03), rot = vec3(150.0, 340.0, 170.0) },
-			usetime = 2500,
+			usetime = 7500,
 			notification = 'Vous avez mangé un Bacon Triple !'
 		}
 	},
@@ -124,7 +124,7 @@ return {
 			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
 			prop = { model = 'prop_cs_burger_01', 
 			pos = vec3(0.05, -0.02, -0.03), rot = vec3(150.0, 340.0, 170.0) },
-			usetime = 2500,
+			usetime = 7500,
 			notification = 'Vous avez mangé un Double Burger !'
 		}
 	},
@@ -135,7 +135,7 @@ return {
 	    stack = true,
 	    client = {
 			status = { hunger = 200000 },
-			usetime = 2500,
+			usetime = 7500,
 			notification = 'Vous avez mangé un Hamburger !'
 	    }
 	},
@@ -146,7 +146,7 @@ return {
 	    stack = true,
 	    client = {
 			status = { hunger = 200000 },
-			usetime = 2500,
+			usetime = 7500,
 			notification = 'Vous avez mangé un Burger au poulet !'
 	    }
 	},
@@ -157,7 +157,7 @@ return {
 	    stack = true,
 	    client = {
 			status = { hunger = 200000 },
-			usetime = 2500,
+			usetime = 7500,
 			notification = 'Vous avez mangé une pizza !'
 	    }
 	},
@@ -168,7 +168,7 @@ return {
 	    stack = true,
 	    client = {
 			status = { hunger = 200000 },
-			usetime = 2500,
+			usetime = 7500,
 			notification = 'Vous avez mangé une pizza !'
 	    }
 	},
@@ -180,7 +180,7 @@ return {
 			status = { hunger = 25000, thirst = 25000 },
 			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
 			prop = { model = `prop_food_mustard`, pos = vec3(0.01, 0.0, -0.07), rot = vec3(1.0, 1.0, -1.5) },
-			usetime = 2500,
+			usetime = 7500,
 			notification = 'You.. drank mustard'
 		}
 	},
@@ -191,7 +191,7 @@ return {
 	    stack = true,
 	    client = {
 			status = { hunger = 100000 },
-			usetime = 2500,
+			usetime = 7500,
 			notification = 'Vous avez mangé des frites !'
 	    }
 	},
@@ -207,7 +207,7 @@ return {
 			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
 			prop = { model = 'prop_food_chips', 
 			pos = vec3(-0.01, 0.0, -0.02), rot = vec3(0.0, 0.0, -45.0) },
-			usetime = 2500,
+			usetime = 7500,
 			notification = 'Vous avez mangé des French Fries !'
 		}
 	},
@@ -218,7 +218,7 @@ return {
 	    stack = true,
 	    client = {
 			status = { hunger = 650000 },
-			usetime = 2500,
+			usetime = 7500,
 			notification = 'Vous avez mangé une salade !'
 	    }
 	},
@@ -229,7 +229,7 @@ return {
 	    stack = true,
 	    client = {
 			status = { hunger = 600000 },
-			usetime = 2500,
+			usetime = 7500,
 			notification = 'Vous avez mangé une salade !'
 	    }
 	},
@@ -329,7 +329,7 @@ return {
 			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
 			prop = { model = 'ng_proc_coffee_01a', 
 			pos = vec3(0.008, 0.0, -0.05), rot = vec3(0.0, 0.0, -40.0) },
-			usetime = 4000,
+			usetime = 7500,
 			notification = 'Vous avez dégusté un Big Strawberry !',
 		},
 	},
@@ -345,7 +345,7 @@ return {
 			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
 			prop = { model = 'ng_proc_coffee_01a', 
 			pos = vec3(0.008, 0.0, -0.05), rot = vec3(0.0, 0.0, -40.0) },
-			usetime = 4000,
+			usetime = 7500,
 			notification = 'Vous avez dégusté un Big Vanilla !',
 		},
 	},
@@ -361,7 +361,7 @@ return {
 			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
 			prop = { model = 'ng_proc_coffee_01a', 
 			pos = vec3(0.008, 0.0, -0.05), rot = vec3(0.0, 0.0, -40.0) },
-			usetime = 4000,
+			usetime = 7500,
 			notification = 'Vous avez dégusté un Big Fruit !',
 		},
 	},
@@ -379,7 +379,7 @@ return {
 			bone = 18905,
 			pos = vec3(0.13, 0.050, 0.020), 
 			rot = vec3(-50.0, 100.0, 270.0) },
-			usetime = 7500,
+			usetime = 5000,
 			notification = 'Vous avez dégusté un donut au chocolat !',
 		},
 	},
@@ -397,7 +397,7 @@ return {
 			bone = 18905,
 			pos = vec3(0.13, 0.050, 0.020), 
 			rot = vec3(-50.0, 100.0, 270.0) },
-			usetime = 7500,
+			usetime = 5000,
 			notification = 'Vous avez dégusté un donut à la fraise !',
 		},
 	},
@@ -415,7 +415,7 @@ return {
 			bone = 18905,
 			pos = vec3(0.15, 0.03, 0.03), 
 			rot = vec3(-42.0, -36.0, 0.0) },
-			usetime = 7500,
+			usetime = 5000,
 			notification = 'Vous avez dégusté un Guim-o-choco !',
 		},
 	},
@@ -477,7 +477,7 @@ return {
 			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
 			prop = { model = 'prop_peanut_bowl_01', 
 			pos = vec3(0.008, 0.0, -0.05), rot = vec3(0.0, 0.0, -40.0) },
-			usetime = 4000,
+			usetime = 5000,
 			notification = 'Vous avez mangé des cacahuètes !',
 		},
 	},
@@ -493,7 +493,7 @@ return {
 			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
 			prop = { model = 'prop_food_bag1', 
 			pos = vec3(0.008, 0.0, -0.05), rot = vec3(0.0, 0.0, -40.0) },
-			usetime = 4000,
+			usetime = 5000,
 			notification = 'Vous avez mangé des olives !',
 		},
 	},
@@ -508,7 +508,7 @@ return {
 			status = { thirst = 150000 },
 			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
 			prop = { model = `prop_ld_flow_bottle`, pos = vec3(0.03, 0.03, 0.02), rot = vec3(0.0, 0.0, -1.5) },
-			usetime = 5000,
+			usetime = 7500,
 			cancel = true,
 			notification = 'Vous vous êtes rafraichit !'
 		}
@@ -524,7 +524,7 @@ return {
 			prop = { model = `prop_ecola_can`, 
 			pos = vec3(0.01, 0.01, 0.06), 
 			rot = vec3(5.0, 5.0, -180.5) },
-			usetime = 5000,
+			usetime = 7500,
 			notification = 'Vous avez bu un Ecola !'
 		}
 	},
@@ -540,7 +540,7 @@ return {
 			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
 			prop = { model = 'ng_proc_sodacan_01b', 
 			pos = vec3(0.005, -0.001, 0.08), rot = vec3(0.0, 0.0, 160.0) },
-			usetime = 5000,
+			usetime = 7500,
 			notification = 'Vous avez bu du Sprunks !'
 		}
 	},
@@ -556,7 +556,7 @@ return {
 			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
 			prop = { model = 'prop_orang_can_01', 
 			pos = vec3(0.005, -0.001, 0.08), rot = vec3(0.0, 0.0, 160.0) },
-			usetime = 5000,
+			usetime = 7500,
 			notification = 'Vous avez bu un Iced Tea !'
 		}
 	},
@@ -572,7 +572,7 @@ return {
 			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
 			prop = { model = 'prop_drink_redwine', 
 			pos = vec3(0.005, -0.001, 0.08), rot = vec3(0.0, 0.0, 160.0) },
-			usetime = 5000,
+			usetime = 7500,
 			notification = 'Vous avez bu du jus de raisin !'
 	    }
 	},
@@ -583,7 +583,7 @@ return {
 	    stack = true,
 	    client = {
 			status = { thirst = 250000 },
-			usetime = 2500,
+			usetime = 7500,
 			notification = 'Vous avez bu une limonade !',
 	    }
 	},
@@ -599,7 +599,7 @@ return {
 			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
 			prop = { model = 'prop_orang_can_01', 
 			pos = vec3(0.0, 0.0, 0.0), rot = vec3(0.0, 0.0, 130.0) },
-			usetime = 5000,
+			usetime = 7500,
 			notification = "Vous avez bu du jus d'orange",
 	    }
 	},
@@ -610,7 +610,7 @@ return {
 	    stack = true,
 	    client = {
 			status = { thirst = 150000 },
-			usetime = 2500,
+			usetime = 7500,
 			notification = 'Vous avez bu un café !' 
 	    }
 	},

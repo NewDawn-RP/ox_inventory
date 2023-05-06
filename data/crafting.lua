@@ -77,45 +77,170 @@ return {
 		},
 	},
 	{
-		groups = { ["vine"] = 0 },
+		groups = { ["vine"] = 0 }, -- fabrication produits CRAFT 1
 		items = {
 			{
-				name = 'wine_bottle',
+				name = 'neutralbtl_bp',
 				ingredients = {
-					bottle = 1,
-					grappe_juice = 2,
+					bunch_of_grapes = 25,
+					natural_ferment = 6,
+					glass_bottle = 1,
 				},
-				duration = 5000,
+				duration = 10000,
 				count = 1,
 			},
 			{
-				name = 'great_vintage',
+				name = 'neutralbtl_wp',
 				ingredients = {
-					bottle = 1,
-					grappe_juice = 5,
+					bunch_of_grapes = 25,
+					natural_ferment = 6,
+					glass_bottle = 1,
 				},
-				duration = 7000,
+				duration = 10000,
 				count = 1,
 			},
+			{
+				name = 'neutralbtl_cs',
+				ingredients = {
+					bunch_of_grapes = 15,
+					natural_ferment = 2,
+					glass_bottle = 1,
+				},
+				duration = 10000,
+				count = 1,
+			},
+			{
+				name = 'neutralbtl_ch',
+				ingredients = {
+					bunch_of_grapes = 15,
+					natural_ferment = 2,
+					glass_bottle = 1,
+				},
+				duration = 10000,
+				count = 1,
+			},
+			{
+				name = 'neutralbtl_chp',
+				ingredients = {
+					bunch_of_grapes = 10,
+					alcohol_annexed = 1,
+					sugar = 1,
+					glass_bottle = 1,
+
+				},
+				duration = 10000,
+				count = 1,
+			},
+			{
+				name = 'neutralbtl_vm',
+				ingredients = {
+					bunch_of_grapes = 10,
+					alcohol_annexed = 1,
+					sugar = 1,
+					glass_bottle = 1,
+
+				},
+				duration = 10000,
+				count = 1,
+			},
+			{
+				name = 'neutralbtl_jdr',
+				ingredients = {
+					bunch_of_grapes = 4,
+					sugar = 1,
+					glass_bottle = 1,
+					
+				},
+				duration = 10000,
+				count = 1,
+			},
+			
 		},
 		points = {
-			vec3(-1919.2549, 2029.0627, 140.7380),
+			vec3(-1928.2686, 1779.5055, 173.0965),
 		},
 		zones = {
 			{
-				coords = vec3(-1919.2549, 2029.0627, 140.7380), 
+				coords = vec3(-1928.2686, 1779.5055, 173.0965), 
 				size = vec3(3, 3, 3),
-				distance = 2.5,
+				distance = 3,
 			},
 		},
 	},
 	{
-		groups = { ["vine"] = 0 },
+		groups = { ["vine"] = 0 }, -- fabrication produits finals CRAFT 2
 		items = {
 			{
-				name = 'grappe_juice',
+				name = 'neutralbtl_bp',
 				ingredients = {
-					grappe = 10,
+					bunch_of_grapes = 25,
+					natural_ferment = 6,
+					glass_bottle = 1,
+				},
+				duration = 10000,
+				count = 1,
+			},
+			{
+				name = 'neutralbtl_wp',
+				ingredients = {
+					bunch_of_grapes = 25,
+					natural_ferment = 6,
+					glass_bottle = 1,
+				},
+				duration = 10000,
+				count = 1,
+			},
+			{
+				name = 'neutralbtl_cs',
+				ingredients = {
+					bunch_of_grapes = 15,
+					natural_ferment = 2,
+					glass_bottle = 1,
+				},
+				duration = 10000,
+				count = 1,
+			},
+			{
+				name = 'neutralbtl_ch',
+				ingredients = {
+					bunch_of_grapes = 15,
+					natural_ferment = 2,
+					glass_bottle = 1,
+				},
+				duration = 10000,
+				count = 1,
+			},
+			{
+				name = 'neutralbtl_chp',
+				ingredients = {
+					bunch_of_grapes = 10,
+					alcohol_annexed = 1,
+					sugar = 1,
+					glass_bottle = 1,
+
+				},
+				duration = 10000,
+				count = 1,
+			},
+			{
+				name = 'neutralbtl_vm',
+				ingredients = {
+					bunch_of_grapes = 10,
+					alcohol_annexed = 1,
+					sugar = 1,
+					glass_bottle = 1,
+
+				},
+				duration = 10000,
+				count = 1,
+			},
+			{
+				name = 'neutralbtl_jdr',
+				ingredients = {
+					bunch_of_grapes = 4,
+					sugar = 1,
+					glass_bottle = 1,
+					
 				},
 				duration = 10000,
 				count = 1,
