@@ -171,76 +171,64 @@ return {
 		groups = { ["vine"] = 0 }, -- fabrication produits finals CRAFT 2
 		items = {
 			{
-				name = 'neutralbtl_bp',
+				name = 'black_pinot',
 				ingredients = {
-					bunch_of_grapes = 25,
-					natural_ferment = 6,
-					glass_bottle = 1,
+					neutralbtl_bp = 1,
+					label = 1,
 				},
 				duration = 10000,
 				count = 1,
 			},
 			{
-				name = 'neutralbtl_wp',
+				name = 'white_pinot',
 				ingredients = {
-					bunch_of_grapes = 25,
-					natural_ferment = 6,
-					glass_bottle = 1,
+					neutralbtl_wp = 1,
+					label = 1,
 				},
 				duration = 10000,
 				count = 1,
 			},
 			{
-				name = 'neutralbtl_cs',
+				name = 'red_wine',
 				ingredients = {
-					bunch_of_grapes = 15,
-					natural_ferment = 2,
-					glass_bottle = 1,
+					neutralbtl_cs = 1,
+					label = 1,
 				},
 				duration = 10000,
 				count = 1,
 			},
 			{
-				name = 'neutralbtl_ch',
+				name = 'white_wine',
 				ingredients = {
-					bunch_of_grapes = 15,
-					natural_ferment = 2,
-					glass_bottle = 1,
+					neutralbtl_ch = 1,
+					label = 1,
 				},
 				duration = 10000,
 				count = 1,
 			},
 			{
-				name = 'neutralbtl_chp',
+				name = 'champain',
 				ingredients = {
-					bunch_of_grapes = 10,
-					alcohol_annexed = 1,
-					sugar = 1,
-					glass_bottle = 1,
-
+					neutralbtl_chp = 1,
+					label = 1,
 				},
 				duration = 10000,
 				count = 1,
 			},
 			{
-				name = 'neutralbtl_vm',
+				name = 'sparkling_wine',
 				ingredients = {
-					bunch_of_grapes = 10,
-					alcohol_annexed = 1,
-					sugar = 1,
-					glass_bottle = 1,
-
+					neutralbtl_vm = 1,
+					label = 1,
 				},
 				duration = 10000,
 				count = 1,
 			},
 			{
-				name = 'neutralbtl_jdr',
+				name = 'grappe_juice',
 				ingredients = {
-					bunch_of_grapes = 4,
-					sugar = 1,
-					glass_bottle = 1,
-					
+					neutralbtl_jdr = 1,
+					label = 1,
 				},
 				duration = 10000,
 				count = 1,
