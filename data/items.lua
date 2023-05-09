@@ -2018,7 +2018,7 @@ return {
 		weight = 1000,
 		consume = 0.05,
 	},
-	
+
 	['advlockpick'] = {
 		label = 'Kit de crochetage avancé',
 		weight = 1000,
@@ -2026,6 +2026,21 @@ return {
 		server = {
 			export = "houserobbery.houselockpick",
 		}
+	},
+
+	['microwave'] = {
+		label = 'Mirco-ondes',
+		weight = 10000,
+	},
+
+	['toaster'] = {
+		label = 'Mirco-ondes',
+		weight = 5000,
+	},
+
+	['small_tv'] = {
+		label = 'Ecran plat',
+		weight = 15000,
 	},
 
 	['drill_work'] = {
