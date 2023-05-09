@@ -2018,6 +2018,15 @@ return {
 		weight = 1000,
 		consume = 0.05,
 	},
+	
+	['advlockpick'] = {
+		label = 'Kit de crochetage avancé',
+		weight = 1000,
+		consume = 0.05,
+		server = {
+			export = "houserobbery.houselockpick",
+		}
+	},
 
 	['drill_work'] = {
 		label = 'Perçeuse de chantier',
