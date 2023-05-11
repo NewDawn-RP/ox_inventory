@@ -18,6 +18,7 @@ return {
 		}, inventory = {
 			{ name = 'bread', price = 10 },
 			{ name = 'water', price = 10 },
+			{ name = 'phone', price = 400 },
 			{ name = 'chips_cheese', price = 10 },
 			{ name = 'cacahuetes', price = 9 },
 			{ name = 'chips_bbq', price = 10 },
