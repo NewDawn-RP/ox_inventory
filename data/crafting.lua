@@ -33,18 +33,107 @@ return {
 		},
 	},
 	{
-		groups = { ["upnatom"] = 0 },
+		groups = { ["upnatom"] = 0 }, -- UpnAtom Craft Sandwich
 		items = {
 			{
-				name = 'neutralbtl_bp',
+				name = 'triple_burger',
 				ingredients = {
-					bunch_of_grapes = 25,
-					natural_ferment = 6,
-					glass_bottle = 1,
+					burger_bread = 1,
+					beef_steak = 3,
+					cheese = 2,
+					salad = 2,
+					tomato = 1,
 				},
 				duration = 10000,
 				count = 1,
 			},
+			{
+				name = 'bacon_triple',
+				ingredients = {
+					burger_bread = 1,
+					beef_steak = 3,
+					cheese = 2,
+					salad = 2,
+					bacon = 1,
+				},
+				duration = 10000,
+				count = 1,
+			},
+			{
+				name = 'double_burger',
+				ingredients = {
+					burger_bread = 1,
+					beef_steak = 3,
+					cheese = 1,
+					salad = 1,
+					tomato = 1,
+				},
+				duration = 10000,
+				count = 1,
+			},
+		},
+		points = {
+			vec3(94.5815, 291.5911, 110.2095),
+		},
+		zones = {
+			{
+				coords = vec3(94.5815, 291.5911, 110.2095), 
+				size = vec3(3, 3, 3),
+				distance = 2.5,
+			},
+		},
+	},
+	{
+		groups = { ["upnatom"] = 0 }, -- UpnAtom Craft Salades
+		items = {
+			{
+				name = 'veggie_salad',
+				ingredients = {					
+					salad = 1,
+					tomato = 1,
+					corn = 1,
+					carrot = 1,
+					olives = 1,
+
+				},
+				duration = 10000,
+				count = 1,
+			},
+			{
+				name = 'chicken_salad',
+				ingredients = {
+					tomato = 2,
+					chicken = 1,
+					cheese = 2,
+					salad = 1,			
+					onion = 1,	
+				},
+				duration = 10000,
+				count = 1,
+			},			
+		},
+		points = {
+			vec3(96.2008, 293.1687, 110.2095),
+		},
+		zones = {
+			{
+				coords = vec3(96.2008, 293.1687, 110.2095), 
+				size = vec3(3, 3, 3),
+				distance = 2.5,
+			},
+		},
+	},
+	{
+		groups = { ["upnatom"] = 0 }, -- UpnAtom Craft Frites
+		items = {
+			{
+				name = 'triple_burger',
+				ingredients = {
+					potato = 2,					
+				},
+				duration = 8000,
+				count = 1,
+			},			
 		},
 		points = {
 			vec3(83.6297, 301.5202, 110.2100),
