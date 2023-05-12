@@ -325,8 +325,8 @@ return {
 			{
                 ped = `cs_nigel`,
                 scenario = 'WORLD_HUMAN_SMOKING',
-                loc = vec3(-275.3181, -2502.7573, 5.0006),
-                heading = 149.7102,
+                loc = vec3(161.6032, -3165.2756, 5.9663),
+                heading = 265.0822,
             },
 		}
 	},
@@ -353,8 +353,8 @@ return {
 			{
                 ped = `cs_nigel`,
                 scenario = 'WORLD_HUMAN_SMOKING',
-                loc = vec3(-275.3181, -2502.7573, 5.0006),
-                heading = 149.7102,
+                loc = vec3(162.4186, -3186.8901, 5.9515),
+                heading = 258.8575,
             },
 		}
 	},
@@ -375,8 +375,8 @@ return {
 			{
                 ped = `cs_nigel`,
                 scenario = 'WORLD_HUMAN_SMOKING',
-                loc = vec3(-275.3181, -2502.7573, 5.0006),
-                heading = 149.7102,
+                loc = vec3(163.3093, -3158.3657, 5.9353),
+                heading = 286.3462,
             },
 		}
 	},
@@ -398,8 +398,8 @@ return {
 			{
                 ped = `cs_nigel`,
                 scenario = 'WORLD_HUMAN_SMOKING',
-                loc = vec3(-275.3181, -2502.7573, 5.0006),
-                heading = 149.7102,
+                loc = vec3(161.5054, -3172.3433, 5.9681),
+                heading = 257.1070,
             },
 		}
 	},
@@ -440,7 +440,7 @@ return {
 	},
 
 	{
-		name = 'Grossiste Ingrédients', -- Items Craft 
+		name = 'Grossiste Ingrédients', -- Items Craft Primeur 
 		groups = {
 			['cafe'] = 1,
 		},
@@ -463,14 +463,14 @@ return {
 			{
                 ped = `cs_nigel`,
                 scenario = 'WORLD_HUMAN_SMOKING',
-                loc = vec3(-275.3181, -2502.7573, 5.0006),
-                heading = 149.7102,
+                loc = vec3(163.2580, -3181.3857, 5.9363),
+                heading = 261.4984,
             },
 		}
 	},
 
 	{
-		name = 'Grossiste Sec', -- Items Secs pour le BeanMachine 
+		name = 'Grossiste Sec', -- Items Secs pour le BeanMachine Patisserie
 		groups = {
 			['cafe'] = 1,
 		},
@@ -490,8 +490,8 @@ return {
 			{
                 ped = `cs_nigel`,
                 scenario = 'WORLD_HUMAN_SMOKING',
-                loc = vec3(-275.3181, -2502.7573, 5.0006),
-                heading = 149.7102,
+                loc = vec3(161.5467, -3173.8481, 5.9674),
+                heading = 264.8625,
             },
 		}
 	},
@@ -517,8 +517,8 @@ return {
 			{
                 ped = `cs_nigel`,
                 scenario = 'WORLD_HUMAN_SMOKING',
-                loc = vec3(-275.3181, -2502.7573, 5.0006),
-                heading = 149.7102,
+                loc = vec3(160.4048, -3156.4312, 5.9882),
+                heading = 267.9688,
             },
 		}
 	},
