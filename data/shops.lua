@@ -310,19 +310,17 @@ return {
 		}
 	},
 	{
-		name = 'Grossiste Alimentaire',
+		name = 'Boucher', -- Grossiste UpnAtom Viande
 		groups = {
 			['upnatom'] = 0,
 		},
 		blip = {
 			id = 615, colour = 69, scale = 0.8
 		}, inventory = {
-			{ name = 'salad', price = 10 },
-			{ name = 'bread', price = 10 },
-			{ name = 'beef_meat', price = 10 },
-			{ name = 'pig_meat', price = 10 },
-			{ name = 'chicken_meat', price = 10 },
-			{ name = 'bread', price = 10 },
+			{ name = 'beef_steak', price = 3 },
+			{ name = 'chicken', price = 5 },
+			{ name = 'bacon', price = 3 },			
+
 		}, targets = {
 			{
                 ped = `cs_nigel`,
@@ -332,6 +330,80 @@ return {
             },
 		}
 	},
+
+	{
+		name = 'Epicerie', -- Grossiste UpnAtom Epicerie / primeur
+		groups = {
+			['upnatom'] = 0,
+		},
+		blip = {
+			id = 615, colour = 69, scale = 0.8
+		}, inventory = {
+			{ name = 'burger_bread', price = 2 },
+			{ name = 'potato', price = 5 },
+			{ name = 'cheese', price = 1 },		
+			{ name = 'salad', price = 3 },	
+			{ name = 'tomato', price = 3 },
+			{ name = 'corn', price = 3 },
+			{ name = 'carrot', price = 3 },
+			{ name = 'olives', price = 3 },
+			{ name = 'onion', price = 3 },
+
+		}, targets = {
+			{
+                ped = `cs_nigel`,
+                scenario = 'WORLD_HUMAN_SMOKING',
+                loc = vec3(-275.3181, -2502.7573, 5.0006),
+                heading = 149.7102,
+            },
+		}
+	},
+
+	{
+		name = 'Brasserie', -- Grossiste UpnAtom Brasserie
+		groups = {
+			['upnatom'] = 0,
+		},
+		blip = {
+			id = 615, colour = 69, scale = 0.8
+		}, inventory = {
+			{ name = 'cola', price = 4 },
+			{ name = 'sprunk', price = 4 },
+			{ name = 'iced_tea', price = 4 },		
+			
+		}, targets = {
+			{
+                ped = `cs_nigel`,
+                scenario = 'WORLD_HUMAN_SMOKING',
+                loc = vec3(-275.3181, -2502.7573, 5.0006),
+                heading = 149.7102,
+            },
+		}
+	},
+
+	{
+		name = 'Patisserie', -- Grossiste UpnAtom Patisserie
+		groups = {
+			['upnatom'] = 0,
+		},
+		blip = {
+			id = 615, colour = 69, scale = 0.8
+		}, inventory = {
+			{ name = 'brownie', price = 1 },
+			{ name = 'atom_cream_vanilla', price = 1 },
+			{ name = 'atom_cream_strawberry', price = 1 },		
+			{ name = 'atom_cream_pistachio', price = 1 },	
+			
+		}, targets = {
+			{
+                ped = `cs_nigel`,
+                scenario = 'WORLD_HUMAN_SMOKING',
+                loc = vec3(-275.3181, -2502.7573, 5.0006),
+                heading = 149.7102,
+            },
+		}
+	},
+
 	{
 		name = "Grossiste d'Alcool",
 		groups = {
@@ -366,6 +438,7 @@ return {
             },
 		}
 	},
+
 	{
 		name = 'Grossiste Ingrédients', -- Items Craft 
 		groups = {
@@ -395,6 +468,7 @@ return {
             },
 		}
 	},
+
 	{
 		name = 'Grossiste Sec', -- Items Secs pour le BeanMachine 
 		groups = {
@@ -421,6 +495,7 @@ return {
             },
 		}
 	},
+
 	{
 		name = 'Grossiste Boissons', -- Items Boissons pour le BeanMachine 
 		groups = {
