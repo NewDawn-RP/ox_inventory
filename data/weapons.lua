@@ -1,89 +1,89 @@
 return {
 	Weapons = {
 		['WEAPON_ADVANCEDRIFLE'] = {
-			label = 'Advanced Rifle',
-			weight = 3100,
-			durability = 0.03,
+			label = 'Fusil Avancé',
+			weight = 15000,
+			durability = 0,
 			ammoname = 'ammo-rifle',
 		},
 
 		['WEAPON_APPISTOL'] = {
-			label = 'AP Pistol',
-			weight = 1400,
-			durability = 0.1,
+			label = 'Pistolet AP',
+			weight = 5000,
+			durability = 0,
 			ammoname = 'ammo-9',
 		},
 
 		['WEAPON_ASSAULTRIFLE'] = {
-			label = 'Assault Rifle',
+			label = "Fusil d'Assault",
 			weight = 15000,
 			durability = 0,
 			ammoname = 'ammo-rifle2',
 		},
 
 		['WEAPON_ASSAULTRIFLE_MK2'] = {
-			label = 'Assault Rifle MK2',
-			weight = 2950,
-			durability = 0.03,
+			label = "Fusil d'Assault MK2",
+			weight = 15000,
+			durability = 0,
 			ammoname = 'ammo-rifle2',
 		},
 
 		['WEAPON_ASSAULTSHOTGUN'] = {
-			label = 'Assault Shotgun',
-			weight = 5200,
-			durability = 0.05,
+			label = "Fusil à Pompe d'Assault",
+			weight = 15000,
+			durability = 0,
 			ammoname = 'ammo-shotgun'
 		},
 
 		['WEAPON_ASSAULTSMG'] = {
-			label = 'Assault SMG',
-			weight = 2900,
-			durability = 0.05,
+			label = "SMG d'Assault",
+			weight = 10000,
+			durability = 0,
 			ammoname = 'ammo-rifle'
 		},
 
 		['WEAPON_BALL'] = {
-			label = 'Ball',
-			weight = 149,
+			label = 'Balle',
+			weight = 1000,
 			throwable = true,
 		},
 
 		['WEAPON_BAT'] = {
-			label = 'Bat',
+			label = 'Batte',
 			weight = 1134,
-			durability = 0.1,
+			durability = 0,
 		},
 
 		['WEAPON_BATTLEAXE'] = {
-			label = 'Battle Axe',
+			label = "Hâche de Combat",
 			weight = 6500,
-			durability = 0.1,
+			durability = 0,
 		},
 
 		['WEAPON_BOTTLE'] = {
-			label = 'Bottle',
+			label = 'Bouteille',
 			weight = 350,
-			durability = 0.1,
+			durability = 0,
 		},
 
 		['WEAPON_BULLPUPRIFLE'] = {
-			label = 'Bullpup Rifle',
-			weight = 2900,
+			label = "Fusil d'Assault Bullpup",
+			weight = 15000,
 			durability = 0.03,
 			ammoname = 'ammo-rifle'
 		},
 
 		['WEAPON_BULLPUPRIFLE_MK2'] = {
-			label = 'Bullpup Rifle MK2',
-			weight = 2900,
+			label = "Fusil Bullpup MK2",
+			weight = 15000,
 			durability = 0.03,
 			ammoname = 'ammo-rifle'
 		},
 
 		['WEAPON_BULLPUPSHOTGUN'] = {
-			label = 'Bullpup Shotgun',
+			label = "Fusil à Pompe Bullpup",
 			weight = 3100,
-			durability = 0.2,
+			durability = 0,
 			ammoname = 'ammo-shotgun'
 		},
 
@@ -94,112 +94,112 @@ return {
 		},
 
 		['WEAPON_CARBINERIFLE'] = {
-			label = 'Carbine Rifle',
+			label = "Carabine d'Assault",
 			weight = 15000,
 			durability = 0,
 			ammoname = 'ammo-rifle'
 		},
 
 		['WEAPON_CARBINERIFLE_MK2'] = {
-			label = 'Carbine Rifle MK2',
-			weight = 3000,
+			label = "Carabine d'Assault MK2",
+			weight = 15000,
 			durability = 0.03,
 			ammoname = 'ammo-rifle'
 		},
 
 		['WEAPON_CERAMICPISTOL'] = {
-			label = 'Ceramic Pistol',
-			weight = 800,
-			durability = 0.2,
+			label = "Pistolet Céramique",
+			weight = 5000,
+			durability = 0,
 			ammoname = 'ammo-9'
 		},
 
 		['WEAPON_PISTOLXM3'] = {
-			label = 'WM 29 Pistol',
+			label = 'WM 29 Pistolet',
 			weight = 969,
-			durability = 0.2,
+			durability = 0,
 			ammoname = 'ammo-9'
 		},
 
 		['WEAPON_COMBATMG'] = {
-			label = 'Combat MG',
+			label = 'Mittrailleuse de Combat',
 			weight = 7500,
 			durability = 0.02,
 			ammoname = 'ammo-rifle'
 		},
 
 		['WEAPON_COMBATMG_MK2'] = {
-			label = 'Combat MG MK2',
+			label = 'Mittrailleuse de Combat MK2',
 			weight = 8000,
 			durability = 0.02,
 			ammoname = 'ammo-rifle2'
 		},
 
 		['WEAPON_COMBATPDW'] = {
-			label = 'Combat PDW',
+			label = 'Arme de Défense Personnelle (ADP)',
 			weight = 2300,
-			durability = 0.1,
+			durability = 0,
 			ammoname = 'ammo-9'
 		},
 
 		['WEAPON_COMBATPISTOL'] = {
-			label = 'Combat Pistol',
-			weight = 785,
-			durability = 0.2,
+			label = 'Pistolet de Combat',
+			weight = 5000,
+			durability = 0,
 			ammoname = 'ammo-9'
 		},
 
 		['WEAPON_COMBATSHOTGUN'] = {
-			label = 'Combat Shotgun',
-			weight = 4400,
-			durability = 0.2,
+			label = 'Combat Fusil à Pompe',
+			weight = 15000,
+			durability = 0,
 			ammoname = 'ammo-shotgun'
 		},
 
 		['WEAPON_COMPACTLAUNCHER'] = {
-			label = 'Compact Grenade Launcher',
-			weight = 2500,
-			durability = 0.05,
+			label = 'Lanceur de Grenade Comptacte',
+			weight = 80000,
+			durability = 0,
 			ammoname = 'ammo-grenade'
 		},
 
 		['WEAPON_COMPACTRIFLE'] = {
-			label = 'Compact Rifle',
+			label = "Fusil d'Assault Compacte",
 			weight = 15000,
 			durability = 0,
 			ammoname = 'ammo-rifle2'
 		},
 
 		['WEAPON_CROWBAR'] = {
-			label = 'Crowbar',
+			label = 'Pieds de biche',
 			weight = 2500,
-			durability = 0.1,
+			durability = 0,
 		},
 
 		['WEAPON_DAGGER'] = {
-			label = 'Dagger',
+			label = 'Dague',
 			weight = 800,
-			durability = 0.1,
+			durability = 0,
 		},
 
 		['WEAPON_DBSHOTGUN'] = {
-			label = 'Double Barrel Shotgun',
+			label = 'Fusil à Pompe Double Canon',
 			weight = 10000,
 			durability = 0,
 			ammoname = 'ammo-shotgun'
 		},
 
 		['WEAPON_DOUBLEACTION'] = {
-			label = 'Double Action Revolver',
-			weight = 940,
-			durability = 0.2,
+			label = 'Revolver à Double Action',
+			weight = 5000,
+			durability = 0,
 			ammoname = 'ammo-38'
 		},
 
 		['WEAPON_EMPLAUNCHER'] = {
 			label = 'Compact EMP Launcher',
 			weight = 2750,
-			durability = 0.2,
+			durability = 0,
 			ammoname = 'ammo-emp'
 		},
 
@@ -211,33 +211,33 @@ return {
 		['WEAPON_FIREWORK'] = {
 			label = 'Firework Launcher',
 			weight = 1000,
-			durability = 0.5,
+			durability = 0,
 			ammoname = 'ammo-firework'
 		},
 
 		['WEAPON_FLARE'] = {
-			label = 'Flare',
+			label = 'Fusée Eclairante',
 			weight = 250,
 			throwable = true,
 		},
 
 		['WEAPON_FLAREGUN'] = {
-			label = 'Flare Gun',
+			label = 'Lanceur de Fusée Eclairante',
 			weight = 1000,
-			durability = 0.5,
+			durability = 0,
 			ammoname = 'ammo-flare'
 		},
 
 		['WEAPON_FLASHLIGHT'] = {
-			label = 'Flashlight',
+			label = 'Lampe Torche',
 			weight = 125,
-			durability = 0.1,
+			durability = 0,
 		},
 
 		['WEAPON_GOLFCLUB'] = {
-			label = 'Golf Club',
+			label = 'Club de Golf',
 			weight = 330,
-			durability = 0.1,
+			durability = 0,
 		},
 
 		['WEAPON_GRENADE'] = {
@@ -247,9 +247,9 @@ return {
 		},
 
 		['WEAPON_GRENADELAUNCHER'] = {
-			label = 'Grenade Launcher',
+			label = 'Lanceur de Grenade',
 			weight = 6500,
-			durability = 0.05,
+			durability = 0,
 			ammoname = 'ammo-grenade'
 		},
 
@@ -261,38 +261,38 @@ return {
 		},
 
 		['WEAPON_HAMMER'] = {
-			label = 'Hammer',
+			label = 'Marteau',
 			weight = 1200,
-			durability = 0.1,
+			durability = 0,
 		},
 
 		['WEAPON_HATCHET'] = {
-			label = 'Hatchet',
+			label = 'Hâche',
 			weight = 1000,
-			durability = 0.1,
+			durability = 0,
 		},
 
 		['WEAPON_HEAVYRIFLE'] = {
-			label = 'Heavy Rifle',
-			weight = 3300,
-			durability = 0.2,
+			label = "Fusil d'Assault Lourd",
+			weight = 15000,
+			durability = 0,
 			ammoname = 'ammo-rifle'
 		},
 
 		['WEAPON_HAZARDCAN'] = {
-			label = 'Hazard Can',
+			label = "Hazard Can",
 			weight = 12000,
 		},
 
 		['WEAPON_METALDETECTOR'] = {
-			label = 'Metal Detector',
-			weight = 1200,
+			label = "Metal Detector",
+			weight = 5000,
 		},
 
 		['WEAPON_HOMINGLAUNCHER'] = {
 			label = 'Homing Launcher',
 			weight = 10000,
-			durability = 0.6,
+			durability = 0,
 			ammoname = 'ammo-rocket'
 		},
 
@@ -302,90 +302,90 @@ return {
 		},
 
 		['WEAPON_HEAVYPISTOL'] = {
-			label = 'Heavy Pistol',
-			weight = 1100,
-			durability = 0.2,
+			label = 'Pistolet Lourd',
+			weight = 5000,
+			durability = 0,
 			ammoname = 'ammo-45'
 		},
 
 		['WEAPON_HEAVYSHOTGUN'] = {
-			label = 'Heavy Shotgun',
-			weight = 3600,
-			durability = 0.1,
+			label = 'Fusil à Pompe Lourd',
+			weight = 15000,
+			durability = 0,
 			ammoname = 'ammo-shotgun'
 		},
 
 		['WEAPON_HEAVYSNIPER'] = {
-			label = 'Heavy Sniper',
-			weight = 12700,
-			durability = 0.5,
+			label = 'Fusil Sniper Lourd',
+			weight = 15000,
+			durability = 0,
 			ammoname = 'ammo-heavysniper'
 		},
 
 		['WEAPON_HEAVYSNIPER_MK2'] = {
-			label = 'Heavy Sniper MK2',
+			label = 'Fusil Sniper Lourd MK2',
 			weight = 14000,
-			durability = 0.5,
+			durability = 0,
 			ammoname = 'ammo-heavysniper'
 		},
 
 		['WEAPON_KNIFE'] = {
-			label = 'Knife',
+			label = 'Couteau',
 			weight = 300,
-			durability = 0.1,
+			durability = 0,
 		},
 
 		['WEAPON_KNUCKLE'] = {
-			label = 'Knuckle Dusters',
+			label = 'Poing Américain',
 			weight = 300,
-			durability = 0.1,
+			durability = 0,
 		},
 
 		['WEAPON_MACHETE'] = {
-			label = 'Machete',
+			label = 'Machette',
 			weight = 1000,
-			durability = 0.1,
+			durability = 0,
 		},
 
 		['WEAPON_MACHINEPISTOL'] = {
-			label = 'Machine Pistol',
-			weight = 10000,
+			label = 'Pistolet Automatique',
+			weight = 5000,
 			durability = 0,
 			ammoname = 'ammo-9'
 		},
 
 		['WEAPON_MARKSMANPISTOL'] = {
-			label = 'Marksman Pistol',
-			weight = 1588,
-			durability = 0.5,
+			label = "Pistolet d'Elite",
+			weight = 5000,
+			durability = 0,
 			ammoname = 'ammo-22'
 		},
 
 		['WEAPON_MARKSMANRIFLE'] = {
-			label = 'Marksman Rifle',
-			weight = 7500,
-			durability = 0.4,
+			label = "Fusil d'Assault d'Elite",
+			weight = 15000,
+			durability = 0,
 			ammoname = 'ammo-sniper'
 		},
 
 		['WEAPON_MARKSMANRIFLE_MK2'] = {
-			label = 'Marksman Rifle MK2',
-			weight = 4000,
-			durability = 0.4,
+			label = "Fusil d'Assault d'Elite MK2",
+			weight = 15000,
+			durability = 0,
 			ammoname = 'ammo-sniper'
 		},
 
 		['WEAPON_MG'] = {
-			label = 'Machine Gun',
-			weight = 9000,
+			label = "Mittrailleuse",
+			weight = 20000,
 			durability = 0.02,
 			ammoname = 'ammo-rifle2'
 		},
 
 		['WEAPON_MINIGUN'] = {
 			label = 'Minigun',
-			weight = 38500,
-			durability = 0.1,
+			weight = 50000,
+			durability = 0,
 			ammoname = 'ammo-rifle2'
 		},
 
@@ -397,16 +397,16 @@ return {
 		},
 
 		['WEAPON_MILITARYRIFLE'] = {
-			label = 'Military Rifle',
-			weight = 3600,
-			durability = 0.03,
+			label = "Fusil d'Assault Militaire",
+			weight = 15000,
+			durability = 0,
 			ammoname = 'ammo-rifle'
 		},
 
 		['WEAPON_MINISMG'] = {
 			label = 'Mini SMG',
-			weight = 1270,
-			durability = 0.05,
+			weight = 10000,
+			durability = 0,
 			ammoname = 'ammo-9'
 		},
 
@@ -418,113 +418,113 @@ return {
 
 		['WEAPON_MUSKET'] = {
 			label = 'Musket',
-			weight = 4500,
-			durability = 0.5,
+			weight = 20000,
+			durability = 0,
 			ammoname = 'ammo-musket'
 		},
 
 		['WEAPON_NAVYREVOLVER'] = {
-			label = 'Navy Revolver',
-			weight = 4000,
-			durability = 0.2,
+			label = 'Revolver Naval',
+			weight = 5000,
+			durability = 0,
 			ammoname = 'ammo-44'
 		},
 
 		['WEAPON_NIGHTSTICK'] = {
-			label = 'Nightstick',
+			label = 'Matraque',
 			weight = 1000,
-			durability = 0.1,
+			durability = 0.01,
 		},
 
 		['WEAPON_PETROLCAN'] = {
-			label = 'Gas Can',
+			label = "Jerrycan d'essence",
 			weight = 12000,
 		},
 
 		['WEAPON_GADGETPISTOL'] = {
-			label = 'Perico Pistol',
-			weight = 1750,
-			durability = 0.1,
+			label = 'Pistolet de Perico',
+			weight = 5000,
+			durability = 0,
 			ammoname = 'ammo-9'
 		},
 
 		['WEAPON_PIPEBOMB'] = {
-			label = 'Pipe Bomb',
-			weight = 1800,
+			label = 'Bombe Artisanale',
+			weight = 2000,
 			throwable = true,
 		},
 
 		['WEAPON_PISTOL'] = {
-			label = 'Pistol',
+			label = 'Pistolet',
 			weight = 5000,
 			durability = 0,
 			ammoname = 'ammo-9',
 		},
 
 		['WEAPON_PISTOL50'] = {
-			label = 'Pistol .50',
+			label = 'Pistolet cal .50',
 			weight = 5000,
 			durability = 0,
 			ammoname = 'ammo-50'
 		},
 
 		['WEAPON_PISTOL_MK2'] = {
-			label = 'Pistol MK2',
+			label = 'Pistolet MK2',
 			weight = 5000,
 			durability = 0,
 			ammoname = 'ammo-9'
 		},
 
 		['WEAPON_POOLCUE'] = {
-			label = 'Pool Cue',
+			label = 'Queue de Billard',
 			weight = 146,
-			durability = 0.1,
+			durability = 0,
 		},
 
 		['WEAPON_CANDYCANE'] = {
-			label = 'Candy Cane',
+			label = "Canne à sucre",
 			weight = 85,
-			durability = 0.1,
+			durability = 0,
 		},
 
 		['WEAPON_PROXMINE'] = {
-			label = 'Proximity Mine',
+			label = 'Mine de Proximité',
 			weight = 2500,
 			throwable = true,
 		},
 
 		['WEAPON_PUMPSHOTGUN'] = {
-			label = 'Pump Shotgun',
-			weight = 3400,
-			durability = 0.1,
+			label = 'Fusil à Pompe',
+			weight = 15000,
+			durability = 0,
 			ammoname = 'ammo-shotgun'
 		},
 
 		['WEAPON_PUMPSHOTGUN_MK2'] = {
-			label = 'Pump Shotgun MK2',
-			weight = 3200,
-			durability = 0.1,
+			label = 'Fusil à Pompe MK2',
+			weight = 15000,
+			durability = 0,
 			ammoname = 'ammo-shotgun'
 		},
 
 		['WEAPON_RAILGUN'] = {
 			label = 'Railgun',
 			weight = 3570,
-			durability = 0.5,
+			durability = 0,
 			ammoname = 'ammo-railgun'
 		},
 
 		['WEAPON_RAILGUNXM3'] = {
 			label = 'Railgun XM3',
 			weight = 3570,
-			durability = 0.5,
+			durability = 0,
 			ammoname = 'ammo-railgun'
 		},
 
 		['WEAPON_RAYCARBINE'] = {
 			label = 'Unholy Hellbringer',
 			weight = 3620,
-			durability = 0.2,
+			durability = 0,
 			ammoname = 'ammo-laser'
 		},
 
@@ -536,27 +536,27 @@ return {
 
 		['WEAPON_REVOLVER'] = {
 			label = 'Revolver',
-			weight = 2260,
-			durability = 0.1,
+			weight = 5000,
+			durability = 0,
 			ammoname = 'ammo-44'
 		},
 
 		['WEAPON_REVOLVER_MK2'] = {
 			label = 'Revolver MK2',
-			weight = 2600,
-			durability = 0.1,
+			weight = 5000,
+			durability = 0,
 			ammoname = 'ammo-44'
 		},
 
 		['WEAPON_RPG'] = {
 			label = 'RPG',
-			weight = 5000,
-			durability = 0.3,
+			weight = 50000,
+			durability = 0,
 			ammoname = 'ammo-rocket'
 		},
 
 		['WEAPON_SAWNOFFSHOTGUN'] = {
-			label = 'Sawn Off Shotgun',
+			label = 'Fusil à Canon Cié',
 			weight = 10000,
 			durability = 0,
 			ammoname = 'ammo-shotgun'
@@ -565,27 +565,27 @@ return {
 		['WEAPON_SMG'] = {
 			label = 'SMG',
 			weight = 3084,
-			durability = 0.8,
+			durability = 0,
 			ammoname = 'ammo-9'
 		},
 
 		['WEAPON_SMG_MK2'] = {
 			label = 'SMG Mk2',
 			weight = 2700,
-			durability = 0.05,
+			durability = 0,
 			ammoname = 'ammo-9'
 		},
 
 		['WEAPON_SMOKEGRENADE'] = {
-			label = 'Smoke Grenade',
-			weight = 600,
+			label = 'Grenade Fumigène',
+			weight = 2000,
 			throwable = true,
 		},
 
 		['WEAPON_SNIPERRIFLE'] = {
-			label = 'Sniper Rifle',
-			weight = 5000,
-			durability = 0.5,
+			label = "Fusil Sniper",
+			weight = 15000,
+			durability = 0,
 			ammoname = 'ammo-sniper'
 		},
 
@@ -596,109 +596,109 @@ return {
 		},
 
 		['WEAPON_SNSPISTOL'] = {
-			label = 'SNS Pistol',
+			label = 'SNS Pistolet',
 			weight = 5000,
 			durability = 0,
 			ammoname = 'ammo-45'
 		},
 
 		['WEAPON_SNSPISTOL_MK2'] = {
-			label = 'SNS Pistol MK2',
-			weight = 465,
-			durability = 0.1,
+			label = 'SNS Pistolet MK2',
+			weight = 5000,
+			durability = 0,
 			ammoname = 'ammo-45'
 		},
 
 		['WEAPON_SPECIALCARBINE'] = {
-			label = 'Special Carbine',
-			weight = 3000,
-			durability = 0.03,
+			label = 'Carabine Spéciale',
+			weight = 15000,
+			durability = 0,
 			ammoname = 'ammo-rifle'
 		},
 
 		['WEAPON_SPECIALCARBINE_MK2'] = {
-			label = 'Special Carbine MK2',
-			weight = 3370,
-			durability = 0.03,
+			label = 'Carabine Spéciale MK2',
+			weight = 15000,
+			durability = 0,
 			ammoname = 'ammo-rifle'
 		},
 
 		['WEAPON_STICKYBOMB'] = {
-			label = 'Sticky Bomb',
-			weight = 1000,
+			label = 'Bombe Collante',
+			weight = 2000,
 			throwable = true,
 		},
 
 		['WEAPON_STONE_HATCHET'] = {
-			label = 'Stone Hatchet',
-			weight = 800,
-			durability = 0.1,
+			label = 'Hâchette en Pierre',
+			weight = 2000,
+			durability = 0,
 		},
 
 		['WEAPON_STUNGUN'] = {
 			label = 'Tazer',
-			weight = 227,
-			durability = 0.1,
+			weight = 5000,
+			durability = 0,
 		},
 
 		['WEAPON_AUTOSHOTGUN'] = {
-			label = 'Sweeper Shotgun',
-			weight = 4400,
-			durability = 0.05,
+			label = 'Fusil à Pompe Automatique',
+			weight = 15000,
+			durability = 0,
 			ammoname = 'ammo-shotgun'
 		},
 
 		['WEAPON_SWITCHBLADE'] = {
 			label = 'Switchblade',
 			weight = 300,
-			durability = 0.1,
+			durability = 0,
 			anim = { 'anim@melee@switchblade@holster', 'unholster', 200, 'anim@melee@switchblade@holster', 'holster', 600 },
 		},
 
 		['WEAPON_VINTAGEPISTOL'] = {
-			label = 'Vintage Pistol',
+			label = 'Vintage Pistolet',
 			weight = 700,
-			durability = 0.1,
+			durability = 0,
 			ammoname = 'ammo-9'
 		},
 
 		['WEAPON_RAYMINIGUN'] = {
 			label = 'Widowmaker',
 			weight = 7000,
-			durability = 0.1,
+			durability = 0,
 			ammoname = 'ammo-laser'
 		},
 
 		['WEAPON_WRENCH'] = {
 			label = 'Wrench',
 			weight = 2500,
-			durability = 0.1,
+			durability = 0,
 		},
 
 		['WEAPON_PRECISIONRIFLE'] = {
-			label = 'Precision Rifle',
-			weight = 4800,
-			durability = 0.4,
+			label = "Fusil Sniper",
+			weight = 15000,
+			durability = 0,
 			ammoname = 'ammo-sniper'
 		},
 
 		['WEAPON_TACTICALRIFLE'] = {
-			label = 'Tactical Rifle',
-			weight = 3400,
-			durability = 0.03,
+			label = "Fusil de Sniper Tactique",
+			weight = 15000,
+			durability = 0,
 			ammoname = 'ammo-rifle'
 		},
 
 		['WEAPON_TEARGAS'] = {
-			label = 'Tear Gas',
-			weight = 600,
+			label = 'Gaz Lacrymogène',
+			weight = 2000,
 			throwable = true,
 		},
 	},
 
 	Components = {
 		['at_flashlight'] = {
-			label = 'Tactical Flashlight',
+			label = 'Lampe Torche Tactique',
 			weight = 120,
 			type = 'flashlight',
 			client = {
@@ -714,7 +714,7 @@ return {
 		},
 
 		['at_suppressor_light'] = {
-			label = 'Suppressor',
+			label = 'Silencieux',
 			weight = 280,
 			type = 'muzzle',
 			client = {
@@ -729,7 +729,7 @@ return {
 		},
 
 		['at_suppressor_heavy'] = {
-			label = 'Tactical Suppressor',
+			label = 'Silencieux Tactique',
 			weight = 280,
 			type = 'muzzle',
 			client = {
@@ -757,7 +757,7 @@ return {
 		},
 
 		['at_barrel'] = {
-			label = 'Heavy Barrel',
+			label = 'Canon Lourd',
 			type = 'barrel',
 			weight = 280,
 			client = {
@@ -776,7 +776,7 @@ return {
 		},
 
 		['at_clip_extended_pistol'] = {
-			label = 'Extended Pistol Clip',
+			label = 'Chargeur de Pistoletet Aggrandi',
 			type = 'magazine',
 			weight = 280,
 			client = {
@@ -797,7 +797,7 @@ return {
 		},
 
 		['at_clip_extended_smg'] = {
-			label = 'Extended SMG Clip',
+			label = 'Chargeur de SMG Aggrandi',
 			type = 'magazine',
 			weight = 280,
 			client = {
@@ -815,7 +815,7 @@ return {
 		},
 
 		['at_clip_extended_shotgun'] = {
-			label = 'Extended Shotgun Clip',
+			label = 'Chargeur de Fusil à Pompe Aggrandi',
 			type = 'magazine',
 			weight = 280,
 			client = {
@@ -828,7 +828,7 @@ return {
 		},
 
 		['at_clip_extended_rifle'] = {
-			label = 'Extended Rifle Clip',
+			label = "Chargeur de Fusil d'Assault Aggrandi",
 			type = 'magazine',
 			weight = 280,
 			client = {
@@ -852,7 +852,7 @@ return {
 		},
 
 		['at_clip_extended_mg'] = {
-			label = 'Extended MG Clip',
+			label = "Chargeur de MG Aggrandi",
 			type = 'magazine',
 			weight = 280,
 			client = {
@@ -867,7 +867,7 @@ return {
 		},
 
 		['at_clip_extended_sniper'] = {
-			label = 'Extended Sniper Clip',
+			label = "Chargeur de Sniper Aggrandi",
 			type = 'magazine',
 			weight = 280,
 			client = {
@@ -895,7 +895,7 @@ return {
 		},
 
 		['at_clip_drum_shotgun'] = {
-			label = 'Shotgun Drum',
+			label = 'Fusil à Pompe Drum',
 			type = 'magazine',
 			weight = 280,
 			client = {
@@ -907,7 +907,7 @@ return {
 		},
 
 		['at_clip_drum_rifle'] = {
-			label = 'Rifle Drum',
+			label = "Chargeur Tembour Fusil d'Assault",
 			type = 'magazine',
 			weight = 280,
 			client = {
@@ -922,7 +922,7 @@ return {
 		},
 
 		['at_compensator'] = {
-			label = 'Compensator',
+			label = 'Compensateur',
 			type = 'muzzle',
 			weight = 280,
 			client = {
@@ -936,7 +936,7 @@ return {
 		},
 
 		['at_scope_macro'] = {
-			label = 'Macro Scope',
+			label = 'Lunette Macro',
 			type = 'sight',
 			weight = 280,
 			client = {
@@ -952,7 +952,7 @@ return {
 		},
 
 		['at_scope_small'] = {
-			label = 'Small Scope',
+			label = 'Lunette Courte Portée',
 			type = 'sight',
 			weight = 280,
 			client = {
@@ -967,7 +967,7 @@ return {
 		},
 
 		['at_scope_medium'] = {
-			label = 'Medium Scope',
+			label = 'Lunette Moyenne Portée',
 			type = 'sight',
 			weight = 280,
 			client = {
@@ -980,7 +980,7 @@ return {
 		},
 
 		['at_scope_large'] = {
-			label = 'Large Scope',
+			label = 'Lunette Longue Portée',
 			type = 'sight',
 			weight = 280,
 			client = {
@@ -992,7 +992,7 @@ return {
 		},
 
 		['at_scope_advanced'] = {
-			label = 'Advanced Scope',
+			label = 'Lunette Avancée',
 			type = 'sight',
 			weight = 280,
 			client = {
@@ -1004,7 +1004,7 @@ return {
 		},
 
 		['at_scope_nv'] = {
-			label = 'NV Scope',
+			label = 'Lunette Vision Nocturne',
 			type = 'sight',
 			weight = 420,
 			client = {
@@ -1016,7 +1016,7 @@ return {
 		},
 
 		['at_scope_thermal'] = {
-			label = 'Thermal Scope',
+			label = 'Lunette Thermique',
 			type = 'sight',
 			weight = 420,
 			client = {
@@ -1028,7 +1028,7 @@ return {
 		},
 
 		['at_scope_holo'] = {
-			label = 'Holographic Sight',
+			label = 'Viseur Holographique',
 			type = 'sight',
 			weight = 280,
 			client = {
@@ -1043,7 +1043,7 @@ return {
 		},
 
 		['at_muzzle_flat'] = {
-			label = 'Flat Muzzle',
+			label = 'Frein de bouche Plat',
 			type = 'muzzle',
 			weight = 80,
 			client = {
@@ -1055,7 +1055,7 @@ return {
 		},
 
 		['at_muzzle_tactical'] = {
-			label = 'Tactical Muzzle',
+			label = 'Frein de bouche Tactique',
 			type = 'muzzle',
 			weight = 80,
 			client = {
@@ -1067,7 +1067,7 @@ return {
 		},
 
 		['at_muzzle_fat'] = {
-			label = 'Fat Muzzle',
+			label = 'Frein de bouche Large',
 			type = 'muzzle',
 			weight = 80,
 			client = {
@@ -1079,7 +1079,7 @@ return {
 		},
 
 		['at_muzzle_precision'] = {
-			label = 'Precision Muzzle',
+			label = 'Frein de bouche de Précision',
 			type = 'muzzle',
 			weight = 80,
 			client = {
@@ -1091,7 +1091,7 @@ return {
 		},
 
 		['at_muzzle_heavy'] = {
-			label = 'Heavy Muzzle',
+			label = 'Frein de bouche de Lourd',
 			type = 'muzzle',
 			weight = 80,
 			client = {
@@ -1103,7 +1103,7 @@ return {
 		},
 
 		['at_muzzle_slanted'] = {
-			label = 'Slanted Muzzle',
+			label = 'Frein de bouche de Incliné',
 			type = 'muzzle',
 			weight = 80,
 			client = {
@@ -1115,7 +1115,7 @@ return {
 		},
 
 		['at_muzzle_split'] = {
-			label = 'Split Muzzle',
+			label = 'Frein de bouche Séparé',
 			type = 'muzzle',
 			weight = 80,
 			client = {
@@ -1127,7 +1127,7 @@ return {
 		},
 
 		['at_muzzle_squared'] = {
-			label = 'Squared Muzzle',
+			label = 'Frein de bouche Carré',
 			type = 'muzzle',
 			weight = 80,
 			client = {
@@ -1139,7 +1139,7 @@ return {
 		},
 
 		['at_muzzle_bell'] = {
-			label = 'Bell Muzzle',
+			label = 'Frein de bouche Cloche',
 			type = 'muzzle',
 			weight = 80,
 			client = {
@@ -1151,7 +1151,7 @@ return {
 		},
 
 		['at_skin_luxe'] = {
-			label = 'Luxury Weapon Kit',
+			label = "Kit d'arme de luxe",
 			type = 'skin',
 			weight = 50,
 			client = {
@@ -1172,7 +1172,7 @@ return {
 		},
 
 		['at_skin_wood'] = {
-			label = 'Wood Weapon Kit',
+			label = "Kit d'arme bois",
 			type = 'skin',
 			weight = 50,
 			client = {
@@ -1186,7 +1186,7 @@ return {
 		},
 
 		['at_skin_metal'] = {
-			label = 'Metal Weapon Kit',
+			label = "Kit Arme Métal",
 			type = 'skin',
 			weight = 50,
 			client = {
@@ -1202,7 +1202,7 @@ return {
 		},
 
 		['at_skin_pearl'] = {
-			label = 'Pearl Weapon Kit',
+			label = "Kit Arme Perlé",
 			type = 'skin',
 			weight = 50,
 			client = {
@@ -1214,7 +1214,7 @@ return {
 		},
 
 		['at_skin_ballas'] = {
-			label = 'Ballas Weapon Kit',
+			label = "Kit Arme Ballas",
 			type = 'skin',
 			weight = 50,
 			client = {
@@ -1226,7 +1226,7 @@ return {
 		},
 
 		['at_skin_diamond'] = {
-			label = 'Diamond Weapon Kit',
+			label = "Kit Arme Dimant",
 			type = 'skin',
 			weight = 50,
 			client = {
@@ -1238,7 +1238,7 @@ return {
 		},
 
 		['at_skin_dollar'] = {
-			label = 'Dollar Weapon Kit',
+			label = "Kit Arme Dollar",
 			type = 'skin',
 			weight = 50,
 			client = {
@@ -1250,7 +1250,7 @@ return {
 		},
 
 		['at_skin_hate'] = {
-			label = 'Hate Weapon Kit',
+			label = "Kit Arme 'Hate'",
 			type = 'skin',
 			weight = 50,
 			client = {
@@ -1262,7 +1262,7 @@ return {
 		},
 
 		['at_skin_king'] = {
-			label = 'King Weapon Kit',
+			label = "Kit Arme 'King'",
 			type = 'skin',
 			weight = 50,
 			client = {
@@ -1274,7 +1274,7 @@ return {
 		},
 
 		['at_skin_love'] = {
-			label = 'Love Weapon Kit',
+			label = "Kit Arme 'Amour'",
 			type = 'skin',
 			weight = 50,
 			client = {
@@ -1286,7 +1286,7 @@ return {
 		},
 
 		['at_skin_pimp'] = {
-			label = 'Pimp Weapon Kit',
+			label = "Kit Arme 'Pimp'",
 			type = 'skin',
 			weight = 50,
 			client = {
@@ -1298,7 +1298,7 @@ return {
 		},
 
 		['at_skin_player'] = {
-			label = 'Player Weapon Kit',
+			label = "Kit Arme 'Player'",
 			type = 'skin',
 			weight = 50,
 			client = {
@@ -1310,7 +1310,7 @@ return {
 		},
 
 		['at_skin_vagos'] = {
-			label = 'Vagos Weapon Kit',
+			label = "Kit Arme 'Vagos'",
 			type = 'skin',
 			weight = 50,
 			client = {
@@ -1322,7 +1322,7 @@ return {
 		},
 
 		['at_skin_vip'] = {
-			label = 'VIP Weapon Kit',
+			label = "Kit Arme 'VIP'",
 			type = 'skin',
 			weight = 50,
 			client = {
@@ -1335,7 +1335,7 @@ return {
 		},
 
 		['at_skin_bodyguard'] = {
-			label = 'Bodyguard Weapon Kit',
+			label = "Kit Arme 'Garde du Corps'",
 			type = 'skin',
 			weight = 50,
 			client = {
@@ -1348,7 +1348,7 @@ return {
 		},
 
 		['at_skin_festive'] = {
-			label = 'Festive Weapon Kit',
+			label = "Kit Arme 'Festif'",
 			type = 'skin',
 			weight = 50,
 			client = {
@@ -1360,7 +1360,7 @@ return {
 		},
 
 		['at_skin_security'] = {
-			label = 'Security Weapon Kit',
+			label = "Kit Arme 'Sécurité'",
 			type = 'skin',
 			weight = 50,
 			client = {
@@ -1373,7 +1373,7 @@ return {
 		},
 
 		['at_skin_camo'] = {
-			label = 'Camo Weapon Kit',
+			label = "Kit Arme 'Camouflage Militaire'",
 			type = 'skin',
 			weight = 50,
 			client = {
@@ -1396,7 +1396,7 @@ return {
 		},
 
 		['at_skin_brushstroke'] = {
-			label = 'Brushstroke Weapon Kit',
+			label = "Kit Arme 'Brushstroke'",
 			type = 'skin',
 			weight = 50,
 			client = {
@@ -1419,7 +1419,7 @@ return {
 		},
 
 		['at_skin_woodland'] = {
-			label = 'Woodland Weapon Kit',
+			label = "Kit Arme 'Boisé'",
 			type = 'skin',
 			weight = 50,
 			client = {
@@ -1658,12 +1658,12 @@ return {
 		},
 
 		['ammo-firework'] = {
-			label = 'Firework',
+			label = "Feu d'Artifice",
 			weight = 200,
 		},
 
 		['ammo-flare'] = {
-			label = 'Flare round',
+			label = 'Munition Flare',
 			weight = 38,
 		},
 
@@ -1703,12 +1703,12 @@ return {
 		},
 
 		['ammo-rocket'] = {
-			label = 'Rocket',
+			label = 'Roquette',
 			weight = 500,
 		},
 
 		['ammo-shotgun'] = {
-			label = '12 Gauge',
+			label = 'Calibre 12',
 			weight = 38,
 		},
 
@@ -1718,7 +1718,7 @@ return {
 		},
 
 		['ammo-emp'] = {
-			label = 'EMP round',
+			label = 'Munition EMP',
 			weight = 400,
 		},
 	}

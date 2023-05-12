@@ -7,7 +7,7 @@
 ---@field inventory { name: string, price: number, count?: number, currency?: string }
 ---@field locations? vector3[]
 ---@field targets? { loc: vector3, length: number, width: number, heading: number, minZ: number, maxZ: number, distance: number, debug?: boolean, drawSprite?: boolean }[]
----@field groups? string | string[] | { [string]: number }
+---@field groups? string | string[] | table<string, number> }
 ---@field model? number[]
 
 return {
@@ -18,6 +18,7 @@ return {
 		}, inventory = {
 			{ name = 'bread', price = 10 },
 			{ name = 'water', price = 10 },
+			{ name = 'phone', price = 400 },
 			{ name = 'chips_cheese', price = 10 },
 			{ name = 'cacahuetes', price = 9 },
 			{ name = 'chips_bbq', price = 10 },

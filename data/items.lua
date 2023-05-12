@@ -29,6 +29,27 @@ return {
 				action = function(slot)
 					print('You squeezed the burger :(')
 				end
+			},
+			{
+				label = 'What do you call a vegan burger?',
+				group = 'Hamburger Puns',
+				action = function(slot)
+					print('A misteak.')
+				end
+			},
+			{
+				label = 'What do frogs like to eat with their hamburgers?',
+				group = 'Hamburger Puns',
+				action = function(slot)
+					print('French flies.')
+				end
+			},
+			{
+				label = 'Why were the burger and fries running?',
+				group = 'Hamburger Puns',
+				action = function(slot)
+					print('Because they\'re fast food.')
+				end
 			}
 		},
 		consume = 0.3
@@ -2017,6 +2038,30 @@ return {
 		label = 'Kit de crochetage',
 		weight = 1000,
 		consume = 0.05,
+	},
+
+	['advlockpick'] = {
+		label = 'Kit de crochetage avancé',
+		weight = 1000,
+		consume = 0.05,
+		server = {
+			export = "houserobbery.houselockpick",
+		}
+	},
+
+	['microwave'] = {
+		label = 'Mirco-ondes',
+		weight = 10000,
+	},
+
+	['toaster'] = {
+		label = 'Mirco-ondes',
+		weight = 5000,
+	},
+
+	['small_tv'] = {
+		label = 'Ecran plat',
+		weight = 15000,
 	},
 
 	['drill_work'] = {
