@@ -36,32 +36,13 @@ return {
 		groups = { ["upnatom"] = 0 },
 		items = {
 			{
-				name = 'burger',
+				name = 'neutralbtl_bp',
 				ingredients = {
-					beef_meat = 5,
-					salad = 1,
-					bread = 2,
+					bunch_of_grapes = 25,
+					natural_ferment = 6,
+					glass_bottle = 1,
 				},
-				duration = 7000,
-				count = 1,
-			},
-			{
-				name = 'chicken_burger',
-				ingredients = {
-					salad = 4,
-					chicken_meat = 1,
-					bread = 2,
-				},
-				duration = 5000,
-				count = 1,
-			},
-			{
-				name = 'chicken_salad',
-				ingredients = {
-					salad = 4,
-					chicken_meat = 1,
-				},
-				duration = 5000,
+				duration = 10000,
 				count = 1,
 			},
 		},
@@ -246,50 +227,140 @@ return {
 		},
 	},
 	{
-		groups = { ["cafe"] = 0 },
+		groups = { ["cafe"] = 0 }, -- Craft Bean Machine Boissons chaudes
 		items = {
 			{
-				name = 'coffee',
+				name = 'high_noon',
 				ingredients = {
-					water = 1,
+					coffee_bean = 2,
+					milk = 1,
 				},
-				duration = 7000,
+				duration = 10000,
+				count = 1,
+			},
+			{
+				name = 'gunkacchino',
+				ingredients = {
+					coffee_bean = 2,
+					milk = 1,
+					chocolate_powder = 1,
+				},
+				duration = 10000,
+				count = 1,
+			},
+			{
+				name = 'the_bratte',
+				ingredients = {
+					coffee_bean = 2,
+					milk = 1,
+					caramel_sirop = 1,
+				},
+				duration = 10000,
+				count = 1,
+			},
+			{
+				name = 'the_flusher',
+				ingredients = {
+					coffee_bean = 1,
+				},
+				duration = 10000,
+				count = 1,
+			},
+			{
+				name = 'speedball',
+				ingredients = {
+					coffee_bean = 2,
+				},
+				duration = 10000,
 				count = 1,
 			},
 			{
 				name = 'hot_chocolate',
 				ingredients = {
-					water = 1,
+					chocolate_powder = 2,
+					milk = 2,
 				},
-				duration = 7000,
-				count = 1,
-			},
-			{
-				name = 'lemonade',
-				ingredients = {
-					water = 1,
-				},
-				duration = 7000,
-				count = 1,
-			},
-			{
-				name = 'orange_juice',
-				ingredients = {
-					water = 1,
-				},
-				duration = 7000,
+				duration = 8000,
 				count = 1,
 			},
 		},
 		points = {
-			vec3(116.7237, -1058.2080, 29.1924),
+			vec3(122.2485, -1041.5028, 29.2779),
 		},
 		zones = {
 			{
-				coords = vec3(116.7237, -1058.2080, 29.1924), 
+				coords = vec3(122.2485, -1041.5028, 29.2779), 
 				size = vec3(3, 3, 3),
-				distance = 2.5,
+				distance = 3.5,
 			},
 		},
 	},
-}
+	{
+		groups = { ["cafe"] = 0 }, -- Craft Bean Machine Milkshake
+		items = {
+			{
+				name = 'the_big_strawberry',
+				ingredients = {
+					strawberry = 3,
+					milk = 1,
+				},
+				duration = 10000,
+				count = 1,
+			},
+			{
+				name = 'the_big_vanilla',
+				ingredients = {
+					vanilla = 3,
+					milk = 1,
+				},
+				duration = 10000,
+				count = 1,
+			},
+			{
+				name = 'the_big_fruit',
+				ingredients = {
+					raspberry = 1,
+					kiwi = 1,
+					pineapple = 1,
+					milk = 1,
+				},
+				duration = 10000,
+				count = 1,
+			},
+		},
+		points = {
+			vec3(126.2914, -1035.8292, 29.2779),
+		},
+		zones = {
+			{
+				coords = vec3(126.2914, -1035.8292, 29.2779), 
+				size = vec3(3, 3, 3),
+				distance = 3.5,
+			},
+		},
+	},
+	{
+		groups = { ["cafe"] = 0 }, -- Craft Bean Machine Guim-o-choco
+		items = {
+			{
+				name = 'guim_o_choco',
+				ingredients = {
+					biscuit = 2,
+					marshmallow = 2,
+				},
+				duration = 8000,
+				count = 1,
+			},
+		},
+		points = {
+			vec3(126.2914, -1035.8292, 29.2779),
+		},
+		zones = {
+			{
+				coords = vec3(126.2914, -1035.8292, 29.2779), 
+				size = vec3(3, 3, 3),
+				distance = 3.5,
+			},
+		},
+	},
+}	
