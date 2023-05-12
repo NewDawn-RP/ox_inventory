@@ -253,7 +253,7 @@ return {
 				ingredients = {
 					coffee_bean = 2,
 					milk = 1,
-					caramel_sirop = 1,
+					caramel_syrop = 1,
 				},
 				duration = 10000,
 				count = 1,

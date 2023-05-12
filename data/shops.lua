@@ -366,4 +366,85 @@ return {
             },
 		}
 	},
+	{
+		name = 'Grossiste Ingrédients', -- Items Craft 
+		groups = {
+			['cafe'] = 1,
+		},
+		blip = {
+			id = 615, colour = 69, scale = 0.8
+		}, inventory = {
+			{ name = 'coffee_bean', price = 8 },
+			{ name = 'milk', price = 3 },
+			{ name = 'chocolate_powder', price = 1 },
+			{ name = 'caramel_syrop', price = 2 },
+			{ name = 'strawberry', price = 3 },
+			{ name = 'vanilla', price = 3 },
+			{ name = 'raspberry', price = 3 },
+			{ name = 'kiwi', price = 3 },
+			{ name = 'pineapple', price = 3 },
+			{ name = 'biscuit', price = 2 },
+			{ name = 'marshmallow', price = 2 },
+
+		}, targets = {
+			{
+                ped = `cs_nigel`,
+                scenario = 'WORLD_HUMAN_SMOKING',
+                loc = vec3(-275.3181, -2502.7573, 5.0006),
+                heading = 149.7102,
+            },
+		}
+	},
+	{
+		name = 'Grossiste Sec', -- Items Secs pour le BeanMachine 
+		groups = {
+			['cafe'] = 1,
+		},
+		blip = {
+			id = 615, colour = 69, scale = 0.8
+		}, inventory = {
+			{ name = 'donut_chocolate', price = 2 },
+			{ name = 'donut_strawberry', price = 2 },
+			{ name = 'pancakes', price = 2 },
+			{ name = 'chips_cheese', price = 1 },
+			{ name = 'cacahuetes', price = 1 },
+			{ name = 'chips_bbq', price = 1 },
+			{ name = 'olives', price = 1 },
+			{ name = 'marshmallow', price = 2 },
+
+		}, targets = {
+			{
+                ped = `cs_nigel`,
+                scenario = 'WORLD_HUMAN_SMOKING',
+                loc = vec3(-275.3181, -2502.7573, 5.0006),
+                heading = 149.7102,
+            },
+		}
+	},
+	{
+		name = 'Grossiste Boissons', -- Items Boissons pour le BeanMachine 
+		groups = {
+			['cafe'] = 1,
+		},
+		blip = {
+			id = 615, colour = 69, scale = 0.8
+		}, inventory = {
+			{ name = 'cola', price = 4 },
+			{ name = 'orange_juice', price = 5 },
+			{ name = 'rancho_beer', price = 5 },
+			{ name = 'dusche_beer', price = 5 },
+			{ name = 'stronzo_beer', price = 5 },
+			{ name = 'patriot_beer', price = 5 },
+			{ name = 'whiskey', price = 15 },
+			{ name = 'tequila', price = 15 },
+			
+		}, targets = {
+			{
+                ped = `cs_nigel`,
+                scenario = 'WORLD_HUMAN_SMOKING',
+                loc = vec3(-275.3181, -2502.7573, 5.0006),
+                heading = 149.7102,
+            },
+		}
+	},
 }

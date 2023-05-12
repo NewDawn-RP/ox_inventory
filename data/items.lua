@@ -462,7 +462,7 @@ return {
 		close = true,
 		description = "Une portion de chips au fromage",
 		client = {
-			status = { hunger = 90000 },
+			status = { hunger = 75000 },
 			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
 			prop = { model = 'ng_proc_food_chips01a', 
 			pos = vec3(0.0, 0.08, 0.05), rot = vec3(90.0, 0.0, -45.0) },
@@ -478,7 +478,7 @@ return {
 		close = true,
 		description = "Une portion de chips barbecue",
 		client = {
-			status = { hunger = 90000 },
+			status = { hunger = 75000 },
 			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
 			prop = { model = 'ng_proc_food_chips01b', 
 			pos = vec3(0.0, 0.08, 0.05), rot = vec3(90.0, 0.0, -45.0) },
@@ -510,7 +510,7 @@ return {
 		close = true,
 		description = "Une portion d'olives'",
 		client = {
-			status = { hunger = 85000 },
+			status = { hunger = 75000 },
 			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
 			prop = { model = 'prop_food_bag1', 
 			pos = vec3(0.008, 0.0, -0.05), rot = vec3(0.0, 0.0, -40.0) },
