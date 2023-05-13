@@ -315,7 +315,7 @@ return {
 			['upnatom'] = 0,
 		},
 		blip = {
-			id = 615, colour = 69, scale = 0.8
+			id = 615, colour = 66, scale = 0.5
 		}, inventory = {
 			{ name = 'beef_steak', price = 3 },
 			{ name = 'chicken', price = 5 },
@@ -323,7 +323,7 @@ return {
 
 		}, targets = {
 			{
-                ped = `cs_nigel`,
+                ped = `s_m_m_linecook`,
                 scenario = 'WORLD_HUMAN_SMOKING',
                 loc = vec3(161.6032, -3165.2756, 5.9663),
                 heading = 265.0822,
@@ -337,7 +337,7 @@ return {
 			['upnatom'] = 0,
 		},
 		blip = {
-			id = 615, colour = 69, scale = 0.8
+			id = 615, colour = 66, scale = 0.5
 		}, inventory = {
 			{ name = 'burger_bread', price = 2 },
 			{ name = 'potato', price = 5 },
@@ -351,7 +351,7 @@ return {
 
 		}, targets = {
 			{
-                ped = `cs_nigel`,
+                ped = `a_m_m_hillbilly_01`,
                 scenario = 'WORLD_HUMAN_SMOKING',
                 loc = vec3(162.4186, -3186.8901, 5.9515),
                 heading = 258.8575,
@@ -365,7 +365,7 @@ return {
 			['upnatom'] = 0,
 		},
 		blip = {
-			id = 615, colour = 69, scale = 0.8
+			id = 615, colour = 66, scale = 0.5
 		}, inventory = {
 			{ name = 'cola', price = 4 },
 			{ name = 'sprunk', price = 4 },
@@ -373,7 +373,7 @@ return {
 			
 		}, targets = {
 			{
-                ped = `cs_nigel`,
+                ped = `a_m_m_bevhills_02`,
                 scenario = 'WORLD_HUMAN_SMOKING',
                 loc = vec3(163.3093, -3158.3657, 5.9353),
                 heading = 286.3462,
@@ -387,7 +387,7 @@ return {
 			['upnatom'] = 0,
 		},
 		blip = {
-			id = 615, colour = 69, scale = 0.8
+			id = 615, colour = 66, scale = 0.5
 		}, inventory = {
 			{ name = 'brownie', price = 1 },
 			{ name = 'atom_cream_vanilla', price = 1 },
@@ -396,7 +396,7 @@ return {
 			
 		}, targets = {
 			{
-                ped = `cs_nigel`,
+                ped = `a_m_y_busicas_01`,
                 scenario = 'WORLD_HUMAN_SMOKING',
                 loc = vec3(161.5054, -3172.3433, 5.9681),
                 heading = 257.1070,
@@ -445,7 +445,7 @@ return {
 			['cafe'] = 1,
 		},
 		blip = {
-			id = 615, colour = 69, scale = 0.8
+			id = 615, colour = 10, scale = 0.5
 		}, inventory = {
 			{ name = 'coffee_bean', price = 8 },
 			{ name = 'milk', price = 3 },
@@ -461,8 +461,8 @@ return {
 
 		}, targets = {
 			{
-                ped = `cs_nigel`,
-                scenario = 'WORLD_HUMAN_SMOKING',
+                ped = `a_m_m_farmer_01`,
+                scenario = 'WORLD_HUMAN_DRINKING',
                 loc = vec3(163.2580, -3181.3857, 5.9363),
                 heading = 261.4984,
             },
@@ -475,7 +475,7 @@ return {
 			['cafe'] = 1,
 		},
 		blip = {
-			id = 615, colour = 69, scale = 0.8
+			id = 615, colour = 10, scale = 0.5
 		}, inventory = {
 			{ name = 'donut_chocolate', price = 2 },
 			{ name = 'donut_strawberry', price = 2 },
@@ -488,7 +488,7 @@ return {
 
 		}, targets = {
 			{
-                ped = `cs_nigel`,
+                ped = `cs_joeminuteman`,
                 scenario = 'WORLD_HUMAN_SMOKING',
                 loc = vec3(161.5467, -3173.8481, 5.9674),
                 heading = 264.8625,
@@ -502,7 +502,7 @@ return {
 			['cafe'] = 1,
 		},
 		blip = {
-			id = 615, colour = 69, scale = 0.8
+			id = 615, colour = 10, scale = 0.5
 		}, inventory = {
 			{ name = 'cola', price = 4 },
 			{ name = 'orange_juice', price = 5 },
@@ -515,8 +515,8 @@ return {
 			
 		}, targets = {
 			{
-                ped = `cs_nigel`,
-                scenario = 'WORLD_HUMAN_SMOKING',
+                ped = `a_f_y_gencaspat_01`,
+                scenario = 'WORLD_HUMAN_AA_COFFEE',
                 loc = vec3(160.4048, -3156.4312, 5.9882),
                 heading = 267.9688,
             },
