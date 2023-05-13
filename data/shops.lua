@@ -405,20 +405,25 @@ return {
 	},
 
 	{
-		name = "Grossiste d'Alcool",
+		name = "Grossiste Vigneron", -- Items à acheter pour le vigneron
 		groups = {
 			['vine'] = 0,
 		},
 		blip = {
 			id = 615, colour = 69, scale = 0.8
 		}, inventory = {
-			{ name = 'bottle', price = 10 },
+			{ name = 'natural_ferment', price = 5 },
+			{ name = 'glass_bottle', price = 2 },
+			{ name = 'label', price = 1 },
+			{ name = 'alcohol_annexed', price = 4 },
+			{ name = 'sugar', price = 3 },
+
 		}, targets = {
 			{
-                ped = `ig_solomon`,
+                ped = `a_m_m_socenlat_01`,
                 scenario = 'WORLD_HUMAN_SMOKING',
-                loc = vec3(858.5559, -3203.3850, 4.9950),
-                heading = 185.1613,
+                loc = vec3(557.6693, 2665.0911, 42.1814),
+                heading = 188.4380,
             },
 		}
 	},
