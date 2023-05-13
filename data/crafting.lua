@@ -127,7 +127,7 @@ return {
 		groups = { ["upnatom"] = 0 }, -- UpnAtom Craft Frites
 		items = {
 			{
-				name = 'triple_burger',
+				name = 'french_fries',
 				ingredients = {
 					potato = 2,					
 				},

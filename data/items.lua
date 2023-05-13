@@ -487,7 +487,7 @@ return {
 		},
 	},
 	
-	['cacahuètes'] = { 
+	['cacahuetes'] = { --at
 		label = 'Cacahuètes',
 		weight = 150,
 		stack = true,
@@ -503,7 +503,7 @@ return {
 		},
 	},
 	
-	['olives'] = { 
+	['olives'] = {  --at
 		label = 'Olives',
 		weight = 150,
 		stack = true,
