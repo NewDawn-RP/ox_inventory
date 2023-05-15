@@ -1931,6 +1931,14 @@ return {
 		close = true,
 		description = "A besoin d'être transformé"
 	},
+
+	['pouches_weed'] = {
+		label = 'Pochon de weed',
+		weight = 1000,
+		stack = true,
+		close = true,
+		description = "Tu peux aller vendre tonton"
+	},
 	
 	['cocaine_seed'] = {
 		label = 'Graine de Coca',
@@ -1947,9 +1955,17 @@ return {
 		close = true,
 		description = "A besoin d'être transformé"
 	},
+
+	['pouches_coca'] = {
+		label = 'Pochon de cocaine',
+		weight = 1000,
+		stack = true,
+		close = true,
+		description = "Tu peux aller vendre tonton"
+	},
 	
 	['opium_seed'] = {
-		label = "Graine d'opium",
+		label = "Graine d'Opium",
 		weight = 1000,
 		stack = true,
 		close = true,
@@ -1962,6 +1978,14 @@ return {
 		stack = true,
 		close = true,
 		description = "A besoin d'être transformé"
+	},
+
+	['pouches_opium'] = {
+		label = 'Pochon Opium',
+		weight = 1000,
+		stack = true,
+		close = true,
+		description = "Tu peux aller vendre tonton"
 	},
 
 	['rye_ergot'] = {
