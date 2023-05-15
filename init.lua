@@ -66,8 +66,9 @@ else
 		itemnotify = GetConvarInt('inventory:itemnotify', 1) == 1,
 		imagepath = GetConvar('inventory:imagepath', 'nui://ox_inventory/web/images'),
 		dropprops = GetConvarInt('inventory:dropprops', 0) == 1,
+		dropmodel = joaat(GetConvar('inventory:dropmodel', 'prop_med_bag_01b')),
 		weaponmismatch = GetConvarInt('inventory:weaponmismatch', 1) == 1,
-		ignoreweapons = json.decode(GetConvar('inventory:ignoreweapons', '[]'))
+		ignoreweapons = json.decode(GetConvar('inventory:ignoreweapons', '[]')),
 	}
 
 	local ignoreweapons = table.create(0, (client.ignoreweapons and #client.ignoreweapons or 0) + 3)
@@ -163,7 +164,7 @@ local success, msg = lib.checkDependency('oxmysql', '2.4.0')
 
 if not success then return spamError(msg) end
 
-success, msg = lib.checkDependency('ox_lib', '3.0.0')
+success, msg = lib.checkDependency('ox_lib', '3.2.0')
 
 if not success then spamError(msg) end
 

@@ -7,7 +7,7 @@
 ---@field inventory { name: string, price: number, count?: number, currency?: string }
 ---@field locations? vector3[]
 ---@field targets? { loc: vector3, length: number, width: number, heading: number, minZ: number, maxZ: number, distance: number, debug?: boolean, drawSprite?: boolean }[]
----@field groups? string | string[] | { [string]: number }
+---@field groups? string | string[] | table<string, number> }
 ---@field model? number[]
 
 return {
@@ -16,10 +16,12 @@ return {
 		blip = {
 			id = 59, colour = 69, scale = 0.8
 		}, inventory = {
-			{ name = 'burger', price = 10 },
+			{ name = 'bread', price = 10 },
 			{ name = 'water', price = 10 },
-			{ name = 'cola', price = 10 },
-			{ name = 'phone', price = 350 },
+			{ name = 'phone', price = 400 },
+			{ name = 'chips_cheese', price = 10 },
+			{ name = 'cacahuetes', price = 9 },
+			{ name = 'chips_bbq', price = 10 },
 		}, locations = {
 			vec3(25.7, -1347.3, 29.49),
 			vec3(-3038.71, 585.9, 7.9),
@@ -50,9 +52,11 @@ return {
 		blip = {
 			id = 93, colour = 69, scale = 0.8
 		}, inventory = {
+			{ name = 'bread', price = 10 },
 			{ name = 'water', price = 10 },
-			{ name = 'cola', price = 10 },
-			{ name = 'burger', price = 15 },
+			{ name = 'chips_cheese', price = 10 },
+			{ name = 'cacahuetes', price = 9 },
+			{ name = 'chips_bbq', price = 10 },
 		}, locations = {
 			vec3(1135.808, -982.281, 46.415),
 			vec3(-1222.915, -906.983, 12.326),
@@ -306,43 +310,120 @@ return {
 		}
 	},
 	{
-		name = 'Grossiste Alimentaire',
+		name = 'Boucher', -- Grossiste UpnAtom Viande
 		groups = {
 			['upnatom'] = 0,
 		},
 		blip = {
-			id = 615, colour = 69, scale = 0.8
+			id = 615, colour = 66, scale = 0.5
 		}, inventory = {
-			{ name = 'salad', price = 10 },
-			{ name = 'bread', price = 10 },
-			{ name = 'beef_meat', price = 10 },
-			{ name = 'pig_meat', price = 10 },
-			{ name = 'chicken_meat', price = 10 },
-			{ name = 'bread', price = 10 },
+			{ name = 'beef_steak', price = 3 },
+			{ name = 'chicken', price = 5 },
+			{ name = 'bacon', price = 3 },			
+
 		}, targets = {
 			{
-                ped = `cs_nigel`,
+                ped = `s_m_m_linecook`,
                 scenario = 'WORLD_HUMAN_SMOKING',
-                loc = vec3(-275.3181, -2502.7573, 5.0006),
-                heading = 149.7102,
+                loc = vec3(161.6032, -3165.2756, 5.9663),
+                heading = 265.0822,
             },
 		}
 	},
+
 	{
-		name = "Grossiste d'Alcool",
+		name = 'Epicerie', -- Grossiste UpnAtom Epicerie / primeur
+		groups = {
+			['upnatom'] = 0,
+		},
+		blip = {
+			id = 615, colour = 66, scale = 0.5
+		}, inventory = {
+			{ name = 'burger_bread', price = 2 },
+			{ name = 'potato', price = 5 },
+			{ name = 'cheese', price = 1 },		
+			{ name = 'salad', price = 3 },	
+			{ name = 'tomato', price = 3 },
+			{ name = 'corn', price = 3 },
+			{ name = 'carrot', price = 3 },
+			{ name = 'olives', price = 3 },
+			{ name = 'onion', price = 3 },
+
+		}, targets = {
+			{
+                ped = `a_m_m_hillbilly_01`,
+                scenario = 'WORLD_HUMAN_SMOKING',
+                loc = vec3(162.4186, -3186.8901, 5.9515),
+                heading = 258.8575,
+            },
+		}
+	},
+
+	{
+		name = 'Brasserie', -- Grossiste UpnAtom Brasserie
+		groups = {
+			['upnatom'] = 0,
+		},
+		blip = {
+			id = 615, colour = 66, scale = 0.5
+		}, inventory = {
+			{ name = 'cola', price = 4 },
+			{ name = 'sprunk', price = 4 },
+			{ name = 'iced_tea', price = 4 },		
+			
+		}, targets = {
+			{
+                ped = `a_m_m_bevhills_02`,
+                scenario = 'WORLD_HUMAN_SMOKING',
+                loc = vec3(163.3093, -3158.3657, 5.9353),
+                heading = 286.3462,
+            },
+		}
+	},
+
+	{
+		name = 'Patisserie', -- Grossiste UpnAtom Patisserie
+		groups = {
+			['upnatom'] = 0,
+		},
+		blip = {
+			id = 615, colour = 66, scale = 0.5
+		}, inventory = {
+			{ name = 'brownie', price = 1 },
+			{ name = 'atom_cream_vanilla', price = 1 },
+			{ name = 'atom_cream_strawberry', price = 1 },		
+			{ name = 'atom_cream_pistachio', price = 1 },	
+			
+		}, targets = {
+			{
+                ped = `a_m_y_busicas_01`,
+                scenario = 'WORLD_HUMAN_SMOKING',
+                loc = vec3(161.5054, -3172.3433, 5.9681),
+                heading = 257.1070,
+            },
+		}
+	},
+
+	{
+		name = "Grossiste Vigneron", -- Items à acheter pour le vigneron
 		groups = {
 			['vine'] = 0,
 		},
 		blip = {
 			id = 615, colour = 69, scale = 0.8
 		}, inventory = {
-			{ name = 'bottle', price = 10 },
+			{ name = 'natural_ferment', price = 5 },
+			{ name = 'glass_bottle', price = 2 },
+			{ name = 'label', price = 1 },
+			{ name = 'alcohol_annexed', price = 4 },
+			{ name = 'sugar', price = 3 },
+
 		}, targets = {
 			{
-                ped = `ig_solomon`,
+                ped = `a_m_m_socenlat_01`,
                 scenario = 'WORLD_HUMAN_SMOKING',
-                loc = vec3(858.5559, -3203.3850, 4.9950),
-                heading = 185.1613,
+                loc = vec3(557.6693, 2665.0911, 42.1814),
+                heading = 188.4380,
             },
 		}
 	},
@@ -359,6 +440,90 @@ return {
                 scenario = 'WORLD_HUMAN_STAND_IMPATIENT',
                 loc = vec3(612.3859, -3.4227, 81.7601),
                 heading = 246.6936,
+            },
+		}
+	},
+
+	{
+		name = 'Grossiste Ingrédients', -- Items Craft Primeur 
+		groups = {
+			['cafe'] = 1,
+		},
+		blip = {
+			id = 615, colour = 10, scale = 0.5
+		}, inventory = {
+			{ name = 'coffee_bean', price = 8 },
+			{ name = 'milk', price = 3 },
+			{ name = 'chocolate_powder', price = 1 },
+			{ name = 'caramel_syrop', price = 2 },
+			{ name = 'strawberry', price = 3 },
+			{ name = 'vanilla', price = 3 },
+			{ name = 'raspberry', price = 3 },
+			{ name = 'kiwi', price = 3 },
+			{ name = 'pineapple', price = 3 },
+			{ name = 'biscuit', price = 2 },
+			{ name = 'marshmallow', price = 2 },
+
+		}, targets = {
+			{
+                ped = `a_m_m_farmer_01`,
+                scenario = 'WORLD_HUMAN_DRINKING',
+                loc = vec3(163.2580, -3181.3857, 5.9363),
+                heading = 261.4984,
+            },
+		}
+	},
+
+	{
+		name = 'Grossiste Sec', -- Items Secs pour le BeanMachine Patisserie
+		groups = {
+			['cafe'] = 1,
+		},
+		blip = {
+			id = 615, colour = 10, scale = 0.5
+		}, inventory = {
+			{ name = 'donut_chocolate', price = 2 },
+			{ name = 'donut_strawberry', price = 2 },
+			{ name = 'pancakes', price = 2 },
+			{ name = 'chips_cheese', price = 1 },
+			{ name = 'cacahuetes', price = 1 },
+			{ name = 'chips_bbq', price = 1 },
+			{ name = 'olives', price = 1 },
+			{ name = 'marshmallow', price = 2 },
+
+		}, targets = {
+			{
+                ped = `cs_joeminuteman`,
+                scenario = 'WORLD_HUMAN_SMOKING',
+                loc = vec3(161.5467, -3173.8481, 5.9674),
+                heading = 264.8625,
+            },
+		}
+	},
+
+	{
+		name = 'Grossiste Boissons', -- Items Boissons pour le BeanMachine 
+		groups = {
+			['cafe'] = 1,
+		},
+		blip = {
+			id = 615, colour = 10, scale = 0.5
+		}, inventory = {
+			{ name = 'cola', price = 4 },
+			{ name = 'orange_juice', price = 5 },
+			{ name = 'rancho_beer', price = 5 },
+			{ name = 'dusche_beer', price = 5 },
+			{ name = 'stronzo_beer', price = 5 },
+			{ name = 'patriot_beer', price = 5 },
+			{ name = 'whiskey', price = 15 },
+			{ name = 'tequila', price = 15 },
+			
+		}, targets = {
+			{
+                ped = `a_f_y_gencaspat_01`,
+                scenario = 'WORLD_HUMAN_AA_COFFEE',
+                loc = vec3(160.4048, -3156.4312, 5.9882),
+                heading = 267.9688,
             },
 		}
 	},

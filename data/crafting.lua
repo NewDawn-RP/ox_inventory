@@ -33,37 +33,107 @@ return {
 		},
 	},
 	{
-		groups = { ["upnatom"] = 0 },
+		groups = { ["upnatom"] = 0 }, -- UpnAtom Craft Sandwich
 		items = {
 			{
-				name = 'burger',
+				name = 'triple_burger',
 				ingredients = {
-					beef_meat = 5,
-					salad = 1,
-					bread = 2,
+					burger_bread = 1,
+					beef_steak = 3,
+					cheese = 2,
+					salad = 2,
+					tomato = 1,
 				},
-				duration = 7000,
+				duration = 10000,
 				count = 1,
 			},
 			{
-				name = 'chicken_burger',
+				name = 'bacon_triple',
 				ingredients = {
-					salad = 4,
-					chicken_meat = 1,
-					bread = 2,
+					burger_bread = 1,
+					beef_steak = 3,
+					cheese = 2,
+					salad = 2,
+					bacon = 1,
 				},
-				duration = 5000,
+				duration = 10000,
+				count = 1,
+			},
+			{
+				name = 'double_burger',
+				ingredients = {
+					burger_bread = 1,
+					beef_steak = 3,
+					cheese = 1,
+					salad = 1,
+					tomato = 1,
+				},
+				duration = 10000,
+				count = 1,
+			},
+		},
+		points = {
+			vec3(94.5815, 291.5911, 110.2095),
+		},
+		zones = {
+			{
+				coords = vec3(94.5815, 291.5911, 110.2095), 
+				size = vec3(3, 3, 3),
+				distance = 2.5,
+			},
+		},
+	},
+	{
+		groups = { ["upnatom"] = 0 }, -- UpnAtom Craft Salades
+		items = {
+			{
+				name = 'veggie_salad',
+				ingredients = {					
+					salad = 1,
+					tomato = 1,
+					corn = 1,
+					carrot = 1,
+					olives = 1,
+
+				},
+				duration = 10000,
 				count = 1,
 			},
 			{
 				name = 'chicken_salad',
 				ingredients = {
-					salad = 4,
-					chicken_meat = 1,
+					tomato = 2,
+					chicken = 1,
+					cheese = 2,
+					salad = 1,			
+					onion = 1,	
 				},
-				duration = 5000,
+				duration = 10000,
 				count = 1,
+			},			
+		},
+		points = {
+			vec3(96.2008, 293.1687, 110.2095),
+		},
+		zones = {
+			{
+				coords = vec3(96.2008, 293.1687, 110.2095), 
+				size = vec3(3, 3, 3),
+				distance = 2.5,
 			},
+		},
+	},
+	{
+		groups = { ["upnatom"] = 0 }, -- UpnAtom Craft Frites
+		items = {
+			{
+				name = 'french_fries',
+				ingredients = {
+					potato = 2,					
+				},
+				duration = 8000,
+				count = 1,
+			},			
 		},
 		points = {
 			vec3(83.6297, 301.5202, 110.2100),
@@ -77,106 +147,309 @@ return {
 		},
 	},
 	{
-		groups = { ["vine"] = 0 },
+		groups = { ["vine"] = 0 }, -- fabrication produits CRAFT 1
 		items = {
 			{
-				name = 'wine_bottle',
+				name = 'neutralbtl_bp',
 				ingredients = {
-					bottle = 1,
-					grappe_juice = 2,
+					bunch_of_grapes = 25,
+					natural_ferment = 6,
+					glass_bottle = 1,
 				},
-				duration = 5000,
+				duration = 10000,
 				count = 1,
 			},
 			{
-				name = 'great_vintage',
+				name = 'neutralbtl_wp',
 				ingredients = {
-					bottle = 1,
-					grappe_juice = 5,
+					bunch_of_grapes = 25,
+					natural_ferment = 6,
+					glass_bottle = 1,
 				},
-				duration = 7000,
+				duration = 10000,
 				count = 1,
 			},
+			{
+				name = 'neutralbtl_cs',
+				ingredients = {
+					bunch_of_grapes = 15,
+					natural_ferment = 2,
+					glass_bottle = 1,
+				},
+				duration = 10000,
+				count = 1,
+			},
+			{
+				name = 'neutralbtl_ch',
+				ingredients = {
+					bunch_of_grapes = 15,
+					natural_ferment = 2,
+					glass_bottle = 1,
+				},
+				duration = 10000,
+				count = 1,
+			},
+			{
+				name = 'neutralbtl_chp',
+				ingredients = {
+					bunch_of_grapes = 10,
+					alcohol_annexed = 1,
+					sugar = 1,
+					glass_bottle = 1,
+
+				},
+				duration = 10000,
+				count = 1,
+			},
+			{
+				name = 'neutralbtl_vm',
+				ingredients = {
+					bunch_of_grapes = 10,
+					alcohol_annexed = 1,
+					sugar = 1,
+					glass_bottle = 1,
+
+				},
+				duration = 10000,
+				count = 1,
+			},
+			{
+				name = 'neutralbtl_jdr',
+				ingredients = {
+					bunch_of_grapes = 4,
+					sugar = 1,
+					glass_bottle = 1,
+					
+				},
+				duration = 10000,
+				count = 1,
+			},
+			
 		},
 		points = {
-			vec3(-1919.2549, 2029.0627, 140.7380),
+			vec3(-1928.2686, 1779.5055, 173.0965),
 		},
 		zones = {
 			{
-				coords = vec3(-1919.2549, 2029.0627, 140.7380), 
+				coords = vec3(-1928.2686, 1779.5055, 173.0965), 
 				size = vec3(3, 3, 3),
-				distance = 2.5,
+				distance = 3,
 			},
 		},
 	},
 	{
-		groups = { ["vine"] = 0 },
+		groups = { ["vine"] = 0 }, -- fabrication produits finals CRAFT 2
 		items = {
+			{
+				name = 'black_pinot',
+				ingredients = {
+					neutralbtl_bp = 1,
+					label = 1,
+				},
+				duration = 10000,
+				count = 1,
+			},
+			{
+				name = 'white_pinot',
+				ingredients = {
+					neutralbtl_wp = 1,
+					label = 1,
+				},
+				duration = 10000,
+				count = 1,
+			},
+			{
+				name = 'red_wine',
+				ingredients = {
+					neutralbtl_cs = 1,
+					label = 1,
+				},
+				duration = 10000,
+				count = 1,
+			},
+			{
+				name = 'white_wine',
+				ingredients = {
+					neutralbtl_ch = 1,
+					label = 1,
+				},
+				duration = 10000,
+				count = 1,
+			},
+			{
+				name = 'champain',
+				ingredients = {
+					neutralbtl_chp = 1,
+					label = 1,
+				},
+				duration = 10000,
+				count = 1,
+			},
+			{
+				name = 'sparkling_wine',
+				ingredients = {
+					neutralbtl_vm = 1,
+					label = 1,
+				},
+				duration = 10000,
+				count = 1,
+			},
 			{
 				name = 'grappe_juice',
 				ingredients = {
-					grappe = 10,
+					neutralbtl_jdr = 1,
+					label = 1,
 				},
 				duration = 10000,
 				count = 1,
 			},
 		},
 		points = {
-			vec3(-1913.4572, 2026.9689, 140.7386),
+			vec3(2345.8752, 3137.6292, 48.2087),
 		},
 		zones = {
 			{
-				coords = vec3(-1913.4572, 2026.9689, 140.7386), 
+				coords = vec3(2345.8752, 3137.6292, 48.2087), 
 				size = vec3(3, 3, 3),
 				distance = 2.5,
 			},
 		},
 	},
 	{
-		groups = { ["cafe"] = 0 },
+		groups = { ["cafe"] = 0 }, -- Craft Bean Machine Boissons chaudes
 		items = {
 			{
-				name = 'coffee',
+				name = 'high_noon',
 				ingredients = {
-					water = 1,
+					coffee_bean = 2,
+					milk = 1,
 				},
-				duration = 7000,
+				duration = 10000,
+				count = 1,
+			},
+			{
+				name = 'gunkacchino',
+				ingredients = {
+					coffee_bean = 2,
+					milk = 1,
+					chocolate_powder = 1,
+				},
+				duration = 10000,
+				count = 1,
+			},
+			{
+				name = 'the_bratte',
+				ingredients = {
+					coffee_bean = 2,
+					milk = 1,
+					caramel_syrop = 1,
+				},
+				duration = 10000,
+				count = 1,
+			},
+			{
+				name = 'the_flusher',
+				ingredients = {
+					coffee_bean = 1,
+				},
+				duration = 10000,
+				count = 1,
+			},
+			{
+				name = 'speedball',
+				ingredients = {
+					coffee_bean = 2,
+				},
+				duration = 10000,
 				count = 1,
 			},
 			{
 				name = 'hot_chocolate',
 				ingredients = {
-					water = 1,
+					chocolate_powder = 2,
+					milk = 2,
 				},
-				duration = 7000,
-				count = 1,
-			},
-			{
-				name = 'lemonade',
-				ingredients = {
-					water = 1,
-				},
-				duration = 7000,
-				count = 1,
-			},
-			{
-				name = 'orange_juice',
-				ingredients = {
-					water = 1,
-				},
-				duration = 7000,
+				duration = 8000,
 				count = 1,
 			},
 		},
 		points = {
-			vec3(116.7237, -1058.2080, 29.1924),
+			vec3(122.2485, -1041.5028, 29.2779),
 		},
 		zones = {
 			{
-				coords = vec3(116.7237, -1058.2080, 29.1924), 
+				coords = vec3(122.2485, -1041.5028, 29.2779), 
 				size = vec3(3, 3, 3),
-				distance = 2.5,
+				distance = 3.5,
 			},
 		},
 	},
-}
+	{
+		groups = { ["cafe"] = 0 }, -- Craft Bean Machine Milkshake
+		items = {
+			{
+				name = 'the_big_strawberry',
+				ingredients = {
+					strawberry = 3,
+					milk = 1,
+				},
+				duration = 10000,
+				count = 1,
+			},
+			{
+				name = 'the_big_vanilla',
+				ingredients = {
+					vanilla = 3,
+					milk = 1,
+				},
+				duration = 10000,
+				count = 1,
+			},
+			{
+				name = 'the_big_fruit',
+				ingredients = {
+					raspberry = 1,
+					kiwi = 1,
+					pineapple = 1,
+					milk = 1,
+				},
+				duration = 10000,
+				count = 1,
+			},
+		},
+		points = {
+			vec3(126.2914, -1035.8292, 29.2779),
+		},
+		zones = {
+			{
+				coords = vec3(126.2914, -1035.8292, 29.2779), 
+				size = vec3(3, 3, 3),
+				distance = 3.5,
+			},
+		},
+	},
+	{
+		groups = { ["cafe"] = 0 }, -- Craft Bean Machine Guim-o-choco
+		items = {
+			{
+				name = 'guim_o_choco',
+				ingredients = {
+					biscuit = 2,
+					marshmallow = 2,
+				},
+				duration = 8000,
+				count = 1,
+			},
+		},
+		points = {
+			vec3(126.2914, -1035.8292, 29.2779),
+		},
+		zones = {
+			{
+				coords = vec3(126.2914, -1035.8292, 29.2779), 
+				size = vec3(3, 3, 3),
+				distance = 3.5,
+			},
+		},
+	},
+}	
