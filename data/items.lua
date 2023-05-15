@@ -2221,7 +2221,7 @@ return {
 		description = nil
 	},
 
-	['Chemical_products'] = {
+	['chemical_products'] = {
 		label = 'Produitsz Chimique',
 		weight = 1000,
 		stack = true,
