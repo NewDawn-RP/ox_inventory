@@ -1115,7 +1115,7 @@ return {
 		weight = 1000,
 		stack = true,
 		close = true,
-		description = "Une graine qui fait permet de faire pousser de la marijuana."
+		description = "Une graine qui permet de faire pousser de la weed."
 	},
 	
 	['weed_raw'] = {
@@ -1131,11 +1131,11 @@ return {
 		weight = 1000,
 		stack = true,
 		close = true,
-		description = "Une graine qui fait permet de faire pousser de la coca."
+		description = "Une graine qui permet de faire pousser de la coca."
 	},
 	
 	['cocaine_raw'] = {
-		label = 'Coca',
+		label = '[Brute] Coca',
 		weight = 1000,
 		stack = true,
 		close = true,
@@ -1382,6 +1382,14 @@ return {
 		stack = true,
 		close = true,
 		description = nil
+	},
+
+	['Chemical products'] = {
+		label = 'Produitsz Chimique',
+		weight = 1000,
+		stack = true,
+		close = true,
+		description = "Produits dangereux"
 	},
 
 	--------------------------- [Habillage / Vêtements]
