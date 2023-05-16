@@ -453,3 +453,136 @@ return {
 		},
 	},
 }	
+ -- Craft Weed
+
+ items = {
+    {
+        name = 'weed',
+        ingredients = {
+            weed_raw = 1,
+        },
+        duration = 10000,
+        count = 1,
+    },
+},
+points = {
+    vec4(1770.113037, -1621.381226, 113.633095, 358.332184),
+},
+zones = {
+    {
+        coords = vec4(1770.113037, -1621.381226, 113.633095, 358.332184), 
+        size = vec4(3, 3, 3),
+        distance = 3.5,
+    },
+},
+items = {
+    {
+        name = 'pouches_weed',
+        ingredients = {
+            weed = 1,
+            empty_pouch = 1,
+        },
+        duration = 10000,
+        count = 1,
+    },
+},
+points = {
+    vec4(1769.310181, -1625.132202, 113.624733, 100.439766),
+},
+zones = {
+    {
+        coords = vec4(1769.310181, -1625.132202, 113.624733, 100.439766), 
+        size = vec4(3, 3, 3),
+        distance = 3.5,
+    },
+},
+
+ -- Craft cocaine
+ 
+ items = {
+    {
+        name = 'cocaine',
+        ingredients = {
+            cocaine_raw = 1,
+            chemical_products = 1,
+        },
+        duration = 10000,
+        count = 1,
+    },
+},
+points = {
+    vec4(-537.063965, -1794.644531, 21.609015, 333.673950),
+},
+zones = {
+    {
+        coords = vec4(-537.063965, -1794.644531, 21.609015, 333.673950), 
+        size = vec4(3, 3, 3),
+        distance = 3.5,
+    },
+},
+items = {
+    {
+        name = 'pouches_coca',
+        ingredients = {
+            cocaine = 1,
+            empty_pouch = 1,
+        },
+        duration = 10000,
+        count = 1,
+    },
+},
+points = {
+    vec4(-527.967041, -1796.454468, 21.609039, 329.708649),
+},
+zones = {
+    {
+        coords = vec4(-527.967041, -1796.454468, 21.609039, 329.708649), 
+        size = vec4(3, 3, 3),
+        distance = 3.5,
+    },
+},
+
+ -- Craft opium
+ 
+ items = {
+    {
+        name = 'opium',
+        ingredients = {
+            opium_raw = 1,
+            chemical_products = 1,
+        },
+        duration = 10000,
+        count = 1,
+    },
+},
+points = {
+    vec4(-530.006470, -1739.057251, 16.726194, 142.263733),
+},
+zones = {
+    {
+        coords = vec4(-530.006470, -1739.057251, 16.726194, 142.263733), 
+        size = vec4(3, 3, 3),
+        distance = 3.5,
+    },
+},
+items = {
+    {
+        name = 'pouches_opium',
+        ingredients = {
+            opium = 1,
+            empty_pouch = 1,
+        },
+        duration = 10000,
+        count = 1,
+    },
+},
+points = {
+    vec4(-521.365784, -1741.334229, 16.726196, 136.647171),
+},
+zones = {
+    {
+        coords = vec4(-521.365784, -1741.334229, 16.726196, 136.647171), 
+        size = vec4(3, 3, 3),
+        distance = 3.5,
+    },
+},
