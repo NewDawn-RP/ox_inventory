@@ -1993,7 +1993,7 @@ return {
 	    weight = 120,
 	    stack = true,
 	},
-	['empty pouch'] = {
+	['empty_pouch'] = {
 	    label = 'Pochon vide',
 	    weight = 125,
 	    stack = true,
