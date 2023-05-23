@@ -69,7 +69,7 @@ exports('setPlayerInventory', server.setPlayerInventory)
 AddEventHandler('ox_inventory:setPlayerInventory', server.setPlayerInventory)
 
 ---@param playerPed number
----@param coordinates vector3|table[]
+---@param coordinates vector3|vector3[]
 ---@param distance? number
 ---@return vector3|false
 local function getClosestStashCoords(playerPed, coordinates, distance)
@@ -79,7 +79,7 @@ local function getClosestStashCoords(playerPed, coordinates, distance)
 
 	if type(coordinates) == 'table' then
 		for i = 1, #coordinates do
-			local coords = coordinates[i]
+			local coords = coordinates[i] --[[@as vector3]]
 
 			if #(coords - playerCoords) < distance then
 				return coords
@@ -204,6 +204,13 @@ end
 ---@param data string|number|table
 lib.callback.register('ox_inventory:openInventory', function(source, invType, data)
 	return openInventory(source, invType, data)
+end)
+
+---@param netId number
+lib.callback.register('ox_inventory:isVehicleATrailer', function(source, netId)
+	local entity = NetworkGetEntityFromNetworkId(netId)
+	local retval = GetVehicleType(entity)
+	return retval == 'trailer'
 end)
 
 ---@param playerId number
