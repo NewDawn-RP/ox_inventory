@@ -1481,6 +1481,43 @@ return {
 		}
 	},
 
+	['mask'] = {
+		label = "Masque",
+		description = "",
+		weight = 500,
+		stack = false,
+		close = true,
+		consume = 0,
+		server = {
+			export = "lexinor_commons.mask",
+		},
+		client = {
+			remove = function(total)
+				if total == 0 then
+					SetPedComponentVariation(cache.ped, 1, 0, 0, 0)
+					lib.notify({
+						title = 'Masque retiré',
+						description = 'Vous avez retiré votre masque',
+						type = 'inform'
+					})
+				end
+			end
+		},
+		buttons = {
+			{ 
+				label = "Retirer masque", 
+				action = function (slot)
+					SetPedComponentVariation(cache.ped, 1, 0, 0, 0)
+					lib.notify({
+						title = 'Masque retiré',
+						description = 'Vous avez retiré votre masque',
+						type = 'inform'
+					})
+				end
+			},
+		}
+	},
+
 	['garden_pitcher'] = {
 		label = 'Arrosoir',
 		weight = 1000,

@@ -149,117 +149,243 @@ Item('clothing', function(data, slot)
 end)
 
 Item('topdress', function(data, slot)
-	local sexLabel = { ["m"] = "man", ["f"] = "woman"}
-	if PlayerData.sex ~= slot.metadata.sex then 
-    		-- Trigger your notify here
-    		-- Text: This piece of clothing is not for "..sexLabel[PlayerData.sex]
+	local sexLabel = { ["m"] = "homme", ["f"] = "femme"}
+	if PlayerData.sex ~= slot.metadata.sex then
+		-- Trigger your notify here
+    	lib.notify({
+			title = 'Impossible de mettre ce vêtement',
+			description = ("Ce vêtement n'est pas pour %s"):format(sexLabel[PlayerData.sex]),
+			type = 'inform'
+		}) 
 	end
 
-	ox_inventory:useItem(data, function(data)
-		if data then
-			TriggerEvent("mbt_metaclothes:applyKitDress", slot.metadata)
+	TriggerEvent("mbt_metaclothes:checkDress", {
+		type = "Drawables",
+		index = slot.metadata,
+		sex = PlayerData.sex,
+		cb = function(canDress)
+			if not canDress then
+				-- Trigger your notify here
+				return 
+			end 
+			
+			ox_inventory:useItem(data, function(data)
+				if data then
+					TriggerEvent("mbt_metaclothes:applyKitDress", slot.metadata)
+				end
+			end)
 		end
-	end)
+	})
 end)
 
 Item('trousers', function(data, slot)
-	local sexLabel = { ["m"] = "man", ["f"] = "woman"}
+	local sexLabel = { ["m"] = "homme", ["f"] = "femme"}
 	if PlayerData.sex ~= slot.metadata.sex then
-	  	-- Trigger your notify here
-    		-- Text: This piece of clothing is not for "..sexLabel[PlayerData.sex]     
+		-- Trigger your notify here
+    	lib.notify({
+			title = 'Impossible de mettre ce vêtement',
+			description = ("Ce vêtement n'est pas pour %s"):format(sexLabel[PlayerData.sex]),
+			type = 'inform'
+		}) 
 	end
   
-	ox_inventory:useItem(data, function(data)
-		if data then
-			TriggerEvent("mbt_metaclothes:applyDress", slot.metadata)
+	TriggerEvent("mbt_metaclothes:checkDress", {
+		type = "Drawables",
+		index = slot.metadata.index, 
+		sex = PlayerData.sex,
+		cb = function(canDress)
+			if not canDress then
+				-- Trigger your notify here
+				return 
+			end 
+			
+			ox_inventory:useItem(data, function(data)
+				if data then
+					TriggerEvent("mbt_metaclothes:applyDress", slot.metadata)
+				end
+			end)
 		end
-	end)
+	})
 end)
 
 Item('shoes', function(data, slot)
-	local sexLabel = { ["m"] = "man", ["f"] = "woman"}
+	local sexLabel = { ["m"] = "homme", ["f"] = "femme"}
 	if PlayerData.sex ~= slot.metadata.sex then
 		-- Trigger your notify here
-    		-- Text: This piece of clothing is not for "..sexLabel[PlayerData.sex]    
+    	lib.notify({
+			title = 'Impossible de mettre ce vêtement',
+			description = ("Ce vêtement n'est pas pour %s"):format(sexLabel[PlayerData.sex]),
+			type = 'inform'
+		}) 
 	end
-  
-	ox_inventory:useItem(data, function(data)
-		if data then
-			TriggerEvent("mbt_metaclothes:applyDress", slot.metadata)
+	
+	TriggerEvent("mbt_metaclothes:checkDress", {
+		type = "Drawables",
+		index = slot.metadata.index, 
+		sex = PlayerData.sex,
+		cb = function(canDress)
+			if not canDress then
+				-- Trigger your notify here
+				return 
+			end 
+			
+			ox_inventory:useItem(data, function(data)
+				if data then
+					TriggerEvent("mbt_metaclothes:applyDress", slot.metadata)
+				end
+			end)
 		end
-	end)
+	})
 end)
 
 Item('chain', function(data, slot)
-	local sexLabel = { ["m"] = "man", ["f"] = "woman"}
+	local sexLabel = { ["m"] = "homme", ["f"] = "femme"}
 	if PlayerData.sex ~= slot.metadata.sex then
-	  	-- Trigger your notify here
-    		-- Text: This piece of clothing is not for "..sexLabel[PlayerData.sex]     
+		-- Trigger your notify here
+    	lib.notify({
+			title = 'Impossible de mettre ce vêtement',
+			description = ("Ce vêtement n'est pas pour %s"):format(sexLabel[PlayerData.sex]),
+			type = 'inform'
+		}) 
 	end
   
-	ox_inventory:useItem(data, function(data)
-		if data then
-			TriggerEvent("mbt_metaclothes:applyDress", slot.metadata)
+	TriggerEvent("mbt_metaclothes:checkDress", {
+		type = "Props",
+		index = slot.metadata.index, 
+		sex = PlayerData.sex,
+		cb = function(canDress)
+			if not canDress then
+				-- Trigger your notify here
+				return 
+			end 
+			
+			ox_inventory:useItem(data, function(data)
+				if data then
+					TriggerEvent("mbt_metaclothes:applyProps", slot.metadata)
+				end
+			end)
 		end
-	end)
+	})
 end)
 
 Item('watch', function(data, slot)
-	local sexLabel = { ["m"] = "man", ["f"] = "woman"}
+	local sexLabel = { ["m"] = "homme", ["f"] = "femme"}
 	if PlayerData.sex ~= slot.metadata.sex then
 		-- Trigger your notify here
-   		-- Text: This piece of clothing is not for "..sexLabel[PlayerData.sex]   
+    	lib.notify({
+			title = 'Impossible de mettre ce vêtement',
+			description = ("Ce vêtement n'est pas pour %s"):format(sexLabel[PlayerData.sex]),
+			type = 'inform'
+		}) 
 	end
   
-	ox_inventory:useItem(data, function(data)
-		if data then
-			TriggerEvent("mbt_metaclothes:applyProps", slot.metadata)
+	TriggerEvent("mbt_metaclothes:checkDress", {
+		type = "Props",
+		index = slot.metadata.index, 
+		sex = PlayerData.sex,
+		cb = function(canDress)
+			if not canDress then
+				-- Trigger your notify here
+				return 
+			end 
+			
+			ox_inventory:useItem(data, function(data)
+				if data then
+					TriggerEvent("mbt_metaclothes:applyProps", slot.metadata)
+				end
+			end)
 		end
-	end)
+	})
 end)
 
 Item('hat', function(data, slot)
-	local sexLabel = { ["m"] = "man", ["f"] = "woman"}
+	local sexLabel = { ["m"] = "homme", ["f"] = "femme"}
 	if PlayerData.sex ~= slot.metadata.sex then
 		-- Trigger your notify here
-   		-- Text: This piece of clothing is not for "..sexLabel[PlayerData.sex]   
+    	lib.notify({
+			title = 'Impossible de mettre ce vêtement',
+			description = ("Ce vêtement n'est pas pour %s"):format(sexLabel[PlayerData.sex]),
+			type = 'inform'
+		}) 
 	end
   
-	ox_inventory:useItem(data, function(data)
-		if data then
-			TriggerEvent("mbt_metaclothes:applyProps", slot.metadata)
+	TriggerEvent("mbt_metaclothes:checkDress", {
+		type = "Props",
+		index = slot.metadata.index, 
+		sex = PlayerData.sex,
+		cb = function(canDress)
+			if not canDress then
+				-- Trigger your notify here
+				return 
+			end 
+			
+			ox_inventory:useItem(data, function(data)
+				if data then
+					TriggerEvent("mbt_metaclothes:applyProps", slot.metadata)
+				end
+			end)
 		end
-	end)
+	})
 end)
 
 Item('glasses', function(data, slot)
-	local sexLabel = { ["m"] = "man", ["f"] = "woman"}
+	local sexLabel = { ["m"] = "homme", ["f"] = "femme"}
 	if PlayerData.sex ~= slot.metadata.sex then
 		-- Trigger your notify here
-    		-- Text: This piece of clothing is not for "..sexLabel[PlayerData.sex]      
+    	lib.notify({
+			title = 'Impossible de mettre ce vêtement',
+			description = ("Ce vêtement n'est pas pour %s"):format(sexLabel[PlayerData.sex]),
+			type = 'inform'
+		}) 
 	end
   
-	ox_inventory:useItem(data, function(data)
-		if data then
-			-- print(slot.metadata.drawable)
-			TriggerEvent("mbt_metaclothes:applyProps", slot.metadata)
+	TriggerEvent("mbt_metaclothes:checkDress", {
+		type = "Props",
+		index = slot.metadata.index, 
+		sex = PlayerData.sex,
+		cb = function(canDress)
+			if not canDress then
+				-- Trigger your notify here
+				return 
+			end 
+			
+			ox_inventory:useItem(data, function(data)
+				if data then
+					TriggerEvent("mbt_metaclothes:applyProps", slot.metadata)
+				end
+			end)
 		end
-	end)
+	})
 end)
 
 Item('earaccess', function(data, slot)
-	local sexLabel = { ["m"] = "man", ["f"] = "woman"}
+	local sexLabel = { ["m"] = "homme", ["f"] = "femme"}
 	if PlayerData.sex ~= slot.metadata.sex then
 		-- Trigger your notify here
-    		-- Text: This piece of clothing is not for "..sexLabel[PlayerData.sex]      
+    	lib.notify({
+			title = 'Impossible de mettre ce vêtement',
+			description = ("Ce vêtement n'est pas pour %s"):format(sexLabel[PlayerData.sex]),
+			type = 'inform'
+		}) 
 	end
   
-	ox_inventory:useItem(data, function(data)
-		if data then
-			-- print(slot.metadata.drawable)
-			TriggerEvent("mbt_metaclothes:applyProps", slot.metadata)
+	TriggerEvent("mbt_metaclothes:checkDress", {
+		type = "Props",
+		index = slot.metadata.index, 
+		sex = PlayerData.sex,
+		cb = function(canDress)
+			if not canDress then
+				-- Trigger your notify here
+				return 
+			end 
+			
+			ox_inventory:useItem(data, function(data)
+				if data then
+					TriggerEvent("mbt_metaclothes:applyProps", slot.metadata)
+				end
+			end)
 		end
-	end)
+	})
 end)
 
 -----------------------------------------------------------------------------------------------
