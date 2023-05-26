@@ -348,7 +348,7 @@ return {
 			{
                 ped = `s_m_m_linecook`,
                 scenario = 'WORLD_HUMAN_SMOKING',
-                loc = vec3(161.6032, -3165.2756, 5.9663),
+                loc = vec3(161.6032, -3165.2756, 4.9663),
                 heading = 265.0822,
             },
 		}
@@ -376,7 +376,7 @@ return {
 			{
                 ped = `a_m_m_hillbilly_01`,
                 scenario = 'WORLD_HUMAN_SMOKING',
-                loc = vec3(162.4186, -3186.8901, 5.9515),
+                loc = vec3(162.4186, -3186.8901, 4.9515),
                 heading = 258.8575,
             },
 		}
@@ -398,7 +398,7 @@ return {
 			{
                 ped = `a_m_m_bevhills_02`,
                 scenario = 'WORLD_HUMAN_SMOKING',
-                loc = vec3(163.3093, -3158.3657, 5.9353),
+                loc = vec3(163.3093, -3158.3657, 4.9353),
                 heading = 286.3462,
             },
 		}
@@ -421,7 +421,7 @@ return {
 			{
                 ped = `a_m_y_busicas_01`,
                 scenario = 'WORLD_HUMAN_SMOKING',
-                loc = vec3(161.5054, -3172.3433, 5.9681),
+                loc = vec3(161.5054, -3172.3433, 4.9681),
                 heading = 257.1070,
             },
 		}
@@ -445,7 +445,7 @@ return {
 			{
                 ped = `a_m_m_socenlat_01`,
                 scenario = 'WORLD_HUMAN_SMOKING',
-                loc = vec3(557.6693, 2665.0911, 42.1814),
+                loc = vec3(557.6693, 2665.0911, 41.1814),
                 heading = 188.4380,
             },
 		}
@@ -491,7 +491,7 @@ return {
 			{
                 ped = `a_m_m_farmer_01`,
                 scenario = 'WORLD_HUMAN_DRINKING',
-                loc = vec3(163.2580, -3181.3857, 5.9363),
+                loc = vec3(163.2580, -3181.3857, 4.9363),
                 heading = 261.4984,
             },
 		}
@@ -518,7 +518,7 @@ return {
 			{
                 ped = `cs_joeminuteman`,
                 scenario = 'WORLD_HUMAN_SMOKING',
-                loc = vec3(161.5467, -3173.8481, 5.9674),
+                loc = vec3(161.5467, -3173.8481, 4.9674),
                 heading = 264.8625,
             },
 		}
@@ -545,9 +545,9 @@ return {
 			{
                 ped = `a_f_y_gencaspat_01`,
                 scenario = 'WORLD_HUMAN_AA_COFFEE',
-                loc = vec3(160.4048, -3156.4312, 5.9882),
+                loc = vec3(160.4048, -3156.4312, 4.9882),
                 heading = 267.9688,
             },
-		}
+		}                  
 	},
 }
