@@ -327,7 +327,7 @@ return {
 			{
 				name = 'high_noon',
 				ingredients = {
-					coffee_bean = 2,
+					coffee_beans = 2,
 					milk = 1,
 				},
 				duration = 10000,
@@ -336,7 +336,7 @@ return {
 			{
 				name = 'gunkacchino',
 				ingredients = {
-					coffee_bean = 2,
+					coffee_beans = 2,
 					milk = 1,
 					chocolate_powder = 1,
 				},
@@ -346,7 +346,7 @@ return {
 			{
 				name = 'the_bratte',
 				ingredients = {
-					coffee_bean = 2,
+					coffee_beans = 2,
 					milk = 1,
 					caramel_syrop = 1,
 				},
@@ -356,7 +356,7 @@ return {
 			{
 				name = 'the_flusher',
 				ingredients = {
-					coffee_bean = 1,
+					coffee_beans = 1,
 				},
 				duration = 10000,
 				count = 1,
@@ -364,7 +364,7 @@ return {
 			{
 				name = 'speedball',
 				ingredients = {
-					coffee_bean = 2,
+					coffee_beans = 2,
 				},
 				duration = 10000,
 				count = 1,
