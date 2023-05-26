@@ -287,6 +287,28 @@ return {
 		}
 	},
 
+	MaskShop = {
+		name = 'Magasin de masques',
+		blip = {
+			id = 362, colour = 69, scale = 0.8
+		}, inventory = {
+			{ name = 'mask', price = 150, metadata = {['drawableId'] = 118, ['textureId'] = 0, ['paletteId'] = 0, ['label'] = "Turban Vert"} },
+			{ name = 'mask', price = 150, metadata = {['drawableId'] = 118, ['textureId'] = 1, ['paletteId'] = 0, ['label'] = "Turban Orange"} },
+			{ name = 'mask', price = 150, metadata = {['drawableId'] = 118, ['textureId'] = 2, ['paletteId'] = 0, ['label'] = "Turban Violet"} },
+			{ name = 'mask', price = 150, metadata = {['drawableId'] = 118, ['textureId'] = 3, ['paletteId'] = 0, ['label'] = "Turban Rose"} },
+			{ name = 'mask', price = 150, metadata = {['drawableId'] = 185, ['textureId'] = 1, ['paletteId'] = 0, ['label'] = "Cagoule Blanche"} },
+			{ name = 'mask', price = 150, metadata = {['drawableId'] = 185, ['textureId'] = 2, ['paletteId'] = 0, ['label'] = "Cagoule Grise"} },
+			{ name = 'mask', price = 150, metadata = {['drawableId'] = 185, ['textureId'] = 3, ['paletteId'] = 0, ['label'] = "Cagoule Rouge"} },
+		}, targets = {
+			{
+                ped = `ig_claypain`,
+                scenario = 'WORLD_HUMAN_STAND_IMPATIENT',
+                loc = vec3(-1126.7903, -1440.1488, 4.2283),
+                heading = 287.9651,
+            },
+		}
+	},
+
 	Wholesaler = {
 		name = 'Grossiste Agricole',
 		blip = {
@@ -309,7 +331,8 @@ return {
             },
 		}
 	},
-	{
+
+	Upnatommeat = {
 		name = 'Boucher', -- Grossiste UpnAtom Viande
 		groups = {
 			['upnatom'] = 0,
@@ -325,13 +348,13 @@ return {
 			{
                 ped = `s_m_m_linecook`,
                 scenario = 'WORLD_HUMAN_SMOKING',
-                loc = vec3(161.6032, -3165.2756, 5.9663),
+                loc = vec3(161.6032, -3165.2756, 4.9663),
                 heading = 265.0822,
             },
 		}
 	},
 
-	{
+	Upnatomvegetable = {
 		name = 'Epicerie', -- Grossiste UpnAtom Epicerie / primeur
 		groups = {
 			['upnatom'] = 0,
@@ -353,13 +376,13 @@ return {
 			{
                 ped = `a_m_m_hillbilly_01`,
                 scenario = 'WORLD_HUMAN_SMOKING',
-                loc = vec3(162.4186, -3186.8901, 5.9515),
+                loc = vec3(162.4186, -3186.8901, 4.9515),
                 heading = 258.8575,
             },
 		}
 	},
 
-	{
+	Upnatomdrink = {
 		name = 'Brasserie', -- Grossiste UpnAtom Brasserie
 		groups = {
 			['upnatom'] = 0,
@@ -375,13 +398,13 @@ return {
 			{
                 ped = `a_m_m_bevhills_02`,
                 scenario = 'WORLD_HUMAN_SMOKING',
-                loc = vec3(163.3093, -3158.3657, 5.9353),
+                loc = vec3(163.3093, -3158.3657, 4.9353),
                 heading = 286.3462,
             },
 		}
 	},
 
-	{
+	Upnatomcream = {	
 		name = 'Patisserie', -- Grossiste UpnAtom Patisserie
 		groups = {
 			['upnatom'] = 0,
@@ -398,13 +421,13 @@ return {
 			{
                 ped = `a_m_y_busicas_01`,
                 scenario = 'WORLD_HUMAN_SMOKING',
-                loc = vec3(161.5054, -3172.3433, 5.9681),
+                loc = vec3(161.5054, -3172.3433, 4.9681),
                 heading = 257.1070,
             },
 		}
 	},
 
-	{
+	Winemarket = {
 		name = "Grossiste Vigneron", -- Items à acheter pour le vigneron
 		groups = {
 			['vine'] = 0,
@@ -422,7 +445,7 @@ return {
 			{
                 ped = `a_m_m_socenlat_01`,
                 scenario = 'WORLD_HUMAN_SMOKING',
-                loc = vec3(557.6693, 2665.0911, 42.1814),
+                loc = vec3(557.6693, 2665.0911, 41.1814),
                 heading = 188.4380,
             },
 		}
@@ -444,20 +467,20 @@ return {
 		}
 	},
 
-	{
-		name = 'Grossiste Ingrédients', -- Items Craft Primeur 
+	Beanfruit = {
+		name = 'Grossiste Ingrédients', -- Items BeanMachine Craft Primeur 
 		groups = {
 			['cafe'] = 1,
 		},
 		blip = {
 			id = 615, colour = 10, scale = 0.5
 		}, inventory = {
-			{ name = 'coffee_bean', price = 8 },
+			{ name = 'coffee_beans', price = 8 },
 			{ name = 'milk', price = 3 },
 			{ name = 'chocolate_powder', price = 1 },
-			{ name = 'caramel_syrop', price = 2 },
+			{ name = 'caramel_syrup', price = 2 },
 			{ name = 'strawberry', price = 3 },
-			{ name = 'vanilla', price = 3 },
+			{ name = 'vanilla_syrup', price = 3 },
 			{ name = 'raspberry', price = 3 },
 			{ name = 'kiwi', price = 3 },
 			{ name = 'pineapple', price = 3 },
@@ -468,13 +491,13 @@ return {
 			{
                 ped = `a_m_m_farmer_01`,
                 scenario = 'WORLD_HUMAN_DRINKING',
-                loc = vec3(163.2580, -3181.3857, 5.9363),
+                loc = vec3(163.2580, -3181.3857, 4.9363),
                 heading = 261.4984,
             },
 		}
 	},
 
-	{
+	Beansec = {
 		name = 'Grossiste Sec', -- Items Secs pour le BeanMachine Patisserie
 		groups = {
 			['cafe'] = 1,
@@ -495,13 +518,13 @@ return {
 			{
                 ped = `cs_joeminuteman`,
                 scenario = 'WORLD_HUMAN_SMOKING',
-                loc = vec3(161.5467, -3173.8481, 5.9674),
+                loc = vec3(161.5467, -3173.8481, 4.9674),
                 heading = 264.8625,
             },
 		}
 	},
 
-	{
+	Beandrink = {
 		name = 'Grossiste Boissons', -- Items Boissons pour le BeanMachine 
 		groups = {
 			['cafe'] = 1,
@@ -522,9 +545,9 @@ return {
 			{
                 ped = `a_f_y_gencaspat_01`,
                 scenario = 'WORLD_HUMAN_AA_COFFEE',
-                loc = vec3(160.4048, -3156.4312, 5.9882),
+                loc = vec3(160.4048, -3156.4312, 4.9882),
                 heading = 267.9688,
             },
-		}
+		}                  
 	},
 }
