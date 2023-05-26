@@ -322,7 +322,7 @@ return {
 		},
 	},
 	{
-		groups = { ["cafe"] = 0 }, -- Craft Bean Machine Boissons chaudes
+		groups = { ["cafe"] = 0 }, -- Craft Bean Machine Boissons chaudes 
 		items = {
 			{
 				name = 'high_noon',
@@ -380,13 +380,13 @@ return {
 			},
 		},
 		points = {
-			vec3(122.2485, -1041.5028, 29.2779),
+			vec3(122.8551, -1041.7950, 29.3702),  
 		},
 		zones = {
 			{
-				coords = vec3(122.2485, -1041.5028, 29.2779), 
+				coords = vec3(122.8551, -1041.7950, 29.3702), 
 				size = vec3(3, 3, 3),
-				distance = 3.5,
+				distance = 2.2,
 			},
 		},
 	},
@@ -424,13 +424,13 @@ return {
 			},
 		},
 		points = {
-			vec3(126.2914, -1035.8292, 29.2779),
+			vec3(126.0177, -1036.3953, 29.5538),
 		},
 		zones = {
 			{
-				coords = vec3(126.2914, -1035.8292, 29.2779), 
+				coords = vec3(126.0177, -1036.3953, 29.5538), 
 				size = vec3(3, 3, 3),
-				distance = 3.5,
+				distance = 2.2,
 			},
 		},
 	},
@@ -448,13 +448,13 @@ return {
 			},
 		},
 		points = {
-			vec3(126.2914, -1035.8292, 29.2779),
+			vec3(121.4563, -1038.4925, 29.3293),
 		},
 		zones = {
 			{
 				coords = vec3(126.2914, -1035.8292, 29.2779), 
 				size = vec3(3, 3, 3),
-				distance = 3.5,
+				distance = 2.0,
 			},
 		},
 	},
