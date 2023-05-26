@@ -452,4 +452,141 @@ return {
 			},
 		},
 	},
-}	
+	{
+		items = {
+			{
+				name = 'weed',
+				ingredients = {
+					weed_raw = 1,
+				},
+				duration = 5000,
+				count = 1,
+			},
+		},
+		points = {
+			vec3(1770.1130, -1621.3812, 113.6330),
+		},
+		zones = {
+			{
+				coords = vec3(1770.1130, -1621.3812, 113.6330), 
+				size = vec3(3, 3, 3),
+				distance = 3.5,
+			},
+		},
+	},
+	{
+		items = {
+			{
+				name = 'pouches_weed',
+				ingredients = {
+					weed = 1,
+					empty_pouch = 1,
+				},
+				duration = 5000,
+				count = 1,
+			},
+		},
+		points = {
+			vec3(1769.3101, -1625.1322, 113.6247),
+		},
+		zones = {
+			{
+				coords = vec3(1769.3101, -1625.1322, 113.6247), 
+				size = vec3(3, 3, 3),
+				distance = 3.5,
+			},
+		},
+	},
+	{
+		items = {
+			{
+				name = 'cocaine',
+				ingredients = {
+					cocaine_raw = 1,
+					chemical_products = 1,
+				},
+				duration = 5000,
+				count = 1,
+			},
+		},
+		points = {
+			vec3(-537.0639, -1794.6445, 21.6090),
+		},
+		zones = {
+			{
+				coords = vec3(-537.0639, -1794.6445, 21.6090), 
+				size = vec3(3, 3, 3),
+				distance = 3.5,
+			},
+		},
+	},
+	{
+		items = {
+			{
+				name = 'pouches_coca',
+				ingredients = {
+					cocaine = 1,
+					empty_pouch = 1,
+				},
+				duration = 5000,
+				count = 1,
+			},
+		},
+		points = {
+			vec3(-527.9670, -1796.4544, 21.6090),
+		},
+		zones = {
+			{
+				coords = vec3(-527.9670, -1796.4544, 21.6090), 
+				size = vec3(3, 3, 3),
+				distance = 3.5,
+			},
+		},
+	},
+	{
+		items = {
+			{
+				name = 'opium',
+				ingredients = {
+					opium_raw = 1,
+					chemical_products = 1,
+				},
+				duration = 5000,
+				count = 1,
+			},
+		},
+		points = {
+			vec3(-530.0064, -1739.0572, 16.7261),
+		},
+		zones = {
+			{
+				coords = vec3(-530.0064, -1739.0572, 16.7261), 
+				size = vec3(3, 3, 3),
+				distance = 3.5,
+			},
+		},
+	},
+	{
+		items = {
+			{
+				name = 'pouches_opium',
+				ingredients = {
+					opium = 1,
+					empty_pouch = 1,
+				},
+				duration = 5000,
+				count = 1,
+			},
+		},
+		points = {
+			vec3(-521.3657, -1741.3342, 16.7261),
+		},
+		zones = {
+			{
+				coords = vec3(-521.3657, -1741.3342, 16.7261), 
+				size = vec3(3, 3, 3),
+				distance = 3.5,
+			},
+		},
+	},
+}

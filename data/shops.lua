@@ -287,6 +287,28 @@ return {
 		}
 	},
 
+	MaskShop = {
+		name = 'Magasin de masques',
+		blip = {
+			id = 362, colour = 69, scale = 0.8
+		}, inventory = {
+			{ name = 'mask', price = 150, metadata = {['drawableId'] = 118, ['textureId'] = 0, ['paletteId'] = 0, ['label'] = "Turban Vert"} },
+			{ name = 'mask', price = 150, metadata = {['drawableId'] = 118, ['textureId'] = 1, ['paletteId'] = 0, ['label'] = "Turban Orange"} },
+			{ name = 'mask', price = 150, metadata = {['drawableId'] = 118, ['textureId'] = 2, ['paletteId'] = 0, ['label'] = "Turban Violet"} },
+			{ name = 'mask', price = 150, metadata = {['drawableId'] = 118, ['textureId'] = 3, ['paletteId'] = 0, ['label'] = "Turban Rose"} },
+			{ name = 'mask', price = 150, metadata = {['drawableId'] = 185, ['textureId'] = 1, ['paletteId'] = 0, ['label'] = "Cagoule Blanche"} },
+			{ name = 'mask', price = 150, metadata = {['drawableId'] = 185, ['textureId'] = 2, ['paletteId'] = 0, ['label'] = "Cagoule Grise"} },
+			{ name = 'mask', price = 150, metadata = {['drawableId'] = 185, ['textureId'] = 3, ['paletteId'] = 0, ['label'] = "Cagoule Rouge"} },
+		}, targets = {
+			{
+                ped = `ig_claypain`,
+                scenario = 'WORLD_HUMAN_STAND_IMPATIENT',
+                loc = vec3(-1126.7903, -1440.1488, 4.2283),
+                heading = 287.9651,
+            },
+		}
+	},
+
 	Wholesaler = {
 		name = 'Grossiste Agricole',
 		blip = {
