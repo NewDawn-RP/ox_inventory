@@ -309,7 +309,8 @@ return {
             },
 		}
 	},
-	{
+
+	Upnatommeat = {
 		name = 'Boucher', -- Grossiste UpnAtom Viande
 		groups = {
 			['upnatom'] = 0,
@@ -331,7 +332,7 @@ return {
 		}
 	},
 
-	{
+	Upnatomvegetable = {
 		name = 'Epicerie', -- Grossiste UpnAtom Epicerie / primeur
 		groups = {
 			['upnatom'] = 0,
@@ -359,7 +360,7 @@ return {
 		}
 	},
 
-	{
+	Upnatomdrink = {
 		name = 'Brasserie', -- Grossiste UpnAtom Brasserie
 		groups = {
 			['upnatom'] = 0,
@@ -381,7 +382,7 @@ return {
 		}
 	},
 
-	{
+	Upnatomcream = {	
 		name = 'Patisserie', -- Grossiste UpnAtom Patisserie
 		groups = {
 			['upnatom'] = 0,
@@ -404,7 +405,7 @@ return {
 		}
 	},
 
-	{
+	Winemarket = {
 		name = "Grossiste Vigneron", -- Items à acheter pour le vigneron
 		groups = {
 			['vine'] = 0,
@@ -444,20 +445,20 @@ return {
 		}
 	},
 
-	{
-		name = 'Grossiste Ingrédients', -- Items Craft Primeur 
+	Beanfruit = {
+		name = 'Grossiste Ingrédients', -- Items BeanMachine Craft Primeur 
 		groups = {
 			['cafe'] = 1,
 		},
 		blip = {
 			id = 615, colour = 10, scale = 0.5
 		}, inventory = {
-			{ name = 'coffee_bean', price = 8 },
+			{ name = 'coffee_beans', price = 8 },
 			{ name = 'milk', price = 3 },
 			{ name = 'chocolate_powder', price = 1 },
-			{ name = 'caramel_syrop', price = 2 },
+			{ name = 'caramel_syrup', price = 2 },
 			{ name = 'strawberry', price = 3 },
-			{ name = 'vanilla', price = 3 },
+			{ name = 'vanilla_syrup', price = 3 },
 			{ name = 'raspberry', price = 3 },
 			{ name = 'kiwi', price = 3 },
 			{ name = 'pineapple', price = 3 },
@@ -474,7 +475,7 @@ return {
 		}
 	},
 
-	{
+	Beansec = {
 		name = 'Grossiste Sec', -- Items Secs pour le BeanMachine Patisserie
 		groups = {
 			['cafe'] = 1,
@@ -501,7 +502,7 @@ return {
 		}
 	},
 
-	{
+	Beandrink = {
 		name = 'Grossiste Boissons', -- Items Boissons pour le BeanMachine 
 		groups = {
 			['cafe'] = 1,
