@@ -2245,11 +2245,61 @@ return {
 	},
 
 	['chemical_products'] = {
-		label = 'Produitsz Chimique',
+		label = 'Produits Chimique',
 		weight = 1000,
 		stack = true,
 		close = true,
 		description = "Produits dangereux"
+	},
+
+	--------------------------- ILLEGAL [Items Multiples]
+
+	['card_labo_coke1'] = {
+		label = 'Carte d accès',
+		weight = 1000,
+		stack = false,
+		close = true,
+		description = "Si t'as pas la carte tu rentres pas"
+	},
+
+	['card_labo_coke2'] = {
+		label = 'Carte d accès',
+		weight = 1000,
+		stack = false,
+		close = true,
+		description = "Si t'as pas la carte tu rentres pas"
+	},
+
+	['card_labo_opium1'] = {
+		label = 'Carte d accès',
+		weight = 1000,
+		stack = false,
+		close = true,
+		description = "Si t'as pas la carte tu rentres pas"
+	},
+
+	['card_labo_opium2'] = {
+		label = 'Carte d accès',
+		weight = 1000,
+		stack = false,
+		close = true,
+		description = "Si t'as pas la carte tu rentres pas"
+	},
+
+	['card_labo_weed1'] = {
+		label = 'Carte d accès',
+		weight = 1000,
+		stack = false,
+		close = true,
+		description = "Si t'as pas la carte tu rentres pas"
+	},
+
+	['card_labo_weed2'] = {
+		label = 'Carte d accès',
+		weight = 1000,
+		stack = false,
+		close = true,
+		description = "Si t'as pas la carte tu rentres pas"
 	},
 
 	--------------------------- [Habillage / Vêtements]
