@@ -147,7 +147,10 @@ return {
 		},
 	},
 	{
-		groups = { ["vine"] = 0 }, -- fabrication produits CRAFT 1
+		groups = { ["vine"] = 0 }, -- Vigneron - fabrication produits CRAFT 1
+		blip = {
+			id = 525, colour = 83, scale = 0.8
+		},
 		items = {
 			{
 				name = 'neutralbtl_bp',
@@ -224,21 +227,24 @@ return {
 				duration = 10000,
 				count = 1,
 			},
-			
+						
 		},
 		points = {
 			vec3(-1928.2686, 1779.5055, 173.0965),
 		},
 		zones = {
 			{
-				coords = vec3(-1928.2686, 1779.5055, 173.0965), 
+				coords = vec3(-1927.2686, 1779.5055, 173.0965), 
 				size = vec3(3, 3, 3),
 				distance = 3,
 			},
 		},
 	},
 	{
-		groups = { ["vine"] = 0 }, -- fabrication produits finals CRAFT 2
+		groups = { ["vine"] = 0 }, -- Vigneron - fabrication produits finals CRAFT 2
+		blip = {
+			id = 525, colour = 83, scale = 0.8
+		},
 		items = {
 			{
 				name = 'black_pinot',
