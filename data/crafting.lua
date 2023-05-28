@@ -78,8 +78,8 @@ return {
 		zones = {
 			{
 				coords = vec3(94.5815, 291.5911, 110.2095), 
-				size = vec3(3, 3, 3),
-				distance = 2.5,
+				size = vec3(1.5, 1.5, 1.5),
+				distance = 1.5,
 			},
 		},
 	},
@@ -118,8 +118,8 @@ return {
 		zones = {
 			{
 				coords = vec3(96.2008, 293.1687, 110.2095), 
-				size = vec3(3, 3, 3),
-				distance = 2.5,
+				size = vec3(1.5, 1.5, 1.5),
+				distance = 1.5,
 			},
 		},
 	},
@@ -136,21 +136,18 @@ return {
 			},			
 		},
 		points = {
-			vec3(83.6297, 301.5202, 110.2100),
+			vec3(92.3333, 292.4424, 110.2095),
 		},
 		zones = {
 			{
-				coords = vec3(83.6297, 301.5202, 110.2100), 
-				size = vec3(3, 3, 3),
-				distance = 2.5,
+				coords = vec3(92.3333, 292.4424, 110.2095),   
+				size = vec3(1.5, 1.5, 1.5),
+				distance = 1.5,
 			},
 		},
 	},
 	{
 		groups = { ["vine"] = 0 }, -- Vigneron - fabrication produits CRAFT 1
-		blip = {
-			id = 525, colour = 83, scale = 0.8
-		},
 		items = {
 			{
 				name = 'neutralbtl_bp',
@@ -242,9 +239,6 @@ return {
 	},
 	{
 		groups = { ["vine"] = 0 }, -- Vigneron - fabrication produits finals CRAFT 2
-		blip = {
-			id = 525, colour = 83, scale = 0.8
-		},
 		items = {
 			{
 				name = 'black_pinot',
@@ -311,11 +305,11 @@ return {
 			},
 		},
 		points = {
-			vec3(2345.8752, 3137.6292, 48.2087),
+			vec3(2342.6562, 3138.6467, 48.1892),
 		},
 		zones = {
 			{
-				coords = vec3(2345.8752, 3137.6292, 48.2087), 
+				coords = vec3(2342.6562, 3138.6467, 48.1892), 
 				size = vec3(3, 3, 3),
 				distance = 2.5,
 			},
@@ -452,7 +446,7 @@ return {
 		},
 		zones = {
 			{
-				coords = vec3(126.2914, -1035.8292, 29.2779), 
+				coords = vec3(121.4563, -1038.4925, 29.3293), 
 				size = vec3(3, 3, 3),
 				distance = 2.0,
 			},

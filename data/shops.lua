@@ -341,7 +341,7 @@ return {
 			id = 615, colour = 66, scale = 0.5
 		}, inventory = {
 			{ name = 'beef_steak', price = 3 },
-			{ name = 'chicken', price = 5 },
+			{ name = 'chicken_meat', price = 5 },
 			{ name = 'bacon', price = 3 },			
 
 		}, targets = {
