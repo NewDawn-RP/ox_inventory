@@ -388,6 +388,57 @@ Item('earaccess', function(data, slot)
 	})
 end)
 
+Item('lightkevlar', function(data, slot) -- Adds 30% of body armor
+	if GetPedArmour(cache.ped) < 100 then
+		ox_inventory:useItem(data, function(data)
+			if data then
+				SetPlayerMaxArmour(PlayerData.id, 100)
+				SetPedArmour(cache.ped, 30)
+			end
+		end)
+	else
+		lib.notify({
+			title = "Votre gilet n'est pas usé",
+			description = "Vous n'avez pas besoin de faire ça",
+			type = 'error'
+		})
+	end
+end)
+
+Item('mediumkevlar', function(data, slot) -- Adds 60% of body armor
+	if GetPedArmour(cache.ped) < 100 then
+		ox_inventory:useItem(data, function(data)
+			if data then
+				SetPlayerMaxArmour(PlayerData.id, 100)
+				SetPedArmour(cache.ped, 60)
+			end
+		end)
+	else
+		lib.notify({
+			title = "Votre gilet n'est pas usé",
+			description = "Vous n'avez pas besoin de faire ça",
+			type = 'error'
+		})
+	end
+end)
+
+Item('heavykevlar', function(data, slot) -- Adds 100% of body armor
+	if GetPedArmour(cache.ped) < 100 then
+		ox_inventory:useItem(data, function(data)
+			if data then
+				SetPlayerMaxArmour(PlayerData.id, 100)
+				SetPedArmour(cache.ped, 100)
+			end
+		end)
+	else
+		lib.notify({
+			title = "Votre gilet n'est pas usé",
+			description = "Vous n'avez pas besoin de faire ça",
+			type = 'error'
+		})
+	end
+end)
+
 -----------------------------------------------------------------------------------------------
 
 exports('Items', function(item) return getItem(nil, item) end)
