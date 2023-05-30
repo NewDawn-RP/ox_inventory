@@ -451,21 +451,21 @@ return {
 		}
 	},
 
-	Identity = {
-		name = "Papiers d'identité",
-		blip = {
-			id = 525, colour = 69, scale = 0.6
-		}, inventory = {
-			{ name = 'id_card', price = 10 },
-		}, targets = {
-			{
-                ped = `S_F_Y_Cop_01`,
-                scenario = 'WORLD_HUMAN_STAND_IMPATIENT',
-                loc = vec3(612.3859, -3.4227, 81.7601),
-                heading = 246.6936,
-            },
-		}
-	},
+	-- Identity = {
+	-- 	name = "Papiers d'identité",
+	-- 	blip = {
+	-- 		id = 525, colour = 69, scale = 0.6
+	-- 	}, inventory = {
+	-- 		{ name = 'id_card', price = 10 },
+	-- 	}, targets = {
+	-- 		{
+    --             ped = `S_F_Y_Cop_01`,
+    --             scenario = 'WORLD_HUMAN_STAND_IMPATIENT',
+    --             loc = vec3(612.3859, -3.4227, 81.7601),
+    --             heading = 246.6936,
+    --         },
+	-- 	}
+	-- },
 
 	Beanfruit = {
 		name = 'Grossiste Ingrédients', -- Items BeanMachine Craft Primeur 
