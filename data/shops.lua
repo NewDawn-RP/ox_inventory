@@ -325,7 +325,7 @@ return {
 		}, targets = {
 			{
                 ped = `a_m_m_farmer_01`,
-                scenario = 'WORLD_HUMAN_SMOKING',
+                scenario = 'WORLD_HUMAN_STAND_IMPATIENT_UPRIGHT',
                 loc = vec3(1710.5261, 4728.5288, 41.1441),
                 heading = 101.3029,
             },
@@ -347,7 +347,7 @@ return {
 		}, targets = {
 			{
                 ped = `s_m_m_linecook`,
-                scenario = 'WORLD_HUMAN_SMOKING',
+                scenario = 'WORLD_HUMAN_STAND_IMPATIENT_UPRIGHT',
                 loc = vec3(161.6032, -3165.2756, 4.9663),
                 heading = 265.0822,
             },
@@ -374,8 +374,8 @@ return {
 
 		}, targets = {
 			{
-                ped = `a_m_m_hillbilly_01`,
-                scenario = 'WORLD_HUMAN_SMOKING',
+                ped = `a_m_m_farmer_01`,
+                scenario = 'WORLD_HUMAN_CLIPBOARD',
                 loc = vec3(162.4186, -3186.8901, 4.9515),
                 heading = 258.8575,
             },
@@ -397,7 +397,7 @@ return {
 		}, targets = {
 			{
                 ped = `a_m_m_bevhills_02`,
-                scenario = 'WORLD_HUMAN_SMOKING',
+                scenario = 'WORLD_HUMAN_STAND_IMPATIENT_UPRIGHT',
                 loc = vec3(163.3093, -3158.3657, 4.9353),
                 heading = 286.3462,
             },
@@ -419,8 +419,8 @@ return {
 			
 		}, targets = {
 			{
-                ped = `a_m_y_busicas_01`,
-                scenario = 'WORLD_HUMAN_SMOKING',
+                ped = `a_f_m_business_02`,
+                scenario = 'WORLD_HUMAN_STAND_IMPATIENT_UPRIGHT',
                 loc = vec3(161.5054, -3172.3433, 4.9681),
                 heading = 257.1070,
             },
@@ -445,7 +445,7 @@ return {
 			{
                 ped = `a_m_m_socenlat_01`,
                 scenario = 'WORLD_HUMAN_SMOKING',
-                loc = vec3(557.6693, 2665.0911, 41.1814),
+                loc = vec3(587.8426, 2744.6387, 42.0675),
                 heading = 188.4380,
             },
 		}
@@ -476,21 +476,18 @@ return {
 			id = 615, colour = 10, scale = 0.5
 		}, inventory = {
 			{ name = 'coffee_beans', price = 8 },
-			{ name = 'milk', price = 3 },
-			{ name = 'chocolate_powder', price = 1 },
-			{ name = 'caramel_syrup', price = 2 },
-			{ name = 'strawberry', price = 3 },
-			{ name = 'vanilla_syrup', price = 3 },
+			{ name = 'milk', price = 3 },			
+			{ name = 'strawberry', price = 3 },			
 			{ name = 'raspberry', price = 3 },
 			{ name = 'kiwi', price = 3 },
 			{ name = 'pineapple', price = 3 },
-			{ name = 'biscuit', price = 2 },
-			{ name = 'marshmallow', price = 2 },
+			
+
 
 		}, targets = {
 			{
-                ped = `a_m_m_farmer_01`,
-                scenario = 'WORLD_HUMAN_DRINKING',
+                ped = `a_m_m_hillbilly_01`,
+                scenario = 'WORLD_HUMAN_STAND_IMPATIENT',
                 loc = vec3(163.2580, -3181.3857, 4.9363),
                 heading = 261.4984,
             },
@@ -508,16 +505,20 @@ return {
 			{ name = 'donut_chocolate', price = 2 },
 			{ name = 'donut_strawberry', price = 2 },
 			{ name = 'pancakes', price = 2 },
-			{ name = 'chips_cheese', price = 1 },
-			{ name = 'cacahuetes', price = 1 },
+			{ name = 'chips_cheese', price = 1 },			
 			{ name = 'chips_bbq', price = 1 },
 			{ name = 'olives', price = 1 },
+			{ name = 'cacahuetes', price = 1 },
 			{ name = 'marshmallow', price = 2 },
+			{ name = 'biscuit', price = 2 },			
+			{ name = 'chocolate_powder', price = 1 },
+			{ name = 'caramel_syrup', price = 2 },
+			{ name = 'vanilla_syrup', price = 3 },
 
 		}, targets = {
 			{
                 ped = `cs_joeminuteman`,
-                scenario = 'WORLD_HUMAN_SMOKING',
+                scenario = 'WORLD_HUMAN_STAND_IMPATIENT',
                 loc = vec3(161.5467, -3173.8481, 4.9674),
                 heading = 264.8625,
             },
@@ -544,7 +545,7 @@ return {
 		}, targets = {
 			{
                 ped = `a_f_y_gencaspat_01`,
-                scenario = 'WORLD_HUMAN_AA_COFFEE',
+                scenario = 'WORLD_HUMAN_CLIPBOARD',
                 loc = vec3(160.4048, -3156.4312, 4.9882),
                 heading = 267.9688,
             },
