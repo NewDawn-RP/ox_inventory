@@ -2005,7 +2005,7 @@ return {
 		description = "A besoin d'être transformé"
 	},
 
-	['pouches_weed'] = {
+	['weed_pouch'] = {
 		label = 'Pochon de weed',
 		weight = 1000,
 		stack = true,
@@ -2029,7 +2029,7 @@ return {
 		description = "A besoin d'être transformé"
 	},
 
-	['pouches_coca'] = {
+	['coca_pouch'] = {
 		label = 'Pochon de cocaine',
 		weight = 1000,
 		stack = true,
@@ -2053,7 +2053,7 @@ return {
 		description = "A besoin d'être transformé"
 	},
 
-	['pouches_opium'] = {
+	['opium_pouch'] = {
 		label = 'Pochon Opium',
 		weight = 1000,
 		stack = true,
