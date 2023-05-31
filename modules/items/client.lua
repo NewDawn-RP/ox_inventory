@@ -393,7 +393,7 @@ Item('lightkevlar', function(data, slot) -- Adds 30% of body armor
 		ox_inventory:useItem(data, function(data)
 			if data then
 				SetPlayerMaxArmour(PlayerData.id, 100)
-				SetPedArmour(cache.ped, 30)
+				SetPedArmour(cache.ped, 60)
 			end
 		end)
 	else
@@ -410,7 +410,7 @@ Item('mediumkevlar', function(data, slot) -- Adds 60% of body armor
 		ox_inventory:useItem(data, function(data)
 			if data then
 				SetPlayerMaxArmour(PlayerData.id, 100)
-				SetPedArmour(cache.ped, 60)
+				SetPedArmour(cache.ped, 80)
 			end
 		end)
 	else
