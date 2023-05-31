@@ -189,6 +189,36 @@ return {
 	-- 		{ loc = vec3(453.21, -980.03, 30.68), length = 0.5, width = 3.0, heading = 270.0, minZ = 30.5, maxZ = 32.0, distance = 6 }
 	-- 	}
 	-- },
+    
+    PoliceArmoury = {
+		name = 'Armurerie Police',
+		groups = {
+			['police'] = 9,
+		},
+		blip = {
+			id = 110, colour = 84, scale = 0.8
+		}, inventory = {
+			{ name = 'ammo-9', price = 5, },
+	 		{ name = 'ammo-rifle', price = 5, },
+	 		{ name = 'WEAPON_FLASHLIGHT', price = 200 },
+	 		{ name = 'WEAPON_NIGHTSTICK', price = 500 },
+	 		{ name = 'WEAPON_PISTOL', price = 2500, metadata = { registered = true, serial = 'POL' }, license = 'weapon' },
+	 		{ name = 'WEAPON_CARBINERIFLE', price = 3500, metadata = { registered = true, serial = 'POL' }, license = 'weapon', grade = 3 },
+	 		{ name = 'WEAPON_STUNGUN', price = 1000, metadata = { registered = true, serial = 'POL'} },
+            { name = 'lightkevlar', price = 300,metadata = {['drawableId'] = 9, ['textureId'] = 0, ['paletteId'] = 0, ['label'] = "Gilet Police Léger"} },
+            { name = 'mediumkevlar', price = 500, metadata = {['drawableId'] = 9, ['textureId'] = 0, ['paletteId'] = 0, ['label'] = "Gilet Police Moyen"} },
+            { name = 'heavykevlar', price = 750,  metadata = {['drawableId'] = 9, ['textureId'] = 0, ['paletteId'] = 0, ['label'] = "Gilet Police Lourd"} },
+		}, locations = {
+			vec3(306.3687, -601.5139, 43.28406)
+		}, targets = {
+            {
+                ped = `ig_orleans`,
+                scenario = 'WORLD_HUMAN_STAND_IMPATIENT',
+                loc = vec3(348.7274, -199.5583, 53.2218), -- A CHANGER
+                heading = 61.4530,
+            },
+		}
+	},
 
 	Medicine = {
 		name = 'Cabinet Médical',
