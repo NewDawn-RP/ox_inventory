@@ -477,7 +477,7 @@ return {
 	{
 		items = {
 			{
-				name = 'pouches_weed',
+				name = 'weed_pouch',
 				ingredients = {
 					weed = 1,
 					empty_pouch = 1,
@@ -523,7 +523,7 @@ return {
 	{
 		items = {
 			{
-				name = 'pouches_coca',
+				name = 'coca_pouch',
 				ingredients = {
 					cocaine = 1,
 					empty_pouch = 1,
@@ -569,7 +569,7 @@ return {
 	{
 		items = {
 			{
-				name = 'pouches_opium',
+				name = 'opium_pouch',
 				ingredients = {
 					opium = 1,
 					empty_pouch = 1,
