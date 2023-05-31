@@ -169,26 +169,6 @@ return {
             },
 		}
 	},
-
-	-- PoliceArmoury = {
-	-- 	name = 'Police Armoury',
-	-- 	groups = shared.police,
-	-- 	blip = {
-	-- 		id = 110, colour = 84, scale = 0.8
-	-- 	}, inventory = {
-	-- 		{ name = 'ammo-9', price = 5, },
-	-- 		{ name = 'ammo-rifle', price = 5, },
-	-- 		{ name = 'WEAPON_FLASHLIGHT', price = 200 },
-	-- 		{ name = 'WEAPON_NIGHTSTICK', price = 100 },
-	-- 		{ name = 'WEAPON_PISTOL', price = 500, metadata = { registered = true, serial = 'POL' }, license = 'weapon' },
-	-- 		{ name = 'WEAPON_CARBINERIFLE', price = 1000, metadata = { registered = true, serial = 'POL' }, license = 'weapon', grade = 3 },
-	-- 		{ name = 'WEAPON_STUNGUN', price = 500, metadata = { registered = true, serial = 'POL'} }
-	-- 	}, locations = {
-	-- 		vec3(451.51, -979.44, 30.68)
-	-- 	}, targets = {
-	-- 		{ loc = vec3(453.21, -980.03, 30.68), length = 0.5, width = 3.0, heading = 270.0, minZ = 30.5, maxZ = 32.0, distance = 6 }
-	-- 	}
-	-- },
     
     PoliceArmoury = {
 		name = 'Armurerie Police',
@@ -202,20 +182,24 @@ return {
 	 		{ name = 'ammo-rifle', price = 5, },
 	 		{ name = 'WEAPON_FLASHLIGHT', price = 200 },
 	 		{ name = 'WEAPON_NIGHTSTICK', price = 500 },
-	 		{ name = 'WEAPON_PISTOL', price = 2500, metadata = { registered = true, serial = 'POL' }, license = 'weapon' },
+			{ name = 'WEAPON_STUNGUN', price = 1000, metadata = { registered = true, serial = 'POL'} },
+	 		{ name = 'WEAPON_PISTOL', price = 1500, metadata = { registered = true, serial = 'POL' }, license = 'weapon' },
+	 		{ name = 'WEAPON_COMBATPISTOL', price = 1750, metadata = { registered = true, serial = 'POL' }, license = 'weapon' },
+	 		{ name = 'WEAPON_COMBATPDW', price = 2000, metadata = { registered = true, serial = 'POL' } },
+	 		{ name = 'WEAPON_SMG', price = 2500, metadata = { registered = true, serial = 'POL' }, license = 'weapon', grade = 3 },
+	 		{ name = 'WEAPON_PUMPSHOTGUN', price = 3500, metadata = { registered = true, serial = 'POL' }, license = 'weapon', grade = 3 },
 	 		{ name = 'WEAPON_CARBINERIFLE', price = 3500, metadata = { registered = true, serial = 'POL' }, license = 'weapon', grade = 3 },
-	 		{ name = 'WEAPON_STUNGUN', price = 1000, metadata = { registered = true, serial = 'POL'} },
-            { name = 'lightkevlar', price = 300,metadata = {['drawableId'] = 9, ['textureId'] = 0, ['paletteId'] = 0, ['label'] = "Gilet Police Léger"} },
-            { name = 'mediumkevlar', price = 500, metadata = {['drawableId'] = 9, ['textureId'] = 0, ['paletteId'] = 0, ['label'] = "Gilet Police Moyen"} },
-            { name = 'heavykevlar', price = 750,  metadata = {['drawableId'] = 9, ['textureId'] = 0, ['paletteId'] = 0, ['label'] = "Gilet Police Lourd"} },
-		}, locations = {
-			vec3(306.3687, -601.5139, 43.28406)
+	 		{ name = 'WEAPON_HEAVYRIFLE', price = 3500, metadata = { registered = true, serial = 'POL' }, license = 'weapon', grade = 3 },
+            { name = 'lightkevlar', price = 300,metadata = {['drawableId'] = 4, ['textureId'] = 0, ['paletteId'] = 0, ['label'] = "Gilet Léger Patrouille"} },
+            { name = 'lightkevlar', price = 300,metadata = {['drawableId'] = 7, ['textureId'] = 0, ['paletteId'] = 0, ['label'] = "Gilet Léger Inter."} },
+            { name = 'mediumkevlar', price = 500, metadata = {['drawableId'] = 20, ['textureId'] = 0, ['paletteId'] = 0, ['label'] = "Gilet Police Moyen"} },
+            { name = 'heavykevlar', price = 750,  metadata = {['drawableId'] = 25, ['textureId'] = 0, ['paletteId'] = 0, ['label'] = "Gilet Police Lourd"} },
 		}, targets = {
             {
                 ped = `ig_orleans`,
                 scenario = 'WORLD_HUMAN_STAND_IMPATIENT',
-                loc = vec3(348.7274, -199.5583, 53.2218), -- A CHANGER
-                heading = 61.4530,
+                loc = vec3(-1800.7394, 3103.5088, 31.8418), -- A CHANGER
+                heading = 151.0306,
             },
 		}
 	},
