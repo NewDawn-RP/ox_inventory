@@ -176,10 +176,11 @@ return {
 			['police'] = 9,
 		},
 		blip = {
-			id = 110, colour = 84, scale = 0.8
+			id = 110, colour = 3, scale = 0.8
 		}, inventory = {
-			{ name = 'ammo-9', price = 5, },
+			{ name = 'ammo-9', price = 2, },
 	 		{ name = 'ammo-rifle', price = 5, },
+	 		{ name = 'ammo-shotgun', price = 5, },
 	 		{ name = 'WEAPON_FLASHLIGHT', price = 200 },
 	 		{ name = 'WEAPON_NIGHTSTICK', price = 500 },
 			{ name = 'WEAPON_STUNGUN', price = 1000, metadata = { registered = true, serial = 'POL'} },
@@ -189,16 +190,22 @@ return {
 	 		{ name = 'WEAPON_SMG', price = 2500, metadata = { registered = true, serial = 'POL' }, license = 'weapon', grade = 3 },
 	 		{ name = 'WEAPON_PUMPSHOTGUN', price = 3500, metadata = { registered = true, serial = 'POL' }, license = 'weapon', grade = 3 },
 	 		{ name = 'WEAPON_CARBINERIFLE', price = 3500, metadata = { registered = true, serial = 'POL' }, license = 'weapon', grade = 3 },
-	 		{ name = 'WEAPON_HEAVYRIFLE', price = 3500, metadata = { registered = true, serial = 'POL' }, license = 'weapon', grade = 3 },
             { name = 'lightkevlar', price = 300,metadata = {['drawableId'] = 4, ['textureId'] = 0, ['paletteId'] = 0, ['label'] = "Gilet Léger Patrouille"} },
             { name = 'lightkevlar', price = 300,metadata = {['drawableId'] = 7, ['textureId'] = 0, ['paletteId'] = 0, ['label'] = "Gilet Léger Inter."} },
-            { name = 'mediumkevlar', price = 500, metadata = {['drawableId'] = 20, ['textureId'] = 0, ['paletteId'] = 0, ['label'] = "Gilet Police Moyen"} },
-            { name = 'heavykevlar', price = 750,  metadata = {['drawableId'] = 25, ['textureId'] = 0, ['paletteId'] = 0, ['label'] = "Gilet Police Lourd"} },
+            { name = 'mediumkevlar', price = 500, metadata = {['drawableId'] = 20, ['textureId'] = 0, ['paletteId'] = 0, ['label'] = "Gilet Moyen (Police)"} },
+            { name = 'heavykevlar', price = 750,  metadata = {['drawableId'] = 25, ['textureId'] = 0, ['paletteId'] = 0, ['label'] = "Gilet Lourd (Police)"} },
+			{ name = 'at_suppressor_light', price = 200 },
+			{ name = 'at_suppressor_heavy', price = 350 },
+			{ name = 'at_scope_small', price = 350 },
+			{ name = 'at_scope_medium', price = 350 },
+			{ name = 'at_scope_large', price = 350 },
+			{ name = 'at_scope_advanced', price = 350 },
+			{ name = 'at_scope_holo', price = 350 },
 		}, targets = {
             {
-                ped = `ig_orleans`,
+                ped = `s_m_m_marine_01`,
                 scenario = 'WORLD_HUMAN_STAND_IMPATIENT',
-                loc = vec3(-1800.7394, 3103.5088, 31.8418), -- A CHANGER
+                loc = vec3(-1800.7394, 3103.5088, 31.8418),
                 heading = 151.0306,
             },
 		}
