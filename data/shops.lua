@@ -483,7 +483,7 @@ return {
 	Beanfruit = {
 		name = 'Grossiste Ingrédients', -- Items BeanMachine Craft Primeur 
 		groups = {
-			['cafe'] = 1,
+			['cafe'] = 0,
 		},
 		blip = {
 			id = 615, colour = 10, scale = 0.5
@@ -510,7 +510,7 @@ return {
 	Beansec = {
 		name = 'Grossiste Sec', -- Items Secs pour le BeanMachine Patisserie
 		groups = {
-			['cafe'] = 1,
+			['cafe'] = 0,
 		},
 		blip = {
 			id = 615, colour = 10, scale = 0.5
@@ -541,7 +541,7 @@ return {
 	Beandrink = {
 		name = 'Grossiste Boissons', -- Items Boissons pour le BeanMachine 
 		groups = {
-			['cafe'] = 1,
+			['cafe'] = 0,
 		},
 		blip = {
 			id = 615, colour = 10, scale = 0.5
