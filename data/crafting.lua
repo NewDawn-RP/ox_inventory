@@ -22,11 +22,11 @@ return {
 			},
 		},
 		points = {
-			vec3(-198.4331, -1315.1951, 31.0894),
+			vec3(-205.4213, -1336.9602, 31.3005),   
 		},
 		zones = {
 			{
-				coords = vec3(-198.4331, -1315.1951, 31.0894), 
+				coords = vec3(-205.4213, -1336.9602, 31.3005), 
 				size = vec3(3, 3, 3),
 				distance = 2.5,
 			},
@@ -78,8 +78,8 @@ return {
 		zones = {
 			{
 				coords = vec3(94.5815, 291.5911, 110.2095), 
-				size = vec3(3, 3, 3),
-				distance = 2.5,
+				size = vec3(1.5, 1.5, 1.5),
+				distance = 1.5,
 			},
 		},
 	},
@@ -118,8 +118,8 @@ return {
 		zones = {
 			{
 				coords = vec3(96.2008, 293.1687, 110.2095), 
-				size = vec3(3, 3, 3),
-				distance = 2.5,
+				size = vec3(1.5, 1.5, 1.5),
+				distance = 1.5,
 			},
 		},
 	},
@@ -136,18 +136,18 @@ return {
 			},			
 		},
 		points = {
-			vec3(83.6297, 301.5202, 110.2100),
+			vec3(92.3333, 292.4424, 110.2095),
 		},
 		zones = {
 			{
-				coords = vec3(83.6297, 301.5202, 110.2100), 
-				size = vec3(3, 3, 3),
-				distance = 2.5,
+				coords = vec3(92.3333, 292.4424, 110.2095),   
+				size = vec3(1.5, 1.5, 1.5),
+				distance = 1.5,
 			},
 		},
 	},
 	{
-		groups = { ["vine"] = 0 }, -- fabrication produits CRAFT 1
+		groups = { ["vine"] = 0 }, -- Vigneron - fabrication produits CRAFT 1
 		items = {
 			{
 				name = 'neutralbtl_bp',
@@ -224,21 +224,21 @@ return {
 				duration = 10000,
 				count = 1,
 			},
-			
+						
 		},
 		points = {
 			vec3(-1928.2686, 1779.5055, 173.0965),
 		},
 		zones = {
 			{
-				coords = vec3(-1928.2686, 1779.5055, 173.0965), 
+				coords = vec3(-1927.2686, 1779.5055, 173.0965), 
 				size = vec3(3, 3, 3),
 				distance = 3,
 			},
 		},
 	},
 	{
-		groups = { ["vine"] = 0 }, -- fabrication produits finals CRAFT 2
+		groups = { ["vine"] = 0 }, -- Vigneron - fabrication produits finals CRAFT 2
 		items = {
 			{
 				name = 'black_pinot',
@@ -305,23 +305,23 @@ return {
 			},
 		},
 		points = {
-			vec3(2345.8752, 3137.6292, 48.2087),
+			vec3(2342.6562, 3138.6467, 48.1892),
 		},
 		zones = {
 			{
-				coords = vec3(2345.8752, 3137.6292, 48.2087), 
+				coords = vec3(2342.6562, 3138.6467, 48.1892), 
 				size = vec3(3, 3, 3),
 				distance = 2.5,
 			},
 		},
 	},
 	{
-		groups = { ["cafe"] = 0 }, -- Craft Bean Machine Boissons chaudes
+		groups = { ["cafe"] = 0 }, -- Craft Bean Machine Boissons chaudes 
 		items = {
 			{
 				name = 'high_noon',
 				ingredients = {
-					coffee_bean = 2,
+					coffee_beans = 2,
 					milk = 1,
 				},
 				duration = 10000,
@@ -330,7 +330,7 @@ return {
 			{
 				name = 'gunkacchino',
 				ingredients = {
-					coffee_bean = 2,
+					coffee_beans = 2,
 					milk = 1,
 					chocolate_powder = 1,
 				},
@@ -340,7 +340,7 @@ return {
 			{
 				name = 'the_bratte',
 				ingredients = {
-					coffee_bean = 2,
+					coffee_beans = 2,
 					milk = 1,
 					caramel_syrop = 1,
 				},
@@ -350,7 +350,7 @@ return {
 			{
 				name = 'the_flusher',
 				ingredients = {
-					coffee_bean = 1,
+					coffee_beans = 1,
 				},
 				duration = 10000,
 				count = 1,
@@ -358,7 +358,7 @@ return {
 			{
 				name = 'speedball',
 				ingredients = {
-					coffee_bean = 2,
+					coffee_beans = 2,
 				},
 				duration = 10000,
 				count = 1,
@@ -374,13 +374,13 @@ return {
 			},
 		},
 		points = {
-			vec3(122.2485, -1041.5028, 29.2779),
+			vec3(122.8551, -1041.7950, 29.3702),  
 		},
 		zones = {
 			{
-				coords = vec3(122.2485, -1041.5028, 29.2779), 
+				coords = vec3(122.8551, -1041.7950, 29.3702), 
 				size = vec3(3, 3, 3),
-				distance = 3.5,
+				distance = 2.2,
 			},
 		},
 	},
@@ -418,13 +418,13 @@ return {
 			},
 		},
 		points = {
-			vec3(126.2914, -1035.8292, 29.2779),
+			vec3(126.0177, -1036.3953, 29.5538),
 		},
 		zones = {
 			{
-				coords = vec3(126.2914, -1035.8292, 29.2779), 
+				coords = vec3(126.0177, -1036.3953, 29.5538), 
 				size = vec3(3, 3, 3),
-				distance = 3.5,
+				distance = 2.2,
 			},
 		},
 	},
@@ -442,13 +442,13 @@ return {
 			},
 		},
 		points = {
-			vec3(126.2914, -1035.8292, 29.2779),
+			vec3(121.4563, -1038.4925, 29.3293),
 		},
 		zones = {
 			{
-				coords = vec3(126.2914, -1035.8292, 29.2779), 
+				coords = vec3(121.4563, -1038.4925, 29.3293), 
 				size = vec3(3, 3, 3),
-				distance = 3.5,
+				distance = 2.0,
 			},
 		},
 	},

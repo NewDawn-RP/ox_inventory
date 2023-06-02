@@ -1617,6 +1617,48 @@ return {
 		}
 	},
 
+	['lightkevlar'] = { --  Use to set body armor to 30%
+		label = 'Gilet Pare-Balles Léger',
+        weight = 3000,
+        stack = false,
+        description = "Bullts hurt a bit less with this",
+        client = {
+            anim = { dict = 'clothingshirt', clip = 'try_shirt_positive_d' },
+            usetime = 6500
+        },
+		server = {
+			export = "lexinor_commons.lightkevlar",
+		},
+    },
+
+    ['mediumkevlar'] = { --  Use to set body armor to 60%
+		label = 'Gilet Pare-Balles Moyen',
+        weight = 5000,
+        stack = false,
+        description = "Bullets hurt a lot less with this",
+        client = {
+            anim = { dict = 'clothingshirt', clip = 'try_shirt_positive_d' },
+            usetime = 6500
+        },
+		server = {
+			export = "lexinor_commons.mediumkevlar",
+		},
+    },
+
+    ['heavykevlar'] = { --  Use to set body armor to 100%
+        label = 'Gilet Pare-Balles Lourd',
+        weight = 4500,
+        stack = false,
+        description = "Keep the extra bullets for personal vest flair",
+        client = {
+            anim = { dict = 'clothingshirt', clip = 'try_shirt_positive_d' },
+            usetime = 6500
+        },
+		server = {
+			export = "lexinor_commons.heavykevlar",
+		},
+    },
+
 	['handcuffs'] = {
 	    label = 'Paire de menottes',
 	    weight = 500,
@@ -1963,7 +2005,7 @@ return {
 		description = "A besoin d'être transformé"
 	},
 
-	['pouches_weed'] = {
+	['weed_pouch'] = {
 		label = 'Pochon de weed',
 		weight = 1000,
 		stack = true,
@@ -1987,7 +2029,7 @@ return {
 		description = "A besoin d'être transformé"
 	},
 
-	['pouches_coca'] = {
+	['coca_pouch'] = {
 		label = 'Pochon de cocaine',
 		weight = 1000,
 		stack = true,
@@ -2011,7 +2053,7 @@ return {
 		description = "A besoin d'être transformé"
 	},
 
-	['pouches_opium'] = {
+	['opium_pouch'] = {
 		label = 'Pochon Opium',
 		weight = 1000,
 		stack = true,
