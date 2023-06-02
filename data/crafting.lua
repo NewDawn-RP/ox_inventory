@@ -464,11 +464,17 @@ return {
 			},
 		},
 		points = {
-			vec3(1770.1130, -1621.3812, 113.6330),
+			vec3(685.3466, -1225.0541, 24.7908),
+			vec3(-1107.7235, -1640.4111, 4.6405),
 		},
 		zones = {
 			{
-				coords = vec3(1770.1130, -1621.3812, 113.6330), 
+				coords = vec3(685.3466, -1225.0541, 24.7908), 
+				size = vec3(3, 3, 3),
+				distance = 3.5,
+			},
+			{
+				coords = vec3(-1107.7235, -1640.4111, 4.6405), 
 				size = vec3(3, 3, 3),
 				distance = 3.5,
 			},
@@ -477,7 +483,7 @@ return {
 	{
 		items = {
 			{
-				name = 'pouches_weed',
+				name = 'weed_pouch',
 				ingredients = {
 					weed = 1,
 					empty_pouch = 1,
@@ -487,11 +493,17 @@ return {
 			},
 		},
 		points = {
-			vec3(1769.3101, -1625.1322, 113.6247),
+			vec3(685.3466, -1225.0541, 24.7908),
+			vec3(-1107.7235, -1640.4111, 4.6405),
 		},
 		zones = {
 			{
-				coords = vec3(1769.3101, -1625.1322, 113.6247), 
+				coords = vec3(685.3466, -1225.0541, 24.7908), 
+				size = vec3(3, 3, 3),
+				distance = 3.5,
+			},
+			{
+				coords = vec3(-1107.7235, -1640.4111, 4.6405), 
 				size = vec3(3, 3, 3),
 				distance = 3.5,
 			},
@@ -511,10 +523,16 @@ return {
 		},
 		points = {
 			vec3(-537.0639, -1794.6445, 21.6090),
+			vec3(1122.1897, -1231.6085, 16.4186),
 		},
 		zones = {
 			{
 				coords = vec3(-537.0639, -1794.6445, 21.6090), 
+				size = vec3(3, 3, 3),
+				distance = 3.5,
+			},
+			{
+				coords = vec3(1122.1897, -1231.6085, 16.4186), 
 				size = vec3(3, 3, 3),
 				distance = 3.5,
 			},
@@ -523,7 +541,7 @@ return {
 	{
 		items = {
 			{
-				name = 'pouches_coca',
+				name = 'coca_pouch',
 				ingredients = {
 					cocaine = 1,
 					empty_pouch = 1,
@@ -534,10 +552,16 @@ return {
 		},
 		points = {
 			vec3(-527.9670, -1796.4544, 21.6090),
+			vec3(1116.8975, -1239.4739, 16.4186),
 		},
 		zones = {
 			{
 				coords = vec3(-527.9670, -1796.4544, 21.6090), 
+				size = vec3(3, 3, 3),
+				distance = 3.5,
+			},
+			{
+				coords = vec3(1116.8975, -1239.4739, 16.4186), 
 				size = vec3(3, 3, 3),
 				distance = 3.5,
 			},
@@ -557,10 +581,16 @@ return {
 		},
 		points = {
 			vec3(-530.0064, -1739.0572, 16.7261),
+			vec3(-50.7486, 6366.9302, 28.8165),
 		},
 		zones = {
 			{
 				coords = vec3(-530.0064, -1739.0572, 16.7261), 
+				size = vec3(3, 3, 3),
+				distance = 3.5,
+			},
+			{
+				coords = vec3(-50.7486, 6366.9302, 28.8165), 
 				size = vec3(3, 3, 3),
 				distance = 3.5,
 			},
@@ -569,7 +599,7 @@ return {
 	{
 		items = {
 			{
-				name = 'pouches_opium',
+				name = 'opium_pouch',
 				ingredients = {
 					opium = 1,
 					empty_pouch = 1,
@@ -580,10 +610,16 @@ return {
 		},
 		points = {
 			vec3(-521.3657, -1741.3342, 16.7261),
+			vec3(-50.7486, 6366.9302, 28.8165),
 		},
 		zones = {
 			{
 				coords = vec3(-521.3657, -1741.3342, 16.7261), 
+				size = vec3(3, 3, 3),
+				distance = 3.5,
+			},
+			{
+				coords = vec3(-50.7486, 6366.9302, 28.8165), 
 				size = vec3(3, 3, 3),
 				distance = 3.5,
 			},
