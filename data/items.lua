@@ -229,7 +229,7 @@ return {
 			prop = { model = 'prop_food_chips', 
 			pos = vec3(-0.01, 0.0, -0.02), rot = vec3(0.0, 0.0, -45.0) },
 			usetime = 7500,
-			notification = 'Vous avez mangé des French Fries !'
+			notification = 'Vous avez mangé des French Fries !'  
 		}
 	},
 
@@ -239,6 +239,9 @@ return {
 	    stack = true,
 	    client = {
 			status = { hunger = 650000 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = { model = 'prop_taco_01', 
+			pos = vec3(0.05, -0.02, -0.03), rot = vec3(150.0, 340.0, 170.0) },
 			usetime = 7500,
 			notification = 'Vous avez mangé une salade !'
 	    }
@@ -250,6 +253,9 @@ return {
 	    stack = true,
 	    client = {
 			status = { hunger = 600000 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = { model = 'prop_taco_01', 
+			pos = vec3(0.05, -0.02, -0.03), rot = vec3(150.0, 340.0, 170.0) },
 			usetime = 7500,
 			notification = 'Vous avez mangé une salade !'
 	    }
@@ -560,7 +566,8 @@ return {
 			status = { thirst = 250000 },
 			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
 			prop = { model = 'ng_proc_sodacan_01b', 
-			pos = vec3(0.005, -0.001, 0.08), rot = vec3(0.0, 0.0, 160.0) },
+			pos = vec3(0.01, 0.01, 0.06), 
+			rot = vec3(5.0, 5.0, -180.5) },
 			usetime = 7500,
 			notification = 'Vous avez bu du Sprunks !'
 		}

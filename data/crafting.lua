@@ -63,7 +63,7 @@ return {
 				name = 'double_burger',
 				ingredients = {
 					burger_bread = 1,
-					beef_steak = 3,
+					beef_steak = 2,
 					cheese = 1,
 					salad = 1,
 					tomato = 1,
@@ -103,7 +103,7 @@ return {
 				name = 'chicken_salad',
 				ingredients = {
 					tomato = 2,
-					chicken = 1,
+					chicken_meat = 1,
 					cheese = 2,
 					salad = 1,			
 					onion = 1,	
