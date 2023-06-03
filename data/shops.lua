@@ -200,7 +200,10 @@ return {
 			id = 403, colour = 69, scale = 0.8
 		}, inventory = {
 			{ name = 'medikit', price = 26 },
-			{ name = 'bandage', price = 5 }
+			{ name = 'bandage', price = 5 },
+			{ name = 'pill', price = 5 },
+			{ name = 'bandage', price = 5 },
+			{ name = 'bandage', price = 5 },
 		}, locations = {
 			vec3(306.3687, -601.5139, 43.28406)
 		}, targets = {

@@ -342,7 +342,7 @@ return {
 				ingredients = {
 					coffee_beans = 2,
 					milk = 1,
-					caramel_syrop = 1,
+					caramel_syrup = 1,
 				},
 				duration = 10000,
 				count = 1,
@@ -399,7 +399,7 @@ return {
 			{
 				name = 'the_big_vanilla',
 				ingredients = {
-					vanilla = 3,
+					vanilla_syrup = 3,
 					milk = 1,
 				},
 				duration = 10000,
