@@ -34,17 +34,16 @@ return {
 			vec3(2557.94, 382.05, 108.62),
 			vec3(373.55, 325.56, 103.56),
 		}, targets = {
-			{ loc = vec3(25.06, -1347.32, 29.5), length = 0.7, width = 0.5, heading = 0.0, minZ = 29.5, maxZ = 29.9, distance = 1.5 },
-			{ loc = vec3(-3039.18, 585.13, 7.91), length = 0.6, width = 0.5, heading = 15.0, minZ = 7.91, maxZ = 8.31, distance = 1.5 },
-			{ loc = vec3(-3242.2, 1000.58, 12.83), length = 0.6, width = 0.6, heading = 175.0, minZ = 12.83, maxZ = 13.23, distance = 1.5 },
-			{ loc = vec3(1728.39, 6414.95, 35.04), length = 0.6, width = 0.6, heading = 65.0, minZ = 35.04, maxZ = 35.44, distance = 1.5 },
-			{ loc = vec3(1698.37, 4923.43, 42.06), length = 0.5, width = 0.5, heading = 235.0, minZ = 42.06, maxZ = 42.46, distance = 1.5 },
-			{ loc = vec3(1960.54, 3740.28, 32.34), length = 0.6, width = 0.5, heading = 120.0, minZ = 32.34, maxZ = 32.74, distance = 1.5 },
-			{ loc = vec3(548.5, 2671.25, 42.16), length = 0.6, width = 0.5, heading = 10.0, minZ = 42.16, maxZ = 42.56, distance = 1.5 },
-			{ loc = vec3(2678.29, 3279.94, 55.24), length = 0.6, width = 0.5, heading = 330.0, minZ = 55.24, maxZ = 55.64, distance = 1.5 },
-			{ loc = vec3(2557.19, 381.4, 108.62), length = 0.6, width = 0.5, heading = 0.0, minZ = 108.62, maxZ = 109.02, distance = 1.5 },
-			{ loc = vec3(373.13, 326.29, 103.57), length = 0.6, width = 0.5, heading = 345.0, minZ = 103.57, maxZ = 103.97, distance = 1.5 },
-		}
+			{ loc = vec3(25.06, -1347.32, 29.5), length = 0.7, width = 0.5, heading = 0.0, minZ = 29.5, maxZ = 29.9, distance = 3.5 },
+			{ loc = vec3(-3039.18, 585.13, 7.91), length = 0.6, width = 0.5, heading = 15.0, minZ = 7.91, maxZ = 8.31, distance = 3.5 },
+			{ loc = vec3(-3242.2, 1000.58, 12.83), length = 0.6, width = 0.6, heading = 175.0, minZ = 12.83, maxZ = 13.23, distance = 3.5 },
+			{ loc = vec3(1728.39, 6414.95, 35.04), length = 0.6, width = 0.6, heading = 65.0, minZ = 35.04, maxZ = 35.44, distance = 3.5 },
+			{ loc = vec3(1698.37, 4923.43, 42.06), length = 0.5, width = 0.5, heading = 235.0, minZ = 42.06, maxZ = 42.46, distance = 3.5 },
+			{ loc = vec3(1960.54, 3740.28, 32.34), length = 0.6, width = 0.5, heading = 120.0, minZ = 32.34, maxZ = 32.74, distance = 3.5 },
+			{ loc = vec3(548.5, 2671.25, 42.16), length = 0.6, width = 0.5, heading = 10.0, minZ = 42.16, maxZ = 42.56, distance = 3.5 },
+			{ loc = vec3(2678.29, 3279.94, 55.24), length = 0.6, width = 0.5, heading = 330.0, minZ = 55.24, maxZ = 55.64, distance = 3.5 },
+			{ loc = vec3(2557.19, 381.4, 108.62), length = 0.6, width = 0.5, heading = 0.0, minZ = 108.62, maxZ = 109.02, distance = 3.5 },
+			{ loc = vec3(373.13, 326.29, 103.57), length = 0.6, width = 0.5, heading = 345.0, minZ = 103.57, maxZ = 103.97, distance = 3.5 },		}
 	},
 
 	Liquor = {
@@ -66,12 +65,12 @@ return {
 			vec3(1392.562, 3604.684, 34.980),
 			vec3(-1393.409, -606.624, 30.319)
 		}, targets = {
-			{ loc = vec3(1134.9, -982.34, 46.41), length = 0.5, width = 0.5, heading = 96.0, minZ = 46.4, maxZ = 46.8, distance = 1.5 },
-			{ loc = vec3(-1222.33, -907.82, 12.43), length = 0.6, width = 0.5, heading = 32.7, minZ = 12.3, maxZ = 12.7, distance = 1.5 },
-			{ loc = vec3(-1486.67, -378.46, 40.26), length = 0.6, width = 0.5, heading = 133.77, minZ = 40.1, maxZ = 40.5, distance = 1.5 },
-			{ loc = vec3(-2967.0, 390.9, 15.14), length = 0.7, width = 0.5, heading = 85.23, minZ = 15.0, maxZ = 15.4, distance = 1.5 },
-			{ loc = vec3(1165.95, 2710.20, 38.26), length = 0.6, width = 0.5, heading = 178.84, minZ = 38.1, maxZ = 38.5, distance = 1.5 },
-			{ loc = vec3(1393.0, 3605.95, 35.11), length = 0.6, width = 0.6, heading = 200.0, minZ = 35.0, maxZ = 35.4, distance = 1.5 }
+			{ loc = vec3(1134.9, -982.34, 46.41), length = 0.5, width = 0.5, heading = 96.0, minZ = 46.4, maxZ = 46.8, distance = 3.5 },
+			{ loc = vec3(-1222.33, -907.82, 12.43), length = 0.6, width = 0.5, heading = 32.7, minZ = 12.3, maxZ = 12.7, distance = 3.5 },
+			{ loc = vec3(-1486.67, -378.46, 40.26), length = 0.6, width = 0.5, heading = 133.77, minZ = 40.1, maxZ = 40.5, distance = 3.5 },
+			{ loc = vec3(-2967.0, 390.9, 15.14), length = 0.7, width = 0.5, heading = 85.23, minZ = 15.0, maxZ = 15.4, distance = 3.5 },
+			{ loc = vec3(1165.95, 2710.20, 38.26), length = 0.6, width = 0.5, heading = 178.84, minZ = 38.1, maxZ = 38.5, distance = 3.5 },
+			{ loc = vec3(1393.0, 3605.95, 35.11), length = 0.6, width = 0.6, heading = 200.0, minZ = 35.0, maxZ = 35.4, distance = 3.5 }
 		}
 	},
 
@@ -170,26 +169,47 @@ return {
             },
 		}
 	},
-
-	-- PoliceArmoury = {
-	-- 	name = 'Police Armoury',
-	-- 	groups = shared.police,
-	-- 	blip = {
-	-- 		id = 110, colour = 84, scale = 0.8
-	-- 	}, inventory = {
-	-- 		{ name = 'ammo-9', price = 5, },
-	-- 		{ name = 'ammo-rifle', price = 5, },
-	-- 		{ name = 'WEAPON_FLASHLIGHT', price = 200 },
-	-- 		{ name = 'WEAPON_NIGHTSTICK', price = 100 },
-	-- 		{ name = 'WEAPON_PISTOL', price = 500, metadata = { registered = true, serial = 'POL' }, license = 'weapon' },
-	-- 		{ name = 'WEAPON_CARBINERIFLE', price = 1000, metadata = { registered = true, serial = 'POL' }, license = 'weapon', grade = 3 },
-	-- 		{ name = 'WEAPON_STUNGUN', price = 500, metadata = { registered = true, serial = 'POL'} }
-	-- 	}, locations = {
-	-- 		vec3(451.51, -979.44, 30.68)
-	-- 	}, targets = {
-	-- 		{ loc = vec3(453.21, -980.03, 30.68), length = 0.5, width = 3.0, heading = 270.0, minZ = 30.5, maxZ = 32.0, distance = 6 }
-	-- 	}
-	-- },
+    
+    PoliceArmoury = {
+		name = 'Armurerie Police',
+		groups = {
+			['police'] = 9,
+		},
+		blip = {
+			id = 110, colour = 3, scale = 0.8
+		}, inventory = {
+			{ name = 'ammo-9', price = 2, },
+	 		{ name = 'ammo-rifle', price = 5, },
+	 		{ name = 'ammo-shotgun', price = 5, },
+	 		{ name = 'WEAPON_FLASHLIGHT', price = 200 },
+	 		{ name = 'WEAPON_NIGHTSTICK', price = 500 },
+			{ name = 'WEAPON_STUNGUN', price = 1000, metadata = { registered = true, serial = 'POL'} },
+	 		{ name = 'WEAPON_PISTOL', price = 1500, metadata = { registered = true, serial = 'POL' }, license = 'weapon' },
+	 		{ name = 'WEAPON_COMBATPISTOL', price = 1750, metadata = { registered = true, serial = 'POL' }, license = 'weapon' },
+	 		{ name = 'WEAPON_COMBATPDW', price = 2000, metadata = { registered = true, serial = 'POL' } },
+	 		{ name = 'WEAPON_SMG', price = 2500, metadata = { registered = true, serial = 'POL' }, license = 'weapon', grade = 3 },
+	 		{ name = 'WEAPON_PUMPSHOTGUN', price = 3500, metadata = { registered = true, serial = 'POL' }, license = 'weapon', grade = 3 },
+	 		{ name = 'WEAPON_CARBINERIFLE', price = 3500, metadata = { registered = true, serial = 'POL' }, license = 'weapon', grade = 3 },
+            { name = 'lightkevlar', price = 300,metadata = {['drawableId'] = 4, ['textureId'] = 0, ['paletteId'] = 0, ['label'] = "Gilet Léger Patrouille"} },
+            { name = 'lightkevlar', price = 300,metadata = {['drawableId'] = 7, ['textureId'] = 0, ['paletteId'] = 0, ['label'] = "Gilet Léger Inter."} },
+            { name = 'mediumkevlar', price = 500, metadata = {['drawableId'] = 20, ['textureId'] = 0, ['paletteId'] = 0, ['label'] = "Gilet Moyen (Police)"} },
+            { name = 'heavykevlar', price = 750,  metadata = {['drawableId'] = 25, ['textureId'] = 0, ['paletteId'] = 0, ['label'] = "Gilet Lourd (Police)"} },
+			{ name = 'at_suppressor_light', price = 200 },
+			{ name = 'at_suppressor_heavy', price = 350 },
+			{ name = 'at_scope_small', price = 350 },
+			{ name = 'at_scope_medium', price = 350 },
+			{ name = 'at_scope_large', price = 350 },
+			{ name = 'at_scope_advanced', price = 350 },
+			{ name = 'at_scope_holo', price = 350 },
+		}, targets = {
+            {
+                ped = `s_m_m_marine_01`,
+                scenario = 'WORLD_HUMAN_STAND_IMPATIENT',
+                loc = vec3(-1800.7394, 3103.5088, 31.8418),
+                heading = 151.0306,
+            },
+		}
+	},
 
 	Medicine = {
 		name = 'Cabinet Médical',
@@ -473,7 +493,7 @@ return {
 	Beanfruit = {
 		name = 'Grossiste Ingrédients', -- Items BeanMachine Craft Primeur 
 		groups = {
-			['cafe'] = 1,
+			['cafe'] = 0,
 		},
 		blip = {
 			id = 615, colour = 10, scale = 0.5
@@ -500,7 +520,7 @@ return {
 	Beansec = {
 		name = 'Grossiste Sec', -- Items Secs pour le BeanMachine Patisserie
 		groups = {
-			['cafe'] = 1,
+			['cafe'] = 0,
 		},
 		blip = {
 			id = 615, colour = 10, scale = 0.5
@@ -531,7 +551,7 @@ return {
 	Beandrink = {
 		name = 'Grossiste Boissons', -- Items Boissons pour le BeanMachine 
 		groups = {
-			['cafe'] = 1,
+			['cafe'] = 0,
 		},
 		blip = {
 			id = 615, colour = 10, scale = 0.5
