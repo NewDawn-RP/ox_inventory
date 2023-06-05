@@ -65,7 +65,7 @@ setContainerProperties('pizzabox', {
 
 setContainerProperties('bag', {
 	slots = 15,
-	maxWeight = 130000,
+	maxWeight = 70000,
 	blacklist = { 'bag' }
 })
 
