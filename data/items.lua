@@ -1545,11 +1545,13 @@ return {
 		label = 'Bandage',
 		weight = 500,
 		close = true,
+		description = "De quoi soigner des blessures légères",
 		client = {
 			anim = { dict = 'missheistdockssetup1clipboard@idle_a', clip = 'idle_a', flag = 49 },
 			prop = { model = `prop_rolled_sock_02`, pos = vec3(-0.14, -0.14, -0.08), rot = vec3(-50.0, -50.0, 0.0) },
 			disable = { move = true, car = true, combat = true },
 			usetime = 8000,
+			notification = 'Vous avez utilisé un bandage !'
 		}
 	},
 
@@ -1564,19 +1566,45 @@ return {
 	    weight = 500,
 		close = true,
 	    stack = true,
+		description = "De quoi soigner des blessures plus importantes",
 	    client = {
-			usetime = 3500,
-			notification = 'Vous avez utilisé une trousse de secours !'
+			anim = { dict = 'missheistdockssetup1clipboard@idle_a', clip = 'idle_a', flag = 49 },
+			prop = { model = `prop_rolled_sock_02`, pos = vec3(-0.14, -0.14, -0.08), rot = vec3(-50.0, -50.0, 0.0) },
+			disable = { move = true, car = true, combat = true },
+			usetime = 8000,
+			notification = 'Vous avez utilisé une Trousse de secours !'
 	    }
 	},
 
-	['pill'] = {
-	    label = 'Pilule',
+	['paracetamol'] = {
+	    label = 'Paracétamol',
 	    weight = 500,
 	    stack = true,
+	    close = true,
+		description = "Parfait pour faire passer la douleur",
 	    client = {
-			usetime = 1500,
-			notification = 'Vous avez prit une pillule !'
+			status = { thirst = 1 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = 'prop_plastic_cup_02', 
+			pos = vec3(0.008, 0.0, -0.05), rot = vec3(0.0, 0.0, -40.0) },
+			usetime = 2000,
+			notification = 'Vous avez prit un paracétamol !' 
+	    }
+	},
+
+	['antibiotic'] = {
+	    label = 'Antibiotique',
+	    weight = 500,
+	    stack = true,
+	    close = true,
+		description = "Parfait pour soigner les infections virales",
+	    client = {
+			status = { thirst = 1 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = 'prop_plastic_cup_02', 
+			pos = vec3(0.008, 0.0, -0.05), rot = vec3(0.0, 0.0, -40.0) },
+			usetime = 2000,
+			notification = 'Vous avez prit un antibiotique !' 
 	    }
 	},
 
@@ -1584,15 +1612,20 @@ return {
 	    label = 'Calmant',
 	    weight = 500,
 	    stack = true,
+	    close = true,
+		description = "Parfait pour redescendre sur terre",
 	    client = {
-			usetime = 1500,
-			notification = 'Vous avez prit un calmant !'
+			status = { thirst = 1 },
+			anim = { dict = 'mp_suicide', clip = 'pill' },
+			usetime = 5000,
+			notification = 'Vous avez prit un calmant !' 
 	    }
 	},
 
 	['medbag'] = {
 		label = 'Saccoche médicale',
 		weight = 4000,
+		description = "Le prêt à tout de tout bon médecin",
 		server = {
 			export = 'lexinor_hospital.medbag',
 		},
@@ -2569,7 +2602,7 @@ return {
 		label = 'Ordures',
 	},
 
-	['bottle'] = {
+	['-'] = {
 	    label = 'Bouteille',
 	    weight = 1000,
 	    stack = true,

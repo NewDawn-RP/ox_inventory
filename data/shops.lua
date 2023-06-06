@@ -212,22 +212,27 @@ return {
 	},
 
 	Medicine = {
-		name = 'Cabinet Médical',
+		name = 'Fournisseur Médical',
 		groups = {
-			['ambulance'] = 0
+			['ambulance'] = 1
 		},
 		blip = {
 			id = 403, colour = 69, scale = 0.8
 		}, inventory = {
-			{ name = 'medikit', price = 26 },
-			{ name = 'bandage', price = 5 },
-			{ name = 'pill', price = 5 },
-			{ name = 'bandage', price = 5 },
-			{ name = 'bandage', price = 5 },
-		}, locations = {
-			vec3(306.3687, -601.5139, 43.28406)
+			{ name = 'medikit', price = 30 },
+			{ name = 'bandage', price = 17 },
+			{ name = 'paracetamol', price = 15 },
+			{ name = 'antibiotic', price = 20 },
+			{ name = 'tranquilizer', price = 50 },
+			{ name = 'medbag', price = 200 },
+			
 		}, targets = {
-
+			{
+                ped = `s_m_m_paramedic_01`,
+                scenario = 'WORLD_HUMAN_STAND_IMPATIENT_UPRIGHT',
+                loc = vec3(161.6032, -3165.2756, 4.9663),
+                heading = 265.0822,
+            },
 		}
 	},
 
