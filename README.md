@@ -7,7 +7,7 @@ The inventory was designed with the intention to move towards a more generic / s
 
 Experimental support for [qb-core](https://github.com/qbcore-framework/qb-core) has been added, but requires a recent installation. Do not expect 100% compatibility or support.
 
-# Config
+# Configg
 
 Refer to the [documentation](https://overextended.github.io/docs/ox_inventory/) setting your config.
 When set, you can add the following to your 'server.cfg'

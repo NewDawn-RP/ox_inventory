@@ -165,8 +165,11 @@ function client.openInventory(inv, data)
 		end
 
 		if inv == 'shop' and invOpen == false then
-			if cache.vehicle then
-				return lib.notify({ id = 'cannot_perform', type = 'error', description = locale('cannot_perform') })
+			--- @TODO RETIRER CETTE PARTIE UNE FOIS LA MODIF FAITES PAR LEQUIPE OX DANS L'INVENTAIRE
+			if not data.allowDriving then
+				if cache.vehicle then
+					return lib.notify({ id = 'cannot_perform', type = 'error', description = locale('cannot_perform') })
+				end
 			end
 
 			left, right = lib.callback.await('ox_inventory:openShop', 200, data)

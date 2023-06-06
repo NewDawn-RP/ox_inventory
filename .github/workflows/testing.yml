@@ -6,8 +6,6 @@ on:
     branches:
       - "main"
       - "develop"
-      
-
 jobs:
   create-release:
     name: Build and Create Tagged release
@@ -55,14 +53,14 @@ jobs:
         run: |
           mkdir -p ./temp/ox_inventory
           mkdir -p ./temp/ox_inventory/web
-          cp ./{server.lua,README.md,LICENSE,fxmanifest.lua,client.lua} ./temp/ox_inventory
+          cp ./{server.lua,README.md,LICENSE,fxmanifest.lua,client.lua,init.lua} ./temp/ox_inventory
           cp -r ./{setup,modules,data,locales} ./temp/ox_inventory
           cp -r ./web/build ./temp/ox_inventory/web/build
           cp -r ./web/images ./temp/ox_inventory/web/images
           cd ./temp && zip -r ../ox_inventory.zip ./ox_inventory
 
       - name: Create Release
-        uses: "marvinpinto/action-automatic-releases@v1.2.1"
+        uses: "marvinpinto/action-automatic-releases@latest"
         id: auto_release
         with:
           repo_token: "${{ secrets.GITHUB_TOKEN }}"
