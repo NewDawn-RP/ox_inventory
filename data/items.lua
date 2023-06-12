@@ -1539,6 +1539,17 @@ return {
 		close = true,
 	},
 
+	['binoculars'] = {
+		label = 'Paire de jumelles',
+		weight = 3500,
+		stack = false,
+		close = true,
+        allowArmed = false,
+        server = {
+			export = "lexinor_commons.binoculars",
+		},
+	},
+
 	--------------------------- [Equipement entreprises, EMS, LSPD, G6,...]
 
 	['bandage'] = {
