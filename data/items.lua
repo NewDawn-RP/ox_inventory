@@ -240,8 +240,6 @@ return {
 	    client = {
 			status = { hunger = 650000 },
 			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
-			prop = { model = 'prop_taco_01', 
-			pos = vec3(0.05, -0.02, -0.03), rot = vec3(150.0, 340.0, 170.0) },
 			usetime = 7500,
 			notification = 'Vous avez mangé une salade !'
 	    }
@@ -254,8 +252,6 @@ return {
 	    client = {
 			status = { hunger = 600000 },
 			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
-			prop = { model = 'prop_taco_01', 
-			pos = vec3(0.05, -0.02, -0.03), rot = vec3(150.0, 340.0, 170.0) },
 			usetime = 7500,
 			notification = 'Vous avez mangé une salade !'
 	    }
