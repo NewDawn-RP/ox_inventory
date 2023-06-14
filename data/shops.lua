@@ -461,7 +461,7 @@ return {
 			['vine'] = 0,
 		},
 		blip = {
-			id = 615, colour = 69, scale = 0.8
+			id = 478, colour = 69, scale = 0.8
 		}, inventory = {
 			{ name = 'natural_ferment', price = 5 },
 			{ name = 'glass_bottle', price = 2 },
