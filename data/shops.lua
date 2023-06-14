@@ -217,7 +217,7 @@ return {
 			['ambulance'] = 1
 		},
 		blip = {
-			id = 403, colour = 69, scale = 0.8
+			id = 403, colour = 1, scale = 0.8
 		}, inventory = {
 			{ name = 'medikit', price = 30 },
 			{ name = 'bandage', price = 17 },
@@ -230,8 +230,8 @@ return {
 			{
                 ped = `s_m_m_paramedic_01`,
                 scenario = 'WORLD_HUMAN_STAND_IMPATIENT_UPRIGHT',
-                loc = vec3(161.6032, -3165.2756, 4.9663),
-                heading = 265.0822,
+                loc = vec3(1102.3302, -1528.5236, 35.0326), 
+                heading = 0.3220,   
             },
 		}
 	},
