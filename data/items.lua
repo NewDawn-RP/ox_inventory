@@ -752,7 +752,7 @@ return {
 			status = { drunk = 120000 },
 			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
 			prop = { model = 'prop_drink_redwine', 
-			pos = vec3(0.005, -0.001, 0.08), rot = vec3(0.0, 0.0, 160.0) },
+			pos = vec3(0.02, -0.01, -0.14), rot = vec3(1.0, 5.0, -182.5) },
 			usetime = 9000,
 			notification = 'Vous avez bu un Pinot noir !'
 		}
@@ -768,7 +768,7 @@ return {
 			status = { drunk = 120000 },
 			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
 			prop = { model = 'prop_drink_whtwine', 
-			pos = vec3(0.005, -0.001, 0.08), rot = vec3(0.0, 0.0, 160.0) },
+			pos = vec3(0.02, -0.01, -0.14), rot = vec3(1.0, 5.0, -182.5) },
 			usetime = 9000,
 			notification = 'Vous avez bu un Pinot blanc !'
 		}
@@ -784,7 +784,7 @@ return {
 			status = { drunk = 120000 },
 			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
 			prop = { model = 'prop_drink_redwine', 
-			pos = vec3(0.005, -0.001, 0.08), rot = vec3(0.0, 0.0, 160.0) },
+			pos = vec3(0.02, -0.01, -0.14), rot = vec3(1.0, 5.0, -182.5) },
 			usetime = 9000,
 			notification = 'Vous avez bu du vin rouge !'
 	    }
@@ -800,7 +800,7 @@ return {
 			status = { drunk = 120000 },
 			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
 			prop = { model = 'prop_drink_whtwine', 
-			pos = vec3(0.005, -0.001, 0.08), rot = vec3(0.0, 0.0, 160.0) },
+			pos = vec3(0.02, -0.01, -0.14), rot = vec3(1.0, 5.0, -182.5) },
 			usetime = 9000,
 			notification = 'Vous avez bu du vin blanc !'
 	    }
@@ -816,7 +816,7 @@ return {
 			status = { drunk = 100000 },
 			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
 			prop = { model = 'prop_drink_whtwine', 
-			pos = vec3(0.005, -0.001, 0.08), rot = vec3(0.0, 0.0, 160.0) },
+			pos = vec3(0.02, -0.01, -0.14), rot = vec3(1.0, 5.0, -182.5) },
 			usetime = 9000,
 			notification = 'Vous avez bu du champagne !'
 	    }
@@ -832,7 +832,7 @@ return {
 			status = { drunk = 100000 },
 			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
 			prop = { model = 'prop_drink_whtwine', 
-			pos = vec3(0.005, -0.001, 0.08), rot = vec3(0.0, 0.0, 160.0) },
+			pos = vec3(0.02, -0.01, -0.14), rot = vec3(1.0, 5.0, -182.5) },
 			usetime = 9000,
 			notification = 'Vous avez bu du Vin mousseux !'
 	    }
