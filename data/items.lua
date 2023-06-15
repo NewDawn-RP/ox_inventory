@@ -2551,6 +2551,13 @@ return {
 		}
 	},
 
+	['bomb'] = {
+		label = 'Explosif',
+		weight = 500,
+		stack = false,
+		description = "Explosif artisanal"
+	},
+
 	--------------------------- [Peintures / Tags]
 
 	['spray'] = {

@@ -16,12 +16,13 @@ return {
 		blip = {
 			id = 59, colour = 69, scale = 0.8
 		}, inventory = {
-			{ name = 'bread', price = 10 },
-			{ name = 'water', price = 10 },
+			{ name = 'bread', price = 13 },
+			{ name = 'water', price = 15 },
+			{ name = 'chips_cheese', price = 15 },
+			{ name = 'cacahuetes', price = 13 },
+			{ name = 'chips_bbq', price = 15 },		
 			{ name = 'phone', price = 400 },
-			{ name = 'chips_cheese', price = 10 },
-			{ name = 'cacahuetes', price = 9 },
-			{ name = 'chips_bbq', price = 10 },
+
 		}, locations = {
 			vec3(25.7, -1347.3, 29.49),
 			vec3(-3038.71, 585.9, 7.9),
@@ -51,11 +52,13 @@ return {
 		blip = {
 			id = 93, colour = 69, scale = 0.8
 		}, inventory = {
-			{ name = 'bread', price = 10 },
-			{ name = 'water', price = 10 },
-			{ name = 'chips_cheese', price = 10 },
-			{ name = 'cacahuetes', price = 9 },
-			{ name = 'chips_bbq', price = 10 },
+			{ name = 'bread', price = 13 },
+			{ name = 'water', price = 15 },
+			{ name = 'chips_cheese', price = 15 },
+			{ name = 'cacahuetes', price = 13 },
+			{ name = 'chips_bbq', price = 15 },		
+			{ name = 'phone', price = 400 },
+
 		}, locations = {
 			vec3(1135.808, -982.281, 46.415),
 			vec3(-1222.915, -906.983, 12.326),
@@ -368,9 +371,9 @@ return {
 		blip = {
 			id = 615, colour = 66, scale = 0.5
 		}, inventory = {
-			{ name = 'beef_steak', price = 3 },
-			{ name = 'chicken_meat', price = 5 },
-			{ name = 'bacon', price = 3 },			
+			{ name = 'beef_steak', price = 1 },
+			{ name = 'chicken_meat', price = 1 },
+			{ name = 'bacon', price = 1 },			
 
 		}, targets = {
 			{
@@ -390,15 +393,15 @@ return {
 		blip = {
 			id = 615, colour = 66, scale = 0.5
 		}, inventory = {
-			{ name = 'burger_bread', price = 2 },
-			{ name = 'potato', price = 5 },
+			{ name = 'burger_bread', price = 1 },
+			{ name = 'potato', price = 1 },
 			{ name = 'cheese', price = 1 },		
-			{ name = 'salad', price = 3 },	
-			{ name = 'tomato', price = 3 },
-			{ name = 'corn', price = 3 },
-			{ name = 'carrot', price = 3 },
-			{ name = 'olives', price = 3 },
-			{ name = 'onion', price = 3 },
+			{ name = 'salad', price = 1 },	
+			{ name = 'tomato', price = 1 },
+			{ name = 'corn', price = 1 },
+			{ name = 'carrot', price = 1 },
+			{ name = 'olives', price = 1 },
+			{ name = 'onion', price = 1 },
 
 		}, targets = {
 			{
@@ -418,9 +421,9 @@ return {
 		blip = {
 			id = 615, colour = 66, scale = 0.5
 		}, inventory = {
-			{ name = 'cola', price = 4 },
-			{ name = 'sprunk', price = 4 },
-			{ name = 'iced_tea', price = 4 },		
+			{ name = 'cola', price = 1 },
+			{ name = 'sprunk', price = 1 },
+			{ name = 'iced_tea', price = 1 },		
 			
 		}, targets = {
 			{
@@ -503,12 +506,12 @@ return {
 		blip = {
 			id = 615, colour = 10, scale = 0.5
 		}, inventory = {
-			{ name = 'coffee_beans', price = 8 },
-			{ name = 'milk', price = 3 },			
-			{ name = 'strawberry', price = 3 },			
-			{ name = 'raspberry', price = 3 },
-			{ name = 'kiwi', price = 3 },
-			{ name = 'pineapple', price = 3 },
+			{ name = 'coffee_beans', price = 1 },
+			{ name = 'milk', price = 1 },			
+			{ name = 'strawberry', price = 1 },			
+			{ name = 'raspberry', price = 1 },
+			{ name = 'kiwi', price = 1 },
+			{ name = 'pineapple', price = 1 },
 			
 
 
@@ -530,18 +533,18 @@ return {
 		blip = {
 			id = 615, colour = 10, scale = 0.5
 		}, inventory = {
-			{ name = 'donut_chocolate', price = 2 },
-			{ name = 'donut_strawberry', price = 2 },
-			{ name = 'pancakes', price = 2 },
+			{ name = 'donut_chocolate', price = 1 },
+			{ name = 'donut_strawberry', price = 1 },
+			{ name = 'pancakes', price = 1 },
 			{ name = 'chips_cheese', price = 1 },			
 			{ name = 'chips_bbq', price = 1 },
 			{ name = 'olives', price = 1 },
 			{ name = 'cacahuetes', price = 1 },
-			{ name = 'marshmallow', price = 2 },
-			{ name = 'biscuit', price = 2 },			
+			{ name = 'marshmallow', price = 1 },
+			{ name = 'biscuit', price = 1 },			
 			{ name = 'chocolate_powder', price = 1 },
-			{ name = 'caramel_syrup', price = 2 },
-			{ name = 'vanilla_syrup', price = 3 },
+			{ name = 'caramel_syrup', price = 1 },
+			{ name = 'vanilla_syrup', price = 1 },
 
 		}, targets = {
 			{
@@ -561,14 +564,14 @@ return {
 		blip = {
 			id = 615, colour = 10, scale = 0.5
 		}, inventory = {
-			{ name = 'cola', price = 4 },
-			{ name = 'orange_juice', price = 5 },
-			{ name = 'rancho_beer', price = 5 },
-			{ name = 'dusche_beer', price = 5 },
-			{ name = 'stronzo_beer', price = 5 },
-			{ name = 'patriot_beer', price = 5 },
-			{ name = 'whiskey', price = 15 },
-			{ name = 'tequila', price = 15 },
+			{ name = 'cola', price = 1 },
+			{ name = 'orange_juice', price = 1 },
+			{ name = 'rancho_beer', price = 2 },
+			{ name = 'dusche_beer', price = 2 },
+			{ name = 'stronzo_beer', price = 2 },
+			{ name = 'patriot_beer', price = 2 },
+			{ name = 'whiskey', price = 6 },
+			{ name = 'tequila', price = 6 },
 			
 		}, targets = {
 			{
