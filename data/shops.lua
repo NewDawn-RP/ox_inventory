@@ -242,9 +242,10 @@ return {
 	BlackMarketArms = {
 		name = 'Marché Noir',
 		inventory = {
-			{ name = 'lockpick', price = 2000, currency = 'black_money' },
-			{ name = 'serflex', price = 2000, currency = 'black_money' },
-			{ name = 'WEAPON_SNSPISTOL', price = 50000, metadata = { registered = false }, currency = 'black_money' },
+            { name = 'advlockpick', price = 2000, currency = 'black_money' },
+            { name = 'hack_usb', price = 4000, currency = 'black_money' },
+            { name = 'gofast_card', price = 6000, currency = 'black_money' },
+			{ name = 'WEAPON_SNSPISTOL', price = 70000, metadata = { registered = false }, currency = 'black_money' },
 		}, targets = {
 			{
                 ped = `a_m_o_salton_01`,
@@ -258,8 +259,9 @@ return {
 	BlackMarketBiz = {
 		name = 'Marché Noir',
 		inventory = {
+            { name = 'advlockpick', price = 1000, currency = 'black_money' },
+            { name = 'gofast_card', price = 3000, currency = 'black_money' },
 			{ name = 'hack_usb', price = 2000, currency = 'black_money' },
-			{ name = 'lockpick', price = 1000, currency = 'black_money' },
 			{ name = 'serflex', price = 1000, currency = 'black_money' },
 			{ name = 'drill', price = 5000,	 currency = 'black_money' },
 			{ name = 'laptop', price = 15000, currency = 'black_money' },
@@ -270,8 +272,8 @@ return {
 			{
                 ped = `a_m_o_salton_01`,
                 scenario = 'WORLD_HUMAN_SMOKING',
-                loc = vec3(348.7274, -199.5583, 53.2218),
-                heading = 61.4530,
+                loc = vec3(1151.014038, -438.300415, 68.003746),
+                heading = 75.9218,
             },
 		}
 	},
@@ -330,6 +332,20 @@ return {
 			{ name = 'mask', price = 150, metadata = {['drawableId'] = 185, ['textureId'] = 1, ['paletteId'] = 0, ['label'] = "Cagoule Blanche"} },
 			{ name = 'mask', price = 150, metadata = {['drawableId'] = 185, ['textureId'] = 2, ['paletteId'] = 0, ['label'] = "Cagoule Grise"} },
 			{ name = 'mask', price = 150, metadata = {['drawableId'] = 185, ['textureId'] = 3, ['paletteId'] = 0, ['label'] = "Cagoule Rouge"} },
+            { name = 'mask', price = 150, metadata = {['drawableId'] = 212, ['textureId'] = 0, ['paletteId'] = 0, ['label'] = "F cagoule noir "} }, 
+            { name = 'mask', price = 150, metadata = {['drawableId'] = 212, ['textureId'] = 1, ['paletteId'] = 0, ['label'] = "F cagoule blanc"} },
+            { name = 'mask', price = 150, metadata = {['drawableId'] = 212, ['textureId'] = 4, ['paletteId'] = 0, ['label'] = "F cagoule bleu"} }, 
+            { name = 'mask', price = 150, metadata = {['drawableId'] = 212, ['textureId'] = 2, ['paletteId'] = 0, ['label'] = "F cagoule violet"} },
+            { name = 'mask', price = 150, metadata = {['drawableId'] = 51, ['textureId'] = 5, ['paletteId'] = 0, ['label'] = "F bandana vert"} },
+            { name = 'mask', price = 150, metadata = {['drawableId'] = 51, ['textureId'] = 6, ['paletteId'] = 0, ['label'] = "F bandana violet"} },
+            { name = 'mask', price = 150, metadata = {['drawableId'] = 51, ['textureId'] = 8, ['paletteId'] = 0, ['label'] = "F bandana jaune"} },
+            { name = 'mask', price = 150, metadata = {['drawableId'] = 51, ['textureId'] = 7, ['paletteId'] = 0, ['label'] = "F bandana noir"} },
+            { name = 'mask', price = 150, metadata = {['drawableId'] = 51, ['textureId'] = 9, ['paletteId'] = 0, ['label'] = "F bandana bleu"} }, 
+            { name = 'mask', price = 150, metadata = {['drawableId'] = 89, ['textureId'] = 1, ['paletteId'] = 0, ['label'] = "F masque combat noir"} }, 
+            { name = 'mask', price = 150, metadata = {['drawableId'] = 115, ['textureId'] = 1, ['paletteId'] = 0, ['label'] = "F foulard bleu"} },
+            { name = 'mask', price = 150, metadata = {['drawableId'] = 115, ['textureId'] = 2, ['paletteId'] = 0, ['label'] = "F foulard vert"} }, 
+            { name = 'mask', price = 150, metadata = {['drawableId'] = 115, ['textureId'] = 16, ['paletteId'] = 0, ['label'] = "F foulard rouge"} },
+            { name = 'mask', price = 150, metadata = {['drawableId'] = 115, ['textureId'] = 24, ['paletteId'] = 0, ['label'] = "F foulard violet"} }, 
 		}, targets = {
 			{
                 ped = `ig_claypain`,
