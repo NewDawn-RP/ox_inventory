@@ -197,6 +197,7 @@ return {
             { name = 'lightkevlar', price = 300,metadata = {['drawableId'] = 7, ['textureId'] = 0, ['paletteId'] = 0, ['label'] = "Gilet Léger Inter."} },
             { name = 'mediumkevlar', price = 500, metadata = {['drawableId'] = 20, ['textureId'] = 0, ['paletteId'] = 0, ['label'] = "Gilet Moyen (Police)"} },
             { name = 'heavykevlar', price = 750,  metadata = {['drawableId'] = 25, ['textureId'] = 0, ['paletteId'] = 0, ['label'] = "Gilet Lourd (Police)"} },
+			{ name = 'at_flashlight', price = 100 },
 			{ name = 'at_suppressor_light', price = 200 },
 			{ name = 'at_suppressor_heavy', price = 350 },
 			{ name = 'at_scope_small', price = 350 },
