@@ -1597,9 +1597,8 @@ return {
 	    client = {
 			status = { thirst = 1 },
 			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
-			prop = { model = 'prop_plastic_cup_02', 
-			pos = vec3(0.0, 0.0, 0.0), rot = vec3(0.0, 0.0, 130.0) },   
-			usetime = 2000,
+			prop = { model = `prop_ld_flow_bottle`, pos = vec3(0.0, 0.0, 0.0), rot = vec3(0.0, 0.0, 130.0) },
+			usetime = 3000,
 			notification = 'Vous avez prit un paracétamol !' 
 	    }
 	},
@@ -1613,9 +1612,8 @@ return {
 	    client = {
 			status = { thirst = 1 },
 			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
-			prop = { model = 'prop_plastic_cup_02', 
-			pos = vec3(0.0, 0.0, 0.0), rot = vec3(0.0, 0.0, 130.0) }, 
-			usetime = 2000,
+			prop = { model = `prop_ld_flow_bottle`, pos = vec3(0.0, 0.0, 0.0), rot = vec3(0.0, 0.0, 130.0) },
+			usetime = 3000,
 			notification = 'Vous avez prit un antibiotique !' 
 	    }
 	},
@@ -1629,9 +1627,8 @@ return {
 	    client = {
 			status = { thirst = 1 },
 			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
-			prop = { model = 'prop_plastic_cup_02', 
-			pos = vec3(0.0, 0.0, 0.0), rot = vec3(0.0, 0.0, 130.0) },
-			usetime = 5000,
+			prop = { model = `prop_ld_flow_bottle`, pos = vec3(0.0, 0.0, 0.0), rot = vec3(0.0, 0.0, 130.0) },
+			usetime = 3000,
 			notification = 'Vous avez prit un calmant !' 
 	    }
 	},
