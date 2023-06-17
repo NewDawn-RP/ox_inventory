@@ -236,8 +236,8 @@ return {
 			{
                 ped = `s_m_m_paramedic_01`,
                 scenario = 'WORLD_HUMAN_STAND_IMPATIENT_UPRIGHT',
-                loc = vec3(1102.3302, -1528.5236, 35.0326), 
-                heading = 0.3220,   
+                loc = vec3(1102.3302, -1528.5236, 34.0326), 
+                heading = 190.5719,    
             },
 		}
 	},
