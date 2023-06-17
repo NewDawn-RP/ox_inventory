@@ -249,6 +249,7 @@ return {
             { name = 'hack_usb', price = 4000, currency = 'black_money' },
             { name = 'gofast_card', price = 6000, currency = 'black_money' },
 			{ name = 'WEAPON_SNSPISTOL', price = 70000, metadata = { registered = false }, currency = 'black_money' },
+            { name = 'empty_pouch', price = 10, currency = 'money' },
 		}, targets = {
 			{
                 ped = `a_m_o_salton_01`,
