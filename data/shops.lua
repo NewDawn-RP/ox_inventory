@@ -197,6 +197,7 @@ return {
             { name = 'lightkevlar', price = 300,metadata = {['drawableId'] = 7, ['textureId'] = 0, ['paletteId'] = 0, ['label'] = "Gilet Léger Inter."} },
             { name = 'mediumkevlar', price = 500, metadata = {['drawableId'] = 20, ['textureId'] = 0, ['paletteId'] = 0, ['label'] = "Gilet Moyen (Police)"} },
             { name = 'heavykevlar', price = 750,  metadata = {['drawableId'] = 25, ['textureId'] = 0, ['paletteId'] = 0, ['label'] = "Gilet Lourd (Police)"} },
+			{ name = 'at_flashlight', price = 100 },
 			{ name = 'at_suppressor_light', price = 200 },
 			{ name = 'at_suppressor_heavy', price = 350 },
 			{ name = 'at_scope_small', price = 350 },
@@ -274,8 +275,8 @@ return {
 			{
                 ped = `a_m_o_salton_01`,
                 scenario = 'WORLD_HUMAN_SMOKING',
-                loc = vec3(1151.014038, -438.300415, 68.003746),
-                heading = 75.9218,
+                loc = vec3(1141.2136, -436.0677, 66.3241),
+                heading = 341.0368,
             },
 		}
 	},
