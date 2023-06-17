@@ -204,6 +204,7 @@ return {
 			{ name = 'at_scope_large', price = 350 },
 			{ name = 'at_scope_advanced', price = 350 },
 			{ name = 'at_scope_holo', price = 350 },
+			{ name = 'radio', price = 100 },
 		}, targets = {
             {
                 ped = `s_m_m_marine_01`,
@@ -222,12 +223,13 @@ return {
 		blip = {
 			id = 403, colour = 1, scale = 0.8
 		}, inventory = {
-			{ name = 'medikit', price = 30 },
-			{ name = 'bandage', price = 17 },
-			{ name = 'paracetamol', price = 15 },
-			{ name = 'antibiotic', price = 20 },
-			{ name = 'tranquilizer', price = 50 },
-			{ name = 'medbag', price = 200 },
+			{ name = 'medikit', price = 10 },
+			{ name = 'bandage', price = 7 },
+			{ name = 'paracetamol', price = 5 },
+			{ name = 'antibiotic', price = 5 },
+			{ name = 'tranquilizer', price = 5 },
+			{ name = 'medbag', price = 75 },
+			{ name = 'radio', price = 100 },
 			
 		}, targets = {
 			{
@@ -281,8 +283,10 @@ return {
 	VendingMachineDrinks = {
 		name = 'Distributeur de canettes',
 		inventory = {
-			{ name = 'water', price = 10 },
-			{ name = 'cola', price = 10 },
+			{ name = 'water', price = 15 },
+			{ name = 'cola', price = 12 },
+			{ name = 'sprunk', price = 12 },
+			{ name = 'orange_juice', price = 13 },
 		},
 		model = {
 			`prop_vend_soda_02`, `prop_vend_fridge01`, `prop_vend_water_01`, `prop_vend_soda_01`

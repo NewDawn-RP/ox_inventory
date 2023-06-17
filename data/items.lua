@@ -562,7 +562,7 @@ return {
 			status = { thirst = 250000 },
 			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
 			prop = { model = 'ng_proc_sodacan_01b', 
-			pos = vec3(0.01, 0.01, 0.06), 
+			pos = vec3(0.01, 0.01, 0.01), 
 			rot = vec3(5.0, 5.0, -180.5) },
 			usetime = 7500,
 			notification = 'Vous avez bu du Sprunks !'
