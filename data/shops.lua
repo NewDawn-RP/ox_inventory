@@ -85,9 +85,9 @@ return {
 			{ name = 'lockpick', price = 50 },
 			{ name = 'WEAPON_HAMMER', price = 450 },
 			{ name = 'fishingrod', price = 300 },
-			{ name = 'pickaxe', price = 350 },
+			{ name = 'pickaxe', price = 250 },
 			{ name = 'garden_pitcher', price = 200 },
-			{ name = 'garden_shovel', price = 350 },
+			{ name = 'garden_shovel', price = 300 },
 		}, locations = {
 			vec3(2748.0, 3473.0, 55.67),
 			vec3(342.99, -1298.26, 32.51),
@@ -113,8 +113,8 @@ return {
 			{ name = 'ammo-45', price = 30, },
 			{ name = 'WEAPON_KNIFE', price = 2000 },
 			{ name = 'WEAPON_BAT', price = 500 },
-			{ name = 'WEAPON_PISTOL', price = 7000, metadata = { registered = true }, license = 'weapon' },
-			{ name = 'WEAPON_HEAVYPISTOL', price = 12000, metadata = { registered = true }, license = 'weapon' },
+			{ name = 'WEAPON_PISTOL', price = 7000, metadata = { registered = true }, license = 'weapon_a' },
+			{ name = 'WEAPON_HEAVYPISTOL', price = 12000, metadata = { registered = true }, license = 'weapon_a' },
 		}, targets = {
 			{
                 ped = `S_M_Y_AmmuCity_01`,
@@ -187,12 +187,12 @@ return {
 	 		{ name = 'WEAPON_FLASHLIGHT', price = 200 },
 	 		{ name = 'WEAPON_NIGHTSTICK', price = 500 },
 			{ name = 'WEAPON_STUNGUN', price = 1000, metadata = { registered = true, serial = 'POL'} },
-	 		{ name = 'WEAPON_PISTOL', price = 1500, metadata = { registered = true, serial = 'POL' }, license = 'weapon' },
-	 		{ name = 'WEAPON_COMBATPISTOL', price = 1750, metadata = { registered = true, serial = 'POL' }, license = 'weapon' },
+	 		{ name = 'WEAPON_PISTOL', price = 1500, metadata = { registered = true, serial = 'POL' }, license = 'weapon_a' },
+	 		{ name = 'WEAPON_COMBATPISTOL', price = 1750, metadata = { registered = true, serial = 'POL' }, license = 'weapon_a' },
 	 		{ name = 'WEAPON_COMBATPDW', price = 2000, metadata = { registered = true, serial = 'POL' } },
-	 		{ name = 'WEAPON_SMG', price = 2500, metadata = { registered = true, serial = 'POL' }, license = 'weapon', grade = 3 },
-	 		{ name = 'WEAPON_PUMPSHOTGUN', price = 3500, metadata = { registered = true, serial = 'POL' }, license = 'weapon', grade = 3 },
-	 		{ name = 'WEAPON_CARBINERIFLE', price = 3500, metadata = { registered = true, serial = 'POL' }, license = 'weapon', grade = 3 },
+	 		{ name = 'WEAPON_SMG', price = 2500, metadata = { registered = true, serial = 'POL' }, license = 'weapon_a', grade = 3 },
+	 		{ name = 'WEAPON_PUMPSHOTGUN', price = 3500, metadata = { registered = true, serial = 'POL' }, license = 'weapon_a', grade = 3 },
+	 		{ name = 'WEAPON_CARBINERIFLE', price = 3500, metadata = { registered = true, serial = 'POL' }, license = 'weapon_a', grade = 3 },
             { name = 'lightkevlar', price = 300,metadata = {['drawableId'] = 4, ['textureId'] = 0, ['paletteId'] = 0, ['label'] = "Gilet Léger Patrouille"} },
             { name = 'lightkevlar', price = 300,metadata = {['drawableId'] = 7, ['textureId'] = 0, ['paletteId'] = 0, ['label'] = "Gilet Léger Inter."} },
             { name = 'mediumkevlar', price = 500, metadata = {['drawableId'] = 20, ['textureId'] = 0, ['paletteId'] = 0, ['label'] = "Gilet Moyen (Police)"} },
@@ -249,6 +249,7 @@ return {
             { name = 'hack_usb', price = 4000, currency = 'black_money' },
             { name = 'gofast_card', price = 6000, currency = 'black_money' },
 			{ name = 'WEAPON_SNSPISTOL', price = 70000, metadata = { registered = false }, currency = 'black_money' },
+            { name = 'empty_pouch', price = 10, currency = 'money' },
 		}, targets = {
 			{
                 ped = `a_m_o_salton_01`,

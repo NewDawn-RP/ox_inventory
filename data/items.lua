@@ -570,7 +570,7 @@ return {
 	},
 	
 	['iced_tea'] = {
-		label = 'Iced Tea',
+		label = 'Ice Tea',
 		weight = 500,
 		stack = true,
 		close = true,
@@ -581,7 +581,7 @@ return {
 			prop = { model = 'prop_orang_can_01', 
 			pos = vec3(0.005, -0.001, 0.08), rot = vec3(0.0, 0.0, 160.0) },
 			usetime = 7500,
-			notification = 'Vous avez bu un Iced Tea !'
+			notification = 'Vous avez bu un Ice Tea !'
 		}
 	},
 
