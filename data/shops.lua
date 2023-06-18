@@ -85,9 +85,9 @@ return {
 			{ name = 'lockpick', price = 50 },
 			{ name = 'WEAPON_HAMMER', price = 450 },
 			{ name = 'fishingrod', price = 300 },
-			{ name = 'pickaxe', price = 350 },
+			{ name = 'pickaxe', price = 250 },
 			{ name = 'garden_pitcher', price = 200 },
-			{ name = 'garden_shovel', price = 350 },
+			{ name = 'garden_shovel', price = 300 },
 		}, locations = {
 			vec3(2748.0, 3473.0, 55.67),
 			vec3(342.99, -1298.26, 32.51),
