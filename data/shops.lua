@@ -119,7 +119,7 @@ return {
 			{
                 ped = `S_M_Y_AmmuCity_01`,
                 scenario = 'WORLD_HUMAN_GUARD_STAND',
-                loc = vec3(-662.2042, -933.5153, 21.8292),
+                loc = vec3(-662.2042, -933.5153, 20.8292),
                 heading = 182.1464,
             },
 			{
@@ -161,7 +161,7 @@ return {
 			{
                 ped = `S_M_Y_AmmuCity_01`,
                 scenario = 'WORLD_HUMAN_GUARD_STAND',
-                loc = vec3(-1118.9590, 2699.7830, 18.5541),
+                loc = vec3(-1118.9590, 2699.7830, 17.5541),
                 heading = 222.6167,
             },
 			{
@@ -237,7 +237,7 @@ return {
                 ped = `s_m_m_paramedic_01`,
                 scenario = 'WORLD_HUMAN_STAND_IMPATIENT_UPRIGHT',
                 loc = vec3(1102.3302, -1528.5236, 34.0326), 
-                heading = 190.5719,    
+                heading = 190.5719,    1101.5281, -1528.5186, 35.0326, 190.5719
             },
 		}
 	},
@@ -330,21 +330,13 @@ return {
 		blip = {
 			id = 362, colour = 69, scale = 0.8
 		}, inventory = {
-            { name = 'mask', price = 150, metadata = {['drawableId'] = 57, ['textureId'] = 0, ['paletteId'] = 0, ['label'] = "H cagoule noir "} }, 
-            { name = 'mask', price = 150, metadata = {['drawableId'] = 51, ['textureId'] = 5, ['paletteId'] = 0, ['label'] = "H bandana vert "} }, 
-            { name = 'mask', price = 150, metadata = {['drawableId'] = 51, ['textureId'] = 1, ['paletteId'] = 0, ['label'] = "H bandana noir "} }, 
-            { name = 'mask', price = 150, metadata = {['drawableId'] = 51, ['textureId'] = 3, ['paletteId'] = 0, ['label'] = "H bandana blanc "} },
-            { name = 'mask', price = 150, metadata = {['drawableId'] = 51, ['textureId'] = 6, ['paletteId'] = 0, ['label'] = "H bandana violet "} },
-            { name = 'mask', price = 150, metadata = {['drawableId'] = 51, ['textureId'] = 7, ['paletteId'] = 0, ['label'] = "H bandana noir blanc "} },
-            { name = 'mask', price = 150, metadata = {['drawableId'] = 51, ['textureId'] = 8, ['paletteId'] = 0, ['label'] = "H bandana jaune "} },
-            { name = 'mask', price = 150, metadata = {['drawableId'] = 51, ['textureId'] = 9, ['paletteId'] = 0, ['label'] = "H bandana noir bleu "} },
-			{ name = 'mask', price = 150, metadata = {['drawableId'] = 118, ['textureId'] = 0, ['paletteId'] = 0, ['label'] = "H Turban Vert"} },
-			{ name = 'mask', price = 150, metadata = {['drawableId'] = 118, ['textureId'] = 1, ['paletteId'] = 0, ['label'] = "H Turban Orange"} },
-			{ name = 'mask', price = 150, metadata = {['drawableId'] = 118, ['textureId'] = 2, ['paletteId'] = 0, ['label'] = "H Turban Violet"} },
-			{ name = 'mask', price = 150, metadata = {['drawableId'] = 118, ['textureId'] = 3, ['paletteId'] = 0, ['label'] = "H Turban Rose"} },
-			{ name = 'mask', price = 150, metadata = {['drawableId'] = 185, ['textureId'] = 1, ['paletteId'] = 0, ['label'] = "H Cagoule Blanche"} },
-			{ name = 'mask', price = 150, metadata = {['drawableId'] = 185, ['textureId'] = 2, ['paletteId'] = 0, ['label'] = "H Cagoule Grise"} },
-			{ name = 'mask', price = 150, metadata = {['drawableId'] = 185, ['textureId'] = 3, ['paletteId'] = 0, ['label'] = "H Cagoule Rouge"} },
+			{ name = 'mask', price = 150, metadata = {['drawableId'] = 118, ['textureId'] = 0, ['paletteId'] = 0, ['label'] = "Turban Vert"} },
+			{ name = 'mask', price = 150, metadata = {['drawableId'] = 118, ['textureId'] = 1, ['paletteId'] = 0, ['label'] = "Turban Orange"} },
+			{ name = 'mask', price = 150, metadata = {['drawableId'] = 118, ['textureId'] = 2, ['paletteId'] = 0, ['label'] = "Turban Violet"} },
+			{ name = 'mask', price = 150, metadata = {['drawableId'] = 118, ['textureId'] = 3, ['paletteId'] = 0, ['label'] = "Turban Rose"} },
+			{ name = 'mask', price = 150, metadata = {['drawableId'] = 185, ['textureId'] = 1, ['paletteId'] = 0, ['label'] = "Cagoule Blanche"} },
+			{ name = 'mask', price = 150, metadata = {['drawableId'] = 185, ['textureId'] = 2, ['paletteId'] = 0, ['label'] = "Cagoule Grise"} },
+			{ name = 'mask', price = 150, metadata = {['drawableId'] = 185, ['textureId'] = 3, ['paletteId'] = 0, ['label'] = "Cagoule Rouge"} },
             { name = 'mask', price = 150, metadata = {['drawableId'] = 212, ['textureId'] = 0, ['paletteId'] = 0, ['label'] = "F cagoule noir "} }, 
             { name = 'mask', price = 150, metadata = {['drawableId'] = 212, ['textureId'] = 1, ['paletteId'] = 0, ['label'] = "F cagoule blanc"} },
             { name = 'mask', price = 150, metadata = {['drawableId'] = 212, ['textureId'] = 4, ['paletteId'] = 0, ['label'] = "F cagoule bleu"} }, 

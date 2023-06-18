@@ -1856,7 +1856,7 @@ return {
 
 	['scrapmetal'] = {
 		label = 'Scrap Metal',
-		weight = 1000,
+		weight = 500,
 	},
 
 	['pickaxe'] = {
