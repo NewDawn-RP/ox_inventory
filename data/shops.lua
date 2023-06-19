@@ -85,7 +85,7 @@ return {
 			{ name = 'lockpick', price = 50 },
 			{ name = 'WEAPON_HAMMER', price = 450 },
 			{ name = 'fishingrod', price = 300 },
-			{ name = 'pickaxe', price = 250 },
+			{ name = 'pickaxe', price = 35 },
 			{ name = 'garden_pitcher', price = 200 },
 			{ name = 'garden_shovel', price = 300 },
 		}, locations = {
