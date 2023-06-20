@@ -14,7 +14,7 @@ return {
 			{
 				name = 'repair_kit',
 				ingredients = {
-					scrapmetal = 50,
+					scrapmetal = 15,
 					WEAPON_HAMMER = 0.1
 				},
 				duration = 15000,
