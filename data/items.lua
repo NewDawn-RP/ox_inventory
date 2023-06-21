@@ -2274,6 +2274,7 @@ return {
 		description = "Carte téléphonique de l'opérateur Lex Inc.",
 		weight = 1000,
 		stack = true,
+        consume = 0.25,
 	},
 
 	--------------------------- ILLEGAL [Items de création de drogues]
