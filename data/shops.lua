@@ -488,11 +488,11 @@ return {
 		blip = {
 			id = 615, colour = 7, scale = 0.8
 		}, inventory = {
-			{ name = 'natural_ferment', price = 5 },
-			{ name = 'glass_bottle', price = 2 },
+			{ name = 'natural_ferment', price = 1 },
+			{ name = 'glass_bottle', price = 1 },
 			{ name = 'label', price = 1 },
-			{ name = 'alcohol_annexed', price = 4 },
-			{ name = 'sugar', price = 3 },
+			{ name = 'alcohol_annexed', price = 1 },
+			{ name = 'sugar', price = 1 },
 
 		}, targets = {
 			{
