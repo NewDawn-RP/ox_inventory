@@ -109,7 +109,7 @@ return {
 		close = true,
 		description = "Un délicieux Triple Burger pur boeuf",
 		client = {
-			status = { hunger = 800000 },
+			status = { hunger = 250000 },
 			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
 			prop = { model = 'prop_cs_burger_01', 
 			pos = vec3(0.05, -0.02, -0.03), rot = vec3(150.0, 340.0, 170.0) },
@@ -125,7 +125,7 @@ return {
 		close = true,
 		description = "Un délicieux Triple Burger au bacon",
 		client = {
-			status = { hunger = 800000 },
+			status = { hunger = 250000 },
 			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
 			prop = { model = 'prop_cs_burger_01', 
 			pos = vec3(0.05, -0.02, -0.03), rot = vec3(150.0, 340.0, 170.0) },
@@ -141,7 +141,7 @@ return {
 		close = true,
 		description = "Un magnifique Double Burger pour les petites faims",
 		client = {
-			status = { hunger = 750000 },
+			status = { hunger = 200000 },
 			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
 			prop = { model = 'prop_cs_burger_01', 
 			pos = vec3(0.05, -0.02, -0.03), rot = vec3(150.0, 340.0, 170.0) },
@@ -224,7 +224,7 @@ return {
 		close = true,
 		description = "De bonnes frites françaises inventées en Belgique",
 		client = {
-			status = { hunger = 100000 },
+			status = { hunger = 150000 },
 			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
 			prop = { model = 'prop_food_chips', 
 			pos = vec3(-0.01, 0.0, -0.02), rot = vec3(0.0, 0.0, -45.0) },
@@ -238,7 +238,7 @@ return {
 	    weight = 500,
 	    stack = true,
 	    client = {
-			status = { hunger = 650000 },
+			status = { hunger = 200000 },
 			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
 			usetime = 7500,
 			notification = 'Vous avez mangé une salade !'
@@ -250,7 +250,7 @@ return {
 	    weight = 500,
 	    stack = true,
 	    client = {
-			status = { hunger = 600000 },
+			status = { hunger = 200000 },
 			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
 			usetime = 7500,
 			notification = 'Vous avez mangé une salade !'
@@ -348,7 +348,7 @@ return {
 		close = true,
 		description = "Un délicieux milkshake à la fraise",
 		client = {
-			status = { hunger = 400000 },
+			status = { hunger = 200000 },
 			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
 			prop = { model = 'ng_proc_coffee_01a', 
 			pos = vec3(0.008, 0.0, -0.05), rot = vec3(0.0, 0.0, -40.0) },
@@ -364,7 +364,7 @@ return {
 		close = true,
 		description = "Un délicieux milkshake à la vanille",
 		client = {
-			status = { hunger = 400000 },
+			status = { hunger = 200000 },
 			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
 			prop = { model = 'ng_proc_coffee_01a', 
 			pos = vec3(0.008, 0.0, -0.05), rot = vec3(0.0, 0.0, -40.0) },
@@ -380,7 +380,7 @@ return {
 		close = true,
 		description = "Un délicieux milkshake aux multifruits",
 		client = {
-			status = { hunger = 450000 },
+			status = { hunger = 225000 },
 			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
 			prop = { model = 'ng_proc_coffee_01a', 
 			pos = vec3(0.008, 0.0, -0.05), rot = vec3(0.0, 0.0, -40.0) },
@@ -396,7 +396,7 @@ return {
 		close = true,
 		description = "Un délicieux donut au chocolat",
 		client = {
-			status = { hunger = 120000 },
+			status = { hunger = 100000 },
 			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
 			prop = { model = 'bzzz_foodpack_donut002', 
 			bone = 18905,
@@ -414,7 +414,7 @@ return {
 		close = true,
 		description = "Un délicieux donut à la fraise",
 		client = {
-			status = { hunger = 120000 },
+			status = { hunger = 100000 },
 			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
 			prop = { model = 'bzzz_foodpack_donut001', 
 			bone = 18905,
@@ -432,7 +432,7 @@ return {
 		close = true,
 		description = "Une délicieuse guimauve entre deux biscuits",
 		client = {
-			status = { hunger = 180000 },
+			status = { hunger = 150000 },
 			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
 			prop = { model = 'bzzz_food_dessert_a', 
 			bone = 18905,
@@ -450,7 +450,7 @@ return {
 		close = true,
 		description = "De délicieux pancakes",
 		client = {
-			status = { hunger = 120000 },
+			status = { hunger = 100000 },
 			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
 			usetime = 7500,
 			notification = 'Vous avez dégusté des pancakes !',
@@ -542,7 +542,7 @@ return {
 		weight = 500,
 		description = "Une canette de Ecola plus ou moins fraiche",
 		client = {
-			status = { thirst = 250000 },
+			status = { thirst = 200000 },
 			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
 			prop = { model = `prop_ecola_can`, 
 			pos = vec3(0.01, 0.01, 0.06), 
@@ -559,7 +559,7 @@ return {
 		close = true,
 		description = "Boisson fraiche, pétillante et 100% sucre",
 		client = {
-			status = { thirst = 250000 },
+			status = { thirst = 200000 },
 			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
 			prop = { model = 'ng_proc_sodacan_01b', 
 			pos = vec3(0.01, 0.01, 0.01), 
@@ -576,7 +576,7 @@ return {
 		close = true,
 		description = "Un bon thé froid presque naturel",
 		client = {
-			status = { thirst = 250000 },
+			status = { thirst = 200000 },
 			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
 			prop = { model = 'prop_orang_can_01', 
 			pos = vec3(0.005, -0.001, 0.08), rot = vec3(0.0, 0.0, 160.0) },
@@ -592,7 +592,7 @@ return {
 		close = true,
 		description = "Jus issu d'une récolte au nord de la ville",
 	    client = {
-			status = { thirst = 285000 },
+			status = { thirst = 350000 },
 			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
 			prop = { model = 'prop_drink_redwine', 
 			pos = vec3(0.005, -0.001, 0.08), rot = vec3(0.0, 0.0, 160.0) },
@@ -646,7 +646,7 @@ return {
 		description = "Un délicieux chocolat chaud",
 		close = true,
 	    client = {
-			status = { thirst = 600000 },
+			status = { thirst = 300000 },
 			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
 			prop = { model = 'ng_proc_coffee_01a', 
 			pos = vec3(0.008, 0.0, -0.05), rot = vec3(0.0, 0.0, -40.0) },
@@ -662,7 +662,7 @@ return {
 		close = true,
 		description = "Un délicieux café crème", 
 		client = {
-			status = { thirst = 850000 },
+			status = { thirst = 420000 },
 			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
 			prop = { model = 'ng_proc_coffee_01a', 
 			pos = vec3(0.008, 0.0, -0.05), rot = vec3(0.0, 0.0, -40.0) },
@@ -678,7 +678,7 @@ return {
 		close = true,
 		description = "Un délicieux cappuccino",
 		client = {
-			status = { thirst = 875000 },
+			status = { thirst = 437000 },
 			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
 			prop = { model = 'ng_proc_coffee_01a', 
 			pos = vec3(0.008, 0.0, -0.05), rot = vec3(0.0, 0.0, -40.0) },
@@ -694,7 +694,7 @@ return {
 		close = true,
 		description = "Un délicieux café caramel",
 		client = {
-			status = { thirst = 900000 },
+			status = { thirst = 450000 },
 			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
 			prop = { model = 'ng_proc_coffee_01a', 
 			pos = vec3(0.008, 0.0, -0.05), rot = vec3(0.0, 0.0, -40.0) },
@@ -710,7 +710,7 @@ return {
 		close = true,
 		description = "Un délicieux café noir expresso",
 		client = {
-			status = { thirst = 400000 },
+			status = { thirst = 250000 },
 			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
 			prop = { model = 'ng_proc_coffee_01a', 
 			pos = vec3(0.008, 0.0, -0.05), rot = vec3(0.0, 0.0, -40.0) },
@@ -726,7 +726,7 @@ return {
 		close = true,
 		description = "Un délicieux café noir allongé",
 		client = {
-			status = { thirst = 800000 },
+			status = { thirst = 400000 },
 			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
 			prop = { model = 'ng_proc_coffee_01a', 
 			pos = vec3(0.008, 0.0, -0.05), rot = vec3(0.0, 0.0, -40.0) },
