@@ -249,7 +249,8 @@ return {
             { name = 'hack_usb', price = 4000, currency = 'black_money' },
             { name = 'gofast_card', price = 6000, currency = 'black_money' },
 			{ name = 'WEAPON_SNSPISTOL', price = 70000, metadata = { registered = false }, currency = 'black_money' },
-            { name = 'empty_pouch', price = 10, currency = 'money' },
+            { name = 'empty_pouch', price = 5, currency = 'black_money' },
+            { name = 'chemical_products', price = 5, currency = 'black_money' },
 		}, targets = {
 			{
                 ped = `a_m_o_salton_01`,
@@ -603,5 +604,21 @@ return {
                 heading = 267.9688,
             },
 		}                  
+	},
+
+    BlackMarketDrugs = {
+		name = 'Vendeur de graines',
+		inventory = {
+            { name = 'weed_seed', price = 600, currency = 'black_money' },
+            { name = 'cocaine_seed', price = 800, currency = 'black_money' },
+            { name = 'opium_seed', price = 1000, currency = 'black_money' },
+		}, targets = {
+			{
+                ped = `a_m_o_salton_01`,
+                scenario = 'WORLD_HUMAN_SMOKING',
+                loc = vec3(-1209.4001, 366.6089, 80.9858),
+                heading = 97.0556,
+            },
+		}
 	},
 }
