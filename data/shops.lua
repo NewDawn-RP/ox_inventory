@@ -616,7 +616,7 @@ return {
 			{
                 ped = `a_m_o_salton_01`,
                 scenario = 'WORLD_HUMAN_SMOKING',
-                loc = vec3(-1209.4001, 366.6089, 80.9858),
+                loc = vec3(-1209.4001, 366.6089, 79.9858),
                 heading = 97.0556,
             },
 		}
