@@ -621,7 +621,6 @@ return {
             },
 		}
 	},
-}
 
     MarketPharm = {
 		name = 'Vendeur de morphine',
