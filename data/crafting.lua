@@ -625,4 +625,26 @@ return {
 			},
 		},
 	},
+    {    
+        items = {
+			{
+				name = 'codeine',
+				ingredients = {
+					morphine = 1,
+				},
+				duration = 5000,
+				count = 1,
+			},
+		},
+		points = {
+			vec3(232.6719, -24.8876, 69.8964),
+		},
+		zones = {
+			{
+				coords = vec3(232.6719, -24.8876, 69.8964), 
+				size = vec3(3, 3, 3),
+				distance = 3.5,
+			},
+		},
+	},
 }
