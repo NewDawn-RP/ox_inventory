@@ -622,3 +622,18 @@ return {
 		}
 	},
 }
+
+    MarketPharm = {
+		name = 'Vendeur de morphine',
+		inventory = {
+            { name = 'morphine', price = 4, currency = 'money' },
+		}, targets = {
+			{
+                ped = `a_m_o_salton_01`,
+                scenario = 'WORLD_HUMAN_SMOKING',
+                loc = vec3(232.6719, -24.8876, 69.8964),
+                heading = 338.4694,
+            },
+		}
+	},
+}
