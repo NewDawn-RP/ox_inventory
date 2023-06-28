@@ -1618,6 +1618,14 @@ return {
 	    }
 	},
 
+    ['morphine'] = {
+	    label = 'Morphine',
+	    weight = 1000,
+	    stack = true,
+	    close = true,
+		description = "Produit douée de propriétés soporifiques et calmantes.",
+	},
+
 	['tranquilizer'] = {
 	    label = 'Calmant',
 	    weight = 500,
@@ -1984,10 +1992,9 @@ return {
 
 	['codeine'] = {
 		label = 'Codeine',
-		weight = 500,
+		weight = 1000,
 		stack = true,
 		close = true,
-		description = nil
 	},
 
 	['drug_ecstasy'] = {
