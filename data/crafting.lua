@@ -633,7 +633,7 @@ return {
 					morphine = 1,
 				},
 				duration = 5000,
-				count = 1,
+				count = 3,
 			},
 		},
 		points = {
