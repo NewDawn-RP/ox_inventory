@@ -2280,7 +2280,7 @@ return {
 		label = 'Carte téléphonique',
 		description = "Carte téléphonique de l'opérateur Lex Inc.",
 		weight = 1000,
-		stack = true,
+		stack = false,
         consume = 0.25,
 	},
 
