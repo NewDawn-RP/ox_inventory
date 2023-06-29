@@ -614,7 +614,7 @@ return {
 			{
                 ped = `a_m_o_salton_01`,
                 scenario = 'WORLD_HUMAN_SMOKING',
-                loc = vec3(-304.4392, 80.2750, 71.6720,),
+                loc = vec3(-304.4392, 80.2750, 71.6720),
                 heading = 358.6993,
             },
 		}
@@ -666,7 +666,7 @@ return {
 		name = "Vendeur d'armes",
 		inventory = {
             { name = 'weapon_snspistol', price = 20000, currency = 'black_money' },
-            { name = 'weapon_pistol', price = 60000, currency = 'black_money' },
+            { name = 'weapon_pistol', price = 40000, currency = 'black_money' },
             { name = 'weapon_pistol50', price = 50000, currency = 'black_money' },
             { name = 'weapon_revolver', price = 80000, currency = 'black_money' },
             { name = 'weapon_machinepistol', price = 220000, currency = 'black_money' },
