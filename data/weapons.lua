@@ -50,13 +50,13 @@ return {
 
 		['WEAPON_BAT'] = {
 			label = 'Batte',
-			weight = 1134,
+			weight = 1000,
 			durability = 0,
 		},
 
 		['WEAPON_BATTLEAXE'] = {
 			label = "Hâche de Combat",
-			weight = 6500,
+			weight = 1000,
 			durability = 0,
 		},
 
@@ -172,7 +172,7 @@ return {
 
 		['WEAPON_CROWBAR'] = {
 			label = 'Pieds de biche',
-			weight = 2500,
+			weight = 1000,
 			durability = 0,
 		},
 
@@ -262,7 +262,7 @@ return {
 
 		['WEAPON_HAMMER'] = {
 			label = 'Marteau',
-			weight = 1200,
+			weight = 1000,
 			durability = 0,
 		},
 
@@ -331,13 +331,13 @@ return {
 
 		['WEAPON_KNIFE'] = {
 			label = 'Couteau',
-			weight = 300,
+			weight = 1000,
 			durability = 0,
 		},
 
 		['WEAPON_KNUCKLE'] = {
 			label = 'Poing Américain',
-			weight = 300,
+			weight = 1000,
 			durability = 0,
 		},
 
@@ -477,7 +477,7 @@ return {
 
 		['WEAPON_POOLCUE'] = {
 			label = 'Queue de Billard',
-			weight = 146,
+			weight = 1000,
 			durability = 0,
 		},
 
@@ -650,7 +650,7 @@ return {
 
 		['WEAPON_SWITCHBLADE'] = {
 			label = 'Switchblade',
-			weight = 300,
+			weight = 1000,
 			durability = 0,
 			anim = { 'anim@melee@switchblade@holster', 'unholster', 200, 'anim@melee@switchblade@holster', 'holster', 600 },
 		},
@@ -671,7 +671,7 @@ return {
 
 		['WEAPON_WRENCH'] = {
 			label = 'Wrench',
-			weight = 2500,
+			weight = 1000,
 			durability = 0,
 		},
 
