@@ -606,18 +606,44 @@ return {
 		}                  
 	},
 
-    BlackMarketDrugs = {
-		name = 'Vendeur de graines',
+    BlackMarketDrugs1 = {
+		name = 'Vendeur de graines Weed',
 		inventory = {
             { name = 'weed_seed', price = 600, currency = 'black_money' },
-            { name = 'cocaine_seed', price = 800, currency = 'black_money' },
-            { name = 'opium_seed', price = 1000, currency = 'black_money' },
 		}, targets = {
 			{
                 ped = `a_m_o_salton_01`,
                 scenario = 'WORLD_HUMAN_SMOKING',
-                loc = vec3(-1209.4001, 366.6089, 79.9858),
-                heading = 97.0556,
+                loc = vec3(-304.4392, 80.2750, 71.6720,),
+                heading = 358.6993,
+            },
+		}
+	},
+
+    BlackMarketDrugs2 = {
+		name = 'Vendeur de graines cocaine',
+		inventory = {
+            { name = 'cocaine_seed', price = 1000, currency = 'black_money' },
+		}, targets = {
+			{
+                ped = `a_m_o_salton_01`,
+                scenario = 'WORLD_HUMAN_SMOKING',
+                loc = vec3(-1210.5726, 366.3122, 78.9851),
+                heading = 104.4892,
+            },
+		}
+	},
+
+    BlackMarketDrugs3 = {
+		name = 'Vendeur de graines opium',
+		inventory = {
+            { name = 'opium_seed', price = 800, currency = 'black_money' },
+		}, targets = {
+			{
+                ped = `a_m_o_salton_01`,
+                scenario = 'WORLD_HUMAN_SMOKING',
+                loc = vec3(-460.2845, -2282.2800, 6.6081),
+                heading = 262.3096,
             },
 		}
 	},
@@ -630,8 +656,51 @@ return {
 			{
                 ped = `a_m_o_salton_01`,
                 scenario = 'WORLD_HUMAN_SMOKING',
-                loc = vec3(232.6719, -24.8876, 69.8964),
+                loc = vec3(232.6719, -24.8876, 68.8964),
                 heading = 338.4694,
+            },
+		}
+	},
+    
+     MarketWeapon = {
+		name = "Vendeur d'armes",
+		inventory = {
+            { name = 'weapon_snspistol', price = 20000, currency = 'black_money' },
+            { name = 'weapon_pistol', price = 60000, currency = 'black_money' },
+            { name = 'weapon_pistol50', price = 50000, currency = 'black_money' },
+            { name = 'weapon_revolver', price = 80000, currency = 'black_money' },
+            { name = 'weapon_machinepistol', price = 220000, currency = 'black_money' },
+            { name = 'weapon_minismg', price = 250000, currency = 'black_money' },
+            { name = 'weapon_microsmg', price = 230000, currency = 'black_money' },
+            { name = 'weapon_dbshotgun', price = 220000, currency = 'black_money' },
+            { name = 'weapon_assaultrifle', price = 850000, currency = 'black_money' },
+            { name = 'weapon_compactrifle', price = 350000, currency = 'black_money' },
+            { name = 'weapon_molotov', price = 10000, currency = 'black_money' },
+		}, targets = {
+			{
+                ped = `a_m_o_salton_01`,
+                scenario = 'WORLD_HUMAN_SMOKING',
+                loc = vec3(1011.4127, -2873.3984, 38.1578),
+                heading = 356.1894,
+            },
+		}
+	},
+
+    MarketAmmo = {
+		name = 'Vendeur de munitions',
+		inventory = {
+            { name = 'ammo-9', price = 1000, currency = 'black_money' },
+            { name = 'ammo-45', price = 500, currency = 'black_money' },
+            { name = 'ammo-50', price = 1500, currency = 'black_money' },
+            { name = 'ammo-44', price = 2000, currency = 'black_money' },
+            { name = 'ammo-shotgun', price = 3000, currency = 'black_money' },
+            { name = 'ammo-rifle2', price = 5000, currency = 'black_money' },
+		}, targets = {
+			{
+                ped = `a_m_o_salton_01`,
+                scenario = 'WORLD_HUMAN_SMOKING',
+                loc = vec3(1247.1219, -2910.6453, 24.3235),
+                heading = 81.7068,
             },
 		}
 	},
