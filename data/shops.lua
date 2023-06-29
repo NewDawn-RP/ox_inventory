@@ -704,4 +704,23 @@ return {
             },
 		}
 	},
+
+    MarketWeapon2 = {
+		name = 'Vendeur armes blanche',
+		inventory = {
+            { name = 'weapon_crowbar', price = 2300, currency = 'black_money' },
+            { name = 'weapon_knuckle', price = 1300, currency = 'black_money' },
+            { name = 'weapon_machete', price = 2500, currency = 'black_money' },
+            { name = 'weapon_poolcue', price = 1600, currency = 'black_money' },
+            { name = 'weapon_switchblade', price = 2600, currency = 'black_money' },
+            { name = 'weapon_wrench', price = 2000, currency = 'black_money' },
+		}, targets = {
+			{
+                ped = `a_m_o_salton_01`,
+                scenario = 'WORLD_HUMAN_SMOKING',
+                loc = vec3(-112.4139, -2673.1255, 5.0063),
+                heading = 184.1089,
+            },
+		}
+	},
 }
