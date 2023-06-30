@@ -689,12 +689,12 @@ return {
     MarketAmmo = {
 		name = 'Vendeur de munitions',
 		inventory = {
-            { name = 'ammo-9', price = 1000, currency = 'black_money' },
-            { name = 'ammo-45', price = 500, currency = 'black_money' },
-            { name = 'ammo-50', price = 1500, currency = 'black_money' },
-            { name = 'ammo-44', price = 2000, currency = 'black_money' },
-            { name = 'ammo-shotgun', price = 3000, currency = 'black_money' },
-            { name = 'ammo-rifle2', price = 5000, currency = 'black_money' },
+            { name = 'ammo-9', price = 15, currency = 'black_money' },
+            { name = 'ammo-45', price = 20, currency = 'black_money' },
+            { name = 'ammo-50', price = 25, currency = 'black_money' },
+            { name = 'ammo-44', price = 30, currency = 'black_money' },
+            { name = 'ammo-shotgun', price = 45, currency = 'black_money' },
+            { name = 'ammo-rifle2', price = 35, currency = 'black_money' },
 		}, targets = {
 			{
                 ped = `a_m_o_salton_01`,
