@@ -176,7 +176,7 @@ return {
     PoliceArmoury = {
 		name = 'Armurerie Police',
 		groups = {
-			['police'] = 9,
+			['police'] = 8,
 		},
 		blip = {
 			id = 110, colour = 3, scale = 0.8
@@ -192,6 +192,7 @@ return {
 	 		{ name = 'WEAPON_COMBATPDW', price = 2000, metadata = { registered = true, serial = 'POL' } },
 	 		{ name = 'WEAPON_SMG', price = 2500, metadata = { registered = true, serial = 'POL' }, license = 'weapon_a', grade = 3 },
 	 		{ name = 'WEAPON_PUMPSHOTGUN', price = 3500, metadata = { registered = true, serial = 'POL' }, license = 'weapon_a', grade = 3 },
+            { name = 'WEAPON_SAWNOFFSHOTGUN', price = 2000, metadata = { registered = true, serial = 'POL' }, license = 'weapon_a', grade = 3 },
 	 		{ name = 'WEAPON_CARBINERIFLE', price = 3500, metadata = { registered = true, serial = 'POL' }, license = 'weapon_a', grade = 3 },
             { name = 'lightkevlar', price = 300,metadata = {['drawableId'] = 4, ['textureId'] = 0, ['paletteId'] = 0, ['label'] = "Gilet Léger Patrouille"} },
             { name = 'lightkevlar', price = 300,metadata = {['drawableId'] = 7, ['textureId'] = 0, ['paletteId'] = 0, ['label'] = "Gilet Léger Inter."} },
