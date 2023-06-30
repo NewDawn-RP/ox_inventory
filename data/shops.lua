@@ -590,12 +590,6 @@ return {
 		}, inventory = {
 			{ name = 'cola', price = 1 },
 			{ name = 'orange_juice', price = 1 },
-			{ name = 'rancho_beer', price = 2 },
-			{ name = 'dusche_beer', price = 2 },
-			{ name = 'stronzo_beer', price = 2 },
-			{ name = 'patriot_beer', price = 2 },
-			{ name = 'whiskey', price = 6 },
-			{ name = 'tequila', price = 6 },
 			
 		}, targets = {
 			{
@@ -723,5 +717,30 @@ return {
                 heading = 184.1089,
             },
 		}
+	},
+
+    Bahamasdrink = {
+		name = 'Grossiste Boissons', -- Items Boissons pour le Bahamas
+		groups = {
+			['bahamas'] = 0,
+		},
+		blip = {
+			id = 615, colour = 27, scale = 0.5
+		}, inventory = {
+			{ name = 'rancho_beer', price = 1 },
+			{ name = 'dusche_beer', price = 1 },
+			{ name = 'stronzo_beer', price = 1 },
+			{ name = 'patriot_beer', price = 1 },
+			{ name = 'whiskey', price = 1 },
+			{ name = 'tequila', price = 1 },
+			
+		}, targets = {
+			{
+                ped = `a_m_m_hillbilly_01`,
+                scenario = 'WORLD_HUMAN_CLIPBOARD',
+                loc = vec3(160.2736, -3158.6018, 5.9905),
+                heading = 318.6721,
+            },
+		}                  
 	},
 }
