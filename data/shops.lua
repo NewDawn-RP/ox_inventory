@@ -88,6 +88,8 @@ return {
 			{ name = 'pickaxe', price = 35 },
 			{ name = 'garden_pitcher', price = 200 },
 			{ name = 'garden_shovel', price = 300 },
+			{ name = 'spray_remover', price = 300 },			
+			{ name = 'serflex', price = 1000 },
 		}, locations = {
 			vec3(2748.0, 3473.0, 55.67),
 			vec3(342.99, -1298.26, 32.51),
@@ -268,12 +270,13 @@ return {
             { name = 'advlockpick', price = 1000, currency = 'black_money' },
             { name = 'gofast_card', price = 3000, currency = 'black_money' },
 			{ name = 'hack_usb', price = 2000, currency = 'black_money' },
-			{ name = 'serflex', price = 1000, currency = 'black_money' },
 			{ name = 'drill', price = 5000,	 currency = 'black_money' },
 			{ name = 'laptop', price = 15000, currency = 'black_money' },
 			{ name = 'cutter', price = 3000, currency = 'black_money' },
 			{ name = 'thermite_bomb', price = 10000, currency = 'black_money' },
 			{ name = 'c4_bomb', price = 20000, currency = 'black_money' },
+			{ name = 'c4_bomb', price = 20000, currency = 'black_money' },
+			{ name = 'spray', price = 500, currency = 'black_money' },
 		}, targets = {
 			{
                 ped = `a_m_o_salton_01`,
