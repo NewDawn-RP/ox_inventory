@@ -464,7 +464,6 @@ return {
 			},
 		},
 		points = {
-			vec3(-1079.7902, -1679.5938, 4.5752),
 			vec3(1770.0481, -1621.4185, 113.6330),
 		},
 		zones = {
@@ -483,17 +482,17 @@ return {
 	{
 		items = {
 			{
-				name = 'weed_pouch',
+				name = 'weed_pooch',
 				ingredients = {
 					weed = 1,
-					empty_pouch = 1,
+					empty_pooch = 1,
+
 				},
 				duration = 5000,
 				count = 1,
 			},
 		},
 		points = {
-			vec3(-1077.8674, -1675.8458, 4.5752),
 			vec3(1771.1515, -1625.8535, 113.6229),
 		},
 		zones = {
@@ -512,17 +511,16 @@ return {
 	{
 		items = {
 			{
-				name = 'cocaine',
+				name = 'crack_pooch',
 				ingredients = {
-					cocaine_raw = 1,
-					chemical_products = 1,
+					crack = 1,
+                    empty_pooch = 1,
 				},
 				duration = 5000,
 				count = 1,
 			},
 		},
 		points = {
-			vec3(-537.0639, -1794.6445, 21.6090),
 			vec3(1122.1897, -1231.6085, 16.4186),
 		},
 		zones = {
@@ -538,42 +536,14 @@ return {
 			},
 		},
 	},
-	{
-		items = {
-			{
-				name = 'coca_pouch',
-				ingredients = {
-					cocaine = 1,
-					empty_pouch = 1,
-				},
-				duration = 5000,
-				count = 1,
-			},
-		},
-		points = {
-			vec3(-527.9670, -1796.4544, 21.6090),
-			vec3(1116.8975, -1239.4739, 16.4186),
-		},
-		zones = {
-			{
-				coords = vec3(-527.9670, -1796.4544, 21.6090), 
-				size = vec3(3, 3, 3),
-				distance = 3.5,
-			},
-			{
-				coords = vec3(1116.8975, -1239.4739, 16.4186), 
-				size = vec3(3, 3, 3),
-				distance = 3.5,
-			},
-		},
-	},
+
+
 	{
 		items = {
 			{
 				name = 'opium',
 				ingredients = {
 					opium_raw = 1,
-					chemical_products = 1,
 				},
 				duration = 5000,
 				count = 1,
@@ -581,7 +551,6 @@ return {
 		},
 		points = {
 			vec3(-530.0064, -1739.0572, 16.7261),
-			vec3(-50.7486, 6366.9302, 28.8165),
 		},
 		zones = {
 			{
@@ -599,10 +568,10 @@ return {
 	{
 		items = {
 			{
-				name = 'opium_pouch',
+				name = 'opium_pooch',
 				ingredients = {
 					opium = 1,
-					empty_pouch = 1,
+					empty_pooch = 1,
 				},
 				duration = 5000,
 				count = 1,
@@ -625,26 +594,5 @@ return {
 			},
 		},
 	},
-    {    
-        items = {
-			{
-				name = 'codeine',
-				ingredients = {
-					morphine = 1,
-				},
-				duration = 5000,
-				count = 3,
-			},
-		},
-		points = {
-			vec3(-452.4924, 78.7569, 71.3437),
-		},
-		zones = {
-			{
-				coords = vec3(-452.4924, 78.7569, 71.3437), 
-				size = vec3(3, 3, 3),
-				distance = 3.5,
-			},
-		},
-	},
+
 }

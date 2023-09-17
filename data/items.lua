@@ -1990,8 +1990,22 @@ return {
 		close = true,
 	},
 
-	['codeine'] = {
-		label = 'Codeine',
+	['lsd'] = {
+		label = 'LSD',
+		weight = 1000,
+		stack = true,
+		close = true,
+	},
+	['lsd_pooch'] = {
+		label = 'Pochon LSD',
+		weight = 1000,
+		stack = true,
+		close = true,
+	},
+
+
+	['crack'] = {
+		label = 'Crack',
 		weight = 1000,
 		stack = true,
 		close = true,
@@ -2063,13 +2077,40 @@ return {
 		description = "A besoin d'être transformé"
 	},
 
-	['weed_pouch'] = {
+	['weed_pooch'] = {
 		label = 'Pochon de weed',
 		weight = 1000,
 		stack = true,
 		close = true,
 		description = "Tu peux aller vendre tonton"
 	},
+
+	['crack_pooch'] = {
+		label = 'Pochon de crack',
+		weight = 1000,
+		stack = true,
+		close = true,
+		description = "Tu peux aller vendre tonton"
+	},
+
+	['lsd_pooch'] = {
+		label = 'Pochon de LSD',
+		weight = 1000,
+		stack = true,
+		close = true,
+		description = "Tu peux aller vendre tonton"
+	},
+
+	['meth_pooch'] = {
+		label = 'Pochon de meth',
+		weight = 1000,
+		stack = true,
+		close = true,
+		description = "Tu peux aller vendre tonton"
+	},
+
+
+
 	
 	['cocaine_seed'] = {
 		label = 'Graine de Coca',
@@ -2087,7 +2128,7 @@ return {
 		description = "A besoin d'être transformé"
 	},
 
-	['coca_pouch'] = {
+	['coca_pooch'] = {
 		label = 'Pochon de cocaine',
 		weight = 1000,
 		stack = true,
@@ -2111,7 +2152,7 @@ return {
 		description = "A besoin d'être transformé"
 	},
 
-	['opium_pouch'] = {
+	['opium_pooch'] = {
 		label = 'Pochon Opium',
 		weight = 1000,
 		stack = true,
@@ -2124,7 +2165,7 @@ return {
 	    weight = 1000,
 	    stack = true,
 	},
-	['empty_pouch'] = {
+	['empty_pooch'] = {
 	    label = 'Pochon vide',
 	    weight = 1000,
 	    stack = true,
@@ -2659,97 +2700,207 @@ return {
 	    }
 	},
 
+
+	["empty_weed_bag"] = {
+		label = "Empty Bag",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["weed_ak47"] = {
+		label = "Ak74",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["weed_ak47_seed"] = {
+		label = "ak47 Seed",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["weed_amnesia"] = {
+		label = "Amnesia",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["weed_amnesia_seed"] = {
+		label = "Amnesia Seed",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["weed_nutrition"] = {
+		label = "Weed Nutrition",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["weed_og-kush"] = {
+		label = "OG Kush",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["weed_og-kush_seed"] = {
+		label = "OG Kush Seed",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["weed_purple-haze"] = {
+		label = "Purple Haze",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["weed_purple-haze_seed"] = {
+		label = "Purple Haze Seed",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["weed_skunk"] = {
+		label = "Skunk",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["weed_skunk_seed"] = {
+		label = "Skunk Seed",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["weed_white-widow"] = {
+		label = "White Widow",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["weed_white-widow_seed"] = {
+		label = "White Widow Seed",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["blowtorch"] = {
+		label = "Chalumeau",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["c4_bank"] = {
+		label = "Pain de C4",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["weed_packaged"] = {
+		label = "Weed packet",
+		weight = 2,
+		stack = true,
+		close = true,
+	},
+
+	["sorted_money"] = {
+		label = "Sorted Money",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["meth"] = {
+		label = "Methamphetamine",
+		weight = 2,
+		stack = true,
+		close = true,
+	},
+
+	["chemicals"] = {
+		label = "Chemicals",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["package_money"] = {
+		label = "Package Money",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["cocaine_cut"] = {
+		label = "Cocaine cut",
+		weight = 2,
+		stack = true,
+		close = true,
+	},
+
+	["cocaine_packaged"] = {
+		label = "Cocaine packet",
+		weight = 3,
+		stack = true,
+		close = true,
+	},
+
+	["meth_packaged"] = {
+		label = "Meth packet",
+		weight = 3,
+		stack = true,
+		close = true,
+	},
+
+	["codeine"] = {
+		label = "Codeine",
+		weight = 100,
+		stack = true,
+		close = true,
+	},
+
+	["drink_sprite"] = {
+		label = "Sprite",
+		weight = 100,
+		stack = true,
+		close = true,
+	},
+
+	["coke"] = {
+		label = "Crack",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["coke_pooch"] = {
+		label = "Pochon de Crack",
+		weight = 5,
+		stack = true,
+		close = true,
+	},
+
+	["WEAPON_THROWINGROCK"] = {
+		label = "Rock",
+		weight = 2,
+		stack = true,
+		close = true,
+	},
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

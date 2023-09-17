@@ -1,15 +1,29 @@
+---wip types
+
+---@class OxShop
+---@field name string
+---@field label? string
+---@field blip? { id: number, colour: number, scale: number }
+---@field inventory { name: string, price: number, count?: number, currency?: string }
+---@field locations? vector3[]
+---@field targets? { loc: vector3, length: number, width: number, heading: number, minZ: number, maxZ: number, distance: number, debug?: boolean, drawSprite?: boolean }[]
+---@field groups? string | string[] | table<string, number>
+---@field model? number[]
+
 return {
 	General = {
 		name = 'Superette',
 		blip = {
 			id = 59, colour = 69, scale = 0.8
 		}, inventory = {
-			{ name = 'bread', price = 13 },
-			{ name = 'water', price = 15 },
-			{ name = 'chips_cheese', price = 15 },
-			{ name = 'cacahuetes', price = 13 },
-			{ name = 'chips_bbq', price = 15 },		
-			{ name = 'phone', price = 400 },
+			{ name = 'bread', price = 25 },
+			{ name = 'water', price = 25 },
+			{ name = 'chips_cheese', price = 30 },
+			{ name = 'cacahuetes', price = 25 },
+			{ name = 'chips_bbq', price = 30 },		
+			{ name = 'phone', price = 1400 },
+			{ name = 'fishingrod', price = 900 },
+			{ name = 'fishbait', price = 200 },
 
 		}, locations = {
 			vec3(25.7, -1347.3, 29.49),
@@ -40,12 +54,13 @@ return {
 		blip = {
 			id = 93, colour = 69, scale = 0.8
 		}, inventory = {
-			{ name = 'bread', price = 13 },
-			{ name = 'water', price = 15 },
-			{ name = 'chips_cheese', price = 15 },
-			{ name = 'cacahuetes', price = 13 },
-			{ name = 'chips_bbq', price = 15 },		
-			{ name = 'phone', price = 400 },
+			{ name = 'bread', price = 25 },
+			{ name = 'water', price = 25 },
+			{ name = 'chips_cheese', price = 30 },
+			{ name = 'cacahuetes', price = 25 },
+			{ name = 'chips_bbq', price = 30 },		
+			{ name = 'phone', price = 1400 },
+			{ name = 'radio', price = 1000 },
 
 		}, locations = {
 			vec3(1135.808, -982.281, 46.415),
@@ -70,14 +85,12 @@ return {
 		blip = {
 			id = 402, colour = 69, scale = 0.8
 		}, inventory = {
-			{ name = 'lockpick', price = 50 },
+			{ name = 'lockpick', price = 500 },
 			{ name = 'WEAPON_HAMMER', price = 450 },
 			{ name = 'fishingrod', price = 300 },
-			{ name = 'pickaxe', price = 35 },
+			{ name = 'pickaxe', price = 350 },
 			{ name = 'garden_pitcher', price = 200 },
 			{ name = 'garden_shovel', price = 300 },
-			{ name = 'spray_remover', price = 300 },			
-			{ name = 'serflex', price = 1000 },
 		}, locations = {
 			vec3(2748.0, 3473.0, 55.67),
 			vec3(342.99, -1298.26, 32.51),
@@ -99,60 +112,59 @@ return {
 		blip = {
 			id = 110, colour = 69, scale = 0.8
 		}, inventory = {
-			{ name = 'ammo-9', price = 15, },
-			{ name = 'ammo-45', price = 30, },
+			{ name = 'ammo-pistol', price = 150, },
 			{ name = 'WEAPON_KNIFE', price = 2000 },
-			{ name = 'WEAPON_BAT', price = 500 },
+			{ name = 'WEAPON_BAT', price = 1500 },
 			{ name = 'WEAPON_PISTOL', price = 7000, metadata = { registered = true }, license = 'weapon_a' },
 			{ name = 'WEAPON_HEAVYPISTOL', price = 12000, metadata = { registered = true }, license = 'weapon_a' },
 		}, targets = {
 			{
                 ped = `S_M_Y_AmmuCity_01`,
                 scenario = 'WORLD_HUMAN_GUARD_STAND',
-                loc = vec3(-662.2042, -933.5153, 20.8292),
-                heading = 182.1464,
+                loc = vec3(-659.0908, -939.9258, 20.9293),
+                heading = 117.7931,
             },
 			{
                 ped = `S_M_Y_AmmuCity_01`,
                 scenario = 'WORLD_HUMAN_GUARD_STAND',
-                loc = vec3(809.9865, -2159.0735, 28.6190),
-                heading = 359.5728,
+                loc = vec3(813.7495, -2155.1716, 28.7192),
+                heading = 0.1371,
             },
 			{
                 ped = `S_M_M_AmmuCountry`,
                 scenario = 'WORLD_HUMAN_GUARD_STAND',
-                loc = vec3(1692.2480, 3761.0295, 33.7053),
+                loc = vec3(1692.2480, 3761.0295, 32.8053),
                 heading = 230.6599,
             },
 			{
                 ped = `S_M_M_AmmuCountry`,
                 scenario = 'WORLD_HUMAN_GUARD_STAND',
-                loc = vec3(-331.8233, 6084.8467, 30.4548),
+                loc = vec3(-331.8233, 6084.8467, 29.5548),
                 heading = 229.1231,
             },
 			{
                 ped = `S_M_Y_AmmuCity_01`,
                 scenario = 'WORLD_HUMAN_GUARD_STAND',
-                loc = vec3(253.7716, -50.5880, 68.9410),
-                heading = 70.4539,
+                loc = vec3(247.5024, -51.5707, 68.0412),
+                heading = 337.8101,
             },
 			{
                 ped = `S_M_Y_AmmuCity_01`,
                 scenario = 'WORLD_HUMAN_GUARD_STAND',
-                loc = vec3(22.5021, -1105.4338, 28.7970),
-                heading = 164.6027,
+                loc = vec3(18.1630, -1107.9363, 28.8972),
+                heading = 153.1117,
             },
 			{
                 ped = `S_M_Y_AmmuCity_01`,
                 scenario = 'WORLD_HUMAN_GUARD_STAND',
-                loc = vec3(2567.8167, 292.6396, 107.7348),
-                heading = 1.1424,
+                loc = vec3(2564.8459, 298.3929, 107.8350),
+                heading = 272.2995,
             },
 			{
                 ped = `S_M_Y_AmmuCity_01`,
                 scenario = 'WORLD_HUMAN_GUARD_STAND',
-                loc = vec3(-1118.9590, 2699.7830, 17.5541),
-                heading = 222.6167,
+                loc = vec3(-1112.3723, 2697.1567, 17.654),
+                heading = 164.8170,
             },
 			{
                 ped = `S_M_Y_AmmuCity_01`,
@@ -164,16 +176,17 @@ return {
 	},
     
     PoliceArmoury = {
-		name = 'Armurerie Police',
+		name = 'Armurerie Police/sheriff',
 		groups = {
-			['police'] = 8,
+			['police'] = 0,
+            ['bcsd'] = 0
 		},
 		blip = {
 			id = 110, colour = 3, scale = 0.8
 		}, inventory = {
-			{ name = 'ammo-9', price = 2, },
-	 		{ name = 'ammo-rifle', price = 5, },
-	 		{ name = 'ammo-shotgun', price = 5, },
+			{ name = 'ammo-pistol', price = 2, },
+	 		{ name = 'ammo-assaut', price = 5, },
+	 		{ name = 'ammo-heavy', price = 5, },
 	 		{ name = 'WEAPON_FLASHLIGHT', price = 200 },
 	 		{ name = 'WEAPON_NIGHTSTICK', price = 500 },
 			{ name = 'WEAPON_STUNGUN', price = 1000, metadata = { registered = true, serial = 'POL'} },
@@ -201,8 +214,8 @@ return {
             {
                 ped = `s_m_m_marine_01`,
                 scenario = 'WORLD_HUMAN_STAND_IMPATIENT',
-                loc = vec3(-1800.7394, 3103.5088, 31.8418),
-                heading = 151.0306,
+                loc = vec3(-1122.6083, 2701.4849, 17.6804),
+                heading = 232.2600,
             },
 		}
 	},
@@ -236,12 +249,11 @@ return {
 	BlackMarketArms = {
 		name = 'Marché Noir',
 		inventory = {
-            { name = 'advlockpick', price = 2000, currency = 'black_money' },
-            { name = 'hack_usb', price = 4000, currency = 'black_money' },
-            { name = 'gofast_card', price = 6000, currency = 'black_money' },
-			{ name = 'WEAPON_SNSPISTOL', price = 70000, metadata = { registered = false }, currency = 'black_money' },
+            { name = 'advlockpick', price = 20000, currency = 'black_money' },
+            { name = 'hack_usb', price = 40000, currency = 'black_money' },
+            { name = 'gofast_card', price = 60000, currency = 'black_money' },
+	    	{ name = 'WEAPON_SNSPISTOL', price = 70000, metadata = { registered = false }, currency = 'black_money' },
             { name = 'empty_pouch', price = 5, currency = 'black_money' },
-            { name = 'chemical_products', price = 5, currency = 'black_money' },
 		}, targets = {
 			{
                 ped = `a_m_o_salton_01`,
@@ -257,14 +269,13 @@ return {
 		inventory = {
             { name = 'advlockpick', price = 1000, currency = 'black_money' },
             { name = 'gofast_card', price = 3000, currency = 'black_money' },
-			{ name = 'hack_usb', price = 2000, currency = 'black_money' },
-			{ name = 'drill', price = 5000,	 currency = 'black_money' },
+			{ name = 'hack_usb', price = 20000, currency = 'black_money' },
+			{ name = 'serflex', price = 10000, currency = 'black_money' },
+			{ name = 'drill', price = 50000, currency = 'black_money' },
 			{ name = 'laptop', price = 15000, currency = 'black_money' },
-			{ name = 'cutter', price = 3000, currency = 'black_money' },
+			{ name = 'cutter', price = 30000, currency = 'black_money' },
 			{ name = 'thermite_bomb', price = 10000, currency = 'black_money' },
 			{ name = 'c4_bomb', price = 20000, currency = 'black_money' },
-			{ name = 'c4_bomb', price = 20000, currency = 'black_money' },
-			{ name = 'spray', price = 500, currency = 'black_money' },
 		}, targets = {
 			{
                 ped = `a_m_o_salton_01`,
@@ -278,10 +289,10 @@ return {
 	VendingMachineDrinks = {
 		name = 'Distributeur de canettes',
 		inventory = {
-			{ name = 'water', price = 15 },
-			{ name = 'cola', price = 12 },
-			{ name = 'sprunk', price = 12 },
-			{ name = 'orange_juice', price = 13 },
+			{ name = 'water', price = 25 },
+			{ name = 'cola', price = 25 },
+			{ name = 'sprunk', price = 25 },
+			{ name = 'orange_juice', price = 30 },
 		},
 		model = {
 			`prop_vend_soda_02`, `prop_vend_fridge01`, `prop_vend_water_01`, `prop_vend_soda_01`
@@ -293,16 +304,16 @@ return {
 		blip = {
 			id = 586, colour = 69, scale = 0.8
 		}, inventory = {
-			{ name = 'bag', price = 150, metadata = {['drawableId'] = 82, ['textureId'] = 0, ['paletteId'] = 0, ['label'] = "Sac noir"} },
-			{ name = 'bag', price = 150, metadata = {['drawableId'] = 82, ['textureId'] = 1, ['paletteId'] = 0, ['label'] = "Sac bleu"} },
-			{ name = 'bag', price = 150, metadata = {['drawableId'] = 82, ['textureId'] = 2, ['paletteId'] = 0, ['label'] = "Sac jaune"} },
-			{ name = 'bag', price = 150, metadata = {['drawableId'] = 82, ['textureId'] = 3, ['paletteId'] = 0, ['label'] = "Sac rouge"} },
-			{ name = 'bag', price = 150, metadata = {['drawableId'] = 82, ['textureId'] = 4, ['paletteId'] = 0, ['label'] = "Sac vert"} },
-			{ name = 'bag', price = 150, metadata = {['drawableId'] = 82, ['textureId'] = 5, ['paletteId'] = 0, ['label'] = "Sac orange"} },
-			{ name = 'bag', price = 150, metadata = {['drawableId'] = 82, ['textureId'] = 6, ['paletteId'] = 0, ['label'] = "Sac violet"} },
-			{ name = 'bag', price = 150, metadata = {['drawableId'] = 82, ['textureId'] = 7, ['paletteId'] = 0, ['label'] = "Sac rose"} },
-			{ name = 'bag', price = 150, metadata = {['drawableId'] = 86, ['textureId'] = 0, ['paletteId'] = 0, ['label'] = "Sac BIGNESS blanc"} },
-			{ name = 'bag', price = 150, metadata = {['drawableId'] = 86, ['textureId'] = 1, ['paletteId'] = 0, ['label'] = "Sac BIGNESS rouge"} },
+			{ name = 'bag', price = 350, metadata = {['drawableId'] = 82, ['textureId'] = 0, ['paletteId'] = 0, ['label'] = "Sac noir"} },
+			{ name = 'bag', price = 350, metadata = {['drawableId'] = 82, ['textureId'] = 1, ['paletteId'] = 0, ['label'] = "Sac bleu"} },
+			{ name = 'bag', price = 350, metadata = {['drawableId'] = 82, ['textureId'] = 2, ['paletteId'] = 0, ['label'] = "Sac jaune"} },
+			{ name = 'bag', price = 350, metadata = {['drawableId'] = 82, ['textureId'] = 3, ['paletteId'] = 0, ['label'] = "Sac rouge"} },
+			{ name = 'bag', price = 350, metadata = {['drawableId'] = 82, ['textureId'] = 4, ['paletteId'] = 0, ['label'] = "Sac vert"} },
+			{ name = 'bag', price = 350, metadata = {['drawableId'] = 82, ['textureId'] = 5, ['paletteId'] = 0, ['label'] = "Sac orange"} },
+			{ name = 'bag', price = 350, metadata = {['drawableId'] = 82, ['textureId'] = 6, ['paletteId'] = 0, ['label'] = "Sac violet"} },
+			{ name = 'bag', price = 350, metadata = {['drawableId'] = 82, ['textureId'] = 7, ['paletteId'] = 0, ['label'] = "Sac rose"} },
+			{ name = 'bag', price = 350, metadata = {['drawableId'] = 86, ['textureId'] = 0, ['paletteId'] = 0, ['label'] = "Sac BIGNESS blanc"} },
+			{ name = 'bag', price = 350, metadata = {['drawableId'] = 86, ['textureId'] = 1, ['paletteId'] = 0, ['label'] = "Sac BIGNESS rouge"} },
 		}, targets = {
 			{
                 ped = `s_f_y_shop_mid`,
@@ -581,6 +592,12 @@ return {
 		}, inventory = {
 			{ name = 'cola', price = 1 },
 			{ name = 'orange_juice', price = 1 },
+			{ name = 'rancho_beer', price = 2 },
+			{ name = 'dusche_beer', price = 2 },
+			{ name = 'stronzo_beer', price = 2 },
+			{ name = 'patriot_beer', price = 2 },
+			{ name = 'whiskey', price = 6 },
+			{ name = 'tequila', price = 6 },
 			
 		}, targets = {
 			{
@@ -591,105 +608,85 @@ return {
             },
 		}                  
 	},
-
-    BlackMarketDrugs1 = {
-		name = 'Vendeur de graines Weed',
-		inventory = {
-            { name = 'weed_seed', price = 600, currency = 'black_money' },
+	
+	bahamasdrink = {
+		name = 'Grossiste Boissons', -- Items Boissons pour le bahamas
+		groups = {
+			['bahamas'] = 0,
+		},
+		blip = {
+			id = 615, colour = 10, scale = 0.5
+		}, inventory = {
+			{ name = 'cola', price = 1 },
+			{ name = 'orange_juice', price = 1 },
+			{ name = 'rancho_beer', price = 2 },
+			{ name = 'dusche_beer', price = 2 },
+			{ name = 'stronzo_beer', price = 2 },
+			{ name = 'patriot_beer', price = 2 },
+			{ name = 'whiskey', price = 6 },
+			{ name = 'tequila', price = 6 },
+			{ name = 'champain', price = 8 },
+			{ name = 'lemonade', price = 1 },
+			{ name = 'grappe_juice', price = 1 },
+			{ name = 'iced_tea', price = 1 },
+			{ name = 'sprunk', price = 1 },
+			{ name = 'water', price = 1 },
+			
 		}, targets = {
 			{
-                ped = `a_m_o_salton_01`,
-                scenario = 'WORLD_HUMAN_SMOKING',
-                loc = vec3(-304.4392, 80.2750, 71.6720),
-                heading = 358.6993,
+                ped = `a_f_y_gencaspat_01`,
+                scenario = 'WORLD_HUMAN_CLIPBOARD',
+                loc = vec3(160.2725, -3158.1230, 4.9882),
+                heading = 267.9688,
             },
-		}
-	},
+		}                  
+	},	
 
-    BlackMarketDrugs2 = {
-		name = 'Vendeur de graines cocaine',
-		inventory = {
-            { name = 'cocaine_seed', price = 1000, currency = 'black_money' },
-		}, targets = {
-			{
-                ped = `a_m_o_salton_01`,
-                scenario = 'WORLD_HUMAN_SMOKING',
-                loc = vec3(-1210.5726, 366.3122, 78.9851),
-                heading = 104.4892,
-            },
-		}
-	},
 
-    BlackMarketDrugs3 = {
-		name = 'Vendeur de graines opium',
-		inventory = {
-            { name = 'opium_seed', price = 800, currency = 'black_money' },
-		}, targets = {
-			{
-                ped = `a_m_o_salton_01`,
-                scenario = 'WORLD_HUMAN_SMOKING',
-                loc = vec3(-460.2845, -2282.2800, 6.6081),
-                heading = 262.3096,
-            },
-		}
-	},
 
-    MarketPharm = {
-		name = 'Vendeur de morphine',
-		inventory = {
-            { name = 'morphine', price = 4, currency = 'money' },
-		}, targets = {
-			{
-                ped = `a_m_o_salton_01`,
-                scenario = 'WORLD_HUMAN_SMOKING',
-                loc = vec3(232.6719, -24.8876, 68.8964),
-                heading = 338.4694,
-            },
-		}
-	},
-    
-     MarketWeapon = {
-		name = "Vendeur d'armes",
+     MarketWeapon1 = {
+		name = "Vendeur d'armes Legere",
 		inventory = {
             { name = 'weapon_snspistol', price = 20000, currency = 'black_money' },
             { name = 'weapon_pistol', price = 40000, currency = 'black_money' },
             { name = 'weapon_pistol50', price = 50000, currency = 'black_money' },
             { name = 'weapon_revolver', price = 80000, currency = 'black_money' },
+            { name = 'weapon_molotov', price = 10000, currency = 'black_money' },
+            { name = 'ammo-pistol', price = 180, currency = 'black_money' },
+		}, targets = {
+			{
+                ped = `a_m_o_salton_01`,
+                scenario = 'WORLD_HUMAN_SMOKING',
+                loc = vec3(470.5459, -730.8870, 26.4359),
+                heading = 91.3677,
+            },
+		}
+	},
+
+
+
+    
+     MarketWeapon3 = {
+		name = "Vendeur d'armes Lourdes",
+		inventory = {
             { name = 'weapon_machinepistol', price = 220000, currency = 'black_money' },
             { name = 'weapon_minismg', price = 250000, currency = 'black_money' },
             { name = 'weapon_microsmg', price = 230000, currency = 'black_money' },
             { name = 'weapon_dbshotgun', price = 220000, currency = 'black_money' },
             { name = 'weapon_assaultrifle', price = 850000, currency = 'black_money' },
             { name = 'weapon_compactrifle', price = 350000, currency = 'black_money' },
-            { name = 'weapon_molotov', price = 10000, currency = 'black_money' },
+            { name = 'ammo-heavy', price = 450, currency = 'black_money' },
+            { name = 'ammo-assaut', price = 350, currency = 'black_money' },
 		}, targets = {
 			{
                 ped = `a_m_o_salton_01`,
                 scenario = 'WORLD_HUMAN_SMOKING',
-                loc = vec3(1011.4127, -2873.3984, 38.1578),
-                heading = 356.1894,
+                loc = vec3(-494.7249, -2687.9531, 16.3776),
+                heading = 5.8892,
             },
 		}
 	},
 
-    MarketAmmo = {
-		name = 'Vendeur de munitions',
-		inventory = {
-            { name = 'ammo-9', price = 15, currency = 'black_money' },
-            { name = 'ammo-45', price = 20, currency = 'black_money' },
-            { name = 'ammo-50', price = 25, currency = 'black_money' },
-            { name = 'ammo-44', price = 30, currency = 'black_money' },
-            { name = 'ammo-shotgun', price = 45, currency = 'black_money' },
-            { name = 'ammo-rifle2', price = 35, currency = 'black_money' },
-		}, targets = {
-			{
-                ped = `a_m_o_salton_01`,
-                scenario = 'WORLD_HUMAN_SMOKING',
-                loc = vec3(1247.1219, -2910.6453, 24.3235),
-                heading = 81.7068,
-            },
-		}
-	},
 
     MarketWeapon2 = {
 		name = 'Vendeur armes blanche',
@@ -709,29 +706,51 @@ return {
             },
 		}
 	},
-
-    Bahamasdrink = {
-		name = 'Grossiste Boissons', -- Items Boissons pour le Bahamas
-		groups = {
-			['bahamas'] = 0,
-		},
-		blip = {
-			id = 615, colour = 27, scale = 0.5
-		}, inventory = {
-			{ name = 'rancho_beer', price = 1 },
-			{ name = 'dusche_beer', price = 1 },
-			{ name = 'stronzo_beer', price = 1 },
-			{ name = 'patriot_beer', price = 1 },
-			{ name = 'whiskey', price = 1 },
-			{ name = 'tequila', price = 1 },
-			
+    K9Weed = {
+		name = 'Vendeur de weed',
+		inventory = {
+            { name = 'weed_raw', price = 2, currency = 'black_money' },
+            { name = 'empty_pooch', price = 5, currency = 'black_money' },
 		}, targets = {
 			{
-                ped = `a_m_m_hillbilly_01`,
-                scenario = 'WORLD_HUMAN_CLIPBOARD',
-                loc = vec3(160.2736, -3158.6018, 5.9905),
-                heading = 318.6721,
+                ped = `a_m_o_salton_01`,
+                scenario = 'WORLD_HUMAN_SMOKING',
+                loc = vec3(285.0442, -2981.2483, 4.5402),
+                heading = 173.7506,
             },
-		}                  
+		}
 	},
+
+    K9coke = {
+		name = 'Vendeur d\'opium',
+		inventory = {
+            { name = 'opium_raw', price = 2, currency = 'black_money' },
+            { name = 'empty_pooch', price = 5, currency = 'black_money' },
+		}, targets = {
+			{
+                ped = `a_m_o_salton_01`,
+                scenario = 'WORLD_HUMAN_SMOKING',
+                loc = vec3(-3113.3384, 326.5471, 1.6340),
+                heading = 69.7706,
+            },
+		}
+	},
+
+    K9crack = {
+		name = 'Vendeur de crack',
+		inventory = {
+            { name = 'crack', price = 2, currency = 'black_money' },
+            { name = 'empty_pooch', price = 5, currency = 'black_money' },
+		}, targets = {
+			{
+                ped = `a_m_o_salton_01`,
+                scenario = 'WORLD_HUMAN_SMOKING',
+                loc = vec3(-1151.6047, -2048.9956, 12.5388),
+                heading = 4.5041,
+            },
+		}
+	},
+
+
+
 }
