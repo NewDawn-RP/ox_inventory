@@ -145,7 +145,7 @@ return {
 			{
                 ped = `S_M_Y_AmmuCity_01`,
                 scenario = 'WORLD_HUMAN_GUARD_STAND',
-                loc = vec3(247.5024, -51.5707, 68.0412),
+                loc = vec3(247.5024, -51.5707, 69.0412),
                 heading = 337.8101,
             },
 			{

@@ -53,6 +53,7 @@ local function onEnterShop(point)
 		FreezeEntityPosition(entity, true)
 		SetEntityInvincible(entity, true)
 		SetBlockingOfNonTemporaryEvents(entity, true)
+		Entity(entity).state.nodrugsales = true
 
 		exports.ox_target:addLocalEntity(entity, {
             {
