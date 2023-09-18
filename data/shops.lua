@@ -246,24 +246,6 @@ return {
 		}
 	},
 
-	BlackMarketArms = {
-		name = 'Marché Noir',
-		inventory = {
-            { name = 'advlockpick', price = 20000, currency = 'black_money' },
-            { name = 'hack_usb', price = 40000, currency = 'black_money' },
-            { name = 'gofast_card', price = 60000, currency = 'black_money' },
-	    	{ name = 'WEAPON_SNSPISTOL', price = 70000, metadata = { registered = false }, currency = 'black_money' },
-            { name = 'empty_pouch', price = 5, currency = 'black_money' },
-		}, targets = {
-			{
-                ped = `a_m_o_salton_01`,
-                scenario = 'WORLD_HUMAN_SMOKING',
-                loc = vec3(346.7274, -199.5583, 53.2218),
-                heading = 61.4530,
-            },
-		}
-	},
-
 	BlackMarketBiz = {
 		name = 'Marché Noir',
 		inventory = {
