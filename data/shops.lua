@@ -249,13 +249,13 @@ return {
 	BlackMarketBiz = {
 		name = 'Marché Noir',
 		inventory = {
-            { name = 'advlockpick', price = 1000, currency = 'black_money' },
+            { name = 'advlockpick', price = 500, currency = 'black_money' },
             { name = 'gofast_card', price = 3000, currency = 'black_money' },
-			{ name = 'hack_usb', price = 20000, currency = 'black_money' },
-			{ name = 'serflex', price = 10000, currency = 'black_money' },
-			{ name = 'drill', price = 50000, currency = 'black_money' },
+			{ name = 'hack_usb', price = 2000, currency = 'black_money' },
+			{ name = 'serflex', price = 100, currency = 'black_money' },
+			{ name = 'drill', price = 5000, currency = 'black_money' },
 			{ name = 'laptop', price = 15000, currency = 'black_money' },
-			{ name = 'cutter', price = 30000, currency = 'black_money' },
+			{ name = 'cutter', price = 500, currency = 'black_money' },
 			{ name = 'thermite_bomb', price = 10000, currency = 'black_money' },
 			{ name = 'c4_bomb', price = 20000, currency = 'black_money' },
 		}, targets = {
