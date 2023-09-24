@@ -21,7 +21,6 @@ return {
 			{ name = 'chips_cheese', price = 30 },
 			{ name = 'cacahuetes', price = 25 },
 			{ name = 'chips_bbq', price = 30 },		
-			{ name = 'phone', price = 1400 },
 			{ name = 'fishingrod', price = 900 },
 			{ name = 'fishbait', price = 200 },
 
@@ -59,8 +58,6 @@ return {
 			{ name = 'chips_cheese', price = 30 },
 			{ name = 'cacahuetes', price = 25 },
 			{ name = 'chips_bbq', price = 30 },		
-			{ name = 'phone', price = 1400 },
-			{ name = 'radio', price = 1000 },
 
 		}, locations = {
 			vec3(1135.808, -982.281, 46.415),
@@ -77,6 +74,25 @@ return {
 			{ loc = vec3(-2967.0, 390.9, 15.14), length = 0.7, width = 0.5, heading = 85.23, minZ = 15.0, maxZ = 15.4, distance = 3.5 },
 			{ loc = vec3(1165.95, 2710.20, 38.26), length = 0.6, width = 0.5, heading = 178.84, minZ = 38.1, maxZ = 38.5, distance = 3.5 },
 			{ loc = vec3(1393.0, 3605.95, 35.11), length = 0.6, width = 0.6, heading = 200.0, minZ = 35.0, maxZ = 35.4, distance = 3.5 }
+		}
+	},
+
+	Digital = {
+		name = "Magasin d'électronique",
+		blip = {
+			id = 521, colour = 69, scale = 0.8
+		}, inventory = {	
+			{ name = 'phone', price = 1400 },
+			{ name = 'radio', price = 1000 },
+		}, locations = {
+			vec3(-1208.1385, -1502.2000, 4.3739)
+		}, targets = {
+			{
+                ped = `a_m_y_business_02`,
+                scenario = 'WORLD_HUMAN_STAND_IMPATIENT_UPRIGHT',
+                loc = vec3(-1208.1385, -1502.2000, 3.3739),
+                heading = 123.1378,
+            },
 		}
 	},
 
@@ -250,8 +266,8 @@ return {
 			{
                 ped = `s_m_m_paramedic_01`,
                 scenario = 'WORLD_HUMAN_STAND_IMPATIENT_UPRIGHT',
-                loc = vec3(1102.3302, -1528.5236, 34.0326), 
-                heading = 190.5719,    1101.5281, -1528.5186, 35.0326, 190.5719
+                loc = vec3(-1227.1171, -1475.0294, 3.3739), 
+                heading = 123.4441,
             },
 		}
 	},
@@ -260,6 +276,7 @@ return {
 		name = 'Marché Noir',
 		inventory = {
             { name = 'advlockpick', price = 500, currency = 'black_money' },
+			{ name = 'spray', price = 150, currency = 'black_money' },
             { name = 'gofast_card', price = 3000, currency = 'black_money' },
 			{ name = 'hack_usb', price = 2000, currency = 'black_money' },
 			{ name = 'serflex', price = 100, currency = 'black_money' },
@@ -352,8 +369,8 @@ return {
 			{
                 ped = `ig_claypain`,
                 scenario = 'WORLD_HUMAN_STAND_IMPATIENT',
-                loc = vec3(-1126.7903, -1440.1488, 4.2283),
-                heading = 287.9651,
+                loc = vec3(-1261.8831, -1425.5051, 3.3807),
+                heading = 123.4416,
             },
 		}
 	},
@@ -397,8 +414,8 @@ return {
 			{
                 ped = `s_m_m_linecook`,
                 scenario = 'WORLD_HUMAN_STAND_IMPATIENT_UPRIGHT',
-                loc = vec3(161.6032, -3165.2756, 4.9663),
-                heading = 265.0822,
+                loc = vec3(-1251.4576, -1438.8182, 3.3739),
+                heading = 123.1620,
             },
 		}
 	},
@@ -420,35 +437,16 @@ return {
 			{ name = 'carrot', price = 1 },
 			{ name = 'olives', price = 1 },
 			{ name = 'onion', price = 1 },
+			{ name = 'cola', price = 1 },
+			{ name = 'sprunk', price = 1 },
+			{ name = 'iced_tea', price = 1 },	
 
 		}, targets = {
 			{
                 ped = `a_m_m_farmer_01`,
                 scenario = 'WORLD_HUMAN_CLIPBOARD',
-                loc = vec3(162.4186, -3186.8901, 4.9515),
-                heading = 258.8575,
-            },
-		}
-	},
-
-	Upnatomdrink = {
-		name = 'Brasserie', -- Grossiste UpnAtom Brasserie
-		groups = {
-			['upnatom'] = 0,
-		},
-		blip = {
-			id = 615, colour = 66, scale = 0.5
-		}, inventory = {
-			{ name = 'cola', price = 1 },
-			{ name = 'sprunk', price = 1 },
-			{ name = 'iced_tea', price = 1 },		
-			
-		}, targets = {
-			{
-                ped = `a_m_m_bevhills_02`,
-                scenario = 'WORLD_HUMAN_STAND_IMPATIENT_UPRIGHT',
-                loc = vec3(163.3093, -3158.3657, 4.9353),
-                heading = 286.3462,
+                loc = vec3(-1253.4064, -1444.4044, 3.3739),
+                heading = 31.6513,
             },
 		}
 	},
@@ -470,8 +468,8 @@ return {
 			{
                 ped = `a_f_m_business_02`,
                 scenario = 'WORLD_HUMAN_STAND_IMPATIENT_UPRIGHT',
-                loc = vec3(161.5054, -3172.3433, 4.9681),
-                heading = 257.1070,
+                loc = vec3(-1244.8496, -1453.7814, 3.3739),
+                heading = 44.1363,
             },
 		}
 	},
@@ -494,8 +492,8 @@ return {
 			{
                 ped = `a_m_m_socenlat_01`,
                 scenario = 'WORLD_HUMAN_SMOKING',
-                loc = vec3(587.8426, 2744.6387, 41.0675),
-                heading = 188.4380,
+                loc = vec3(-1270.9196, -1417.8790, 3.3739),
+                heading = 32.4593,
             },
 		}
 	},
@@ -537,8 +535,8 @@ return {
 			{
                 ped = `a_m_m_hillbilly_01`,
                 scenario = 'WORLD_HUMAN_STAND_IMPATIENT',
-                loc = vec3(163.2580, -3181.3857, 4.9363),
-                heading = 261.4984,
+                loc = vec3(-1250.5387, -1443.3898, 3.3739),
+                heading = 27.7796,
             },
 		}
 	},
@@ -568,8 +566,8 @@ return {
 			{
                 ped = `cs_joeminuteman`,
                 scenario = 'WORLD_HUMAN_STAND_IMPATIENT',
-                loc = vec3(161.5467, -3173.8481, 4.9674),
-                heading = 264.8625,
+                loc = vec3(-1245.0602, -1453.9216, 3.3739),
+                heading = 35.2178,
             },
 		}
 	},
@@ -595,8 +593,8 @@ return {
 			{
                 ped = `a_f_y_gencaspat_01`,
                 scenario = 'WORLD_HUMAN_CLIPBOARD',
-                loc = vec3(160.4048, -3156.4312, 4.9882),
-                heading = 267.9688,
+                loc = vec3(-1207.8270, -1509.2891, 3.3739),
+                heading = 35.9452,
             },
 		}                  
 	},
@@ -628,8 +626,8 @@ return {
 			{
                 ped = `a_f_y_gencaspat_01`,
                 scenario = 'WORLD_HUMAN_CLIPBOARD',
-                loc = vec3(160.2725, -3158.1230, 4.9882),
-                heading = 267.9688,
+                loc = vec3(-1225.2665, -1484.6707, 3.3739),
+                heading = 36.7357,
             },
 		}                  
 	},	
