@@ -468,8 +468,8 @@ return {
 			{
                 ped = `a_f_m_business_02`,
                 scenario = 'WORLD_HUMAN_STAND_IMPATIENT_UPRIGHT',
-                loc = vec3(-1244.8496, -1453.7814, 3.3739),
-                heading = 44.1363,
+                loc = vec3(-1246.4186, -1454.8754, 3.3739),
+                heading = 37.7181,
             },
 		}
 	},
