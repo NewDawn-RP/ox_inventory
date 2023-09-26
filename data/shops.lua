@@ -17,10 +17,7 @@ return {
 			id = 59, colour = 69, scale = 0.8
 		}, inventory = {
 			{ name = 'bread', price = 25 },
-			{ name = 'water', price = 25 },
-			{ name = 'chips_cheese', price = 30 },
-			{ name = 'cacahuetes', price = 25 },
-			{ name = 'chips_bbq', price = 30 },		
+			{ name = 'water', price = 25 },	
 			{ name = 'fishingrod', price = 900 },
 			{ name = 'fishbait', price = 200 },
 
@@ -54,10 +51,7 @@ return {
 			id = 93, colour = 69, scale = 0.8
 		}, inventory = {
 			{ name = 'bread', price = 25 },
-			{ name = 'water', price = 25 },
-			{ name = 'chips_cheese', price = 30 },
-			{ name = 'cacahuetes', price = 25 },
-			{ name = 'chips_bbq', price = 30 },		
+			{ name = 'water', price = 25 },	
 
 		}, locations = {
 			vec3(1135.808, -982.281, 46.415),
@@ -101,7 +95,6 @@ return {
 		blip = {
 			id = 402, colour = 69, scale = 0.8
 		}, inventory = {
-			{ name = 'lockpick', price = 500 },
 			{ name = 'WEAPON_HAMMER', price = 450 },
 			{ name = 'fishingrod', price = 300 },
 			{ name = 'pickaxe', price = 350 },
@@ -433,10 +426,6 @@ return {
 			{ name = 'cheese', price = 1 },		
 			{ name = 'salad', price = 1 },	
 			{ name = 'tomato', price = 1 },
-			{ name = 'corn', price = 1 },
-			{ name = 'carrot', price = 1 },
-			{ name = 'olives', price = 1 },
-			{ name = 'onion', price = 1 },
 			{ name = 'cola', price = 1 },
 			{ name = 'sprunk', price = 1 },
 			{ name = 'iced_tea', price = 1 },	
@@ -460,9 +449,7 @@ return {
 			id = 615, colour = 66, scale = 0.5
 		}, inventory = {
 			{ name = 'brownie', price = 1 },
-			{ name = 'atom_cream_vanilla', price = 1 },
-			{ name = 'atom_cream_strawberry', price = 1 },		
-			{ name = 'atom_cream_pistachio', price = 1 },	
+			{ name = 'atom_cream_vanilla', price = 1 },	
 			
 		}, targets = {
 			{
@@ -470,6 +457,58 @@ return {
                 scenario = 'WORLD_HUMAN_STAND_IMPATIENT_UPRIGHT',
                 loc = vec3(-1246.4186, -1454.8754, 3.3739),
                 heading = 37.7181,
+            },
+		}
+	},
+
+	popsCream = {	
+		name = 'Patisserie Pops Dinner', -- Pops dinner Patisserie
+		groups = {
+			['popsdinner'] = 0,
+		},
+		blip = {
+			id = 615, colour = 76, scale = 0.5
+		}, inventory = {
+			{ name = 'jelly', price = 1 },
+			{ name = 'cherry', price = 1 },	
+			{ name = 'milk', price = 1 },	
+			{ name = 'chocolate_powder', price = 1 },
+			{ name = 'apple', price = 1 },		
+		}, targets = {
+			{
+                ped = `a_f_m_business_02`,
+                scenario = 'WORLD_HUMAN_STAND_IMPATIENT_UPRIGHT',
+                loc = vec3(-1216.1543, -1468.2896, 3.3739),
+                heading = 306.3226,
+            },
+		}
+	},
+
+	popsGrossiste = {
+		name = "Grossiste Pops Dinner", -- Items à acheter pour le vigneron
+		groups = {
+			['popsdinner'] = 0,
+		},
+		blip = {
+			id = 615, colour = 76, scale = 0.8
+		}, inventory = {
+			{ name = 'bacon', price = 1 },
+			{ name = 'egg', price = 1 },
+			{ name = 'galette', price = 1 },
+			{ name = 'salad', price = 1 },
+			{ name = 'tomato', price = 1 },
+			{ name = 'beef_steak', price = 1 },
+			{ name = 'tofu', price = 1 },
+			{ name = 'cheese', price = 1 },
+			{ name = 'potato', price = 1 },
+			{ name = 'tomato', price = 1 },
+
+		}, targets = {
+			{
+                ped = `a_m_m_socenlat_01`,
+                scenario = 'WORLD_HUMAN_SMOKING',
+                loc = vec3(-1206.1044, -1460.5594, 3.3739),
+                heading = 308.2750,
             },
 		}
 	},
@@ -523,8 +562,7 @@ return {
 			id = 615, colour = 10, scale = 0.5
 		}, inventory = {
 			{ name = 'coffee_beans', price = 1 },
-			{ name = 'milk', price = 1 },			
-			{ name = 'strawberry', price = 1 },			
+			{ name = 'milk', price = 1 },				
 			{ name = 'raspberry', price = 1 },
 			{ name = 'kiwi', price = 1 },
 			{ name = 'pineapple', price = 1 },
@@ -550,12 +588,7 @@ return {
 			id = 615, colour = 10, scale = 0.5
 		}, inventory = {
 			{ name = 'donut_chocolate', price = 1 },
-			{ name = 'donut_strawberry', price = 1 },
-			{ name = 'pancakes', price = 1 },
-			{ name = 'chips_cheese', price = 1 },			
-			{ name = 'chips_bbq', price = 1 },
-			{ name = 'olives', price = 1 },
-			{ name = 'cacahuetes', price = 1 },
+			{ name = 'pancakes', price = 1 },			
 			{ name = 'marshmallow', price = 1 },
 			{ name = 'biscuit', price = 1 },			
 			{ name = 'chocolate_powder', price = 1 },
