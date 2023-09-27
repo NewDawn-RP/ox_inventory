@@ -88,6 +88,38 @@ return {
 	    }
 	},
 
+	['peanuts'] = {
+	    label = 'Cacahuètes',
+	    weight = 500,
+	    stack = true,
+		close = true,
+	    client = {
+			status = { hunger = 150000 },
+			description = "Des Cacahuètes",
+            anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+            prop = { model = 'prop_peanut_bowl_01', 
+            pos = vec3(0.05, -0.02, -0.03), rot = vec3(150.0, 340.0, 170.0) },
+            usetime = 7500,
+			notification = 'Vous avez mangé des Cacahuètes!'
+	    }
+	},
+
+	['sausage'] = {
+	    label = 'Saucisson',
+	    weight = 500,
+	    stack = true,
+		close = true,
+	    client = {
+			status = { hunger = 150000 },
+			description = "Du Saucisson",
+            anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+            prop = { model = 'prop_food_bs_burger2', 
+            pos = vec3(0.05, -0.02, -0.03), rot = vec3(150.0, 340.0, 170.0) },
+            usetime = 7500,
+			notification = 'Vous avez mangé du Saucisson!'
+	    }
+	},
+
 	['bacon_eggs'] = {
 	    label = 'Bacon aux oeufs',
 	    weight = 500,
@@ -648,22 +680,6 @@ return {
 		}
 	},
 
-	['red_wine'] = {
-	    label = 'Cabernet sauvignon',
-	    weight = 500,
-		close = true,
-	    stack = true,
-		description = "Vin rouge cuvée 2022",
-	    client = {
-			status = { drunk = 120000 },
-			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
-			prop = { model = 'prop_drink_redwine', 
-			pos = vec3(0.02, -0.01, -0.14), rot = vec3(1.0, 5.0, -182.5) },
-			usetime = 9000,
-			notification = 'Vous avez bu du vin rouge !'
-	    }
-	},
-
 	['white_wine'] = {
 	    label = 'Chardonnay',
 	    weight = 500,
@@ -696,19 +712,19 @@ return {
 	    }
 	},
 
-	['sparkling_wine'] = {
-	    label = 'Vin mousseux',
+	['pink_wine'] = {
+	    label = 'Vin rosé',
 	    weight = 500,
 		close = true,
-		description = "Un Vin mousseux qualitatif",
+		description = "Un Vin très rose d'ou le rosé",
 	    stack = true,
 	    client = {
-			status = { drunk = 100000 },
+			status = { drunk = 120000 },
 			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
 			prop = { model = 'prop_drink_whtwine', 
 			pos = vec3(0.02, -0.01, -0.14), rot = vec3(1.0, 5.0, -182.5) },
 			usetime = 9000,
-			notification = 'Vous avez bu du Vin mousseux !'
+			notification = 'Vous avez bu du Vin rosé !'
 	    }
 	},
 
@@ -884,16 +900,6 @@ return {
 
 	['trout'] = {
 		label = 'Truite',
-		weight = 1000,
-	},
-
-	['alcohol_annexed'] = {
-		label = 'Alcool annexé',
-		weight = 1000,
-	},
-
-	['sugar'] = {
-		label = 'Sucre liquide',
 		weight = 1000,
 	},
 
@@ -1256,12 +1262,6 @@ return {
 
 	['leather'] = {
 	    label = 'Cuir',
-	    weight = 1000,
-	    stack = true,
-	},
-
-	['natural_ferment'] = {
-	    label = 'Ferment naturel',
 	    weight = 1000,
 	    stack = true,
 	},
@@ -1889,13 +1889,6 @@ return {
 		stack = true,
 		close = true,
 	},
-	['lsd_pooch'] = {
-		label = 'Pochon LSD',
-		weight = 1000,
-		stack = true,
-		close = true,
-	},
-
 
 	['crack'] = {
 		label = 'Crack',

@@ -20,55 +20,46 @@ return {
 			{ name = 'water', price = 25 },	
 			{ name = 'fishingrod', price = 900 },
 			{ name = 'fishbait', price = 200 },
+			{ name = 'pickaxe', price = 350 },
+			{ name = 'WEAPON_HAMMER', price = 450 },
 
 		}, locations = {
 			vec3(25.7, -1347.3, 29.49),
-			vec3(-3038.71, 585.9, 7.9),
-			vec3(-3241.47, 1001.14, 12.83),
-			vec3(1728.66, 6414.16, 35.03),
-			vec3(1697.99, 4924.4, 42.06),
-			vec3(1961.48, 3739.96, 32.34),
-			vec3(547.79, 2671.79, 42.15),
-			vec3(2679.25, 3280.12, 55.24),
-			vec3(2557.94, 382.05, 108.62),
+			vec3(-1222.82, -908.94, 11.32),
+			vec3(-46.65, -1757.91, 28.42),
+			vec3(1134.08, -982.72, 45.41),
+			vec3(1165.02, -323.87, 68.20),
+			vec3(-1486.57, -377.62, 39.16),
+			vec3(-1819.10, 793.05, 137.08),
+			vec3(-2966.35, 391.30, 14.04),
+			vec3(-3040.79, 583.97, 6.90),
 			vec3(373.55, 325.56, 103.56),
+			vec3(-3244.24, 1000.17, 11.83),
+			vec3(549.30, 2669.45, 41.15),
+			vec3(2676.40, 3280.25, 54.24),
+			vec3(1959.10, 3741.63, 31.34),
+			vec3(1696.90, 4923.60, 41.06),
+			vec3(1728.71, 6417.05, 34.03),
+			vec3(1728.71, 2710.78, 37.15),
 		}, targets = {
-			{ loc = vec3(25.06, -1347.32, 29.5), length = 0.7, width = 0.5, heading = 0.0, minZ = 29.5, maxZ = 29.9, distance = 3.5 },
-			{ loc = vec3(-3039.18, 585.13, 7.91), length = 0.6, width = 0.5, heading = 15.0, minZ = 7.91, maxZ = 8.31, distance = 3.5 },
-			{ loc = vec3(-3242.2, 1000.58, 12.83), length = 0.6, width = 0.6, heading = 175.0, minZ = 12.83, maxZ = 13.23, distance = 3.5 },
-			{ loc = vec3(1728.39, 6414.95, 35.04), length = 0.6, width = 0.6, heading = 65.0, minZ = 35.04, maxZ = 35.44, distance = 3.5 },
-			{ loc = vec3(1698.37, 4923.43, 42.06), length = 0.5, width = 0.5, heading = 235.0, minZ = 42.06, maxZ = 42.46, distance = 3.5 },
-			{ loc = vec3(1960.54, 3740.28, 32.34), length = 0.6, width = 0.5, heading = 120.0, minZ = 32.34, maxZ = 32.74, distance = 3.5 },
-			{ loc = vec3(548.5, 2671.25, 42.16), length = 0.6, width = 0.5, heading = 10.0, minZ = 42.16, maxZ = 42.56, distance = 3.5 },
-			{ loc = vec3(2678.29, 3279.94, 55.24), length = 0.6, width = 0.5, heading = 330.0, minZ = 55.24, maxZ = 55.64, distance = 3.5 },
-			{ loc = vec3(2557.19, 381.4, 108.62), length = 0.6, width = 0.5, heading = 0.0, minZ = 108.62, maxZ = 109.02, distance = 3.5 },
-			{ loc = vec3(373.13, 326.29, 103.57), length = 0.6, width = 0.5, heading = 345.0, minZ = 103.57, maxZ = 103.97, distance = 3.5 },		}
-	},
-
-	Liquor = {
-		name = "Magasin d'alcool",
-		blip = {
-			id = 93, colour = 69, scale = 0.8
-		}, inventory = {
-			{ name = 'bread', price = 25 },
-			{ name = 'water', price = 25 },	
-
-		}, locations = {
-			vec3(1135.808, -982.281, 46.415),
-			vec3(-1222.915, -906.983, 12.326),
-			vec3(-1487.553, -379.107, 40.163),
-			vec3(-2968.243, 390.910, 15.043),
-			vec3(1166.024, 2708.930, 38.157),
-			vec3(1392.562, 3604.684, 34.980),
-			vec3(-1393.409, -606.624, 30.319)
-		}, targets = {
-			{ loc = vec3(1134.9, -982.34, 46.41), length = 0.5, width = 0.5, heading = 96.0, minZ = 46.4, maxZ = 46.8, distance = 3.5 },
-			{ loc = vec3(-1222.33, -907.82, 12.43), length = 0.6, width = 0.5, heading = 32.7, minZ = 12.3, maxZ = 12.7, distance = 3.5 },
-			{ loc = vec3(-1486.67, -378.46, 40.26), length = 0.6, width = 0.5, heading = 133.77, minZ = 40.1, maxZ = 40.5, distance = 3.5 },
-			{ loc = vec3(-2967.0, 390.9, 15.14), length = 0.7, width = 0.5, heading = 85.23, minZ = 15.0, maxZ = 15.4, distance = 3.5 },
-			{ loc = vec3(1165.95, 2710.20, 38.26), length = 0.6, width = 0.5, heading = 178.84, minZ = 38.1, maxZ = 38.5, distance = 3.5 },
-			{ loc = vec3(1393.0, 3605.95, 35.11), length = 0.6, width = 0.6, heading = 200.0, minZ = 35.0, maxZ = 35.4, distance = 3.5 }
-		}
+			{ loc = vec3(25.06, -1347.32, 29.5), length = 0.7, width = 0.5, heading = 0.0, minZ = 29.5, maxZ = 31.9, distance = 3.5 },
+			{ loc = vec3(-705.73, -914.91, 18.22), length = 0.6, width = 0.5, heading = 89.21, minZ = 18.22, maxZ = 20.22, distance = 3.5 },
+			{ loc = vec3(-1222.82, -908.94, 11.32), length = 0.6, width = 0.6, heading = 36.64, minZ = 11.32, maxZ = 13.32, distance = 3.5 },
+			{ loc = vec3(-46.65, -1757.91, 28.42), length = 0.6, width = 0.6, heading = 59.03, minZ = 28.42, maxZ = 30.42, distance = 3.5 },
+			{ loc = vec3(1134.08, -982.72, 45.41), length = 0.5, width = 0.5, heading = 277.21, minZ = 45.41, maxZ = 48.41, distance = 3.5 },
+			{ loc = vec3(1165.02, -323.87, 68.20), length = 0.6, width = 0.5, heading = 98.01, minZ = 68.20, maxZ = 70.20, distance = 3.5 },
+			{ loc = vec3(-1486.57, -377.62, 39.16), length = 0.6, width = 0.5, heading = 134.32, minZ = 39.16, maxZ = 41.16, distance = 3.5 },
+			{ loc = vec3(-1819.10, 793.05, 137.08), length = 0.6, width = 0.5, heading = 124.87, minZ = 137.08, maxZ = 139.08, distance = 3.5 },
+			{ loc = vec3(-2966.35, 391.30, 14.04), length = 0.6, width = 0.5, heading = 85.08, minZ = 14.04, maxZ = 16.04, distance = 3.5 },
+			{ loc = vec3(-3040.79, 583.97, 6.90), length = 0.6, width = 0.5, heading =20.30, minZ = 6.90, maxZ = 8.90, distance = 3.5 },
+			{ loc = vec3(373.13, 326.29, 103.57), length = 0.6, width = 0.5, heading = 345.0, minZ = 103.57, maxZ = 105.57, distance = 3.5 },	
+			{ loc = vec3(-3244.24, 1000.17, 11.83), length = 0.6, width = 0.5, heading = 356.37, minZ = 11.83, maxZ = 13.83, distance = 3.5 },
+			{ loc = vec3(549.30, 2669.45, 41.15), length = 0.6, width = 0.5, heading = 92.10, minZ = 41.15, maxZ = 43.15, distance = 3.5 },
+			{ loc = vec3(2676.40, 3280.25, 54.24), length = 0.6, width = 0.5, heading = 331.44, minZ = 54.24, maxZ = 56.24, distance = 3.5 },
+			{ loc = vec3(1959.10, 3741.63, 31.34), length = 0.6, width = 0.5, heading = 299.68, minZ = 31.34, maxZ = 33.34, distance = 3.5 },
+			{ loc = vec3(1696.90, 4923.60, 41.06), length = 0.6, width = 0.5, heading = 322.80, minZ = 41.06, maxZ = 43.06, distance = 3.5 },
+			{ loc = vec3(1728.71, 6417.05, 34.03), length = 0.6, width = 0.5, heading = 248.71, minZ = 34.03, maxZ = 36.03, distance = 3.5 },
+			{ loc = vec3(1728.71, 2710.78, 37.15), length = 0.6, width = 0.5, heading = 181.67, minZ = 37.15, maxZ = 39.15, distance = 3.5 },	}
 	},
 
 	Digital = {
@@ -90,7 +81,7 @@ return {
 		}
 	},
 
-	YouTool = {
+	--[[ YouTool = {
 		name = "Magasin de bricolage",
 		blip = {
 			id = 402, colour = 69, scale = 0.8
@@ -114,7 +105,7 @@ return {
                 heading = 15.1502,
             },
 		}
-	},
+	}, ]]
 
 	Ammunation = {
 		name = 'Ammunation',
@@ -428,7 +419,8 @@ return {
 			{ name = 'tomato', price = 1 },
 			{ name = 'cola', price = 1 },
 			{ name = 'sprunk', price = 1 },
-			{ name = 'iced_tea', price = 1 },	
+			{ name = 'iced_tea', price = 1 },
+			{ name = 'tofu', price = 1 },	
 
 		}, targets = {
 			{
@@ -501,7 +493,6 @@ return {
 			{ name = 'tofu', price = 1 },
 			{ name = 'cheese', price = 1 },
 			{ name = 'potato', price = 1 },
-			{ name = 'tomato', price = 1 },
 
 		}, targets = {
 			{
@@ -521,11 +512,7 @@ return {
 		blip = {
 			id = 615, colour = 7, scale = 0.8
 		}, inventory = {
-			{ name = 'natural_ferment', price = 1 },
 			{ name = 'glass_bottle', price = 1 },
-			{ name = 'label', price = 1 },
-			{ name = 'alcohol_annexed', price = 1 },
-			{ name = 'sugar', price = 1 },
 
 		}, targets = {
 			{
@@ -661,6 +648,26 @@ return {
                 scenario = 'WORLD_HUMAN_CLIPBOARD',
                 loc = vec3(-1225.2665, -1484.6707, 3.3739),
                 heading = 36.7357,
+            },
+		}                  
+	},	
+
+	bahamasGrossiste = {
+		name = 'Grossiste', -- Items Boissons pour le bahamas
+		groups = {
+			['bahamas'] = 0,
+		},
+		blip = {
+			id = 615, colour = 10, scale = 0.5
+		}, inventory = {
+			{ name = 'peanuts', price = 1 },
+			{ name = 'sausage', price = 1 },
+		}, targets = {
+			{
+                ped = `a_f_y_gencaspat_01`,
+                scenario = 'WORLD_HUMAN_CLIPBOARD',
+                loc = vec3(-1223.2106, -1479.1609, 3.3739),
+                heading = 125.8932,
             },
 		}                  
 	},	

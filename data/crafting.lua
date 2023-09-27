@@ -59,6 +59,16 @@ return {
 				duration = 10000,
 				count = 1,
 			},
+			{
+				name = 'veggie_burger',
+				ingredients = {
+					tofu = 1,
+					salad = 1,
+					tomato = 2,
+				},
+				duration = 10000,
+				count = 1,
+			},
 		},
 		points = {
 			vec3(94.5815, 291.5911, 110.2095),
@@ -100,8 +110,7 @@ return {
 			{
 				name = 'neutralbtl_bp',
 				ingredients = {
-					bunch_of_grapes = 25,
-					natural_ferment = 6,
+					bunch_of_grapes = 9,
 					glass_bottle = 1,
 				},
 				duration = 10000,
@@ -110,8 +119,7 @@ return {
 			{
 				name = 'neutralbtl_wp',
 				ingredients = {
-					bunch_of_grapes = 25,
-					natural_ferment = 6,
+					bunch_of_grapes = 5,
 					glass_bottle = 1,
 				},
 				duration = 10000,
@@ -121,7 +129,6 @@ return {
 				name = 'neutralbtl_cs',
 				ingredients = {
 					bunch_of_grapes = 15,
-					natural_ferment = 2,
 					glass_bottle = 1,
 				},
 				duration = 10000,
@@ -131,7 +138,6 @@ return {
 				name = 'neutralbtl_ch',
 				ingredients = {
 					bunch_of_grapes = 15,
-					natural_ferment = 2,
 					glass_bottle = 1,
 				},
 				duration = 10000,
@@ -140,9 +146,7 @@ return {
 			{
 				name = 'neutralbtl_chp',
 				ingredients = {
-					bunch_of_grapes = 10,
-					alcohol_annexed = 1,
-					sugar = 1,
+					bunch_of_grapes = 14,
 					glass_bottle = 1,
 
 				},
@@ -152,9 +156,7 @@ return {
 			{
 				name = 'neutralbtl_vm',
 				ingredients = {
-					bunch_of_grapes = 10,
-					alcohol_annexed = 1,
-					sugar = 1,
+					bunch_of_grapes = 5,
 					glass_bottle = 1,
 
 				},
@@ -165,7 +167,6 @@ return {
 				name = 'neutralbtl_jdr',
 				ingredients = {
 					bunch_of_grapes = 4,
-					sugar = 1,
 					glass_bottle = 1,
 					
 				},
@@ -207,15 +208,6 @@ return {
 				count = 1,
 			},
 			{
-				name = 'red_wine',
-				ingredients = {
-					neutralbtl_cs = 1,
-					label = 1,
-				},
-				duration = 10000,
-				count = 1,
-			},
-			{
 				name = 'white_wine',
 				ingredients = {
 					neutralbtl_ch = 1,
@@ -234,7 +226,7 @@ return {
 				count = 1,
 			},
 			{
-				name = 'sparkling_wine',
+				name = 'pink_wine',
 				ingredients = {
 					neutralbtl_vm = 1,
 					label = 1,
