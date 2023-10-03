@@ -108,7 +108,7 @@ return {
 		groups = { ["vine"] = 0 }, -- Vigneron - fabrication produits CRAFT 1
 		items = {
 			{
-				name = 'neutralbtl_bp',
+				name = 'black_pinot',
 				ingredients = {
 					bunch_of_grapes = 9,
 					glass_bottle = 1,
@@ -117,7 +117,7 @@ return {
 				count = 1,
 			},
 			{
-				name = 'neutralbtl_wp',
+				name = 'white_pinot',
 				ingredients = {
 					bunch_of_grapes = 5,
 					glass_bottle = 1,
@@ -126,54 +126,23 @@ return {
 				count = 1,
 			},
 			{
-				name = 'neutralbtl_cs',
+				name = 'pink_wine',
 				ingredients = {
-					bunch_of_grapes = 15,
+					bunch_of_grapes = 5,
 					glass_bottle = 1,
 				},
 				duration = 10000,
 				count = 1,
 			},
 			{
-				name = 'neutralbtl_ch',
-				ingredients = {
-					bunch_of_grapes = 15,
-					glass_bottle = 1,
-				},
-				duration = 10000,
-				count = 1,
-			},
-			{
-				name = 'neutralbtl_chp',
+				name = 'champain',
 				ingredients = {
 					bunch_of_grapes = 14,
 					glass_bottle = 1,
-
 				},
 				duration = 10000,
 				count = 1,
-			},
-			{
-				name = 'neutralbtl_vm',
-				ingredients = {
-					bunch_of_grapes = 5,
-					glass_bottle = 1,
-
-				},
-				duration = 10000,
-				count = 1,
-			},
-			{
-				name = 'neutralbtl_jdr',
-				ingredients = {
-					bunch_of_grapes = 4,
-					glass_bottle = 1,
-					
-				},
-				duration = 10000,
-				count = 1,
-			},
-						
+			},			
 		},
 		points = {
 			vec3(-1928.2686, 1779.5055, 173.0965),
@@ -183,75 +152,6 @@ return {
 				coords = vec3(-1927.2686, 1779.5055, 173.0965), 
 				size = vec3(3, 3, 3),
 				distance = 3,
-			},
-		},
-	},
-	{
-		groups = { ["vine"] = 0 }, -- Vigneron - fabrication produits finals CRAFT 2
-		items = {
-			{
-				name = 'black_pinot',
-				ingredients = {
-					neutralbtl_bp = 1,
-					label = 1,
-				},
-				duration = 10000,
-				count = 1,
-			},
-			{
-				name = 'white_pinot',
-				ingredients = {
-					neutralbtl_wp = 1,
-					label = 1,
-				},
-				duration = 10000,
-				count = 1,
-			},
-			{
-				name = 'white_wine',
-				ingredients = {
-					neutralbtl_ch = 1,
-					label = 1,
-				},
-				duration = 10000,
-				count = 1,
-			},
-			{
-				name = 'champain',
-				ingredients = {
-					neutralbtl_chp = 1,
-					label = 1,
-				},
-				duration = 10000,
-				count = 1,
-			},
-			{
-				name = 'pink_wine',
-				ingredients = {
-					neutralbtl_vm = 1,
-					label = 1,
-				},
-				duration = 10000,
-				count = 1,
-			},
-			{
-				name = 'grappe_juice',
-				ingredients = {
-					neutralbtl_jdr = 1,
-					label = 1,
-				},
-				duration = 10000,
-				count = 1,
-			},
-		},
-		points = {
-			vec3(2342.6562, 3138.6467, 48.1892),
-		},
-		zones = {
-			{
-				coords = vec3(2342.6562, 3138.6467, 48.1892), 
-				size = vec3(3, 3, 3),
-				distance = 2.5,
 			},
 		},
 	},

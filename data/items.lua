@@ -243,17 +243,6 @@ return {
 			notification = 'Vous avez mangé un Burger au poulet !'
 	    }
 	},
-	
-	['ham_pizza'] = {
-	    label = 'Pizza au jambon',
-	    weight = 500,
-	    stack = true,
-	    client = {
-			status = { hunger = 200000 },
-			usetime = 7500,
-			notification = 'Vous avez mangé une pizza !'
-	    }
-	},
 
 	['peperoni_pizza'] = {
 	    label = 'Pizza au chorizo',
@@ -586,16 +575,6 @@ return {
 	    }
 	},
 
-	['coffee'] = {
-	    label = 'Café', 
-	    weight = 500,
-	    stack = true,
-	    client = {
-			status = { thirst = 150000 },
-			usetime = 7500,
-			notification = 'Vous avez bu un café !' 
-	    }
-	},
 
 	['hot_chocolate'] = {
 	    label = 'Chocolat Chaud', 
@@ -893,18 +872,8 @@ return {
 	    stack = true,
 	},
 
-	['anchovy'] = {
-		label = 'Anchoi',
-		weight = 1000,
-	},
-
 	['trout'] = {
 		label = 'Truite',
-		weight = 1000,
-	},
-
-	['label'] = {
-		label = 'Étiquette',
 		weight = 1000,
 	},
 
@@ -1268,48 +1237,6 @@ return {
 
 	['bone'] = {
 	    label = 'Os',
-	    weight = 1000,
-	    stack = true,
-	},
-
-	['neutralbtl_bp'] = { -- Bouteille neutre pour pinot
-	    label = 'Bouteille neutre de pinot noir',
-	    weight = 1000,
-	    stack = true,
-	},
-
-	['neutralbtl_wp'] = { 
-	    label = 'Bouteille neutre de pinot blanc',
-	    weight = 1000,
-	    stack = true,
-	},
-
-	['neutralbtl_cs'] = { 
-	    label = 'Bouteille neutre de Cabernet sauvigon',
-	    weight = 1000,
-	    stack = true,
-	},
-
-	['neutralbtl_ch'] = { 
-	    label = 'Bouteille neutre de Chardonnay',
-	    weight = 1000,
-	    stack = true,
-	},
-
-	['neutralbtl_chp'] = { 
-	    label = 'Bouteille neutre de Champagne',
-	    weight = 1000,
-	    stack = true,
-	},
-
-	['neutralbtl_vm'] = { 
-	    label = 'Bouteille neutre de Vin mousseux',
-	    weight = 1000,
-	    stack = true,
-	},
-
-	['neutralbtl_jdr'] = { 
-	    label = 'Bouteille neutre de Jus de raisin',
 	    weight = 1000,
 	    stack = true,
 	},
@@ -1803,9 +1730,6 @@ return {
 
 	--------------------------- [Papiers Administratifs, CB, Argent, Plaque d'immatriculation]
 
-	['identification'] = {
-		label = 'Identification',
-	},
 
 	['id_card'] = {
 		label = "Carte d'identité",
@@ -1860,6 +1784,39 @@ return {
 	    stack = true,
 	},
 
+	--[[ ['id_card'] = {
+        label = 'ID Card',
+        weight = 0,
+        stack = false,
+        close = true,
+        description = "Your Description",
+        client = {image = 'idcard.png'}
+    },
+    ['driver_license'] = {
+        label = 'Drivers License',
+        weight = 0,
+        stack = false,
+        close = true,
+        description = "Your Description",
+        client = {image = 'driverlicense.png'}
+    },
+    ['weaponlicense'] = {
+        label = 'Weapon License',
+        weight = 0,
+        stack = false,
+        close = true,
+        description = "Your Description",
+        client = {image = 'weaponlicense.png'}
+    },
+    ['lawyerpass'] = {
+        label = 'Lawyer Pass',
+        weight = 0,
+        stack = false,
+        close = true,
+        description = "Your Description",
+        client = {image = 'lawyerpass.png'}
+    },
+ ]]
 	--------------------------- ILLEGAL [Drogues finies]
 
 	['opium'] = {
@@ -1883,42 +1840,11 @@ return {
 		close = true,
 	},
 
-	['lsd'] = {
-		label = 'LSD',
-		weight = 1000,
-		stack = true,
-		close = true,
-	},
-
 	['crack'] = {
 		label = 'Crack',
 		weight = 1000,
 		stack = true,
 		close = true,
-	},
-
-	['drug_ecstasy'] = {
-		label = 'Ecstasy',
-		weight = 1000,
-		stack = true,
-		close = true,
-		description = nil
-	},
-
-	['drug_lean'] = {
-		label = 'Lean',
-		weight = 1000,
-		stack = true,
-		close = true,
-		description = nil
-	},
-
-	['drug_lsd'] = {
-		label = 'Lsd',
-		weight = 1000,
-		stack = true,
-		close = true,
-		description = nil
 	},
 
 	['drug_meth'] = {
@@ -1929,21 +1855,6 @@ return {
 		description = nil
 	},
 
-	['cannabis'] = {
-		label = 'cannabis',
-		weight = 1000,
-		stack = true,
-		close = true,
-		description = nil
-	},
-
-	['green_gelato_cannabis'] = {
-		label = 'green gelato cannabis',
-		weight = 1000,
-		stack = true,
-		close = true,
-		description = nil
-	},
 
 	--------------------------- ILLEGAL [Plantations Illégales]
 
@@ -1973,14 +1884,6 @@ return {
 
 	['crack_pooch'] = {
 		label = 'Pochon de crack',
-		weight = 1000,
-		stack = true,
-		close = true,
-		description = "Tu peux aller vendre tonton"
-	},
-
-	['lsd_pooch'] = {
-		label = 'Pochon de LSD',
 		weight = 1000,
 		stack = true,
 		close = true,
@@ -2058,21 +1961,9 @@ return {
 	},
 
 	--------------------------- ILLEGAL [Objets "à" voler]
-
-	['van_bottle'] = {
-		label = 'Vase Panelli',
-		weight = 1000,
-		stack = false,
-	},
 	
 	['van_diamond'] = {
 		label = 'Diamant Van Lex',
-		weight = 1000,
-		stack = false,
-	},
-	
-	['van_necklace'] = {
-		label = 'Collier Pandito',
 		weight = 1000,
 		stack = false,
 	},
@@ -2137,12 +2028,12 @@ return {
 	},
 
 	['microwave'] = {
-		label = 'Mirco-ondes',
+		label = 'Micro-ondes',
 		weight = 10000,
 	},
 
 	['toaster'] = {
-		label = 'Mirco-ondes',
+		label = 'Micro-ondes',
 		weight = 5000,
 	},
 
@@ -2319,53 +2210,6 @@ return {
 
 	--------------------------- ILLEGAL [Items Multiples]
 
-	['card_labo_coke1'] = {
-		label = 'Carte d accès',
-		weight = 1000,
-		stack = false,
-		close = true,
-		description = "Si t'as pas la carte tu rentres pas"
-	},
-
-	['card_labo_coke2'] = {
-		label = 'Carte d accès',
-		weight = 1000,
-		stack = false,
-		close = true,
-		description = "Si t'as pas la carte tu rentres pas"
-	},
-
-	['card_labo_opium1'] = {
-		label = 'Carte d accès',
-		weight = 1000,
-		stack = false,
-		close = true,
-		description = "Si t'as pas la carte tu rentres pas"
-	},
-
-	['card_labo_opium2'] = {
-		label = 'Carte d accès',
-		weight = 1000,
-		stack = false,
-		close = true,
-		description = "Si t'as pas la carte tu rentres pas"
-	},
-
-	['card_labo_weed1'] = {
-		label = 'Carte d accès',
-		weight = 1000,
-		stack = false,
-		close = true,
-		description = "Si t'as pas la carte tu rentres pas"
-	},
-
-	['card_labo_weed2'] = {
-		label = 'Carte d accès',
-		weight = 1000,
-		stack = false,
-		close = true,
-		description = "Si t'as pas la carte tu rentres pas"
-	},
 
 	--------------------------- [Habillage / Vêtements]
 
@@ -2551,10 +2395,6 @@ return {
 
 	--------------------------- [Items script poubelle]
 
-	['garbage'] = {
-		label = 'Ordures',
-	},
-
 	['-'] = {
 	    label = 'Bouteille',
 	    weight = 1000,
@@ -2589,104 +2429,6 @@ return {
 
 	["empty_weed_bag"] = {
 		label = "Empty Bag",
-		weight = 1,
-		stack = true,
-		close = true,
-	},
-
-	["weed_ak47"] = {
-		label = "Ak74",
-		weight = 1,
-		stack = true,
-		close = true,
-	},
-
-	["weed_ak47_seed"] = {
-		label = "ak47 Seed",
-		weight = 1,
-		stack = true,
-		close = true,
-	},
-
-	["weed_amnesia"] = {
-		label = "Amnesia",
-		weight = 1,
-		stack = true,
-		close = true,
-	},
-
-	["weed_amnesia_seed"] = {
-		label = "Amnesia Seed",
-		weight = 1,
-		stack = true,
-		close = true,
-	},
-
-	["weed_nutrition"] = {
-		label = "Weed Nutrition",
-		weight = 1,
-		stack = true,
-		close = true,
-	},
-
-	["weed_og-kush"] = {
-		label = "OG Kush",
-		weight = 1,
-		stack = true,
-		close = true,
-	},
-
-	["weed_og-kush_seed"] = {
-		label = "OG Kush Seed",
-		weight = 1,
-		stack = true,
-		close = true,
-	},
-
-	["weed_purple-haze"] = {
-		label = "Purple Haze",
-		weight = 1,
-		stack = true,
-		close = true,
-	},
-
-	["weed_purple-haze_seed"] = {
-		label = "Purple Haze Seed",
-		weight = 1,
-		stack = true,
-		close = true,
-	},
-
-	["weed_skunk"] = {
-		label = "Skunk",
-		weight = 1,
-		stack = true,
-		close = true,
-	},
-
-	["weed_skunk_seed"] = {
-		label = "Skunk Seed",
-		weight = 1,
-		stack = true,
-		close = true,
-	},
-
-	["weed_white-widow"] = {
-		label = "White Widow",
-		weight = 1,
-		stack = true,
-		close = true,
-	},
-
-	["weed_white-widow_seed"] = {
-		label = "White Widow Seed",
-		weight = 1,
-		stack = true,
-		close = true,
-	},
-
-	["blowtorch"] = {
-		label = "Chalumeau",
 		weight = 1,
 		stack = true,
 		close = true,
@@ -2755,23 +2497,9 @@ return {
 		close = true,
 	},
 
-	["codeine"] = {
-		label = "Codeine",
-		weight = 100,
-		stack = true,
-		close = true,
-	},
-
 	["drink_sprite"] = {
 		label = "Sprite",
 		weight = 100,
-		stack = true,
-		close = true,
-	},
-
-	["coke"] = {
-		label = "Crack",
-		weight = 1,
 		stack = true,
 		close = true,
 	},

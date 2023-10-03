@@ -18,10 +18,13 @@ return {
 		}, inventory = {
 			{ name = 'bread', price = 25 },
 			{ name = 'water', price = 25 },	
+			{ name = 'spray_remover', price = 125},
 			{ name = 'fishingrod', price = 900 },
 			{ name = 'fishbait', price = 200 },
 			{ name = 'pickaxe', price = 350 },
 			{ name = 'WEAPON_HAMMER', price = 450 },
+			{ name = "gardern_shovel", price = 350},
+			{ name = 'garden_pitcher', price = 350},
 
 		}, locations = {
 			vec3(25.7, -1347.3, 29.49),
@@ -211,13 +214,6 @@ return {
             { name = 'mediumkevlar', price = 500, metadata = {['drawableId'] = 20, ['textureId'] = 0, ['paletteId'] = 0, ['label'] = "Gilet Moyen (Police)"} },
             { name = 'heavykevlar', price = 750,  metadata = {['drawableId'] = 25, ['textureId'] = 0, ['paletteId'] = 0, ['label'] = "Gilet Lourd (Police)"} },
 			{ name = 'at_flashlight', price = 100 },
-			{ name = 'at_suppressor_light', price = 200 },
-			{ name = 'at_suppressor_heavy', price = 350 },
-			{ name = 'at_scope_small', price = 350 },
-			{ name = 'at_scope_medium', price = 350 },
-			{ name = 'at_scope_large', price = 350 },
-			{ name = 'at_scope_advanced', price = 350 },
-			{ name = 'at_scope_holo', price = 350 },
 			{ name = 'radio', price = 100 },
 		}, targets = {
             {
@@ -372,6 +368,8 @@ return {
 			{ name = 'potato_seed', price = 30 },
 			{ name = 'pickle_seed', price = 30 },
 			{ name = 'fishbait', price = 70 },
+			{ name = "gardern_shovel", price = 350},
+			{ name = 'garden_pitcher', price = 350},
 		}, targets = {
 			{
                 ped = `a_m_m_farmer_01`,
