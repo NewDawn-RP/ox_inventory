@@ -18,7 +18,7 @@ return {
 					WEAPON_HAMMER = 0.1
 				},
 				duration = 15000,
-				count = 1,
+				count = 3,
 			},
 		},
 		points = {
@@ -249,78 +249,102 @@ return {
 		},
 	},
 	{
-		groups = { ["popsdinner"] = 0 }, -- Pops dinner - fabrication produits CRAFT 1
+		groups = { ["biker"] = 0 }, -- Pops dinner - fabrication produits CRAFT 1
 		items = {
 			{
-				name = 'bacon_eggs',
+				name = 'WEAPON_SNSPISTOL',
 				ingredients = {
-					bacon = 2,
-					egg = 2,
+					precision_tool = 2,
+					gun_part = 5,
 				},
 				duration = 10000,
 				count = 1,
 			},
 			{
-				name = 'wrap_ranch',
+				name = 'WEAPON_PISTOL',
 				ingredients = {
-					galette = 1,
-					salad = 1,
-					beef_steak = 1,
-					tomato = 2,
+					precision_tool = 2,
+					gun_part = 10,
 				},
 				duration = 10000,
 				count = 1,
 			},
 			{
-				name = 'wrap_veggie',
+				name = 'WEAPON_PISTOL50',
 				ingredients = {
-					galette = 1,
-					salad = 1,
-					tofu = 2,
-					tomato = 2,
+					precision_tool = 5,
+					gun_part = 15,
 				},
 				duration = 10000,
 				count = 1,
 			},
 			{
-				name = 'potatoes_cheese',
+				name = 'WEAPON_REVOLVER',
 				ingredients = {
-					potato = 1,
-					cheese = 1,
+					precision_tool = 5,
+					gun_part = 15,
 				},
 				duration = 10000,
 				count = 1,
 			},
 			{
-				name = 'pops_milkshake',
+				name = 'WEAPON_MACHINEPISTOL',
 				ingredients = {
-					milk = 2,
-					chocolate_powder = 1,
-					apple = 2,
-
+					precision_tool = 10,
+					gun_part = 20,
 				},
 				duration = 10000,
 				count = 1,
 			},
 			{
-				name = 'cherry_jelly',
+				name = 'WEAPON_MINISMG',
 				ingredients = {
-					jelly = 3,
-					cherry = 1,
-
+					precision_tool = 10,
+					gun_part = 20,
 				},
 				duration = 10000,
 				count = 1,
-			},			
+			},
+			{
+				name = 'WEAPON_MICROSMG',
+				ingredients = {
+					precision_tool = 10,
+					gun_part = 20,
+				},
+				duration = 10000,
+				count = 1,
+			},						
 		},
 		points = {
-			vec3(1592.5463, 6455.8828, 26.0140),
+			vec3(153.2516, -3212.6543, 5.9108),
 		},
 		zones = {
 			{
-				coords = vec3(1592.5463, 6455.8828, 26.0140), 
+				coords = vec3(153.2516, -3212.6543, 5.9108), 
 				size = vec3(3, 3, 3),
 				distance = 3,
+			},
+		},
+	},
+	{
+		items = {
+			{
+				name = 'gun_part',
+				ingredients = {
+					scrapmetal = 5,
+				},
+				duration = 5000,
+				count = 1,
+			},
+		},
+		points = {
+			vec3(1070.0868, -2005.4606, 32.0831),
+		},
+		zones = {
+			{
+				coords = vec3(1070.0868, -2005.4606, 32.0831), 
+				size = vec3(3, 3, 3),
+				distance = 3.5,
 			},
 		},
 	},

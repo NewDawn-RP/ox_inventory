@@ -1553,7 +1553,7 @@ return {
 	['repair_kit'] = {
 	    label = 'Kit de réparation',
 	    weight = 3000,
-	    stack = false,
+	    stack = true,
 	},
 
 	['restart_kit'] = {
@@ -2102,6 +2102,20 @@ return {
         consume = 0.25,
 	},
 
+	['precision_tool'] = {
+		label = 'Outils de précision',
+		description = "Permet la fabrication d'armes",
+		weight = 1000,
+		stack = true,
+	},
+
+	['gun_part'] = {
+		label = "Pièces d'arme",
+		description = "Permet la fabrication d'armes",
+		weight = 1000,
+		stack = true,
+	},
+
 	--------------------------- ILLEGAL [Items de création de drogues]
 
 	['hydrogen'] = {
@@ -2514,6 +2528,153 @@ return {
 	["WEAPON_THROWINGROCK"] = {
 		label = "Rock",
 		weight = 2,
+		stack = true,
+		close = true,
+	},
+
+	["blowtorch"] = {
+		label = "Chalumeau",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["cannabis"] = {
+		label = "Cannabis",
+		weight = 100,
+		stack = true,
+		close = true,
+	},
+
+	["codeine"] = {
+		label = "Codeine",
+		weight = 100,
+		stack = true,
+		close = true,
+	},
+
+	["coke"] = {
+		label = "Crack",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["weed_ak47"] = {
+		label = "Ak74",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["weed_ak47_seed"] = {
+		label = "ak47 Seed",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["weed_amnesia"] = {
+		label = "Amnesia",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["drug_ecstasy"] = {
+		label = "Ecstasy",
+		weight = 100,
+		stack = true,
+		close = true,
+	},
+
+	["weed_nutrition"] = {
+		label = "Weed Nutrition",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["drug_lsd"] = {
+		label = "LSD",
+		weight = 100,
+		stack = true,
+		close = true,
+	},
+
+	["weed_og-kush_seed"] = {
+		label = "OG Kush Seed",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["green_gelato_cannabis"] = {
+		label = "Green Gelato Cannabis",
+		weight = 100,
+		stack = true,
+		close = true,
+	},
+
+	["weed_purple-haze_seed"] = {
+		label = "Purple Haze Seed",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["weed_skunk"] = {
+		label = "Skunk",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["weed_skunk_seed"] = {
+		label = "Skunk Seed",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["weed_white-widow"] = {
+		label = "White Widow",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["weed_white-widow_seed"] = {
+		label = "White Widow Seed",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["drug_lean"] = {
+		label = "Lean",
+		weight = 100,
+		stack = true,
+		close = true,
+	},
+
+	["weed_amnesia_seed"] = {
+		label = "Amnesia Seed",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["weed_og-kush"] = {
+		label = "OG Kush",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
+	["weed_purple-haze"] = {
+		label = "Purple Haze",
+		weight = 1,
 		stack = true,
 		close = true,
 	},
