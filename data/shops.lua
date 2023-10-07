@@ -290,6 +290,20 @@ return {
 		}
 	},
 
+	ScrapSeller = {  --Scrapmetal
+		name = 'Vendeur de pièces métalliques',
+		inventory = {
+            { name = 'Scrapmetal', price = 30, currency = 'black_money' },
+		}, targets = {
+			{
+                ped = `a_m_o_salton_01`,
+                scenario = 'WORLD_HUMAN_SMOKING',
+                loc = vec3( 2348.2563, 3114.6787, 47.2087),
+                heading = 353.9875,
+            },
+		}
+	},
+
 	VendingMachineDrinks = {
 		name = 'Distributeur de canettes',
 		inventory = {
