@@ -249,7 +249,9 @@ return {
 		},
 	},
 	{
-		groups = { ["biker"] = 0 }, -- Pops dinner - fabrication produits CRAFT 1
+		groups = { 
+			["biker"] = 0,
+			["mafia4"] = 0 }, -- Weapon Craft
 		items = {
 			{
 				name = 'WEAPON_SNSPISTOL',

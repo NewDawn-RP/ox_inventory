@@ -23,7 +23,7 @@ return {
 			{ name = 'fishbait', price = 200 },
 			{ name = 'pickaxe', price = 350 },
 			{ name = 'WEAPON_HAMMER', price = 450 },
-			{ name = "gardern_shovel", price = 350},
+			{ name = "garden_shovel", price = 350},
 			{ name = 'garden_pitcher', price = 350},
 
 		}, locations = {
