@@ -705,6 +705,7 @@ return {
             { name = 'WEAPON_MOLOTOV', price = 10000, currency = 'black_money' },
 			{ name = 'weapon_assaultrifle', price = 850000, currency = 'black_money' },
             { name = 'weapon_compactrifle', price = 350000, currency = 'black_money' },
+			{ name = 'weapon_dbshotgun', price = 220000, currency = 'black_money' },
             { name = 'ammo-heavy', price = 35, currency = 'black_money' },
             { name = 'ammo-assaut', price = 45, currency = 'black_money' },
 			{ name = 'ammo-pistol', price = 25, currency = 'black_money' },
