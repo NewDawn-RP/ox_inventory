@@ -644,7 +644,7 @@ return {
 		},
 
 		['WEAPON_SWITCHBLADE'] = {
-			label = 'Switchblade',
+			label = 'Couteau papillon',
 			weight = 1000,
 			durability = 0,
 			anim = { 'anim@melee@switchblade@holster', 'unholster', 200, 'anim@melee@switchblade@holster', 'holster', 600 },
@@ -665,7 +665,7 @@ return {
 		},
 
 		['WEAPON_WRENCH'] = {
-			label = 'Wrench',
+			label = 'Clé à molette',
 			weight = 1000,
 			durability = 0,
 		},

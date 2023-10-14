@@ -317,7 +317,7 @@ return {
 		}
 	},
 	
-	Bagshop = {
+	--[[ Bagshop = {
 		name = 'Magasin de sacs',
 		blip = {
 			id = 586, colour = 69, scale = 0.8
@@ -346,9 +346,9 @@ return {
                 heading = 356.4657,
             },
 		}
-	},
+	}, ]]
 
-	MaskShop = {
+	--[[ MaskShop = {
 		name = 'Magasin de masques',
 		blip = {
 			id = 362, colour = 69, scale = 0.8
@@ -382,7 +382,7 @@ return {
                 heading = 123.4416,
             },
 		}
-	},
+	}, ]]
 
 	Wholesaler = {
 		name = 'Grossiste Agricole',
