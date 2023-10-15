@@ -2686,4 +2686,81 @@ return {
 		stack = true,
 		close = true,
 	},
+
+	["casino_beer"] = {
+		label = "Casino Beer",
+		weight = 0,
+		stack = true,
+		close = true,
+	},
+
+	["casino_burger"] = {
+		label = "Casino Burger",
+		weight = 0,
+		stack = true,
+		close = true,
+	},
+
+	["casino_chips"] = {
+		label = "Casino Chips",
+		weight = 0,
+		stack = true,
+		close = true,
+	},
+
+	["casino_coffee"] = {
+		label = "Casino Coffee",
+		weight = 0,
+		stack = true,
+		close = true,
+	},
+
+	["casino_coke"] = {
+		label = "Casino Kofola",
+		weight = 0,
+		stack = true,
+		close = true,
+	},
+
+	["casino_donut"] = {
+		label = "Casino Donut",
+		weight = 0,
+		stack = true,
+		close = true,
+	},
+
+	["casino_ego_chaser"] = {
+		label = "Casino Ego Chaser",
+		weight = 0,
+		stack = true,
+		close = true,
+	},
+
+	["casino_luckypotion"] = {
+		label = "Casino Lucky Potion",
+		weight = 0,
+		stack = true,
+		close = true,
+	},
+
+	["casino_psqs"] = {
+		label = "Casino Ps & Qs",
+		weight = 0,
+		stack = true,
+		close = true,
+	},
+
+	["casino_sandwitch"] = {
+		label = "Casino Sandwitch",
+		weight = 0,
+		stack = true,
+		close = true,
+	},
+
+	["casino_sprite"] = {
+		label = "Casino Sprite",
+		weight = 0,
+		stack = true,
+		close = true,
+	},
 }
