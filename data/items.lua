@@ -2058,7 +2058,7 @@ return {
 	['drill'] = {
 		label = 'Perçeuse',
 		weight = 2000,
-		consume = 0.5,
+		consume = 1,
 	},
 
 	['cutter'] = {
@@ -2089,6 +2089,12 @@ return {
 		weight = 1000,
 		stack = true,
 		consume = 0.25,
+	},
+
+	['darknet_usb'] = {
+		label = 'Clé USB DarkNet',
+		weight = 1000,
+		stack = false,
 	},
 
 	['gasmask'] = {

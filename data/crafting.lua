@@ -105,6 +105,105 @@ return {
 		},
 	},
 	{
+		groups = { ["popsdinner"] = 0 }, -- Pops dinner - fabrication produits CRAFT 1
+		items = {
+			{
+				name = 'bacon_eggs',
+				ingredients = {
+					bacon = 2,
+					egg = 2,
+				},
+				duration = 10000,
+				count = 1,
+			},
+			{
+				name = 'wrap_ranch',
+				ingredients = {
+					galette = 1,
+					salad = 1,
+					beef_steak = 1,
+					tomato = 2,
+				},
+				duration = 10000,
+				count = 1,
+			},
+			{
+				name = 'wrap_veggie',
+				ingredients = {
+					galette = 1,
+					salad = 1,
+					tofu = 2,
+					tomato = 2,
+				},
+				duration = 10000,
+				count = 1,
+			},
+			{
+				name = 'potatoes_cheese',
+				ingredients = {
+					potato = 1,
+					cheese = 1,
+				},
+				duration = 10000,
+				count = 1,
+			},
+			{
+				name = 'pops_milkshake',
+				ingredients = {
+					milk = 2,
+					chocolate_powder = 1,
+					apple = 2,
+
+				},
+				duration = 10000,
+				count = 1,
+			},
+			{
+				name = 'cherry_jelly',
+				ingredients = {
+					jelly = 3,
+					cherry = 1,
+
+				},
+				duration = 10000,
+				count = 1,
+			},			
+		},
+		points = {
+			vec3(1592.5463, 6455.8828, 26.0140),
+		},
+		zones = {
+			{
+				coords = vec3(1592.5463, 6455.8828, 26.0140), 
+				size = vec3(3, 3, 3),
+				distance = 3,
+			},
+		},
+	},
+	{
+		groups = { ["upnatom"] = 0 }, -- UpnAtom Craft Frites
+		items = {
+			{
+				name = 'french_fries',
+				ingredients = {
+					potato = 2,					
+				},
+				duration = 8000,
+				count = 1,
+			},			
+		},
+		points = {
+			vec3(92.3333, 292.4424, 110.2095),
+		},
+		zones = {
+			{
+				coords = vec3(92.3333, 292.4424, 110.2095),   
+				size = vec3(1.5, 1.5, 1.5),
+				distance = 1.5,
+			},
+		},
+	},
+	{
 		groups = { ["vine"] = 0 }, -- Vigneron - fabrication produits CRAFT 1
 		items = {
 			{
