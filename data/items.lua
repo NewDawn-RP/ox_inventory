@@ -2058,7 +2058,7 @@ return {
 	['drill'] = {
 		label = 'Perçeuse',
 		weight = 2000,
-		consume = 1,
+		consume = 0.25,
 	},
 
 	['cutter'] = {

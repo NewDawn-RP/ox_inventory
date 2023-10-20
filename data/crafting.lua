@@ -33,6 +33,39 @@ return {
 		},
 	},
 	{
+		groups = { ["mechanic2"] = 0 },
+		items = {
+			{
+				name = 'lockpick',
+				ingredients = {
+					scrapmetal = 5,
+					WEAPON_HAMMER = 0.05
+				},
+				duration = 5000,
+				count = 2,
+			},
+			{
+				name = 'repair_kit',
+				ingredients = {
+					scrapmetal = 15,
+					WEAPON_HAMMER = 0.1
+				},
+				duration = 15000,
+				count = 3,
+			},
+		},
+		points = {
+			vec3(1176.2692, 2635.9011, 37.7538),   
+		},
+		zones = {
+			{
+				coords = vec3(1176.2692, 2635.9011, 37.7538), 
+				size = vec3(2, 2, 2),
+				distance = 2.0,
+			},
+		},
+	},
+	{
 		groups = { ["upnatom"] = 0 }, -- UpnAtom Craft Sandwich
 		items = {
 			{
