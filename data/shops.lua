@@ -191,7 +191,7 @@ return {
 		name = 'Armurerie Police/sheriff',
 		groups = {
 			['police'] = 0,
-            ['bcsd'] = 0
+            ['fib'] = 0
 		},
 		blip = {
 			id = 110, colour = 3, scale = 0.8
@@ -504,7 +504,7 @@ return {
 	},
 
 	popsGrossiste = {
-		name = "Grossiste Pops Dinner", -- Items à acheter pour le vigneron
+		name = "Grossiste Pops Dinner", -- Items à acheter pour le popsdinner
 		groups = {
 			['popsdinner'] = 0,
 		},
@@ -520,6 +520,8 @@ return {
 			{ name = 'tofu', price = 1 },
 			{ name = 'cheese', price = 1 },
 			{ name = 'potato', price = 1 },
+			{ name = 'cola', price = 1 },
+			{ name = 'patriot_beer', price = 1 },
 
 		}, targets = {
 			{
@@ -629,13 +631,6 @@ return {
 		}, inventory = {
 			{ name = 'cola', price = 1 },
 			{ name = 'orange_juice', price = 1 },
-			{ name = 'rancho_beer', price = 2 },
-			{ name = 'dusche_beer', price = 2 },
-			{ name = 'stronzo_beer', price = 2 },
-			{ name = 'patriot_beer', price = 2 },
-			{ name = 'whiskey', price = 6 },
-			{ name = 'tequila', price = 6 },
-			
 		}, targets = {
 			{
                 ped = `a_f_y_gencaspat_01`,

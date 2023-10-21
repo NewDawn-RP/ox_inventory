@@ -381,6 +381,98 @@ return {
 		},
 	},
 	{
+		groups = { ["redwood"] = 0 }, -- Craft Bean Machine Guim-o-choco
+		items = {
+			{
+				name = 'dried_tabacco_leaf',
+				ingredients = {
+					tabacco_leaf = 1,
+				},
+				duration = 5000,
+				count = 1,
+			},
+		},
+		points = {
+			vec3(2904.0771, 4487.5005, 48.1346),
+		},
+		zones = {
+			{
+				coords = vec3(2904.0771, 4487.5005, 48.1346), 
+				size = vec3(3, 3, 3),
+				distance = 3.0,
+			},
+		},
+	},
+	{
+		groups = { ["redwood"] = 0 }, -- Craft Bean Machine Guim-o-choco
+		items = {
+			{
+				name = 'tabac',
+				ingredients = {
+					dried_tabacco_leaf = 1,
+				},
+				duration = 5000,
+				count = 5,
+			},
+		},
+		points = {
+			vec3(2913.1536, 4475.6611, 48.2414),
+		},
+		zones = {
+			{
+				coords = vec3(2913.1536, 4475.6611, 48.2414), 
+				size = vec3(2, 2, 2),
+				distance = 2.0,
+			},
+		},
+	},
+	{
+		groups = { ["redwood"] = 0 }, -- Craft Bean Machine Guim-o-choco
+		items = {
+			{
+				name = 'cigarettes',
+				ingredients = {
+					tabac = 5,
+				},
+				duration = 5000,
+				count = 5,
+			},
+		},
+		points = {
+			vec3(2922.7012, 4473.4058, 48.1330),
+		},
+		zones = {
+			{
+				coords = vec3(2922.7012, 4473.4058, 48.1330), 
+				size = vec3(2, 2, 2),
+				distance = 2.0,
+			},
+		},
+	},
+	{
+		groups = { ["redwood"] = 0 }, -- Craft Bean Machine Guim-o-choco
+		items = {
+			{
+				name = 'cigarette_pack',
+				ingredients = {
+					cigarettes = 20,
+				},
+				duration = 5000,
+				count = 1,
+			},
+		},
+		points = {
+			vec3(2918.9915, 4470.4800, 48.1423),
+		},
+		zones = {
+			{
+				coords = vec3(2918.9915, 4470.4800, 48.1423), 
+				size = vec3(2, 2, 2),
+				distance = 2.0,
+			},
+		},
+	},
+	{
 		groups = { 
 			["biker"] = 0,
 			["mafia4"] = 0 }, -- Weapon Craft

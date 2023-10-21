@@ -70,6 +70,25 @@ return {
 		}
 	},
 
+	['cigarette_pack'] = {
+		label = 'Paquet de cigarettes',
+		weight = 1000,
+		stack = false,
+		close = true,
+		consume = 0.05,
+		client = {
+			description = "Du pain, rien de plus",
+            anim = { dict = 'amb@world_human_aa_smoke@male@idle_a', clip = 'idle_c' },
+            prop = { model = 'prop_cs_ciggy_01',
+			bone = 28422,
+            pos = vec3(0.000000, 0.000000, 0.000000), rot = vec3(0.000000, 0.000000, 0.000000) },
+            usetime = 12000,
+			cancel = true,
+	    },
+		server = {
+			--export = 'rcore_spray.spray',
+		},
+	},
     --------------------------- [NOURRITURE (hunger)]
 
 	['bread'] = {
@@ -1241,7 +1260,6 @@ return {
 	    stack = true,
 	},
 
-
 	--------------------------- [Outillage, informatique et équipement légal]
 
 	['parachute'] = {
@@ -1726,6 +1744,30 @@ return {
 	['fishbait'] = {
 		label = 'Appât',
 		weight = 500,
+	},
+
+	['tabacco_leaf'] = {
+	    label = 'Feuille de tabac',
+	    weight = 1000,
+	    stack = true,
+	},
+
+	['dried_tabacco_leaf'] = {
+	    label = 'Feuille de tabac sechée',
+	    weight = 1000,
+	    stack = true,
+	},
+
+	['tabac'] = {
+	    label = 'Tabac',
+	    weight = 1000,
+	    stack = true,
+	},
+
+	['cigarettes'] = {
+	    label = 'Cigarettes',
+	    weight = 1000,
+	    stack = true,
 	},
 
 	--------------------------- [Papiers Administratifs, CB, Argent, Plaque d'immatriculation]
