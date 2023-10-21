@@ -77,12 +77,12 @@ return {
 		close = true,
 		consume = 0.05,
 		client = {
-			description = "Du pain, rien de plus",
+			description = "gagne le cancer",
             anim = { dict = 'amb@world_human_aa_smoke@male@idle_a', clip = 'idle_c' },
             prop = { model = 'prop_cs_ciggy_01',
 			bone = 28422,
             pos = vec3(0.000000, 0.000000, 0.000000), rot = vec3(0.000000, 0.000000, 0.000000) },
-            usetime = 12000,
+            usetime = 180000,
 			cancel = true,
 	    },
 		server = {
@@ -1359,20 +1359,6 @@ return {
 		}
 	},
 
-	['garden_pitcher'] = {
-		label = 'Arrosoir',
-		weight = 1000,
-		stack = true,
-		close = true,
-	},
-	
-	['garden_shovel'] = {
-		label = 'Bêche',
-		weight = 1000,
-		stack = true,
-		close = true,
-	},
-
 	['binoculars'] = {
 		label = 'Paire de jumelles',
 		weight = 3500,
@@ -1703,11 +1689,6 @@ return {
 	['scrapmetal'] = {
 		label = 'Scrap Metal',
 		weight = 500,
-	},
-
-	['pickaxe'] = {
-		label = 'Pioche',
-		weight = 5000,
 	},
 
 	['emerald'] = {

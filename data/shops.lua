@@ -21,10 +21,7 @@ return {
 			{ name = 'spray_remover', price = 125},
 			{ name = 'fishingrod', price = 900 },
 			{ name = 'fishbait', price = 200 },
-			{ name = 'pickaxe', price = 350 },
 			{ name = 'WEAPON_HAMMER', price = 450 },
-			{ name = "garden_shovel", price = 350},
-			{ name = 'garden_pitcher', price = 350},
 
 		}, locations = {
 			vec3(25.7, -1347.3, 29.49),
