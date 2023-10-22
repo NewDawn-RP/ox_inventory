@@ -187,8 +187,8 @@ return {
     PoliceArmoury = {
 		name = 'Armurerie Police/sheriff',
 		groups = {
-			['police'] = 0,
-            ['fib'] = 0
+			['police'] = 7,
+            ['fib'] = 2
 		},
 		blip = {
 			id = 110, colour = 3, scale = 0.8
