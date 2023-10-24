@@ -20,6 +20,15 @@ return {
 				duration = 15000,
 				count = 3,
 			},
+			{
+				name = 'lowrepair_kit',
+				ingredients = {
+					bolt = 15,
+					WEAPON_HAMMER = 0.1
+				},
+				duration = 15000,
+				count = 3,
+			},
 		},
 		points = {
 			vec3(-205.4213, -1336.9602, 31.3005),   
@@ -48,6 +57,15 @@ return {
 				name = 'repair_kit',
 				ingredients = {
 					scrapmetal = 15,
+					WEAPON_HAMMER = 0.1
+				},
+				duration = 15000,
+				count = 3,
+			},
+			{
+				name = 'lowrepair_kit',
+				ingredients = {
+					bolt = 15,
 					WEAPON_HAMMER = 0.1
 				},
 				duration = 15000,

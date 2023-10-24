@@ -73,7 +73,7 @@ return {
 	['cigarette_pack'] = {
 		label = 'Paquet de cigarettes',
 		weight = 1000,
-		stack = false,
+		stack = true,
 		close = true,
 		consume = 0.05,
 		client = {
@@ -1560,6 +1560,12 @@ return {
 	    stack = true,
 	},
 
+	['lowrepair_kit'] = {
+	    label = 'petit kit de réparation',
+	    weight = 3000,
+	    stack = true,
+	},
+
 	['restart_kit'] = {
 	    label = 'Kit de rédémarage',
 	    weight = 3500,
@@ -1688,6 +1694,11 @@ return {
 
 	['scrapmetal'] = {
 		label = 'Scrap Metal',
+		weight = 500,
+	},
+
+	['bolt'] = {
+		label = 'Boulon',
 		weight = 500,
 	},
 
