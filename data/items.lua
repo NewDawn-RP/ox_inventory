@@ -2040,8 +2040,20 @@ return {
 	    stack = true,
 	},
 
+	['stolen_phone'] = {
+	    label = 'Téléphone volé',
+	    weight = 1000,
+	    stack = true,
+	},
+
 	['gold_ingot'] = {
 	    label = 'Lingot or',
+	    weight = 1000,
+	    stack = true,
+	},
+
+	['molten_gold'] = {
+	    label = 'Or fondu',
 	    weight = 1000,
 	    stack = true,
 	},
@@ -2063,7 +2075,7 @@ return {
 	['advlockpick'] = {
 		label = 'Kit de crochetage avancé',
 		weight = 1000,
-		consume = 0.05,
+		consume = 1,
 		server = {
 			export = "houserobbery.houselockpick",
 		}
@@ -2075,7 +2087,7 @@ return {
 	},
 
 	['toaster'] = {
-		label = 'Micro-ondes',
+		label = 'Toaster',
 		weight = 5000,
 	},
 
@@ -2092,7 +2104,7 @@ return {
 	['drill'] = {
 		label = 'Perçeuse',
 		weight = 2000,
-		consume = 0.25,
+		consume = 0.2,
 	},
 
 	['cutter'] = {
@@ -2121,14 +2133,26 @@ return {
 	['hack_usb'] = {
 		label = 'Clé USB Douteuse',
 		weight = 1000,
-		stack = true,
-		consume = 0.25,
+		stack = false,
+		consume = 1,
 	},
 
-	['darknet_usb'] = {
-		label = 'Clé USB DarkNet',
+	['flipper'] = {
+		label = 'Flipper',
 		weight = 1000,
 		stack = false,
+	},
+
+	['money_bag'] = {
+		label = "Sacs d'argent",
+		weight = 1000,
+		stack = true,
+	},
+
+	['microchip'] = {
+		label = 'Puce électronique',
+		weight = 1000,
+		stack = true,
 	},
 
 	['gasmask'] = {
@@ -2147,7 +2171,7 @@ return {
 		description = "Carte téléphonique de l'opérateur Lex Inc.",
 		weight = 1000,
 		stack = false,
-        consume = 0.25,
+        consume = 1,
 	},
 
 	['precision_tool'] = {
@@ -2416,6 +2440,17 @@ return {
 		client = {},
 		server = {
 			export = 'rcore_spray.spray_remover',
+		},
+	},
+
+	['headbag'] = {
+		label = 'Un sac',
+		weight = 1000,
+		close = true,
+		consume = 0,
+		client = {},
+		server = {
+			export = 'nc-headbag.headbag',
 		},
 	},
 	

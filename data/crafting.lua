@@ -560,13 +560,43 @@ return {
 			},						
 		},
 		points = {
-			vec3(153.2516, -3212.6543, 5.9108),
+			vec3(606.4487, -3095.1450, 6.0693),
 		},
 		zones = {
 			{
-				coords = vec3(153.2516, -3212.6543, 5.9108), 
+				coords = vec3(606.4487, -3095.1450, 6.0693), 
 				size = vec3(3, 3, 3),
 				distance = 3,
+			},
+		},
+	},
+	{ -- Craft usb
+		items = {
+			{
+				name = 'hack_usb',
+				ingredients = {
+					microchip = 1,
+				},
+				duration = 5000,
+				count = 1,
+			},
+			{
+				name = 'gofast_card',
+				ingredients = {
+					microchip = 3,
+				},
+				duration = 5000,
+				count = 1,
+			},
+		},
+		points = {
+			vec3(1667.3606, 4969.5723, 42.2610),
+		},
+		zones = {
+			{
+				coords = vec3(1667.3606, 4969.5723, 42.2610), 
+				size = vec3(3, 3, 3),
+				distance = 3.5,
 			},
 		},
 	},
@@ -595,25 +625,28 @@ return {
 	{
 		items = {
 			{
-				name = 'weed',
+				name = 'molten_gold',
 				ingredients = {
-					weed_raw = 1,
+					ring = 1,
+				},
+				duration = 5000,
+				count = 1,
+			},
+			{
+				name = 'jewels',
+				ingredients = {
+					ring = 1,
 				},
 				duration = 5000,
 				count = 1,
 			},
 		},
 		points = {
-			vec3(1770.0481, -1621.4185, 113.6330),
+			vec3(1114.2012, -2006.3671, 35.4394),
 		},
 		zones = {
 			{
-				coords = vec3(-1079.7902, -1679.5938, 4.5752), 
-				size = vec3(3, 3, 3),
-				distance = 3.5,
-			},
-			{
-				coords = vec3(1770.0481, -1621.4185, 113.6330), 
+				coords = vec3(1114.2012, -2006.3671, 35.4394), 
 				size = vec3(3, 3, 3),
 				distance = 3.5,
 			},
@@ -622,27 +655,20 @@ return {
 	{
 		items = {
 			{
-				name = 'weed_pooch',
+				name = 'gold_ingot',
 				ingredients = {
-					weed = 1,
-					empty_pooch = 1,
-
+					molten_gold = 1,
 				},
-				duration = 5000,
+				duration = 1000,
 				count = 1,
 			},
 		},
 		points = {
-			vec3(1771.1515, -1625.8535, 113.6229),
+			vec3(1090.9480, -1998.6271, 31.1287),
 		},
 		zones = {
 			{
-				coords = vec3(-1077.8674, -1675.8458, 4.5752), 
-				size = vec3(3, 3, 3),
-				distance = 3.5,
-			},
-			{
-				coords = vec3(1771.1515, -1625.8535, 113.6229), 
+				coords = vec3(1090.9480, -1998.6271, 31.1287), 
 				size = vec3(3, 3, 3),
 				distance = 3.5,
 			},
@@ -651,84 +677,44 @@ return {
 	{
 		items = {
 			{
-				name = 'crack_pooch',
+				name = 'microchip',
 				ingredients = {
-					crack = 1,
-                    empty_pooch = 1,
+					stolen_phone = 1,
+				},
+				duration = 5000,
+				count = 1,
+			},
+			{
+				name = 'microchip',
+				ingredients = {
+					microwave = 1,
+				},
+				duration = 5000,
+				count = 1,
+			},
+			{
+				name = 'microchip',
+				ingredients = {
+					toaster = 1,
+				},
+				duration = 5000,
+				count = 1,
+			},
+			{
+				name = 'microchip',
+				ingredients = {
+					small_tv = 1,
 				},
 				duration = 5000,
 				count = 1,
 			},
 		},
 		points = {
-			vec3(1122.1897, -1231.6085, 16.4186),
+			vec3(2329.0879, 2571.2158, 46.6770),
 		},
 		zones = {
 			{
-				coords = vec3(-537.0639, -1794.6445, 21.6090), 
-				size = vec3(3, 3, 3),
-				distance = 3.5,
-			},
-			{
-				coords = vec3(1122.1897, -1231.6085, 16.4186), 
-				size = vec3(3, 3, 3),
-				distance = 3.5,
-			},
-		},
-	},
-
-
-	{
-		items = {
-			{
-				name = 'opium',
-				ingredients = {
-					opium_raw = 1,
-				},
-				duration = 5000,
-				count = 1,
-			},
-		},
-		points = {
-			vec3(-530.0064, -1739.0572, 16.7261),
-		},
-		zones = {
-			{
-				coords = vec3(-530.0064, -1739.0572, 16.7261), 
-				size = vec3(3, 3, 3),
-				distance = 3.5,
-			},
-			{
-				coords = vec3(-50.7486, 6366.9302, 28.8165), 
-				size = vec3(3, 3, 3),
-				distance = 3.5,
-			},
-		},
-	},
-	{
-		items = {
-			{
-				name = 'opium_pooch',
-				ingredients = {
-					opium = 1,
-					empty_pooch = 1,
-				},
-				duration = 5000,
-				count = 1,
-			},
-		},
-		points = {
-			vec3(-521.3657, -1741.3342, 16.7261),
-			vec3(-50.7486, 6366.9302, 28.8165),
-		},
-		zones = {
-			{
-				coords = vec3(-521.3657, -1741.3342, 16.7261), 
-				size = vec3(3, 3, 3),
-				distance = 3.5,
-			},
-			{
-				coords = vec3(-50.7486, 6366.9302, 28.8165), 
+				coords = vec3(2329.0879, 2571.2158, 46.6770), 
 				size = vec3(3, 3, 3),
 				distance = 3.5,
 			},

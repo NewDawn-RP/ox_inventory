@@ -254,13 +254,13 @@ return {
 		name = 'Marché Noir',
 		inventory = {
             { name = 'advlockpick', price = 500, currency = 'black_money' },
+			{ name = 'headbag', price = 200, currency = 'black_money' },
 			{ name = 'spray', price = 150, currency = 'black_money' },
-            { name = 'gofast_card', price = 3000, currency = 'black_money' },
-			{ name = 'hack_usb', price = 2000, currency = 'black_money' },
+			{ name = 'flipper', price = 2000, currency = 'black_money' },
+            { name = 'microchip', price = 500, currency = 'black_money' },
 			{ name = 'serflex', price = 100, currency = 'black_money' },
 			{ name = 'drill', price = 5000, currency = 'black_money' },
 			{ name = 'laptop', price = 15000, currency = 'black_money' },
-			{ name = 'cutter', price = 500, currency = 'black_money' },
 			{ name = 'thermite_bomb', price = 10000, currency = 'black_money' },
 			{ name = 'c4_bomb', price = 20000, currency = 'black_money' },
 		}, targets = {
@@ -725,8 +725,8 @@ return {
 			{
                 ped = `a_m_o_salton_01`,
                 scenario = 'WORLD_HUMAN_SMOKING',
-                loc = vec3(-112.4139, -2673.1255, 5.0063),
-                heading = 184.1089,
+                loc = vec3(455.9178, -1318.1385, 28.3139),
+                heading = 322.3371,
             },
 		}
 	},
