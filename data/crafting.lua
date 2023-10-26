@@ -633,9 +633,9 @@ return {
 				count = 1,
 			},
 			{
-				name = 'jewels',
+				name = 'molten_gold',
 				ingredients = {
-					ring = 1,
+					jewels = 1,
 				},
 				duration = 5000,
 				count = 1,
