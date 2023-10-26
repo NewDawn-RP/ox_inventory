@@ -112,11 +112,11 @@ return {
 		blip = {
 			id = 110, colour = 69, scale = 0.8
 		}, inventory = {
-			{ name = 'ammo-pistol', price = 150, },
-			{ name = 'WEAPON_KNIFE', price = 2000 },
-			{ name = 'WEAPON_BAT', price = 1500 },
-			{ name = 'WEAPON_PISTOL', price = 7000, metadata = { registered = true }, license = 'weapon_a' },
-			{ name = 'WEAPON_HEAVYPISTOL', price = 12000, metadata = { registered = true }, license = 'weapon_a' },
+			{ name = 'ammo-pistol', price = 200, },
+			{ name = 'WEAPON_KNIFE', price = 5000 },
+			{ name = 'WEAPON_BAT', price = 3000 },
+			{ name = 'WEAPON_PISTOL', price = 25000, metadata = { registered = true }, license = 'weapon_a' },
+			{ name = 'WEAPON_HEAVYPISTOL', price = 35000, metadata = { registered = true }, license = 'weapon_a' },
 		}, targets = {
 			{
                 ped = `S_M_Y_AmmuCity_01`,
