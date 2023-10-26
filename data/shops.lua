@@ -112,11 +112,11 @@ return {
 		blip = {
 			id = 110, colour = 69, scale = 0.8
 		}, inventory = {
-			{ name = 'ammo-pistol', price = 200, },
-			{ name = 'WEAPON_KNIFE', price = 5000 },
-			{ name = 'WEAPON_BAT', price = 3000 },
-			{ name = 'WEAPON_PISTOL', price = 25000, metadata = { registered = true }, license = 'weapon_a' },
-			{ name = 'WEAPON_HEAVYPISTOL', price = 35000, metadata = { registered = true }, license = 'weapon_a' },
+			{ name = 'ammo-pistol', price = 150, },
+			{ name = 'WEAPON_KNIFE', price = 2000 },
+			{ name = 'WEAPON_BAT', price = 1500 },
+			{ name = 'WEAPON_PISTOL', price = 7000, metadata = { registered = true }, license = 'weapon_a' },
+			{ name = 'WEAPON_HEAVYPISTOL', price = 12000, metadata = { registered = true }, license = 'weapon_a' },
 		}, targets = {
 			{
                 ped = `S_M_Y_AmmuCity_01`,
@@ -730,51 +730,4 @@ return {
             },
 		}
 	},
-    K9Weed = {
-		name = 'Vendeur de weed',
-		inventory = {
-            { name = 'weed_raw', price = 2, currency = 'black_money' },
-            { name = 'empty_pooch', price = 5, currency = 'black_money' },
-		}, targets = {
-			{
-                ped = `a_m_o_salton_01`,
-                scenario = 'WORLD_HUMAN_SMOKING',
-                loc = vec3(285.0442, -2981.2483, 4.5402),
-                heading = 173.7506,
-            },
-		}
-	},
-
-    K9coke = {
-		name = 'Vendeur d\'opium',
-		inventory = {
-            { name = 'opium_raw', price = 2, currency = 'black_money' },
-            { name = 'empty_pooch', price = 5, currency = 'black_money' },
-		}, targets = {
-			{
-                ped = `a_m_o_salton_01`,
-                scenario = 'WORLD_HUMAN_SMOKING',
-                loc = vec3(-3113.3384, 326.5471, 1.6340),
-                heading = 69.7706,
-            },
-		}
-	},
-
-    K9crack = {
-		name = 'Vendeur de crack',
-		inventory = {
-            { name = 'crack', price = 2, currency = 'black_money' },
-            { name = 'empty_pooch', price = 5, currency = 'black_money' },
-		}, targets = {
-			{
-                ped = `a_m_o_salton_01`,
-                scenario = 'WORLD_HUMAN_SMOKING',
-                loc = vec3(-1151.6047, -2048.9956, 12.5388),
-                heading = 4.5041,
-            },
-		}
-	},
-
-
-
 }
