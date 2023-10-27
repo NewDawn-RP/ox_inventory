@@ -61,10 +61,10 @@ return {
     	stack = false,
     	close = true,
     	client = {
-        	export = 'ac_radio.openRadio',
+			event = 'mm_radio:client:use',
         	remove = function(total)
 				if total < 1 and GetConvar('radio_noRadioDisconnect', 'true') == 'true' then
-					exports.ac_radio:leaveRadio()
+					exports["mm_radio"]:LeaveRadio()
 				end
 			end
 		}
