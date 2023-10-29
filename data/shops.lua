@@ -530,6 +530,31 @@ return {
 		}
 	},
 
+	unicorn = {
+		name = "Grossiste Unicorn", -- Items à acheter pour le popsdinner
+		groups = {
+			['unicorn'] = 0,
+		},
+		blip = {
+			id = 615, colour = 76, scale = 0.8
+		}, inventory = {
+			{ name = 'peanuts', price = 1 },
+			{ name = 'olives', price = 1 },
+			{ name = 'rhum', price = 1 },
+			{ name = 'gin', price = 1 },
+			{ name = 'apple_martini', price = 1 },
+			{ name = 'iced_tea', price = 1 },
+			{ name = 'cola', price = 1 },
+		}, targets = {
+			{
+                ped = `a_m_m_socenlat_01`,
+                scenario = 'WORLD_HUMAN_SMOKING',
+                loc = vec3(-1225.3512, -1439.5201, 3.3739),
+                heading = 132.9219,
+            },
+		}
+	},
+
 	Winemarket = {
 		name = "Grossiste Vigneron", -- Items à acheter pour le vigneron
 		groups = {

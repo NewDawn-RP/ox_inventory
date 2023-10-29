@@ -123,6 +123,22 @@ return {
 	    }
 	},
 
+	['olives'] = {
+	    label = 'Olives',
+	    weight = 500,
+	    stack = true,
+		close = true,
+	    client = {
+			status = { hunger = 150000 },
+			description = "Des Olives",
+            anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+            prop = { model = 'prop_peanut_bowl_01', 
+            pos = vec3(0.05, -0.02, -0.03), rot = vec3(150.0, 340.0, 170.0) },
+            usetime = 7500,
+			notification = 'Vous avez mangé des Olives!'
+	    }
+	},
+
 	['sausage'] = {
 	    label = 'Saucisson',
 	    weight = 500,
@@ -803,6 +819,54 @@ return {
 			pos = vec3(0.01, -0.02, -0.15), rot = vec3(5.0, 5.0, -180.5) },
 			usetime = 7500,
 			notification = 'Vous avez bu un Whiskey !',
+		},
+	},
+
+	['rhum'] = { 
+		label = 'Rhum',
+		weight = 500,
+		stack = true,
+		close = true,
+		description = "Un Rhum de qualité",
+		client = {
+			status = { drunk = 200000 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = 'prop_whiskey_glasses', 
+			pos = vec3(0.01, -0.02, -0.15), rot = vec3(5.0, 5.0, -180.5) },
+			usetime = 7500,
+			notification = 'Vous avez bu du Rhum !',
+		},
+	},
+
+	['gin'] = { 
+		label = 'Gin',
+		weight = 500,
+		stack = true,
+		close = true,
+		description = "Une bon Gin",
+		client = {
+			status = { drunk = 200000 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = 'prop_tequila', 
+			pos = vec3(0.01, -0.02, -0.15), rot = vec3(5.0, 5.0, -180.5) },
+			usetime = 7500,
+			notification = 'Vous avez bu du Gin !',
+		},
+	},
+
+	['apple_martini'] = { 
+		label = 'Martini à la pomme',
+		weight = 500,
+		stack = true,
+		close = true,
+		description = "Martini à la pomme",
+		client = {
+			status = { drunk = 200000 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = 'prop_tequila', 
+			pos = vec3(0.01, -0.02, -0.15), rot = vec3(5.0, 5.0, -180.5) },
+			usetime = 7500,
+			notification = 'Vous avez bu du Martini à la pomme !',
 		},
 	},
 
