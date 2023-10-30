@@ -720,4 +720,44 @@ return {
 			},
 		},
 	},
+	{--Run paper_ream
+		groups = { 
+			["bahamas"] = 0,
+			["casino2"] = 0,
+			["unicorn"] = 0 },
+		items = {
+			{
+				name = 'packet_tract',
+				ingredients = {
+					paper_ream = 1,
+					ink = 1,
+					mini_printer = 0.05,
+				},
+				duration = 2500,
+				count = 1,
+			},
+		},
+		points = {
+			vec3(132.5317, -1286.6057, 29.2693),--unicorn
+			vec3(-1402.7239, -598.5485, 30.3200),--bahamas
+			vec3(956.0179, 73.0883, 112.5524),--casino2
+		},
+		zones = {
+			{
+				coords = vec3(132.5317, -1286.6057, 29.2693), --unicorn
+				size = vec3(3, 3, 3),
+				distance = 3.5,
+			},
+			{
+				coords = vec3(-1402.7239, -598.5485, 30.3200), --bahamas
+				size = vec3(3, 3, 3),
+				distance = 3.5,
+			},
+			{
+				coords = vec3(956.0179, 73.0883, 112.5524), --casino2
+				size = vec3(3, 3, 3),
+				distance = 3.5,
+			},
+		},
+	},
 }

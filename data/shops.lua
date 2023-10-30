@@ -663,13 +663,14 @@ return {
 		}                  
 	},
 	
-	bahamasdrink = {
-		name = 'Grossiste Boissons', -- Items Boissons pour le bahamas
+	bahamasGrossiste = {
+		name = 'Grossiste', 
 		groups = {
 			['bahamas'] = 0,
+			['casino2'] = 0,
 		},
 		blip = {
-			id = 615, colour = 10, scale = 0.5
+			id = 615, colour = 10, scale = 0.7
 		}, inventory = {
 			{ name = 'cola', price = 1 },
 			{ name = 'orange_juice', price = 1 },
@@ -685,6 +686,8 @@ return {
 			{ name = 'iced_tea', price = 1 },
 			{ name = 'sprunk', price = 1 },
 			{ name = 'water', price = 1 },
+			{ name = 'peanuts', price = 1 },
+			{ name = 'sausage', price = 1 },
 			
 		}, targets = {
 			{
@@ -696,16 +699,19 @@ return {
 		}                  
 	},	
 
-	bahamasGrossiste = {
-		name = 'Grossiste', -- Items Boissons pour le bahamas
+	marketGrossiste = {
+		name = 'Grossiste tract', -- Items Boissons pour le bahamas
 		groups = {
 			['bahamas'] = 0,
+			['casino2'] = 0,
+			['unicorn'] = 0,
 		},
 		blip = {
-			id = 615, colour = 10, scale = 0.5
+			id = 570, colour = 10, scale = 0.7
 		}, inventory = {
-			{ name = 'peanuts', price = 1 },
-			{ name = 'sausage', price = 1 },
+			{ name = 'paper_ream', price = 10 },
+			{ name = 'ink', price = 5 },
+			{ name = 'mini_printer', price = 150 },
 		}, targets = {
 			{
                 ped = `a_f_y_gencaspat_01`,

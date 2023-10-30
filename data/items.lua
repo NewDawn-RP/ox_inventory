@@ -1741,9 +1741,34 @@ return {
 	},
 
 	['paper'] = {
-	    label = 'Papier',
+	    label = "Papier",
 	    weight = 1000,
 	    stack = true,
+	},
+
+	['ink'] = {
+	    label = "Cartouche d'encre",
+	    weight = 1000,
+	    stack = true,
+	},
+
+	['paper_ream'] = {
+	    label = 'Ramette de papier',
+	    weight = 1000,
+	    stack = true,
+	},
+
+	['packet_tract'] = {
+	    label = 'Paquet de tracts',
+	    weight = 1000,
+	    stack = true,
+	},
+
+	['mini_printer'] = {
+	    label = 'Mini imprimante',
+	    weight = 1000,
+	    stack = true,
+		durability = 0,
 	},
 
 	['iron_plate'] = {
