@@ -95,7 +95,7 @@ return {
 					salad = 2,
 					tomato = 1,
 				},
-				duration = 10000,
+				duration = 8000,
 				count = 1,
 			},
 			{
@@ -107,7 +107,7 @@ return {
 					salad = 1,
 					tomato = 1,
 				},
-				duration = 10000,
+				duration = 6000,
 				count = 1,
 			},
 			{
@@ -117,7 +117,7 @@ return {
 					salad = 1,
 					tomato = 2,
 				},
-				duration = 10000,
+				duration = 4000,
 				count = 1,
 			},
 		},
@@ -140,7 +140,7 @@ return {
 				ingredients = {
 					potato = 2,					
 				},
-				duration = 8000,
+				duration = 3000,
 				count = 1,
 			},			
 		},
@@ -164,7 +164,7 @@ return {
 					bacon = 2,
 					egg = 2,
 				},
-				duration = 10000,
+				duration = 8000,
 				count = 1,
 			},
 			{
@@ -175,7 +175,7 @@ return {
 					beef_steak = 1,
 					tomato = 2,
 				},
-				duration = 10000,
+				duration = 6000,
 				count = 1,
 			},
 			{
@@ -186,7 +186,7 @@ return {
 					tofu = 2,
 					tomato = 2,
 				},
-				duration = 10000,
+				duration = 6000,
 				count = 1,
 			},
 			{
@@ -195,7 +195,7 @@ return {
 					potato = 1,
 					cheese = 1,
 				},
-				duration = 10000,
+				duration = 3000,
 				count = 1,
 			},
 			{
@@ -206,7 +206,7 @@ return {
 					apple = 2,
 
 				},
-				duration = 10000,
+				duration = 4000,
 				count = 1,
 			},
 			{
@@ -216,7 +216,7 @@ return {
 					cherry = 1,
 
 				},
-				duration = 10000,
+				duration = 4000,
 				count = 1,
 			},			
 		},
@@ -228,29 +228,6 @@ return {
 				coords = vec3(1592.5463, 6455.8828, 26.0140), 
 				size = vec3(3, 3, 3),
 				distance = 3,
-			},
-		},
-	},
-	{
-		groups = { ["upnatom"] = 0 }, -- UpnAtom Craft Frites
-		items = {
-			{
-				name = 'french_fries',
-				ingredients = {
-					potato = 2,					
-				},
-				duration = 8000,
-				count = 1,
-			},			
-		},
-		points = {
-			vec3(92.3333, 292.4424, 110.2095),
-		},
-		zones = {
-			{
-				coords = vec3(92.3333, 292.4424, 110.2095),   
-				size = vec3(1.5, 1.5, 1.5),
-				distance = 1.5,
 			},
 		},
 	},
@@ -733,7 +710,7 @@ return {
 					ink = 1,
 					mini_printer = 0.05,
 				},
-				duration = 2500,
+				duration = 4000,
 				count = 1,
 			},
 		},
