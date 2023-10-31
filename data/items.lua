@@ -71,22 +71,42 @@ return {
 	},
 
 	['cigarette_pack'] = {
-		label = 'Paquet de cigarettes',
+		label = 'Cigarettes',
 		weight = 1000,
 		stack = true,
 		close = true,
 		consume = 0.05,
 		client = {
-			description = "gagne le cancer",
+			description = "cigarettes",
             anim = { dict = 'amb@world_human_aa_smoke@male@idle_a', clip = 'idle_c' },
             prop = { model = 'prop_cs_ciggy_01',
 			bone = 28422,
             pos = vec3(0.000000, 0.000000, 0.000000), rot = vec3(0.000000, 0.000000, 0.000000) },
-            usetime = 180000,
+            usetime = 120000,
 			cancel = true,
 	    },
 		server = {
-			--export = 'rcore_spray.spray',
+			export = "lexinor_redwood.cigarette_pack"
+		},
+	},
+
+	['cigare'] = {
+		label = 'Cigare',
+		weight = 1000,
+		stack = true,
+		close = true,
+		consume = 0.05,
+		client = {
+			description = "Cigare",
+            anim = { dict = 'amb@world_human_aa_smoke@male@idle_a', clip = 'idle_c' },
+            prop = { model = 'prop_sh_cigar_01',
+			bone = 28422,
+            pos = vec3(0.000000, 0.000000, 0.000000), rot = vec3(0.000000, 0.000000, 180.000000) },
+            usetime = 120000,
+			cancel = true,
+	    },
+		server = {
+			export = "lexinor_redwood.cigarette_pack"
 		},
 	},
     --------------------------- [NOURRITURE (hunger)]

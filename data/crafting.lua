@@ -432,6 +432,14 @@ return {
 				duration = 5000,
 				count = 5,
 			},
+			{
+				name = 'cigare',
+				ingredients = {
+					tabac = 10,
+				},
+				duration = 10000,
+				count = 1,
+			},
 		},
 		points = {
 			vec3(2922.7012, 4473.4058, 48.1330),
@@ -455,6 +463,7 @@ return {
 				duration = 5000,
 				count = 1,
 			},
+			
 		},
 		points = {
 			vec3(2918.9915, 4470.4800, 48.1423),
