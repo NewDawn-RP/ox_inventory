@@ -46,6 +46,9 @@ function Weapon.Equip(item, data)
 	item.group = GetWeapontypeGroup(item.hash)
 
 	GiveWeaponToPed(playerPed, data.hash, 0, false, true)
+	if data.hash == `WEAPON_HOSE` then
+        TriggerServerEvent("Server:HoseCommand")
+	end
 
 	if item.metadata.tint then SetPedWeaponTintIndex(playerPed, data.hash, item.metadata.tint) end
 
@@ -97,6 +100,9 @@ function Weapon.Disarm(currentWeapon, noAnim)
 
 		if source == '' then
 			TriggerServerEvent('ox_inventory:updateWeapon')
+		end
+		if currentWeapon.hash == `WEAPON_HOSE` then
+			TriggerServerEvent("Server:HoseCommand")
 		end
 
 		SetPedAmmo(cache.ped, currentWeapon.hash, 0)

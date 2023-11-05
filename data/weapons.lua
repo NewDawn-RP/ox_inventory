@@ -689,6 +689,11 @@ return {
 			weight = 2000,
 			throwable = true,
 		},
+
+		['WEAPON_HOSE'] = {
+            label = 'Hose',
+            weight = 1000,
+		},
 	},
 
 	Components = {

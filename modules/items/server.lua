@@ -296,6 +296,8 @@ function Items.Metadata(inv, item, metadata, count)
 
 		if item.hash == `WEAPON_PETROLCAN` or item.hash == `WEAPON_HAZARDCAN` or item.hash == `WEAPON_FERTILIZERCAN` or item.hash == `WEAPON_FIREEXTINGUISHER` then
 			metadata.ammo = metadata.durability
+		elseif item.hash == `WEAPON_HOSE` then
+			metadata.ammo = 9999
 		end
 	else
 		local container = Items.containers[item.name]

@@ -2457,14 +2457,16 @@ local function updateWeapon(source, action, value, slot, specialAmmo)
 				end
 			elseif action == 'ammo' then
 				if item.hash == `WEAPON_FIREEXTINGUISHER` or item.hash == `WEAPON_PETROLCAN` or item.hash == `WEAPON_HAZARDCAN` or item.hash == `WEAPON_FERTILIZERCAN` then
-					weapon.metadata.durability = math.floor(value)
-					weapon.metadata.ammo = weapon.metadata.durability
-				elseif value < weapon.metadata.ammo then
-					local durability = Items(weapon.name).durability * math.abs((weapon.metadata.ammo or 0.1) - value)
-					weapon.metadata.ammo = value
-					weapon.metadata.durability = weapon.metadata.durability - durability
-					weapon.weight = Inventory.SlotWeight(item, weapon)
-				end
+                    weapon.metadata.durability = math.floor(value)
+                    weapon.metadata.ammo = weapon.metadata.durability
+                elseif item.hash == `WEAPON_HOSE` then
+                    weapon.metadata.ammo = 99999
+                elseif value < weapon.metadata.ammo then
+                    local durability = Items(weapon.name).durability * math.abs((weapon.metadata.ammo or 0.1) - value)
+                    weapon.metadata.ammo = value
+                    weapon.metadata.durability = weapon.metadata.durability - durability
+                    weapon.weight = Inventory.SlotWeight(item, weapon)
+                end
 			elseif action == 'melee' and value > 0 then
 				weapon.metadata.durability = weapon.metadata.durability - ((Items(weapon.name).durability or 1) * value)
 			end
