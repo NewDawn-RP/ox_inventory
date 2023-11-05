@@ -519,6 +519,8 @@ return {
 			{ name = 'potato', price = 1 },
 			{ name = 'cola', price = 1 },
 			{ name = 'patriot_beer', price = 1 },
+			{ name = 'iced_tea', price = 1 },
+			{ name = 'orange_juice', price = 1 },
 
 		}, targets = {
 			{
