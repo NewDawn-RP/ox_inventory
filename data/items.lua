@@ -1766,6 +1766,12 @@ return {
 	    stack = true,
 	},
 
+	['newspaper'] = {
+	    label = "Journaux",
+	    weight = 1000,
+	    stack = true,
+	},
+
 	['ink'] = {
 	    label = "Cartouche d'encre",
 	    weight = 1000,
