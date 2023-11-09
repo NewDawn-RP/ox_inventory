@@ -269,7 +269,16 @@ return {
 				},
 				duration = 10000,
 				count = 1,
-			},			
+			},		
+			{
+				name = 'grappe_juice',
+				ingredients = {
+					bunch_of_grapes = 4,
+					glass_bottle = 1,
+				},
+				duration = 10000,
+				count = 1,
+			},		
 		},
 		points = {
 			vec3(-1928.2686, 1779.5055, 173.0965),

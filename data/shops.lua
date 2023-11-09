@@ -684,7 +684,6 @@ return {
 			{ name = 'tequila', price = 6 },
 			{ name = 'champain', price = 8 },
 			{ name = 'lemonade', price = 1 },
-			{ name = 'grappe_juice', price = 1 },
 			{ name = 'iced_tea', price = 1 },
 			{ name = 'sprunk', price = 1 },
 			{ name = 'water', price = 1 },
