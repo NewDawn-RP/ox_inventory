@@ -115,7 +115,7 @@ return {
 			{ name = 'ammo-pistol', price = 200, },
 			{ name = 'WEAPON_KNIFE', price = 3500 },
 			{ name = 'WEAPON_BAT', price = 5000 },
-			{ name = 'WEAPON_PISTOL', price = 25000, metadata = { registered = true }, license = 'weapon_a' },
+			{ name = 'WEAPON_PISTOL', price = 25000, metadata = { registered = true }, license = 'weapon_b' },
 			{ name = 'WEAPON_HEAVYPISTOL', price = 35000, metadata = { registered = true }, license = 'weapon_a' },
 		}, targets = {
 			{
