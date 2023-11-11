@@ -113,8 +113,6 @@ return {
 			id = 110, colour = 69, scale = 0.8
 		}, inventory = {
 			{ name = 'ammo-pistol', price = 200, },
-			{ name = 'WEAPON_KNIFE', price = 3500 },
-			{ name = 'WEAPON_BAT', price = 5000 },
 			{ name = 'WEAPON_PISTOL', price = 25000, metadata = { registered = true }, license = 'weapon_b' },
 			{ name = 'WEAPON_HEAVYPISTOL', price = 35000, metadata = { registered = true }, license = 'weapon_a' },
 		}, targets = {
@@ -252,6 +250,10 @@ return {
 
 	BlackMarketBiz = {
 		name = 'Marché Noir',
+		groups = {
+			['biker2'] = 0,
+			['biker3'] = 0,
+		},
 		inventory = {
             { name = 'advlockpick', price = 500, currency = 'black_money' },
 			{ name = 'headbag', price = 200, currency = 'black_money' },
@@ -289,14 +291,17 @@ return {
 
 	ScrapSeller = {  --Scrapmetal
 		name = 'Vendeur de pièces métalliques',
+		groups = {
+			['mafia'] = 0,
+		},
 		inventory = {
             { name = 'Scrapmetal', price = 30, currency = 'black_money' },
 		}, targets = {
 			{
                 ped = `a_m_o_salton_01`,
                 scenario = 'WORLD_HUMAN_SMOKING',
-                loc = vec3( 2348.2563, 3114.6787, 47.2087),
-                heading = 353.9875,
+                loc = vec3( 905.9573, 3655.1743, 31.5631),
+                heading = 12.3610,
             },
 		}
 	},
@@ -725,6 +730,10 @@ return {
     
     MarketWeapon3 = {
 		name = "Vendeur d'armes Lourdes",
+		groups = {
+			['mafia'] = 0,
+			['mafia3'] = 0,
+		},
 		inventory = {
             { name = 'WEAPON_MOLOTOV', price = 10000, currency = 'black_money' },
 			{ name = 'weapon_assaultrifle', price = 850000, currency = 'black_money' },
@@ -752,13 +761,15 @@ return {
             { name = 'weapon_machete', price = 2500, currency = 'black_money' },
             { name = 'weapon_poolcue', price = 1600, currency = 'black_money' },
             { name = 'weapon_switchblade', price = 2600, currency = 'black_money' },
+			{ name = 'WEAPON_KNIFE', price = 4500, currency = 'black_money' },
+			{ name = 'WEAPON_BAT', price = 6500, currency = 'black_money' },
             { name = 'weapon_wrench', price = 2000, currency = 'black_money' },
 		}, targets = {
 			{
                 ped = `a_m_o_salton_01`,
                 scenario = 'WORLD_HUMAN_SMOKING',
-                loc = vec3(455.9178, -1318.1385, 28.3139),
-                heading = 322.3371,
+                loc = vec3(563.0510, -1645.0490, 26.5616),
+                heading = 14.8708,
             },
 		}
 	},

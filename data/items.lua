@@ -2254,8 +2254,20 @@ return {
 		stack = false,
 	},
 
+	['wad_money'] = {
+		label = "Liasse d'argent",
+		weight = 1000,
+		stack = true,
+	},
+
 	['money_bag'] = {
 		label = "Sacs d'argent",
+		weight = 1000,
+		stack = true,
+	},
+
+	['money_briefcase'] = {
+		label = "Mallette d'argent",
 		weight = 1000,
 		stack = true,
 	},
