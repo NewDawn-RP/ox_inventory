@@ -236,7 +236,7 @@ return {
 			{ name = 'antibiotic', price = 5 },
 			{ name = 'tranquilizer', price = 5 },
 			{ name = 'medbag', price = 75 },
-			{ name = 'radio', price = 100 },
+			{ name = 'radio', price = 125 },
 			
 		}, targets = {
 			{
