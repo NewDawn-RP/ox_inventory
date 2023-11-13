@@ -2256,7 +2256,7 @@ return {
 
 	['wad_money'] = {
 		label = "Liasse d'argent",
-		weight = 1000,
+		weight = 500,
 		stack = true,
 	},
 
