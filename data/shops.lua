@@ -237,6 +237,8 @@ return {
 			{ name = 'tranquilizer', price = 5 },
 			{ name = 'medbag', price = 75 },
 			{ name = 'radio', price = 125 },
+			{ name = 'WEAPON_HOSE', price = 500 },
+			{ name = 'WEAPON_FIREEXTINGUISHER', price = 200 },
 			
 		}, targets = {
 			{
