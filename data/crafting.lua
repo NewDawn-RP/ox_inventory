@@ -730,7 +730,7 @@ return {
 					ink = 1,
 					mini_printer = 0.05,
 				},
-				duration = 4000,
+				duration = 8000,
 				count = 1,
 			},
 		},
@@ -746,7 +746,7 @@ return {
 				distance = 3.5,
 			},
 			{
-				coords = vec3(-1402.7239, -598.5485, 30.3200), --bahamas
+				coords = vec3(-1375.6974, -602.8374, 30.2157), --bahamas
 				size = vec3(3, 3, 3),
 				distance = 3.5,
 			},
