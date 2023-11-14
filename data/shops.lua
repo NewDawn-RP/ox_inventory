@@ -208,9 +208,10 @@ return {
             { name = 'lightkevlar', price = 300,metadata = {['drawableId'] = 7, ['textureId'] = 0, ['paletteId'] = 0, ['label'] = "Gilet Léger Inter."} },
             { name = 'mediumkevlar', price = 500, metadata = {['drawableId'] = 20, ['textureId'] = 0, ['paletteId'] = 0, ['label'] = "Gilet Moyen (Police)"} },
             { name = 'heavykevlar', price = 750,  metadata = {['drawableId'] = 25, ['textureId'] = 0, ['paletteId'] = 0, ['label'] = "Gilet Lourd (Police)"} },
-			{ name = 'at_flashlight', price = 100 },
-			{ name = 'radio', price = 100 },
-		}, targets = {
+			{ name = 'at_flashlight', price = 125 },
+			{ name = 'radio', price = 150 },
+			{ name = 'handcuffs', price = 100 },
+		}, targets = { 
             {
                 ped = `s_m_m_marine_01`,
                 scenario = 'WORLD_HUMAN_STAND_IMPATIENT',
@@ -230,13 +231,13 @@ return {
 		blip = {
 			id = 403, colour = 1, scale = 0.8
 		}, inventory = {
-			{ name = 'medikit', price = 10 },
-			{ name = 'bandage', price = 7 },
+			{ name = 'medikit', price = 75 },
+			{ name = 'bandage', price = 25 },
 			{ name = 'paracetamol', price = 5 },
-			{ name = 'antibiotic', price = 5 },
-			{ name = 'tranquilizer', price = 5 },
-			{ name = 'medbag', price = 75 },
-			{ name = 'radio', price = 125 },
+			{ name = 'antibiotic', price = 10 },
+			{ name = 'tranquilizer', price = 15 },
+			{ name = 'medbag', price = 100 },
+			{ name = 'radio', price = 150 },
 			{ name = 'WEAPON_HOSE', price = 500 },
 			{ name = 'WEAPON_FIREEXTINGUISHER', price = 200 },
 			
@@ -311,10 +312,10 @@ return {
 	VendingMachineDrinks = {
 		name = 'Distributeur de canettes',
 		inventory = {
-			{ name = 'water', price = 25 },
-			{ name = 'cola', price = 25 },
-			{ name = 'sprunk', price = 25 },
-			{ name = 'orange_juice', price = 30 },
+			{ name = 'water', price = 38 },
+			{ name = 'cola', price = 50 },
+			{ name = 'sprunk', price = 50 },
+			{ name = 'orange_juice', price = 45 },
 		},
 		model = {
 			`prop_vend_soda_02`, `prop_vend_fridge01`, `prop_vend_water_01`, `prop_vend_soda_01`
@@ -421,9 +422,9 @@ return {
 		blip = {
 			id = 615, colour = 66, scale = 0.5
 		}, inventory = {
-			{ name = 'beef_steak', price = 1 },
-			{ name = 'chicken_meat', price = 1 },
-			{ name = 'bacon', price = 1 },			
+			{ name = 'beef_steak', price = 8 },
+			{ name = 'chicken_meat', price = 4 },
+			{ name = 'bacon', price = 3 },			
 
 		}, targets = {
 			{
@@ -443,14 +444,14 @@ return {
 		blip = {
 			id = 615, colour = 66, scale = 0.5
 		}, inventory = {
-			{ name = 'burger_bread', price = 1 },
+			{ name = 'burger_bread', price = 2 },
 			{ name = 'potato', price = 1 },
-			{ name = 'cheese', price = 1 },		
-			{ name = 'salad', price = 1 },	
-			{ name = 'tomato', price = 1 },
-			{ name = 'cola', price = 1 },
-			{ name = 'sprunk', price = 1 },
-			{ name = 'iced_tea', price = 1 },
+			{ name = 'cheese', price = 3 },		
+			{ name = 'salad', price = 2 },	
+			{ name = 'tomato', price = 2 },
+			{ name = 'cola', price = 5 },
+			{ name = 'sprunk', price = 5 },
+			{ name = 'iced_tea', price = 5 },
 			{ name = 'tofu', price = 1 },	
 
 		}, targets = {
@@ -471,8 +472,8 @@ return {
 		blip = {
 			id = 615, colour = 66, scale = 0.5
 		}, inventory = {
-			{ name = 'brownie', price = 1 },
-			{ name = 'atom_cream_vanilla', price = 1 },	
+			{ name = 'brownie', price = 5 },
+			{ name = 'atom_cream_vanilla', price = 2 },	
 			
 		}, targets = {
 			{
@@ -492,11 +493,11 @@ return {
 		blip = {
 			id = 615, colour = 76, scale = 0.5
 		}, inventory = {
-			{ name = 'jelly', price = 1 },
-			{ name = 'cherry', price = 1 },	
+			{ name = 'jelly', price = 2 },
+			{ name = 'cherry', price = 2 },	
 			{ name = 'milk', price = 1 },	
-			{ name = 'chocolate_powder', price = 1 },
-			{ name = 'apple', price = 1 },		
+			{ name = 'chocolate_powder', price = 3 },
+			{ name = 'apple', price = 2 },		
 		}, targets = {
 			{
                 ped = `a_f_m_business_02`,
@@ -515,19 +516,19 @@ return {
 		blip = {
 			id = 615, colour = 76, scale = 0.8
 		}, inventory = {
-			{ name = 'bacon', price = 1 },
-			{ name = 'egg', price = 1 },
-			{ name = 'galette', price = 1 },
-			{ name = 'salad', price = 1 },
-			{ name = 'tomato', price = 1 },
-			{ name = 'beef_steak', price = 1 },
-			{ name = 'tofu', price = 1 },
-			{ name = 'cheese', price = 1 },
+			{ name = 'bacon', price = 8 },
+			{ name = 'egg', price = 5 },
+			{ name = 'galette', price = 3 },
+			{ name = 'salad', price = 2 },
+			{ name = 'tomato', price = 2 },
+			{ name = 'beef_steak', price = 10 },
+			{ name = 'tofu', price = 3 },
+			{ name = 'cheese', price = 5 },
 			{ name = 'potato', price = 1 },
-			{ name = 'cola', price = 1 },
-			{ name = 'patriot_beer', price = 1 },
-			{ name = 'iced_tea', price = 1 },
-			{ name = 'orange_juice', price = 1 },
+			{ name = 'cola', price = 5 },
+			{ name = 'patriot_beer', price = 8 },
+			{ name = 'iced_tea', price = 8 },
+			{ name = 'orange_juice', price = 6 },
 
 		}, targets = {
 			{
@@ -540,20 +541,20 @@ return {
 	},
 
 	unicorn = {
-		name = "Grossiste Unicorn", -- Items à acheter pour le popsdinner
+		name = "Grossiste Unicorn", -- Items à acheter pour le unicorn
 		groups = {
 			['unicorn'] = 0,
 		},
 		blip = {
 			id = 615, colour = 76, scale = 0.8
 		}, inventory = {
-			{ name = 'peanuts', price = 1 },
-			{ name = 'olives', price = 1 },
-			{ name = 'rhum', price = 1 },
-			{ name = 'gin', price = 1 },
-			{ name = 'apple_martini', price = 1 },
-			{ name = 'iced_tea', price = 1 },
-			{ name = 'cola', price = 1 },
+			{ name = 'peanuts', price = 4 },
+			{ name = 'olives', price = 5 },
+			{ name = 'rhum', price = 18 },
+			{ name = 'gin', price = 13 },
+			{ name = 'apple_martini', price = 15 },
+			{ name = 'iced_tea', price = 5 },
+			{ name = 'cola', price = 5 },
 		}, targets = {
 			{
                 ped = `a_m_m_socenlat_01`,
@@ -572,7 +573,7 @@ return {
 		blip = {
 			id = 615, colour = 7, scale = 0.8
 		}, inventory = {
-			{ name = 'glass_bottle', price = 1 },
+			{ name = 'glass_bottle', price = 5 },
 
 		}, targets = {
 			{
@@ -608,11 +609,11 @@ return {
 		blip = {
 			id = 615, colour = 10, scale = 0.5
 		}, inventory = {
-			{ name = 'coffee_beans', price = 1 },
-			{ name = 'milk', price = 1 },				
-			{ name = 'raspberry', price = 1 },
-			{ name = 'kiwi', price = 1 },
-			{ name = 'pineapple', price = 1 },
+			{ name = 'coffee_beans', price = 2 },
+			{ name = 'milk', price = 2 },				
+			{ name = 'raspberry', price = 3 },
+			{ name = 'kiwi', price = 2 },
+			{ name = 'pineapple', price = 3 },
 			
 
 
@@ -634,13 +635,13 @@ return {
 		blip = {
 			id = 615, colour = 10, scale = 0.5
 		}, inventory = {
-			{ name = 'donut_chocolate', price = 1 },
-			{ name = 'pancakes', price = 1 },			
-			{ name = 'marshmallow', price = 1 },
-			{ name = 'biscuit', price = 1 },			
+			{ name = 'donut_chocolate', price = 6 },
+			{ name = 'pancakes', price = 4 },			
+			{ name = 'marshmallow', price = 2 },
+			{ name = 'biscuit', price = 3 },			
 			{ name = 'chocolate_powder', price = 1 },
-			{ name = 'caramel_syrup', price = 1 },
-			{ name = 'vanilla_syrup', price = 1 },
+			{ name = 'caramel_syrup', price = 3 },
+			{ name = 'vanilla_syrup', price = 4 },
 
 		}, targets = {
 			{
@@ -660,8 +661,8 @@ return {
 		blip = {
 			id = 615, colour = 10, scale = 0.5
 		}, inventory = {
-			{ name = 'cola', price = 1 },
-			{ name = 'orange_juice', price = 1 },
+			{ name = 'cola', price = 5 },
+			{ name = 'orange_juice', price = 5 },
 		}, targets = {
 			{
                 ped = `a_f_y_gencaspat_01`,
@@ -681,21 +682,20 @@ return {
 		blip = {
 			id = 615, colour = 10, scale = 0.7
 		}, inventory = {
-			{ name = 'cola', price = 1 },
-			{ name = 'orange_juice', price = 1 },
-			{ name = 'rancho_beer', price = 2 },
-			{ name = 'dusche_beer', price = 2 },
-			{ name = 'stronzo_beer', price = 2 },
-			{ name = 'patriot_beer', price = 2 },
-			{ name = 'whiskey', price = 6 },
-			{ name = 'tequila', price = 6 },
-			{ name = 'champain', price = 8 },
-			{ name = 'lemonade', price = 1 },
-			{ name = 'iced_tea', price = 1 },
-			{ name = 'sprunk', price = 1 },
-			{ name = 'water', price = 1 },
-			{ name = 'peanuts', price = 1 },
-			{ name = 'sausage', price = 1 },
+			{ name = 'cola', price = 5 },
+			{ name = 'orange_juice', price = 5 },
+			{ name = 'rancho_beer', price = 6 },
+			{ name = 'dusche_beer', price = 6 },
+			{ name = 'stronzo_beer', price = 6 },
+			{ name = 'patriot_beer', price = 6 },
+			{ name = 'whiskey', price = 9 },
+			{ name = 'tequila', price = 9 },
+			{ name = 'lemonade', price = 5 },
+			{ name = 'iced_tea', price = 5 },
+			{ name = 'sprunk', price = 5 },
+			{ name = 'water', price = 2 },
+			{ name = 'peanuts', price = 6 },
+			{ name = 'sausage', price = 7 },
 			
 		}, targets = {
 			{
@@ -719,7 +719,7 @@ return {
 		}, inventory = {
 			{ name = 'paper_ream', price = 10 },
 			{ name = 'ink', price = 5 },
-			{ name = 'mini_printer', price = 150 },
+			{ name = 'mini_printer', price = 45 },
 		}, targets = {
 			{
                 ped = `a_f_y_gencaspat_01`,

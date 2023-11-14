@@ -1804,7 +1804,12 @@ return {
 	},
 
 	['scrapmetal'] = {
-		label = 'Scrap Metal',
+		label = 'Féraille',
+		weight = 500,
+	},
+
+	['metal_part'] = {
+		label = 'Morceau de métal',
 		weight = 500,
 	},
 
