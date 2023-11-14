@@ -58,7 +58,7 @@ return {
     ['radio'] = {
     	label = 'Radio',
     	weight = 1000,
-    	stack = false,
+    	stack = true,
     	close = true,
     	client = {
 			event = 'mm_radio:client:use',
