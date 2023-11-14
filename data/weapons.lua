@@ -691,7 +691,7 @@ return {
 		},
 
 		['WEAPON_HOSE'] = {
-            label = 'Hose',
+            label = 'Lance à incendie',
             weight = 1000,
 		},
 	},
