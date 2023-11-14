@@ -1856,25 +1856,25 @@ return {
 
 	['tabacco_leaf'] = {
 	    label = 'Feuille de tabac',
-	    weight = 1000,
+	    weight = 500,
 	    stack = true,
 	},
 
 	['dried_tabacco_leaf'] = {
 	    label = 'Feuille de tabac sechée',
-	    weight = 1000,
+	    weight = 500,
 	    stack = true,
 	},
 
 	['tabac'] = {
 	    label = 'Tabac',
-	    weight = 1000,
+	    weight = 500,
 	    stack = true,
 	},
 
 	['cigarettes'] = {
 	    label = 'Cigarettes',
-	    weight = 1000,
+	    weight = 500,
 	    stack = true,
 	},
 
