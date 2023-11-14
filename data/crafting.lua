@@ -487,7 +487,8 @@ return {
 	},
 	{
 		groups = { 
-			["mafia"] = 0 }, -- Weapon Craft
+			["mafia"] = 0,
+			["mafia4"] = 0 }, -- Weapon Craft
 		items = {
 			{
 				name = 'WEAPON_SNSPISTOL',
@@ -597,7 +598,7 @@ return {
 	{
 		groups = { 
 			["mafia"] = 0,
-			["mafia3"] = 0, },
+			["mafia4"] = 0, },
 		items = {
 			{
 				name = 'gun_part',
@@ -609,11 +610,11 @@ return {
 			},
 		},
 		points = {
-			vec3(1070.0868, -2005.4606, 32.0831),
+			vec3(606.4487, -3095.1450, 6.0693),
 		},
 		zones = {
 			{
-				coords = vec3(1070.0868, -2005.4606, 32.0831), 
+				coords = vec3(606.4487, -3095.1450, 6.0693), 
 				size = vec3(3, 3, 3),
 				distance = 3.5,
 			},

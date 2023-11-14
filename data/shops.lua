@@ -280,6 +280,10 @@ return {
 
 	BlackMarketBiz2 = {  --outils de précision
 		name = 'Marché Noir',
+		groups = {
+			['mafia'] = 0,
+			['mafia4'] = 0,
+		},
 		inventory = {
             { name = 'precision_tool', price = 5000, currency = 'black_money' },
 		}, targets = {
@@ -296,6 +300,7 @@ return {
 		name = 'Vendeur de pièces métalliques',
 		groups = {
 			['mafia'] = 0,
+			['mafia4'] = 0,
 		},
 		inventory = {
             { name = 'Scrapmetal', price = 30, currency = 'black_money' },
@@ -734,7 +739,7 @@ return {
 		name = "Vendeur d'armes Lourdes",
 		groups = {
 			['mafia'] = 0,
-			['mafia3'] = 0,
+			['mafia4'] = 0,
 		},
 		inventory = {
             { name = 'WEAPON_MOLOTOV', price = 10000, currency = 'black_money' },
