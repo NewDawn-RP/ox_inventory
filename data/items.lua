@@ -1810,7 +1810,7 @@ return {
 
 	['metal_part'] = {
 		label = 'Morceau de métal',
-		weight = 500,
+		weight = 100,
 	},
 
 	['bolt'] = {
