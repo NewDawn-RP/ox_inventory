@@ -354,7 +354,7 @@ return {
 	    weight = 500,
 	    stack = true,
 	    client = {
-			status = { hunger = 400000 },
+			status = { hunger = 500000 },
 			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
 			usetime = 7500,
 			notification = 'Vous avez mangé une salade !'
@@ -910,269 +910,269 @@ return {
 
 	['burger_bread'] = {
 	    label = 'Pain à burger',
-	    weight = 1000,
+	    weight = 250,
 	    stack = true,
 		description = "Ingrédient pour Hamburger ",
 	},
 
 	['egg'] = {
 	    label = 'Oeuf',
-	    weight = 1000,
+	    weight = 250,
 	    stack = true,
 		description = "Ingrédient pour bacon aux oeufs",
 	},
 
 	['tofu'] = {
 	    label = 'Tofu',
-	    weight = 1000,
+	    weight = 250,
 	    stack = true,
 		description = "Ingrédient pour wrap veggie ",
 	},
 
 	['cherry'] = {
 	    label = 'Cerises',
-	    weight = 1000,
+	    weight = 250,
 	    stack = true,
 		description = "Ingrédient pour gelée de cerise ",
 	},
 
 	['jelly'] = {
 	    label = 'Gelée',
-	    weight = 1000,
+	    weight = 250,
 	    stack = true,
 		description = "Ingrédient pour gelée de cerise ",
 	},
 
 	['galette'] = {
 	    label = 'Galette',
-	    weight = 1000,
+	    weight = 250,
 	    stack = true,
 		description = "Ingrédient pour wrap",
 	},
 
 	['pizza_dough'] = {
 	    label = 'Pâte à pizza',
-	    weight = 1000,
+	    weight = 250,
 	    stack = true,
 		description = "Ingrédient pour pizza",
 	},
 
 	['tomato_sauce'] = {
 	    label = 'Sauce tomate',
-	    weight = 100,
+	    weight = 250,
 	    stack = true,
 	},
 
 	['cheese'] = {
 	    label = 'Fromage',
-	    weight = 1000,
+	    weight = 250,
 	    stack = true,
 	},
 
 	['ham'] = {
 	    label = 'Jambon',
-	    weight = 1000,
+	    weight = 250,
 	    stack = true,
 	},
 
 	['trout'] = {
 		label = 'Truite',
-		weight = 1000,
+		weight = 250,
 	},
 
 	['salmon'] = {
 		label = 'Saumon',
-		weight = 1000,
+		weight = 250,
 	},
 
 	['tuna'] = {
 	    label = 'Thon',
-	    weight = 1000,
+	    weight = 250,
 	    stack = true,
 	},
 
 	['bunch_of_grapes'] = {
 	    label = 'Grappe de raisins',
-	    weight = 1000,
+	    weight = 250,
 	    stack = true,
 	},
 
 	['hemp_oil'] = {
 	    label = 'Huile',
-	    weight = 1000,
+	    weight = 250,
 	    stack = true,
 	},
 
 	['pickle'] = {
 		label = 'Cornichon',
-		weight = 1000,
+		weight = 250,
 		stack = true,
 		close = true,
 	},
 
 	['vanilla_syrup'] = {
 	    label = 'Sirop de vanille',
-	    weight = 1000,
+	    weight = 250,
 	    stack = true,
 	},
 
 	['potato'] = {
 		label = 'Pomme de terre',
-		weight = 1000,
+		weight = 250,
 		stack = true,
 		close = true,
 	},
 
 	['broccoli'] = {
 		label = 'Broccoli',
-		weight = 1000,
+		weight = 250,
 		stack = true,
 		close = true,
 	},
 
 	['wheat'] = {
 		label = 'Blé',
-		weight = 1000,
+		weight = 250,
 		stack = true,
 		close = true,
 	},
 
 	['tomato'] = {
 		label = 'Tomate',
-		weight = 1000,
+		weight = 250,
 		stack = true,
 		close = true,
 	},
 
 	['crab'] = {
 	    label = 'Crabe',
-	    weight = 1000,
+	    weight = 250,
 	    stack = true,
 	},
 
 	['cod'] = {
 	    label = 'Cabillaud',
-	    weight = 1000,
+	    weight = 250,
 	    stack = true,
 	},
 
 	['sardine'] = {
 	    label = 'Sardine',
-	    weight = 1000,
+	    weight = 250,
 	    stack = true,
 	},
 
 	['mackerel'] = {
 	    label = 'Maquereau',
-	    weight = 1000,
+	    weight = 250,
 	    stack = true,
 	},
 
 	['beef_meat'] = {
 	    label = 'Viande de boeuf',
-	    weight = 1000,
+	    weight = 250,
 	    stack = true,
 	},
 
 	['beef_steak'] = {
 	    label = 'Steak de boeuf',
-	    weight = 1000,
+	    weight = 250,
 	    stack = true,
 	},
 
 	['pig_meat'] = {
 	    label = 'Viande de porc',
-	    weight = 1000,
+	    weight = 250,
 	    stack = true,
 	},
 
 	['chicken_meat'] = {
 	    label = 'Viande de poulet',
-	    weight = 1000,
+	    weight = 250,
 	    stack = true,
 	},
 
 	['seaweed'] = {
 	    label = 'Algues',
-	    weight = 1000,
+	    weight = 250,
 	    stack = true,
 	},
 
 	['flour'] = {
 	    label = 'Farine',
-	    weight = 1000,
+	    weight = 250,
 	    stack = true,
 	},
 
 	['salad'] = {
 	    label = 'Salade',
-	    weight = 1000,
+	    weight = 250,
 	    stack = true,
 	},
 
 	['bacon'] = {
 	    label = 'Bacon',
-	    weight = 1000,
+	    weight = 250,
 	    stack = true,
 	},
 
 	['milk'] = {
 	    label = 'Lait',
-	    weight = 1000,
+	    weight = 250,
 	    stack = true,
 	},
 
 	['coffee_beans'] = {
 	    label = 'Café en grains',
-	    weight = 1000,
+	    weight = 250,
 	    stack = true,
 	},
 
 	['kiwi'] = {
 	    label = 'Kiwi',
-	    weight = 1000,
+	    weight = 250,
 	    stack = true,
 	},
 
 	['raspberry'] = {
 	    label = 'Framboise',
-	    weight = 1000,
+	    weight = 250,
 	    stack = true,
 	},
 
 	['pineapple'] = {
 	    label = 'Ananas',
-	    weight = 1000,
+	    weight = 250,
 	    stack = true,
 	},
 
 	['apple'] = {
 	    label = 'Pomme',
-	    weight = 1000,
+	    weight = 250,
 	    stack = true,
 	},
 
 	['caramel_syrup'] = {
 	    label = 'Sirop de caramel',
-	    weight = 1000,
+	    weight = 250,
 	    stack = true,
 	},
 
 	['chocolate_powder'] = {
 	    label = 'Chocolat en poudre',
-	    weight = 1000,
+	    weight = 250,
 	    stack = true,
 	},
 
 	['marshmallow'] = {
 	    label = 'Guimauve',
-	    weight = 1000,
+	    weight = 250,
 	    stack = true,
 	},
 
 	['biscuit'] = {
 	    label = 'Biscuit',
-	    weight = 1000,
+	    weight = 250,
 	    stack = true,
 	},
 	--------------------------- [Agriculture]

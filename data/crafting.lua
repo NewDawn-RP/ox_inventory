@@ -95,7 +95,7 @@ return {
 					salad = 2,
 					tomato = 1,
 				},
-				duration = 8000,
+				duration = 4500,
 				count = 1,
 			},
 			{
@@ -107,7 +107,7 @@ return {
 					salad = 1,
 					tomato = 1,
 				},
-				duration = 6000,
+				duration = 3000,
 				count = 1,
 			},
 			{
@@ -117,7 +117,18 @@ return {
 					salad = 1,
 					tomato = 2,
 				},
-				duration = 4000,
+				duration = 3000,
+				count = 1,
+			},
+			{
+				name = 'chicken_salad',
+				ingredients = {
+					chicken_meat = 2,
+					cheese = 1,
+					salad = 2,
+					tomato = 1,
+				},
+				duration = 3000,
 				count = 1,
 			},
 		},
@@ -140,7 +151,7 @@ return {
 				ingredients = {
 					potato = 2,					
 				},
-				duration = 3000,
+				duration = 2000,
 				count = 1,
 			},			
 		},
