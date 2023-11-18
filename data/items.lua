@@ -1914,6 +1914,17 @@ return {
 		cardType = "weapon",
 	},
 
+	['gouv_card'] = {
+		label = "Licence gouvernementale",
+		weight = 0,
+		stack = false,
+		close = true,
+		server = {
+			export = "lexinor_id.readIDCard",
+		},
+		cardType = "gouv",
+	},
+
 	['mastercard'] = {
 		label = 'Mastercard',
 		stack = false,
