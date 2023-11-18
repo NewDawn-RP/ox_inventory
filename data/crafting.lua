@@ -5,7 +5,7 @@ return {
 			{
 				name = 'lockpick',
 				ingredients = {
-					scrapmetal = 5,
+					metal_part = 5,
 					WEAPON_HAMMER = 0.05
 				},
 				duration = 5000,
@@ -14,7 +14,7 @@ return {
 			{
 				name = 'repair_kit',
 				ingredients = {
-					scrapmetal = 15,
+					metal_part = 15,
 					WEAPON_HAMMER = 0.1
 				},
 				duration = 15000,
@@ -47,7 +47,7 @@ return {
 			{
 				name = 'lockpick',
 				ingredients = {
-					scrapmetal = 5,
+					metal_part = 5,
 					WEAPON_HAMMER = 0.05
 				},
 				duration = 5000,
@@ -56,7 +56,7 @@ return {
 			{
 				name = 'repair_kit',
 				ingredients = {
-					scrapmetal = 15,
+					metal_part = 15,
 					WEAPON_HAMMER = 0.1
 				},
 				duration = 15000,
