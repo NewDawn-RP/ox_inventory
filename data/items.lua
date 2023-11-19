@@ -1844,7 +1844,7 @@ return {
 
 	['bolt'] = {
 		label = 'Boulon',
-		weight = 500,
+		weight = 100,
 	},
 
 	['emerald'] = {
@@ -1941,6 +1941,17 @@ return {
 			export = "lexinor_id.readIDCard",
 		},
 		cardType = "weapon",
+	},
+
+	['gouv_card'] = {
+		label = "Licence gouvernementale",
+		weight = 0,
+		stack = false,
+		close = true,
+		server = {
+			export = "lexinor_id.readIDCard",
+		},
+		cardType = "gouv",
 	},
 
 	['mastercard'] = {
