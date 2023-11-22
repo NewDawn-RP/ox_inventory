@@ -733,7 +733,8 @@ return {
 		groups = { 
 			["bahamas"] = 0,
 			["casino2"] = 0,
-			["unicorn"] = 0 },
+			["unicorn"] = 0,
+			["yellowjack"] = 0 },
 		items = {
 			{
 				name = 'packet_tract',
@@ -750,6 +751,7 @@ return {
 			vec3(132.5317, -1286.6057, 29.2693),--unicorn
 			vec3(-1402.7239, -598.5485, 30.3200),--bahamas
 			vec3(956.0179, 73.0883, 112.5524),--casino2
+			vec3(1984.1702, 3055.2080, 47.2152),--yellow jack
 		},
 		zones = {
 			{
@@ -766,6 +768,11 @@ return {
 				coords = vec3(956.0179, 73.0883, 112.5524), --casino2
 				size = vec3(3, 3, 3),
 				distance = 3.5,
+			},
+			{
+				coords = vec3(1984.1702, 3055.2080, 47.2152), --yellow jack
+				size = vec3(3, 3, 3),
+				distance = 2.5,
 			},
 		},
 	},

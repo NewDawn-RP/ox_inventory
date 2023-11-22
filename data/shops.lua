@@ -687,6 +687,7 @@ return {
 		groups = {
 			['bahamas'] = 0,
 			['casino2'] = 0,
+			['yellowjack'] = 0,
 		},
 		blip = {
 			id = 615, colour = 10, scale = 0.7
@@ -722,6 +723,7 @@ return {
 			['bahamas'] = 0,
 			['casino2'] = 0,
 			['unicorn'] = 0,
+			['yellowjack'] = 0,
 		},
 		blip = {
 			id = 570, colour = 10, scale = 0.7
