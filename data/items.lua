@@ -417,7 +417,7 @@ return {
 		close = true,
 		description = "Un gâteau aux 3 chocolats",
 		client = {
-			status = { hunger = 200000 },
+			status = { hunger = 150000 },
 			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
 			prop = { model = 'bzzz_food_dessert_a', 
 			bone = 18905,
@@ -435,7 +435,7 @@ return {
 		close = true,
 		description = "Une délicieuse glace à la vanille",
 		client = {
-			status = { hunger = 200000 },
+			status = { hunger = 150000 },
 			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
 			prop = { model = 'bzzz_icecream_walnut', 
 			bone = 18905,
@@ -505,7 +505,7 @@ return {
 		close = true,
 		description = "Un délicieux donut au chocolat",
 		client = {
-			status = { hunger = 200000 },
+			status = { hunger = 150000 },
 			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
 			prop = { model = 'bzzz_foodpack_donut002', 
 			bone = 18905,
