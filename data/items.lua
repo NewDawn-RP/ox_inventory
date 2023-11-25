@@ -864,7 +864,7 @@ return {
 		client = {
 			status = { drunk = 400000 },
 			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
-			prop = { model = 'prop_whiskey_glasses', 
+			prop = { model = 'prop_whiskey_01', 
 			pos = vec3(0.01, -0.02, -0.15), rot = vec3(5.0, 5.0, -180.5) },
 			usetime = 5000,
 			notification = 'Vous avez bu un Whiskey !',
@@ -880,7 +880,7 @@ return {
 		client = {
 			status = { drunk = 400000},
 			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
-			prop = { model = 'prop_whiskey_glasses', 
+			prop = { model = 'prop_whiskey_01', 
 			pos = vec3(0.01, -0.02, -0.15), rot = vec3(5.0, 5.0, -180.5) },
 			usetime = 5000,
 			notification = 'Vous avez bu du Rhum !',
@@ -932,6 +932,86 @@ return {
 			pos = vec3(0.01, -0.02, -0.15), rot = vec3(5.0, 5.0, -180.5) },
 			usetime = 5000,
 			notification = 'Vous avez bu une Tequila !',
+		},
+	},
+
+	['amber_rum'] = { 
+		label = 'Rhum ambré',
+		weight = 500,
+		stack = true,
+		close = true,
+		description = "Du bon rhum, rien de plus",
+		client = {
+			status = { drunk = 400000 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = 'prop_whiskey_01', 
+			pos = vec3(0.01, -0.02, -0.15), rot = vec3(5.0, 5.0, -180.5) },
+			usetime = 5000,
+			notification = 'Vous avez bu un Rhum ambré !',
+		},
+	},
+
+	['caribbean_rum'] = { 
+		label = 'Rhum des Caraïbes',
+		weight = 500,
+		stack = true,
+		close = true,
+		description = "Un Rhum de l'Atlantique",
+		client = {
+			status = { drunk = 400000 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = 'prop_whiskey_01', 
+			pos = vec3(0.01, -0.02, -0.15), rot = vec3(5.0, 5.0, -180.5) },
+			usetime = 5000,
+			notification = 'Vous avez bu un Rhum des Caraïbes !',
+		},
+	},
+
+	['macallan'] = { 
+		label = 'Macallan',
+		weight = 500,
+		stack = true,
+		close = true,
+		description = "Un single malt de luxe",
+		client = {
+			status = { drunk = 450000 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = 'prop_whiskey_01', 
+			pos = vec3(0.01, -0.02, -0.15), rot = vec3(5.0, 5.0, -180.5) },
+			usetime = 5000,
+			notification = 'Vous avez bu un Macallan !',
+		},
+	},
+
+	['irish_whisky'] = { 
+		label = 'Whisky Irlandais',
+		weight = 500,
+		stack = true,
+		close = true,
+		description = "Un bon tord-boyaux du nord",
+		client = {
+			status = { drunk = 400000 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = 'prop_whiskey_01', 
+			pos = vec3(0.01, -0.02, -0.15), rot = vec3(5.0, 5.0, -180.5) },
+			usetime = 5000,
+			notification = 'Vous avez bu un Whisky Irlandais!',
+		},
+	},
+
+	['jimenez_whisky'] = { 
+		label = 'Whisky Jimenèz',
+		weight = 500,
+		stack = true,
+		close = true,
+		description = "Un grand Whisky de qualité",
+		client = {
+			status = { drunk = 400000 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = 'prop_whiskey_01', 
+			pos = vec3(0.01, -0.02, -0.15), rot = vec3(5.0, 5.0, -180.5) },
+			usetime = 5000,
+			notification = 'Vous avez bu un Whiskey Jimenèz',
 		},
 	},
 
