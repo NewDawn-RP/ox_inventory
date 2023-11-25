@@ -729,6 +729,93 @@ return {
 			},
 		},
 	},
+    {
+		groups = { ["distillerie"] = 0 }, -- Craft distillerie
+		items = {
+			{
+				name = 'amber_rum',
+				ingredients = {
+					cane_juice = 3,
+				},
+				duration = 10000,
+				count = 1,
+			},
+			{
+				name = 'caribbean_rum',
+				ingredients = {
+					cane_juice = 2,
+				},
+				duration = 10000,
+				count = 1,
+			},
+			{
+				name = 'macallan',
+				ingredients = {
+					malted_cereal = 2,
+					jimenez_whisky = 2,
+				},
+				duration = 10000,
+				count = 1,
+			},
+			{
+				name = 'irish_whisky',
+				ingredients = {
+					malted_cereal = 3,
+				},
+				duration = 10000,
+				count = 1,
+			},
+			{
+				name = 'jimenez_whisky',
+				ingredients = {
+					malted_cereal = 2,
+				},
+				duration = 10000,
+				count = 1,
+			},
+		},
+		points = {
+			vec3(-139.4208, 6290.9219, 31.5511),  
+		},
+		zones = {
+			{
+				coords = vec3(-139.4208, 6290.9219, 31.5511), 
+				size = vec3(2, 2, 2),
+				distance = 2.0,
+			},
+		},
+	},
+	{
+		groups = { ["distillerie"] = 0 }, -- Craft de base distillerie 
+		items = {
+			{
+				name = 'malted_cereal',
+				ingredients = {
+					barley = 2,
+				},
+				duration = 4500,
+				count = 2,
+			},
+			{
+				name = 'cane_juice',
+				ingredients = {
+					cane = 3,
+				},
+				duration = 4500,
+				count = 1,
+			},
+		},
+		points = {
+			vec3(-137.8633, 6296.3716, 31.5511),   
+		},
+		zones = {
+			{
+				coords = vec3(-137.8633, 6296.3716, 31.5511), 
+				size = vec3(2, 2, 2),
+				distance = 2.0,
+			},
+		},
+	},
 	{--Run paper_ream
 		groups = { 
 			["bahamas"] = 0,
