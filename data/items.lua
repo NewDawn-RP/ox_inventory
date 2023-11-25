@@ -1031,6 +1031,20 @@ return {
 		description = "De la canne à sucre de qualité",
 	},
 
+    ['malted_cereal'] = {
+	    label = 'Céréale maltée',
+	    weight = 150,
+	    stack = true,
+		description = "De la céréale maltée de qualité",
+	},
+
+    ['cane_juice'] = {
+	    label = 'Jus de canne',
+	    weight = 150,
+	    stack = true,
+		description = "Du jus de canne de qualité",
+	},
+
 	['burger_bread'] = {
 	    label = 'Pain à burger',
 	    weight = 250,
