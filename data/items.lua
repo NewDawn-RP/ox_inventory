@@ -937,6 +937,20 @@ return {
 
 	--------------------------- [Items de fabrication] Légumes, Fruits, Viandes, Pâtes, Mer,...
 
+	['barley'] = {
+	    label = 'Orge',
+	    weight = 150,
+	    stack = true,
+		description = "De l'orge de qualité",
+	},
+
+	['cane'] = {
+	    label = 'Canne à sucre',
+	    weight = 150,
+	    stack = true,
+		description = "De la canne à sucre de qualité",
+	},
+
 	['burger_bread'] = {
 	    label = 'Pain à burger',
 	    weight = 250,
