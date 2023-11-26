@@ -559,7 +559,6 @@ return {
 		}, inventory = {
 			{ name = 'peanuts', price = 4 },
 			{ name = 'olives', price = 5 },
-			{ name = 'rhum', price = 18 },
 			{ name = 'gin', price = 13 },
 			{ name = 'apple_martini', price = 15 },
 			{ name = 'iced_tea', price = 5 },
@@ -698,8 +697,6 @@ return {
 			{ name = 'dusche_beer', price = 6 },
 			{ name = 'stronzo_beer', price = 6 },
 			{ name = 'patriot_beer', price = 6 },
-			{ name = 'whiskey', price = 9 },
-			{ name = 'tequila', price = 9 },
 			{ name = 'lemonade', price = 5 },
 			{ name = 'iced_tea', price = 5 },
 			{ name = 'sprunk', price = 5 },
