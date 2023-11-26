@@ -243,7 +243,7 @@ return {
 			{ name = 'medbag', price = 100 },
 			{ name = 'radio', price = 150 },
 			{ name = 'WEAPON_HOSE', price = 500 },
-			{ name = 'WEAPON_FIREEXTINGUISHER', price = 200 },
+			{ name = 'WEAPON_FIREEXTINGUISHER', price = 50 },
 			
 		}, targets = {
 			{
