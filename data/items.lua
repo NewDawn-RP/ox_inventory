@@ -2464,6 +2464,13 @@ return {
 		stack = true,
 	},
 
+    ['curtis_jewel'] = {
+		label = "Diamant de famille Curtis",
+		description = "Permet la fabrication d'armes",
+		weight = 1000,
+		stack = true,
+	},
+
 	--------------------------- ILLEGAL [Items de création de drogues]
 
 	['hydrogen'] = {
