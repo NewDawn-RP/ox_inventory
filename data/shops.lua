@@ -722,6 +722,7 @@ return {
 			['bahamas'] = 0,
 			['casino2'] = 0,
 			['unicorn'] = 0,
+            ['studio'] = 0,
 			['yellowjack'] = 0,
 		},
 		blip = {
