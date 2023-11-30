@@ -2153,6 +2153,29 @@ return {
 		description = nil
 	},
 
+	['cocaine_bag'] = {
+		label = 'Sachet de Cocaïne',
+		weight = 1000,
+		stack = true,
+		close = true,
+		description = "Y'a plus qu'à sniffer !"
+	},
+
+	['meth_pipe'] = {
+		label = 'Pipe à Meth',
+		weight = 1000,
+		stack = true,
+		close = true,
+		description = "Un coup de briquet et c'est parti !"
+	},
+
+	['weed_joint'] = {
+		label = 'Joint de Weed',
+		weight = 1000,
+		stack = true,
+		close = true,
+		description = "C'est de la bonne vas-y !"
+
 
 	--------------------------- ILLEGAL [Plantations Illégales]
 
@@ -2322,6 +2345,12 @@ return {
 	    stack = true,
 	},
 
+	['black_fabric'] = {
+	    label = 'Tissu noir',
+	    weight = 500,
+	    stack = true,
+	},
+    
 --------------------------- ILLEGAL [Objets pour braquages]
 
 	['serflex'] = {
@@ -2578,7 +2607,34 @@ return {
 	},
 
 	--------------------------- ILLEGAL [Items Multiples]
+    },
+        ['weed_sheet'] = {
+		label = "Feuille à rouler",
+		description = "Permet de rouler des joints",
+		weight = 500,
+		stack = true,
+    },
 
+        ['plastic_bag'] = {
+		label = "Sachet plastique",
+		description = "Permet de mettre en sachet la cocaïne",
+		weight = 500,
+		stack = true,
+    },
+
+        ['pipe'] = {
+		label = "Pipe",
+		description = "Utilisée pour en faire une pipe à meth",
+		weight = 500,
+		stack = true,
+    },
+
+        ['hook_metal'] = {
+		label = "Crochet métallique",
+		description = "Pratique pour ouvrir des portières",
+		weight = 500,
+		stack = true,
+    },
 
 	--------------------------- [Habillage / Vêtements]
 
