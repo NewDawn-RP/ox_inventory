@@ -69,4 +69,10 @@ setContainerProperties('bag', {
 	blacklist = { 'bag' }
 })
 
+setContainerProperties('drug_pooch', {
+	slots = 5,
+	maxWeight = 1000,
+	whitelist = { 'weed' }
+})
+
 return containers
