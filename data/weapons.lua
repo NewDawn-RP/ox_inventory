@@ -1,5 +1,11 @@
 return {
 	Weapons = {
+		['WEAPON_TECPISTOL'] = {
+			label = 'Tactical SMG',
+			weight = 1500,
+			durability = 0.075,
+			ammoname = 'ammo-pistol',
+		},
 		['WEAPON_ADVANCEDRIFLE'] = {
 			label = 'Fusil Avancé',
 			weight = 15000,
@@ -282,6 +288,11 @@ return {
 		['WEAPON_HAZARDCAN'] = {
 			label = "Hazard Can",
 			weight = 12000,
+		},
+
+		['WEAPON_METALDETECTOR'] = {
+			label = 'Détecteur de métal',
+			weight = 1200,
 		},
 
 		['WEAPON_HOMINGLAUNCHER'] = {
@@ -712,6 +723,7 @@ return {
 				usetime = 2500
 			}
 		},
+
 		['at_suppressor_light'] = {
 			label = 'Silencieux',
 			weight = 280,
@@ -726,6 +738,7 @@ return {
 				usetime = 2500
 			}
 		},
+
 		['at_suppressor_heavy'] = {
 			label = 'Silencieux Tactique',
 			weight = 280,
@@ -740,8 +753,9 @@ return {
 				usetime = 2500
 			}
 		},
+
 		['at_grip'] = {
-			label = 'Grip',
+			label = 'Poignée',
 			type = 'grip',
 			weight = 280,
 			client = {
@@ -752,6 +766,7 @@ return {
 				usetime = 2500
 			}
 		},
+
 		['at_barrel'] = {
 			label = 'Canon Lourd',
 			type = 'barrel',
@@ -770,8 +785,9 @@ return {
 				usetime = 2500
 			}
 		},
+
 		['at_clip_extended_pistol'] = {
-			label = 'Chargeur de Pistoletet Aggrandi',
+			label = 'Chargeur de Pistolet Aggrandi',
 			type = 'magazine',
 			weight = 280,
 			client = {
@@ -786,10 +802,12 @@ return {
 					`COMPONENT_SNSPISTOL_CLIP_02`,
 					`COMPONENT_SNSPISTOL_MK2_CLIP_02`,
 					`COMPONENT_VINTAGEPISTOL_CLIP_02`,
+                    `COMPONENT_TECPISTOL_CLIP_02`,
 				},
 				usetime = 2500
 			}
 		},
+
 		['at_clip_extended_smg'] = {
 			label = 'Chargeur de SMG Aggrandi',
 			type = 'magazine',
@@ -807,6 +825,7 @@ return {
 				usetime = 2500
 			}
 		},
+
 		['at_clip_extended_shotgun'] = {
 			label = 'Chargeur de Fusil à Pompe Aggrandi',
 			type = 'magazine',
@@ -819,6 +838,7 @@ return {
 				usetime = 2500
 			}
 		},
+
 		['at_clip_extended_rifle'] = {
 			label = "Chargeur de Fusil d'Assault Aggrandi",
 			type = 'magazine',
@@ -842,6 +862,7 @@ return {
 				usetime = 2500
 			}
 		},
+
 		['at_clip_extended_mg'] = {
 			label = "Chargeur de MG Aggrandi",
 			type = 'magazine',
@@ -856,6 +877,7 @@ return {
 				usetime = 2500
 			}
 		},
+
 		['at_clip_extended_sniper'] = {
 			label = "Chargeur de Sniper Aggrandi",
 			type = 'magazine',
@@ -869,6 +891,7 @@ return {
 				usetime = 2500
 			}
 		},
+
 		['at_clip_drum_smg'] = {
 			label = 'SMG Drum',
 			type = 'magazine',
@@ -882,6 +905,7 @@ return {
 				usetime = 2500
 			}
 		},
+
 		['at_clip_drum_shotgun'] = {
 			label = 'Fusil à Pompe Drum',
 			type = 'magazine',
@@ -893,6 +917,7 @@ return {
 				usetime = 2500
 			}
 		},
+
 		['at_clip_drum_rifle'] = {
 			label = "Chargeur Tembour Fusil d'Assault",
 			type = 'magazine',
@@ -907,6 +932,7 @@ return {
 				usetime = 2500
 			}
 		},
+
 		['at_compensator'] = {
 			label = 'Compensateur',
 			type = 'muzzle',
@@ -920,6 +946,7 @@ return {
 				usetime = 2500
 			}
 		},
+
 		['at_scope_macro'] = {
 			label = 'Lunette Macro',
 			type = 'sight',
@@ -935,6 +962,7 @@ return {
 				usetime = 2500
 			}
 		},
+
 		['at_scope_small'] = {
 			label = 'Lunette Courte Portée',
 			type = 'sight',
@@ -949,6 +977,7 @@ return {
 				usetime = 2500
 			}
 		},
+
 		['at_scope_medium'] = {
 			label = 'Lunette Moyenne Portée',
 			type = 'sight',
@@ -961,6 +990,7 @@ return {
 				usetime = 2500
 			}
 		},
+
 		['at_scope_large'] = {
 			label = 'Lunette Longue Portée',
 			type = 'sight',
@@ -972,6 +1002,7 @@ return {
 				usetime = 2500
 			}
 		},
+
 		['at_scope_advanced'] = {
 			label = 'Lunette Avancée',
 			type = 'sight',
@@ -983,6 +1014,7 @@ return {
 				usetime = 2500
 			}
 		},
+
 		['at_scope_nv'] = {
 			label = 'Lunette Vision Nocturne',
 			type = 'sight',
@@ -994,6 +1026,7 @@ return {
 				usetime = 2500
 			}
 		},
+
 		['at_scope_thermal'] = {
 			label = 'Lunette Thermique',
 			type = 'sight',
@@ -1005,6 +1038,7 @@ return {
 				usetime = 2500
 			}
 		},
+
 		['at_scope_holo'] = {
 			label = 'Viseur Holographique',
 			type = 'sight',
@@ -1019,6 +1053,7 @@ return {
 				usetime = 2500
 			}
 		},
+
 		['at_muzzle_flat'] = {
 			label = 'Frein de bouche Plat',
 			type = 'muzzle',
@@ -1030,6 +1065,7 @@ return {
 				usetime = 2500
 			}
 		},
+
 		['at_muzzle_tactical'] = {
 			label = 'Frein de bouche Tactique',
 			type = 'muzzle',
@@ -1041,6 +1077,7 @@ return {
 				usetime = 2500
 			}
 		},
+
 		['at_muzzle_fat'] = {
 			label = 'Frein de bouche Large',
 			type = 'muzzle',
@@ -1052,6 +1089,7 @@ return {
 				usetime = 2500
 			}
 		},
+
 		['at_muzzle_precision'] = {
 			label = 'Frein de bouche de Précision',
 			type = 'muzzle',
@@ -1063,6 +1101,7 @@ return {
 				usetime = 2500
 			}
 		},
+
 		['at_muzzle_heavy'] = {
 			label = 'Frein de bouche de Lourd',
 			type = 'muzzle',
@@ -1074,6 +1113,7 @@ return {
 				usetime = 2500
 			}
 		},
+
 		['at_muzzle_slanted'] = {
 			label = 'Frein de bouche de Incliné',
 			type = 'muzzle',
@@ -1085,6 +1125,7 @@ return {
 				usetime = 2500
 			}
 		},
+
 		['at_muzzle_split'] = {
 			label = 'Frein de bouche Séparé',
 			type = 'muzzle',
@@ -1096,6 +1137,7 @@ return {
 				usetime = 2500
 			}
 		},
+
 		['at_muzzle_squared'] = {
 			label = 'Frein de bouche Carré',
 			type = 'muzzle',
@@ -1107,6 +1149,7 @@ return {
 				usetime = 2500
 			}
 		},
+
 		['at_muzzle_bell'] = {
 			label = 'Frein de bouche Cloche',
 			type = 'muzzle',
@@ -1118,6 +1161,7 @@ return {
 				usetime = 2500
 			}
 		},
+
 		['at_skin_luxe'] = {
 			label = "Kit d'arme de luxe",
 			type = 'skin',
@@ -1138,6 +1182,7 @@ return {
 				usetime = 2500
 			}
 		},
+
 		['at_skin_wood'] = {
 			label = "Kit d'arme bois",
 			type = 'skin',
@@ -1151,6 +1196,7 @@ return {
 				usetime = 2500
 			}
 		},
+
 		['at_skin_metal'] = {
 			label = "Kit Arme Métal",
 			type = 'skin',
@@ -1166,6 +1212,7 @@ return {
 				usetime = 2500
 			}
 		},
+
 		['at_skin_pearl'] = {
 			label = "Kit Arme Perlé",
 			type = 'skin',
@@ -1177,6 +1224,7 @@ return {
 				usetime = 2500
 			}
 		},
+
 		['at_skin_ballas'] = {
 			label = "Kit Arme Ballas",
 			type = 'skin',
@@ -1188,6 +1236,7 @@ return {
 				usetime = 2500
 			}
 		},
+
 		['at_skin_diamond'] = {
 			label = "Kit Arme Dimant",
 			type = 'skin',
@@ -1199,6 +1248,7 @@ return {
 				usetime = 2500
 			}
 		},
+
 		['at_skin_dollar'] = {
 			label = "Kit Arme Dollar",
 			type = 'skin',
@@ -1210,6 +1260,7 @@ return {
 				usetime = 2500
 			}
 		},
+
 		['at_skin_hate'] = {
 			label = "Kit Arme 'Hate'",
 			type = 'skin',
@@ -1221,6 +1272,7 @@ return {
 				usetime = 2500
 			}
 		},
+
 		['at_skin_king'] = {
 			label = "Kit Arme 'King'",
 			type = 'skin',
@@ -1232,6 +1284,7 @@ return {
 				usetime = 2500
 			}
 		},
+
 		['at_skin_love'] = {
 			label = "Kit Arme 'Amour'",
 			type = 'skin',
@@ -1243,6 +1296,7 @@ return {
 				usetime = 2500
 			}
 		},
+
 		['at_skin_pimp'] = {
 			label = "Kit Arme 'Pimp'",
 			type = 'skin',
@@ -1254,6 +1308,7 @@ return {
 				usetime = 2500
 			}
 		},
+
 		['at_skin_player'] = {
 			label = "Kit Arme 'Player'",
 			type = 'skin',
@@ -1265,6 +1320,7 @@ return {
 				usetime = 2500
 			}
 		},
+
 		['at_skin_vagos'] = {
 			label = "Kit Arme 'Vagos'",
 			type = 'skin',
@@ -1276,6 +1332,7 @@ return {
 				usetime = 2500
 			}
 		},
+
 		['at_skin_vip'] = {
 			label = "Kit Arme 'VIP'",
 			type = 'skin',
@@ -1288,6 +1345,7 @@ return {
 				usetime = 2500
 			}
 		},
+
 		['at_skin_bodyguard'] = {
 			label = "Kit Arme 'Garde du Corps'",
 			type = 'skin',
@@ -1300,6 +1358,7 @@ return {
 				usetime = 2500
 			}
 		},
+
 		['at_skin_festive'] = {
 			label = "Kit Arme 'Festif'",
 			type = 'skin',
@@ -1311,6 +1370,7 @@ return {
 				usetime = 2500
 			}
 		},
+
 		['at_skin_security'] = {
 			label = "Kit Arme 'Sécurité'",
 			type = 'skin',
@@ -1323,6 +1383,7 @@ return {
 				usetime = 2500
 			}
 		},
+
 		['at_skin_camo'] = {
 			label = "Kit Arme 'Camouflage Militaire'",
 			type = 'skin',
@@ -1345,6 +1406,7 @@ return {
 				usetime = 2500
 			}
 		},
+
 		['at_skin_brushstroke'] = {
 			label = "Kit Arme 'Brushstroke'",
 			type = 'skin',
@@ -1367,6 +1429,7 @@ return {
 				usetime = 2500
 			}
 		},
+
 		['at_skin_woodland'] = {
 			label = "Kit Arme 'Boisé'",
 			type = 'skin',
@@ -1389,6 +1452,7 @@ return {
 				usetime = 2500
 			}
 		},
+
 		['at_skin_skull'] = {
 			label = 'Skull Weapon Kit',
 			type = 'skin',
@@ -1411,6 +1475,7 @@ return {
 				usetime = 2500
 			}
 		},
+
 		['at_skin_sessanta'] = {
 			label = 'Sessanta Weapon Kit',
 			type = 'skin',
@@ -1433,6 +1498,7 @@ return {
 				usetime = 2500
 			}
 		},
+
 		['at_skin_perseus'] = {
 			label = 'Perseus Weapon Kit',
 			type = 'skin',
@@ -1455,6 +1521,7 @@ return {
 				usetime = 2500
 			}
 		},
+
 		['at_skin_leopard'] = {
 			label = 'Leopard Weapon Kit',
 			type = 'skin',
@@ -1477,6 +1544,7 @@ return {
 				usetime = 2500
 			}
 		},
+
 		['at_skin_zebra'] = {
 			label = 'Zebra Weapon Kit',
 			type = 'skin',
@@ -1499,6 +1567,7 @@ return {
 				usetime = 2500
 			}
 		},
+
 		['at_skin_geometric'] = {
 			label = 'Geometric Weapon Kit',
 			type = 'skin',
@@ -1521,6 +1590,7 @@ return {
 				usetime = 2500
 			}
 		},
+
 		['at_skin_boom'] = {
 			label = 'Boom Weapon Kit',
 			type = 'skin',
@@ -1543,6 +1613,7 @@ return {
 				usetime = 2500
 			}
 		},
+
 		['at_skin_patriotic'] = {
 			label = 'Patriotic Weapon Kit',
 			type = 'skin',
@@ -1582,9 +1653,99 @@ return {
 			label = 'Munition Lourde',
 			weight = 15,
 		},
+		['ammo-22'] = {
+			label = '.22 Long Rifle',
+			weight = 3,
+		},
 
+		['ammo-38'] = {
+			label = '.38 LC',
+			weight = 15,
+		},
+
+		['ammo-44'] = {
+			label = '.44 Magnum',
+			weight = 16,
+		},
+
+		['ammo-45'] = {
+			label = '.45 ACP',
+			weight = 15,
+		},
+
+		['ammo-50'] = {
+			label = '.50 AE',
+			weight = 45,
+		},
+
+		['ammo-9'] = {
+			label = '9mm',
+			weight = 7,
+		},
+
+		['ammo-firework'] = {
+			label = 'Firework',
+			weight = 200,
+		},
+
+		['ammo-flare'] = {
+			label = 'Flare round',
+			weight = 38,
+		},
+
+		['ammo-grenade'] = {
+			label = '40mm Explosive',
+			weight = 400,
+		},
+
+		['ammo-heavysniper'] = {
+			label = '.50 BMG',
+			weight = 51,
+		},
+
+		['ammo-laser'] = {
+			label = 'Laser charge',
+			weight = 1,
+		},
+
+		['ammo-musket'] = {
+			label = '.50 Ball',
+			weight = 38,
+		},
+
+		['ammo-railgun'] = {
+			label = 'Railgun charge',
+			weight = 150,
+		},
+
+		['ammo-rifle'] = {
+			label = '5.56x45',
+			weight = 4,
+		},
+
+		['ammo-rifle2'] = {
+			label = '7.62x39',
+			weight = 8,
+		},
+
+		['ammo-rocket'] = {
+			label = 'Rocket',
+			weight = 500,
+		},
+
+		['ammo-shotgun'] = {
+			label = '12 Gauge',
+			weight = 38,
+		},
+
+		['ammo-sniper'] = {
+			label = '7.62x51',
+			weight = 9,
+		},
+
+		['ammo-emp'] = {
+			label = 'EMP round',
+			weight = 400,
+		},
 	}
-
-
-
 }
