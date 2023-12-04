@@ -215,7 +215,7 @@ return {
 		},
 
 		['WEAPON_FIREWORK'] = {
-			label = 'Firework Launcher',
+			label = "Lanceur de Feux d'Artifices",
 			weight = 1000,
 			durability = 0,
 			ammoname = 'ammo-firework'
