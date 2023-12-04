@@ -267,7 +267,7 @@ return {
             { name = 'advlockpick', price = 500, currency = 'black_money' },
 			{ name = 'headbag', price = 200, currency = 'black_money' },
 			{ name = 'spray', price = 150, currency = 'black_money' },
-			{ name = 'flipper', price = 2000, currency = 'black_money' },
+			{ name = 'kevlar', price = 8000, currency = 'black_money' },
             { name = 'microchip', price = 500, currency = 'black_money' },
 			{ name = 'serflex', price = 100, currency = 'black_money' },
 			{ name = 'drill', price = 5000, currency = 'black_money' },
@@ -278,8 +278,8 @@ return {
 			{
                 ped = `a_m_o_salton_01`,
                 scenario = 'WORLD_HUMAN_SMOKING',
-                loc = vec3(2155.7568, 3385.6775, 44.5279),
-                heading = 69.9594,
+                loc = vec3(2546.5137, 385.6130, 107.6181),
+                heading = 90.3123,
             },
 		}
 	},
