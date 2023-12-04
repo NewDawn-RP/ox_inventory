@@ -1061,8 +1061,6 @@ RegisterNetEvent('ox_inventory:removeDrop', function(dropId)
 	end
 end)
 
-local uiLoaded = false
-
 ---@type function?
 local function setStateBagHandler(stateId)
 	AddStateBagChangeHandler('invOpen', stateId, function(_, _, value)
@@ -1254,7 +1252,7 @@ RegisterNetEvent('ox_inventory:setPlayerInventory', function(currentDrops, inven
 		})
 	end
 
-	while not uiLoaded do Wait(50) end
+	while not client.uiLoaded do Wait(50) end
 
 	SendNUIMessage({
 		action = 'init',
@@ -1518,7 +1516,7 @@ RegisterNetEvent('ox_inventory:viewInventory', function(data)
 end)
 
 RegisterNUICallback('uiLoaded', function(_, cb)
-	uiLoaded = true
+	client.uiLoaded = true
 	cb(1)
 end)
 
