@@ -777,9 +777,33 @@ return {
 			{ name = 'WEAPON_KNIFE', price = 4500, currency = 'black_money' },
 			{ name = 'WEAPON_BAT', price = 6500, currency = 'black_money' },
             { name = 'weapon_wrench', price = 2000, currency = 'black_money' },
+            { name = 'hook_metal', price = 300, currency = 'black_money' },
 		}, targets = {
 			{
                 ped = `a_m_o_salton_01`,
+                scenario = 'WORLD_HUMAN_SMOKING',
+                loc = vec3(563.0510, -1645.0490, 26.5616),
+                heading = 14.8708,
+            },
+		}
+	},
+    
+    TempoMarketWeapon = {
+		name = 'Envoyé du Cartel',
+        groups = {
+			['admin'] = 0,
+		},
+		inventory = {
+            { name = 'WEAPON_PISTOL', price = 45000, currency = 'black_money' },
+            { name = 'WEAPON_MACHINEPISTOL', price = 175000, currency = 'black_money' },
+            { name = 'WEAPON_COMPACTRIFLE', price = 700000, currency = 'black_money' },
+            { name = 'WEAPON_DBSHOTGUN', price = 500000, currency = 'black_money' },
+            { name = 'ammo-heavy', price = 200, currency = 'black_money' },
+            { name = 'ammo-assaut', price = 250, currency = 'black_money' },
+			{ name = 'ammo-pistol', price = 250, currency = 'black_money' },
+		}, targets = {
+			{
+                ped = `G_M_M_CartelGuards_01`,
                 scenario = 'WORLD_HUMAN_SMOKING',
                 loc = vec3(563.0510, -1645.0490, 26.5616),
                 heading = 14.8708,
