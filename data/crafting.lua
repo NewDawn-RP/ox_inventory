@@ -587,20 +587,29 @@ return {
 				count = 1,
 			},
 			{
-				name = 'gofast_card',
+				name = 'flipper',
 				ingredients = {
-					microchip = 3,
+					microchip = 30,
 				},
-				duration = 5000,
+				duration = 15000,
+				count = 1,
+			},
+            {
+				name = 'mediumkevlar',
+				ingredients = {
+					black_fabric = 10,
+                    kevlar = 1,
+				},
+				duration = 15000,
 				count = 1,
 			},
 		},
 		points = {
-			vec3(1667.3606, 4969.5723, 42.2610),
+			vec3(-1146.6526, -2002.7327, 13.1803),
 		},
 		zones = {
 			{
-				coords = vec3(1667.3606, 4969.5723, 42.2610), 
+				coords = vec3(-1146.6526, -2002.7327, 13.1803), 
 				size = vec3(3, 3, 3),
 				distance = 3.5,
 			},
