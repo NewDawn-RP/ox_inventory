@@ -2175,7 +2175,7 @@ return {
 		stack = true,
 		close = true,
 		description = "C'est de la bonne vas-y !"
-
+	},
 
 	--------------------------- ILLEGAL [Plantations Illégales]
 
@@ -2607,29 +2607,28 @@ return {
 	},
 
 	--------------------------- ILLEGAL [Items Multiples]
-    },
-        ['weed_sheet'] = {
+	['weed_sheet'] = {
 		label = "Feuille à rouler",
 		description = "Permet de rouler des joints",
 		weight = 500,
 		stack = true,
     },
 
-        ['plastic_bag'] = {
+	['plastic_bag'] = {
 		label = "Sachet plastique",
 		description = "Permet de mettre en sachet la cocaïne",
 		weight = 500,
 		stack = true,
     },
 
-        ['pipe'] = {
+	['pipe'] = {
 		label = "Pipe",
 		description = "Utilisée pour en faire une pipe à meth",
 		weight = 500,
 		stack = true,
     },
 
-        ['hook_metal'] = {
+	['hook_metal'] = {
 		label = "Crochet métallique",
 		description = "Pratique pour ouvrir des portières",
 		weight = 500,
