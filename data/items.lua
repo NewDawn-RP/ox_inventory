@@ -3101,6 +3101,13 @@ return {
 		close = true,
 	},
 
+    ["drug_pooch"] = {
+		label = "Pochon de Drogue",
+		weight = 1,
+		stack = true,
+		close = true,
+	},
+
 	["casino_beer"] = {
 		label = "Casino Beer",
 		weight = 0,
