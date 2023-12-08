@@ -3183,4 +3183,20 @@ return {
 		stack = true,
 		close = true,
 	},
+
+    ['wooden_stick'] = {
+        label = 'Tige de bois',
+        weight = 1000,
+        stack = true,
+        close = true,
+        description = nil
+    },
+    
+    ['shovel'] = {
+        label = 'Pelle',
+        weight = 5000,
+        stack = false,
+        close = true,
+        description = nil
+    },
 }
