@@ -547,6 +547,124 @@ return {
 			notification = 'Vous avez dégusté des pancakes !',
 		},
 	},
+
+	['cashew_chicken'] = {
+		label = 'Poulet aux noix de cajou',
+		weight = 500,
+		stack = true,
+		close = true,
+		description = "Un délicieux poulet aux noix de cajou",
+		client = {
+			status = { hunger = 600000 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = { model = 'prop_cs_burger_01', 
+			pos = vec3(0.05, -0.02, -0.03), rot = vec3(150.0, 340.0, 170.0) },
+			usetime = 7500,
+			notification = 'Vous avez mangé un poulet aux noix de cajou !'
+		}
+	},
+
+	['beef_broccoli'] = {
+		label = 'Boeuf aux brocolis',
+		weight = 500,
+		stack = true,
+		close = true,
+		description = "Un magnifique Boeuf aux brocolis pour les petites faims",
+		client = {
+			status = { hunger = 400000 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = { model = 'prop_cs_burger_01', 
+			pos = vec3(0.05, -0.02, -0.03), rot = vec3(150.0, 340.0, 170.0) },
+			usetime = 6000,
+			notification = 'Vous avez mangé un boeuf aux brocolis !'
+		}
+	},
+
+	['chinese_ravioli'] = {
+		label = 'Raviolis Chinois',
+		weight = 500,
+		stack = true,
+		close = true,
+		description = "De délicieux raviolis chinois",
+		client = {
+			status = { hunger = 400000 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = { model = 'prop_cs_burger_01', 
+			pos = vec3(0.05, -0.02, -0.03), rot = vec3(150.0, 340.0, 170.0) },
+			usetime = 6000,
+			notification = 'Vous avez mangé des raviolis chinois !'
+		}
+	},
+
+	['vegetable_rice'] = {
+		label = 'Riz sauté aux légumes',
+		weight = 500,
+		stack = true,
+		close = true,
+		description = "De bon riz aux légumes",
+		client = {
+			status = { hunger = 250000 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = { model = 'prop_cs_burger_01', 
+			pos = vec3(0.05, -0.02, -0.03), rot = vec3(150.0, 340.0, 170.0) },
+			usetime = 5500,
+			notification = 'Vous avez mangé du riz sauté aux légumes !'  
+		}
+	},
+
+	['coco_balls'] = {
+		label = 'Boules de coco',
+		weight = 500,
+		stack = true,
+		close = true,
+		description = "De bonnes boules de coco",
+		client = {
+			status = { hunger = 150000 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = { model = 'bzzz_food_dessert_a', 
+			bone = 18905,
+			pos = vec3(0.15, 0.03, 0.03), 
+			rot = vec3(-42.0, -36.0, 0.0) },
+			usetime = 5500,
+			notification = 'Vous avez mangé des boules de coco !'
+		}
+	},
+
+	['lychee_tart'] = {
+		label = 'Tarte aux litchis',
+		weight = 500,
+		stack = true,
+		close = true,
+		description = "Une délicieuse tarte aux litchis",
+		client = {
+			status = { hunger = 150000 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = { model = 'bzzz_food_dessert_a', 
+			bone = 18905,
+			pos = vec3(0.15, 0.03, 0.03), 
+			rot = vec3(-42.0, -36.0, 0.0) },
+			usetime = 5500,
+			notification = 'Vous avez mangé une tarte aux litchis !'
+		}
+	},
+
+	['camamelized_banana'] = {
+		label = 'Banane caramélisée',
+		weight = 500,
+		stack = true,
+		close = true,
+		description = "Une délicieuse banane caramélisée",
+		client = {
+			status = { hunger = 150000 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = { model = 'bzzz_food_dessert_a', 
+			bone = 18905,
+			pos = vec3(0.15, 0.03, 0.03), 
+			rot = vec3(-42.0, -36.0, 0.0) },
+			usetime = 5500,
+			notification = 'Vous avez mangé une banane caramélisée !'
+		}
+	},
 	
 	--------------------------- [Boissons Soft (thirst)]
 
@@ -708,7 +826,37 @@ return {
 		},
 	},
 
-	
+	['jasmine_tea'] = {
+		label = 'Thé au Jasmin',
+		weight = 500,
+		stack = true,
+		close = true,
+		description = "Un bon thé au jasmin",
+		client = {
+			status = { thirst = 200000 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = 'prop_drink_redwine', 
+			pos = vec3(0.005, -0.001, 0.08), rot = vec3(0.0, 0.0, 160.0) },
+			usetime = 5000,
+			notification = 'Vous avez bu un thé au jasmin !'
+		}
+	},
+
+	['ginger_lemonade'] = {
+		label = 'Limonade au gimgembre',
+		weight = 500,
+		stack = true,
+		close = true,
+		description = "Une bonne limonade au gimgembre",
+		client = {
+			status = { thirst = 200000 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = 'prop_drink_redwine', 
+			pos = vec3(0.005, -0.001, 0.08), rot = vec3(0.0, 0.0, 160.0) },
+			usetime = 5000,
+			notification = 'Vous avez bu une limonade au gimgembre !'
+		}
+	},
 	--------------------------- [Boissons Alcoolisées]
 
 	['black_pinot'] = {
@@ -1312,7 +1460,7 @@ return {
 	    stack = true,
 	},
 
-	['cashew nuts'] = {
+	['cashew_nuts'] = {
 	    label = 'Noix de cajou',
 	    weight = 250,
 	    stack = true,
@@ -1342,7 +1490,7 @@ return {
 	    stack = true,
 	},
 
-	['rise'] = {
+	['rice'] = {
 	    label = 'Riz',
 	    weight = 250,
 	    stack = true,

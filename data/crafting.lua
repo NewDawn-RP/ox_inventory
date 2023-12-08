@@ -825,6 +825,76 @@ return {
 			},
 		},
 	},
+	{
+		groups = { ["koi"] = 0 }, -- Craft Koi plats principaux
+		items = {
+			{
+				name = 'cashew_chicken',
+				ingredients = {
+					chicken_meat = 3,
+					cashew_nuts = 2,
+					gimgember = 1,
+				},
+				duration = 4500,
+				count = 1,
+			},
+			{
+				name = 'beef_broccoli',
+				ingredients = {
+					beef_meat = 2,
+					broccoli = 2,
+				},
+				duration = 3000,
+				count = 1,
+			},
+			{
+				name = 'chinese_ravioli',
+				ingredients = {
+					pate = 2,
+					pig_meat = 1,
+					chinese_cabbage = 1,
+					gimgember = 1,
+				},
+				duration = 3000,
+				count = 1,
+			},
+		},
+		points = {
+			vec3(-1072.1300, -1445.8459, -1.4203),  
+		},
+		zones = {
+			{
+				coords = vec3(-1072.1300, -1445.8459, -1.4203), 
+				size = vec3(2, 2, 2),
+				distance = 2.0,
+			},
+		},
+	},
+	{
+		groups = { ["koi"] = 0 }, -- Craft accompagnement Koi
+		items = {
+			{
+				name = 'vegetable_rice',
+				ingredients = {
+					rice = 2,
+					carrot = 1,
+					egg = 1,
+				},
+				duration = 2000,
+				count = 1,
+			},
+		},
+		points = {
+			vec3(-1077.3329, -1447.8436, -1.4203),      
+		},
+		zones = {
+			{
+				coords = vec3(-1077.3329, -1447.8436, -1.4203), 
+				size = vec3(2, 2, 2),
+				distance = 2.0,
+			},
+		},
+	},
 	{--Run paper_ream
 		groups = { 
 			["bahamas"] = 0,

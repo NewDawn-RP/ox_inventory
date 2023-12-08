@@ -683,6 +683,40 @@ return {
             },
 		}                  
 	},
+
+	koishop = {
+		name = 'Grossiste Koi', -- Items Koi
+		groups = {
+			['koi'] = 0,
+		},
+		blip = {
+			id = 615, colour = 10, scale = 0.5
+		}, inventory = {
+			{ name = 'chicken_meat', price = 7 },
+			{ name = 'cashew_nuts', price = 2 },
+			{ name = 'gimgember', price = 2 },
+			{ name = 'beef_meat', price = 8 },
+			{ name = 'broccoli', price = 2 },
+			{ name = 'pate', price = 1 },
+			{ name = 'pig_meat', price = 7 },
+			{ name = 'chinese_cabbage', price = 2 },
+			{ name = 'rice', price = 1 },
+			{ name = 'carrot', price = 2 },
+			{ name = 'egg', price = 3 },
+			{ name = 'ginger_lemonade', price = 8 },
+			{ name = 'jasmine_tea', price = 8 },
+			{ name = 'coco_balls', price = 5 },
+			{ name = 'lychee_tart', price = 5 },
+			{ name = 'camamelized_banana', price = 5 },
+		}, targets = {
+			{
+                ped = `a_f_y_gencaspat_01`,
+                scenario = 'WORLD_HUMAN_CLIPBOARD',   , 
+                loc = vec3(-1221.6263, -1482.9985, 3.3739),
+                heading = 42.6248,
+            },
+		}                  
+	},
 	
 	bahamasGrossiste = {
 		name = 'Grossiste', 
