@@ -1056,7 +1056,6 @@ return {
 	    label = 'Oeuf',
 	    weight = 250,
 	    stack = true,
-		description = "Ingrédient pour bacon aux oeufs",
 	},
 
 	['tofu'] = {
@@ -1312,6 +1311,49 @@ return {
 	    weight = 250,
 	    stack = true,
 	},
+
+	['cashew nuts'] = {
+	    label = 'Noix de cajou',
+	    weight = 250,
+	    stack = true,
+	},
+
+	['gimgember'] = {
+	    label = 'Gimgembre',
+	    weight = 250,
+	    stack = true,
+	},
+
+	['broccoli'] = {
+	    label = 'Brocolis',
+	    weight = 250,
+	    stack = true,
+	},
+
+	['pate'] = {
+	    label = 'Pâte',
+	    weight = 250,
+	    stack = true,
+	},
+
+	['chinese_cabbage'] = {
+	    label = 'Chou Chinois',
+	    weight = 250,
+	    stack = true,
+	},
+
+	['rise'] = {
+	    label = 'Riz',
+	    weight = 250,
+	    stack = true,
+	},
+	
+	['carrot'] = {
+	    label = 'Carrote',
+	    weight = 250,
+	    stack = true,
+	},
+
 	--------------------------- [Agriculture]
 
 	['fertilizer'] = {
