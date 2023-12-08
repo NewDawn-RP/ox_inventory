@@ -1759,6 +1759,12 @@ return {
 		},
     },
 
+	['kevlar'] = {
+	    label = 'Kelvar',
+	    weight = 500,
+	    stack = true,
+	},
+
 	['handcuffs'] = {
 	    label = 'Paire de menottes',
 	    weight = 500,

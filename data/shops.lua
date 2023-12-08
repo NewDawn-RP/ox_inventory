@@ -296,26 +296,27 @@ return {
 			{
                 ped = `a_m_o_salton_01`,
                 scenario = 'WORLD_HUMAN_SMOKING',
-                loc = vec3( 471.9734, -1310.0126, 28.2243),
-                heading = 222.9239,
+                loc = vec3(-464.9738, -861.9229, 22.9226),
+                heading = 275.9403,
             },
 		}
 	},
 
 	ScrapSeller = {  --Scrapmetal
-		name = 'Vendeur de pièces métalliques',
+		name = 'Vendeur solitaire',
 		groups = {
 			['mafia'] = 0,
 			['mafia4'] = 0,
 		},
 		inventory = {
             { name = 'Scrapmetal', price = 30, currency = 'black_money' },
+			{ name = 'kevlar', price = 3000, currency = 'black_money' },
 		}, targets = {
 			{
                 ped = `a_m_o_salton_01`,
                 scenario = 'WORLD_HUMAN_SMOKING',
-                loc = vec3( 905.9573, 3655.1743, 31.5631),
-                heading = 12.3610,
+                loc = vec3(890.8489, 2854.8628, 56.0004),
+                heading = 50.3342,
             },
 		}
 	},
@@ -759,8 +760,8 @@ return {
 			{
                 ped = `a_m_o_salton_01`,
                 scenario = 'WORLD_HUMAN_SMOKING',
-                loc = vec3(1011.4127, -2873.3984, 38.1578),
-                heading = 356.1894,
+                loc = vec3(920.7497, -1142.8008, 24.9447),
+                heading = 30.0751,
             },
 		}
 	},
@@ -784,6 +785,48 @@ return {
                 scenario = 'WORLD_HUMAN_SMOKING',
                 loc = vec3(563.0510, -1645.0490, 26.5616),
                 heading = 14.8708,
+            },
+		}
+	},
+
+	weed_sheet_seller = {
+		name = 'Vendeur de feuille à rouler',
+		inventory = {
+            { name = 'weed_sheet', price = 25, currency = 'black_money' },
+		}, targets = {
+			{
+                ped = `ig_cletus`,
+                scenario = 'WORLD_HUMAN_SMOKING',
+                loc = vec3(1059.9124, -3180.9348, -40.1649),
+                heading = 246.0518,
+            },
+		}
+	},
+
+	meth_pipe_seller = {
+		name = 'Vendeur de pipe',
+		inventory = {
+            { name = 'meth_pipe', price = 25, currency = 'black_money' },
+		}, targets = {
+			{
+                ped = `g_m_m_chemwork_01`,
+                scenario = 'WORLD_HUMAN_CLIPBOARD',
+                loc = vec3(1016.9728, -3197.1990, -39.9931),
+                heading = 74.8414,
+            },
+		}
+	},
+
+	cocaine_pooch_seller = {
+		name = 'Vendeur de sachet en plastique',
+		inventory = {
+            { name = 'plastic_bag', price = 25, currency = 'black_money' },
+		}, targets = {
+			{
+                ped = `g_m_m_chiboss_01`,
+                scenario = 'WORLD_HUMAN_SMOKING',
+                loc = vec3(1087.2924, -3199.1697, -39.9935),
+                heading = 312.5843,
             },
 		}
 	},
