@@ -159,6 +159,22 @@ return {
 	    }
 	},
 
+	['flageolets'] = {
+	    label = 'Flageolets',
+	    weight = 500,
+	    stack = true,
+		close = true,
+	    description = "Un repas très douteux",
+	    client = {
+			status = { hunger = 100000 },
+            anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+            prop = { model = 'prop_peanut_bowl_01', 
+            pos = vec3(0.05, -0.02, -0.03), rot = vec3(150.0, 340.0, 170.0) },
+            usetime = 5000,
+			notification = 'Vous avez mangé du flageolets!'
+	    }
+	},
+
 	['sausage'] = {
 	    label = 'Saucisson',
 	    weight = 500,
@@ -1016,6 +1032,22 @@ return {
 			pos = vec3(0.01, -0.02, -0.15), rot = vec3(5.0, 5.0, -180.5) },
 			usetime = 5000,
 			notification = 'Vous avez bu un Whiskey !',
+		},
+	},
+
+	['ricard'] = { 
+		label = 'Ricard',
+		weight = 500,
+		stack = true,
+		close = true,
+		description = "Une boisson très spéciale",
+		client = {
+			status = { drunk = 100000 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = 'prop_whiskey_01', 
+			pos = vec3(0.01, -0.02, -0.15), rot = vec3(5.0, 5.0, -180.5) },
+			usetime = 5000,
+			notification = 'Vous avez bu un ricard !',
 		},
 	},
 

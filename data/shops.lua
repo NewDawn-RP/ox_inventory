@@ -711,11 +711,11 @@ return {
 		}, targets = {
 			{
                 ped = `a_f_y_gencaspat_01`,
-                scenario = 'WORLD_HUMAN_CLIPBOARD',   , 
+                scenario = 'WORLD_HUMAN_CLIPBOARD',
                 loc = vec3(-1221.6263, -1482.9985, 3.3739),
                 heading = 42.6248,
             },
-		}                  
+		}
 	},
 	
 	bahamasGrossiste = {
@@ -882,8 +882,8 @@ return {
 			{
                 ped = `G_M_M_CartelGuards_01`,
                 scenario = 'WORLD_HUMAN_SMOKING',
-                loc = vec3(563.0510, -1645.0490, 26.5616),
-                heading = 14.8708,
+                loc = vec3(1004.4537, -1572.5490, 30.8111),
+                heading = 22.9267,
             },
 		}
 	},
