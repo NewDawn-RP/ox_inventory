@@ -840,7 +840,7 @@ return {
 	meth_pipe_seller = {
 		name = 'Vendeur de pipe',
 		inventory = {
-            { name = 'meth_pipe', price = 25, currency = 'black_money' },
+            { name = 'pipe', price = 25, currency = 'black_money' },
 		}, targets = {
 			{
                 ped = `g_m_m_chemwork_01`,
@@ -882,7 +882,7 @@ return {
 			{
                 ped = `G_M_M_CartelGuards_01`,
                 scenario = 'WORLD_HUMAN_SMOKING',
-                loc = vec3(1004.4537, -1572.5490, 30.8111),
+                loc = vec3(1004.4537, -1572.5490, 29.8111),
                 heading = 22.9267,
             },
 		}
