@@ -69,4 +69,10 @@ setContainerProperties('bag', {
 	blacklist = { 'bag' }
 })
 
+setContainerProperties('christmas_gift', {
+	slots = 5,
+	maxWeight = 10000,
+	blacklist = { 'christmas_gift' }
+})
+
 return containers

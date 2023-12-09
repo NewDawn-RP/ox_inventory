@@ -61,7 +61,7 @@ return {
 			{ loc = vec3(1959.10, 3741.63, 31.34), length = 0.6, width = 0.5, heading = 299.68, minZ = 31.34, maxZ = 33.34, distance = 3.5 },
 			{ loc = vec3(1696.90, 4923.60, 41.06), length = 0.6, width = 0.5, heading = 322.80, minZ = 41.06, maxZ = 43.06, distance = 3.5 },
 			{ loc = vec3(1728.71, 6417.05, 34.03), length = 0.6, width = 0.5, heading = 248.71, minZ = 34.03, maxZ = 36.03, distance = 3.5 },
-			{ loc = vec3(1728.71, 2710.78, 37.15), length = 0.6, width = 0.5, heading = 181.67, minZ = 37.15, maxZ = 39.15, distance = 3.5 },
+			{ loc = vec3(1728.71, 2710.78, 37.15), length = 0.6, width = 0.5, heading = 181.67, minZ = 37.15, maxZ = 39.15, distance = 3.5 },	
 			{ loc = vec3(1392.9249, 3606.4197, 34.9809), length = 0.6, width = 0.5, heading = 198.4602, minZ = 34.15, maxZ = 36.15, distance = 3.5 },
 			{ loc = vec3(161.9470, 6642.4878, 31.6989), length = 0.6, width = 0.5, heading = 221.7682, minZ = 31.15, maxZ = 34.15, distance = 3.5 },	
 		},
@@ -687,8 +687,8 @@ return {
             },
 		}                  
 	},
-
-	koishop = {
+	
+koishop = {
 		name = 'Grossiste Koi', -- Items Koi
 		groups = {
 			['koi'] = 0,

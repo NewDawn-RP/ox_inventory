@@ -825,7 +825,7 @@ return {
 			},
 		},
 	},
-	{
+{
 		groups = { ["koi"] = 0 }, -- Craft Koi plats principaux
 		items = {
 			{

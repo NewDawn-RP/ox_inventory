@@ -563,8 +563,8 @@ return {
 			notification = 'Vous avez dégusté des pancakes !',
 		},
 	},
-
-	['cashew_chicken'] = {
+	
+['cashew_chicken'] = {
 		label = 'Poulet aux noix de cajou',
 		weight = 500,
 		stack = true,
@@ -1759,6 +1759,14 @@ return {
 				end
 			end
 		}
+	},
+
+	['christmas_gift'] = {
+		label = 'Cadeau de noël',
+		weight = 1000,
+		stack = false,
+		close = false,
+		consume = 0
 	},
 
 	['mask'] = {
