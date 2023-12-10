@@ -103,6 +103,26 @@ else
     ignoreweapons[`WEAPON_HOSE`] = true
 
     client.ignoreweapons = ignoreweapons
+
+    ignoreweapons[`WEAPON_UNARMED`] = true
+    ignoreweapons[`WEAPON_HANDCUFFS`] = true
+    ignoreweapons[`WEAPON_GARBAGEBAG`] = true
+    ignoreweapons[`OBJECT`] = true
+    ignoreweapons[`WEAPON_HOSE`] = true
+
+    client.ignoreweapons = ignoreweapons
+	
+	ignoreweapons[`WEAPON_PLASMAP_BLUE`] = true
+	ignoreweapons[`WEAPON_PLASMAP_RED`] = true
+
+	ignoreweapons[`WEAPON_RAZORBACK_BLUE`] = true
+	ignoreweapons[`WEAPON_RAZORBACK_RED`] = true
+
+	ignoreweapons[`WEAPON_NEEDLER2_BLUE`] = true
+	ignoreweapons[`WEAPON_NEEDLER2_RED`] = true
+
+	ignoreweapons[`WEAPON_RAYSHOTGUN_BLUE`] = true
+	ignoreweapons[`WEAPON_RAYSHOTGUN_RED`] = true
 end
 
 function shared.print(...) print(string.strjoin(' ', ...)) end
