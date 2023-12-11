@@ -871,9 +871,6 @@ koishop = {
     
     TempoMarketWeapon = {
 		name = 'Envoyé du Cartel',
-        groups = {
-			['admin'] = 0,
-		},
 		inventory = {
             { name = 'WEAPON_PISTOL', price = 45000, currency = 'black_money' },
             { name = 'WEAPON_MACHINEPISTOL', price = 175000, currency = 'black_money' },
