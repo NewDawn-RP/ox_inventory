@@ -2539,6 +2539,18 @@ return {
 		stack = false,
 	},
 
+	['van_necklace'] = {
+		label = 'Panthère Van Lex',
+		weight = 1000,
+		stack = false,
+	},
+
+	['van_bottle'] = {
+		label = 'Panthère Van Lex',
+		weight = 1000,
+		stack = false,
+	},
+
 	['rolex'] = {
 		label = 'Montre Rolex',
 		weight = 1000,
@@ -3193,6 +3205,13 @@ return {
 		label = "Chalumeau",
 		weight = 1,
 		stack = true,
+		close = true,
+	},
+
+	["laser_cutter"] = {
+		label = "Découpeuse en Diamant",
+		weight = 1000,
+		stack = false,
 		close = true,
 	},
 

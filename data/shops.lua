@@ -270,14 +270,14 @@ return {
 		inventory = {
             { name = 'advlockpick', price = 500, currency = 'black_money' },
 			{ name = 'headbag', price = 200, currency = 'black_money' },
+			{ name = 'gasmask', price = 1500, currency = 'black_money' },
+			{ name = 'WEAPON_BZGAS', price = 2000, currency = 'black_money' },
+			{ name = 'laser_cutter', price = 3000, currency = 'black_money' },
 			{ name = 'spray', price = 150, currency = 'black_money' },
 			{ name = 'kevlar', price = 8000, currency = 'black_money' },
             { name = 'microchip', price = 500, currency = 'black_money' },
 			{ name = 'serflex', price = 100, currency = 'black_money' },
 			{ name = 'drill', price = 5000, currency = 'black_money' },
-			{ name = 'laptop', price = 15000, currency = 'black_money' },
-			{ name = 'thermite_bomb', price = 10000, currency = 'black_money' },
-			{ name = 'c4_bomb', price = 20000, currency = 'black_money' },
 		}, targets = {
 			{
                 ped = `a_m_o_salton_01`,
