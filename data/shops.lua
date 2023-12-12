@@ -219,8 +219,12 @@ return {
             { name = 'heavykevlar', price = 750,  metadata = {['drawableId'] = 25, ['textureId'] = 0, ['paletteId'] = 0, ['label'] = "Gilet Lourd (Police)"} },
 			{ name = 'heavykevlar', price = 750,  metadata = {['drawableId'] = 27, ['textureId'] = 4, ['paletteId'] = 0, ['label'] = "Gilet SWAT BCSO"} },
 			{ name = 'at_flashlight', price = 125 },
+			{ name = 'at_scope_holo', price = 125 },
+			{ name = 'at_muzzle_tactical', price = 125 },
+			{ name = 'at_grip', price = 125 },
 			{ name = 'radio', price = 150 },
-			{ name = 'handcuffs', price = 100 },  
+			{ name = 'binoculars', price = 150 },
+			{ name = 'handcuffs', price = 100 },   
 		}, targets = { 
             {
                 ped = `s_m_m_marine_01`,
