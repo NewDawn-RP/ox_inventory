@@ -332,7 +332,6 @@ return {
 	VendingMachineDrinks = {
 		name = 'Distributeur de canettes',
 		inventory = {
-			{ name = 'water', price = 38 },
 			{ name = 'cola', price = 50 },
 			{ name = 'sprunk', price = 50 },
 			{ name = 'orange_juice', price = 45 },
@@ -450,8 +449,8 @@ return {
 			{
                 ped = `s_m_m_linecook`,
                 scenario = 'WORLD_HUMAN_STAND_IMPATIENT_UPRIGHT',
-                loc = vec3(-1251.4576, -1438.8182, 3.3739),
-                heading = 123.1620,
+                loc = vec3(859.2686, -1956.5376, 29.0673),
+                heading = 132.7086,
             },
 		}
 	},
@@ -478,8 +477,8 @@ return {
 			{
                 ped = `a_m_m_farmer_01`,
                 scenario = 'WORLD_HUMAN_CLIPBOARD',
-                loc = vec3(-1253.4064, -1444.4044, 3.3739),
-                heading = 31.6513,
+                loc = vec3(859.2087, -1958.3918, 29.0673),
+                heading = 90.8490,
             },
 		}
 	},
@@ -499,8 +498,8 @@ return {
 			{
                 ped = `a_f_m_business_02`,
                 scenario = 'WORLD_HUMAN_STAND_IMPATIENT_UPRIGHT',
-                loc = vec3(-1246.4186, -1454.8754, 3.3739),
-                heading = 37.7181,
+                loc = vec3(859.1379, -1959.6791, 29.0673),
+                heading = 87.7951,
             },
 		}
 	},
@@ -522,8 +521,8 @@ return {
 			{
                 ped = `a_f_m_business_02`,
                 scenario = 'WORLD_HUMAN_STAND_IMPATIENT_UPRIGHT',
-                loc = vec3(-1216.1543, -1468.2896, 3.3739),
-                heading = 306.3226,
+                loc = vec3(638.2906, 2771.4431, 41.0454),
+                heading = 345.6284,
             },
 		}
 	},
@@ -554,8 +553,8 @@ return {
 			{
                 ped = `a_m_m_socenlat_01`,
                 scenario = 'WORLD_HUMAN_SMOKING',
-                loc = vec3(-1206.1044, -1460.5594, 3.3739),
-                heading = 308.2750,
+                loc = vec3(639.7651, 2771.6265, 41.0534),
+                heading = 48.0819,
             },
 		}
 	},
@@ -578,8 +577,8 @@ return {
 			{
                 ped = `a_m_m_socenlat_01`,
                 scenario = 'WORLD_HUMAN_SMOKING',
-                loc = vec3(-1225.3512, -1439.5201, 3.3739),
-                heading = 132.9219,
+                loc = vec3(-327.9979, -2700.6589, 6.5496),
+                heading = 48.5522,
             },
 		}
 	},
@@ -598,8 +597,8 @@ return {
 			{
                 ped = `a_m_m_socenlat_01`,
                 scenario = 'WORLD_HUMAN_SMOKING',
-                loc = vec3(-1270.9196, -1417.8790, 3.3739),
-                heading = 32.4593,
+                loc = vec3(614.7595, 2784.1299, 42.4812),
+                heading = 11.5641,
             },
 		}
 	},
@@ -640,8 +639,8 @@ return {
 			{
                 ped = `a_m_m_hillbilly_01`,
                 scenario = 'WORLD_HUMAN_STAND_IMPATIENT',
-                loc = vec3(-1250.5387, -1443.3898, 3.3739),
-                heading = 27.7796,
+                loc = vec3(906.3684, -1722.0901, 31.1596),
+                heading = 219.1229,
             },
 		}
 	},
@@ -666,8 +665,8 @@ return {
 			{
                 ped = `cs_joeminuteman`,
                 scenario = 'WORLD_HUMAN_STAND_IMPATIENT',
-                loc = vec3(-1245.0602, -1453.9216, 3.3739),
-                heading = 35.2178,
+                loc = vec3(908.2338, -1722.3904, 31.1596),
+                heading = 173.3347,
             },
 		}
 	},
@@ -686,8 +685,8 @@ return {
 			{
                 ped = `a_f_y_gencaspat_01`,
                 scenario = 'WORLD_HUMAN_CLIPBOARD',
-                loc = vec3(-1207.8270, -1509.2891, 3.3739),
-                heading = 35.9452,
+                loc = vec3(910.1511, -1722.4093, 31.1596),
+                heading = 164.8241,
             },
 		}                  
 	},
@@ -720,8 +719,8 @@ koishop = {
 			{
                 ped = `a_f_y_gencaspat_01`,
                 scenario = 'WORLD_HUMAN_CLIPBOARD',
-                loc = vec3(-1221.6263, -1482.9985, 3.3739),
-                heading = 42.6248,
+                loc = vec3(899.2521, -1721.5074, 31.2474),
+                heading = 172.9815,
             },
 		}
 	},
@@ -742,7 +741,6 @@ koishop = {
 			{ name = 'dusche_beer', price = 6 },
 			{ name = 'stronzo_beer', price = 6 },
 			{ name = 'patriot_beer', price = 6 },
-			{ name = 'lemonade', price = 5 },
 			{ name = 'iced_tea', price = 5 },
 			{ name = 'sprunk', price = 5 },
 			{ name = 'water', price = 2 },
@@ -753,8 +751,8 @@ koishop = {
 			{
                 ped = `a_f_y_gencaspat_01`,
                 scenario = 'WORLD_HUMAN_CLIPBOARD',
-                loc = vec3(-1225.2665, -1484.6707, 3.3739),
-                heading = 36.7357,
+                loc = vec3(938.9227, -1729.4187, 32.2474),
+                heading = 85.1973,
             },
 		}                  
 	},	
@@ -778,8 +776,8 @@ koishop = {
 			{
                 ped = `a_f_y_gencaspat_01`,
                 scenario = 'WORLD_HUMAN_CLIPBOARD',
-                loc = vec3(-1223.2106, -1479.1609, 3.3739),
-                heading = 125.8932,
+                loc = vec3(126.6484, -126.0780, 53.8346),
+                heading = 78.9030,
             },
 		}                  
 	},	
