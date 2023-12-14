@@ -268,8 +268,7 @@ return {
 	BlackMarketBiz = {
 		name = 'Marché Noir',
 		groups = {
-			['biker2'] = 0,
-			['biker3'] = 0,
+			['mafia4'] = 0,
 		},
 		inventory = {
             { name = 'advlockpick', price = 500, currency = 'black_money' },
@@ -295,8 +294,7 @@ return {
 	BlackMarketBiz2 = {  --outils de précision
 		name = 'Marché Noir',
 		groups = {
-			['mafia'] = 0,
-			['mafia4'] = 0,
+			['mafia3'] = 0,
 		},
 		inventory = {
             { name = 'precision_tool', price = 5000, currency = 'black_money' },
@@ -313,7 +311,6 @@ return {
 	ScrapSeller = {  --Scrapmetal
 		name = 'Vendeur solitaire',
 		groups = {
-			['mafia'] = 0,
 			['mafia4'] = 0,
 		},
 		inventory = {
@@ -785,8 +782,7 @@ koishop = {
     MarketWeapon3 = {
 		name = "Vendeur d'armes Lourdes",
 		groups = {
-			['mafia'] = 0,
-			['mafia4'] = 0,
+			['mafia3'] = 0,
 		},
 		inventory = {
             { name = 'WEAPON_MOLOTOV', price = 10000, currency = 'black_money' },
@@ -873,6 +869,9 @@ koishop = {
     
     TempoMarketWeapon = {
 		name = 'Envoyé du Cartel',
+        groups = {
+			['admin'] = 0,
+		},
 		inventory = {
             { name = 'WEAPON_PISTOL', price = 45000, currency = 'black_money' },
             { name = 'WEAPON_MACHINEPISTOL', price = 175000, currency = 'black_money' },
