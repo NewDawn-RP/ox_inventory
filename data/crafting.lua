@@ -576,6 +576,9 @@ return {
 		},
 	},
 	{ -- Craft usb
+        groups = { 
+			["mafia4"] = 0, 
+		},
 		items = {
 			{
 				name = 'hack_usb',
