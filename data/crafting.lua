@@ -498,8 +498,7 @@ return {
 	},
 	{
 		groups = { 
-			["mafia"] = 0,
-			["mafia4"] = 0 }, -- Weapon Craft
+			["mafia3"] = 0, }, -- Weapon Craft
 		items = {
 			{
 				name = 'WEAPON_SNSPISTOL',
@@ -617,8 +616,7 @@ return {
 	},
 	{
 		groups = { 
-			["mafia"] = 0,
-			["mafia4"] = 0, },
+			["mafia3"] = 0, },
 		items = {
 			{
 				name = 'gun_part',
