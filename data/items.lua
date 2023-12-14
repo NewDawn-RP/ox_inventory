@@ -1504,12 +1504,6 @@ return {
 	    stack = true,
 	},
 
-	['broccoli'] = {
-	    label = 'Brocolis',
-	    weight = 250,
-	    stack = true,
-	},
-
 	['pate'] = {
 	    label = 'Pâte',
 	    weight = 250,
