@@ -311,7 +311,7 @@ return {
 	ScrapSeller = {  --Scrapmetal
 		name = 'Vendeur solitaire',
 		groups = {
-			['mafia4'] = 0,
+			['mafia3'] = 0,
 		},
 		inventory = {
             { name = 'Scrapmetal', price = 30, currency = 'black_money' },
