@@ -22,6 +22,8 @@ return {
 			{ name = 'fishingrod', price = 900 },
 			{ name = 'fishbait', price = 200 },
 			{ name = 'WEAPON_HAMMER', price = 450 },
+			{ name = 'phone', price = 1400 },
+			{ name = 'radio', price = 1000 },
 
 		}, locations = {
 			vec3(25.7, -1347.3, 29.49),
@@ -67,7 +69,7 @@ return {
 		},
 	},
 
-	Digital = {
+	--[[Digital = {
 		name = "Magasin d'électronique",
 		blip = {
 			id = 521, colour = 69, scale = 0.8
@@ -84,7 +86,7 @@ return {
                 heading = 123.1378,
             },
 		}
-	},
+	},--]]
 
 	--[[ YouTool = {
 		name = "Magasin de bricolage",
