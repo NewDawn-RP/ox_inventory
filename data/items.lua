@@ -1195,6 +1195,22 @@ return {
 		},
 	},
 
+	['vodka'] = { 
+		label = 'Vodka',
+		weight = 500,
+		stack = true,
+		close = true,
+		description = "Une Vodka distillée dans les meilleures conditions",
+		client = {
+			status = { drunk = 400000 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = 'prop_whiskey_01', 
+			pos = vec3(0.01, -0.02, -0.15), rot = vec3(5.0, 5.0, -180.5) },
+			usetime = 5000,
+			notification = 'Vous avez bu une Vodka',
+		},
+	},
+
 	--------------------------- [Items de fabrication] Légumes, Fruits, Viandes, Pâtes, Mer,...
 
 	['barley'] = {

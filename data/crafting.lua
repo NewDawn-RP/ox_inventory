@@ -783,6 +783,14 @@ return {
 				duration = 10000,
 				count = 1,
 			},
+			{
+				name = 'vodka',
+				ingredients = {
+					barley = 6,
+				},
+				duration = 10000,
+				count = 1,
+			},
 		},
 		points = {
 			vec3(-139.4208, 6290.9219, 31.5511),  
