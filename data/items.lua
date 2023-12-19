@@ -2314,6 +2314,11 @@ return {
 		weight = 0,
 	},
 
+    ['prison_ticket'] = {
+		label = "Bon de Prison",
+        stack = true,
+	},
+
 	['money'] = {
 		label = 'Argent liquide',
 	},
