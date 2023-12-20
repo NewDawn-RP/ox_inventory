@@ -1227,6 +1227,13 @@ return {
 		description = "De la canne à sucre de qualité",
 	},
 
+	['hop'] = {
+	    label = 'Houblon',
+	    weight = 150,
+	    stack = true,
+		description = "Du houblon de qualité",
+	},
+
     ['malted_cereal'] = {
 	    label = 'Céréale maltée',
 	    weight = 150,
