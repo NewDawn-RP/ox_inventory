@@ -1019,6 +1019,54 @@ return {
 		},
 	},
 
+	['cerveza_polar'] = { -- Good ol homemade beer from the brewery
+		label = 'Cerveza Polar',
+		weight = 500,
+		stack = true,
+		close = true,
+		description = "Une bonne bière artisanale fabriquée en brasserie américaine",
+		client = {
+			status = { drunk = 150000, thrist = 200000 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = 'prop_beer_patriot', 
+			pos = vec3(0.01, -0.02, -0.15), rot = vec3(5.0, 5.0, -180.5) },
+			usetime = 7500,
+			notification = 'Vous avez dégusté une Patriot Beer !',
+		},
+	},
+
+	['light_polar'] = { -- Good ol homemade beer from the brewery
+		label = 'Polar Light',
+		weight = 500,
+		stack = true,
+		close = true,
+		description = "Une bonne bière à base d'orge",
+		client = {
+			status = { drunk = 175000, thrist = 200000 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = 'prop_beer_patriot', 
+			pos = vec3(0.01, -0.02, -0.15), rot = vec3(5.0, 5.0, -180.5) },
+			usetime = 7500,
+			notification = 'Vous avez dégusté une Patriot Beer !',
+		},
+	},
+	
+	['ice_polar'] = { -- Good ol homemade beer from the brewery
+		label = 'Polar Ice',
+		weight = 500,
+		stack = true,
+		close = true,
+		description = "Une bière fraiche à base de houblon",
+		client = {
+			status = { drunk = 175000, thrist = 200000 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = 'prop_beer_patriot', 
+			pos = vec3(0.01, -0.02, -0.15), rot = vec3(5.0, 5.0, -180.5) },
+			usetime = 7500,
+			notification = 'Vous avez dégusté une Patriot Beer !',
+		},
+	},
+
 	['whiskey'] = { 
 		label = 'Whiskey',
 		weight = 500,
