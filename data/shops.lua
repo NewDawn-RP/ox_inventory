@@ -261,8 +261,8 @@ return {
 			{
                 ped = `s_m_m_paramedic_01`,
                 scenario = 'WORLD_HUMAN_STAND_IMPATIENT_UPRIGHT',
-                loc = vec3(1102.2284, -1528.3562, 35.0326, 179.3315),
-                heading = 178.3315,
+                loc = vec3(1102.2284, -1528.3562, 35.0326),
+                heading = 179.3315,
             },
 		}
 	},
@@ -621,7 +621,7 @@ return {
 		}
 	},
 
-	distillerie = {
+	distillerie2 = {
 		name = "Grossiste Brasserie", 
 		groups = {
 			['distillerie2'] = 0,
