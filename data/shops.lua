@@ -544,7 +544,6 @@ return {
 			{ name = 'cheese', price = 5 },
 			{ name = 'potato', price = 1 },
 			{ name = 'cola', price = 5 },
-			{ name = 'patriot_beer', price = 8 },
 			{ name = 'iced_tea', price = 8 },
 			{ name = 'orange_juice', price = 6 },
 
@@ -598,6 +597,47 @@ return {
                 scenario = 'WORLD_HUMAN_SMOKING',
                 loc = vec3(614.7595, 2784.1299, 42.4812),
                 heading = 11.5641,
+            },
+		}
+	},
+
+	distillerie = {
+		name = "Grossiste Distillerie", 
+		groups = {
+			['distillerie'] = 0,
+		},
+		blip = {
+			id = 615, colour = 7, scale = 0.8
+		}, inventory = {
+			{ name = 'glass_bottle', price = 2 },
+
+		}, targets = {
+			{
+                ped = `a_m_m_socenlat_01`,
+                scenario = 'WORLD_HUMAN_SMOKING',
+                loc = vec3(2696.2124, 3460.8040, 55.2296),
+                heading = 173.3829,
+            },
+		}
+	},
+
+	distillerie = {
+		name = "Grossiste Brasserie", 
+		groups = {
+			['distillerie2'] = 0,
+		},
+		blip = {
+			id = 615, colour = 7, scale = 0.8
+		}, inventory = {
+			{ name = 'glass_bottle', price = 2 },
+			{ name = 'yeast', price = 1 },  
+
+		}, targets = {
+			{
+                ped = `a_m_m_socenlat_01`,
+                scenario = 'WORLD_HUMAN_SMOKING',
+                loc = vec3(-1281.3705, -840.9559, 15.1512),
+                heading = 313.5705,
             },
 		}
 	},
@@ -736,10 +776,6 @@ koishop = {
 		}, inventory = {
 			{ name = 'cola', price = 5 },
 			{ name = 'orange_juice', price = 5 },
-			{ name = 'rancho_beer', price = 6 },
-			{ name = 'dusche_beer', price = 6 },
-			{ name = 'stronzo_beer', price = 6 },
-			{ name = 'patriot_beer', price = 6 },
 			{ name = 'iced_tea', price = 5 },
 			{ name = 'sprunk', price = 5 },
 			{ name = 'water', price = 2 },
@@ -750,7 +786,7 @@ koishop = {
 			{
                 ped = `a_f_y_gencaspat_01`,
                 scenario = 'WORLD_HUMAN_CLIPBOARD',
-                loc = vec3(938.9227, -1729.4187, 32.2474),
+                loc = vec3(938.9227, -1729.4187, 31.2474),
                 heading = 85.1973,
             },
 		}                  

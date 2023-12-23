@@ -1282,6 +1282,13 @@ return {
 		description = "Du houblon de qualité",
 	},
 
+	['yeast'] = {
+	    label = 'Levures',
+	    weight = 150,
+	    stack = true,
+		description = "Des levures de qualité",
+	},
+
     ['malted_cereal'] = {
 	    label = 'Céréale maltée',
 	    weight = 150,

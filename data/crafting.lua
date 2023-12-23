@@ -746,6 +746,7 @@ return {
 				name = 'amber_rum',
 				ingredients = {
 					cane_juice = 3,
+					glass_bottle = 1,
 				},
 				duration = 10000,
 				count = 1,
@@ -754,6 +755,7 @@ return {
 				name = 'caribbean_rum',
 				ingredients = {
 					cane_juice = 2,
+					glass_bottle = 1,
 				},
 				duration = 10000,
 				count = 1,
@@ -763,6 +765,7 @@ return {
 				ingredients = {
 					malted_cereal = 2,
 					jimenez_whisky = 2,
+					glass_bottle = 1,
 				},
 				duration = 10000,
 				count = 1,
@@ -771,6 +774,7 @@ return {
 				name = 'irish_whisky',
 				ingredients = {
 					malted_cereal = 3,
+					glass_bottle = 1,
 				},
 				duration = 10000,
 				count = 1,
@@ -779,6 +783,7 @@ return {
 				name = 'jimenez_whisky',
 				ingredients = {
 					malted_cereal = 2,
+					glass_bottle = 1,
 				},
 				duration = 10000,
 				count = 1,
@@ -787,6 +792,7 @@ return {
 				name = 'vodka',
 				ingredients = {
 					barley = 6,
+					glass_bottle = 1,
 				},
 				duration = 10000,
 				count = 1,
@@ -899,6 +905,78 @@ return {
 		zones = {
 			{
 				coords = vec3(-1077.3329, -1447.8436, -1.4203), 
+				size = vec3(2, 2, 2),
+				distance = 2.0,
+			},
+		},
+	},
+	{
+		groups = { ["distillerie2"] = 0 }, -- Craft distillerie
+		items = {
+			{
+				name = 'cerveza_polar',
+				ingredients = {
+					malted_cereal = 3,
+					hop = 2,
+					yeast = 1,
+					glass_bottle = 1,
+				},
+				duration = 10000,
+				count = 1,
+			},
+			
+			{
+				name = 'light_polar',
+				ingredients = {
+					malted_cereal = 3,
+					hop = 1,
+					yeast = 2,
+					glass_bottle = 1,
+				},
+				duration = 10000,
+				count = 1,
+			},
+			{
+				name = 'ice_polar',
+				ingredients = {
+					hop = 4,
+					malted_cereal = 1,
+					yeast = 1,
+					glass_bottle = 1,
+				},
+				duration = 10000,
+				count = 1,
+			},
+		},
+		points = {
+			vec3(494.0938, -1531.7460, 29.2714),  
+		},
+		zones = {
+			{
+				coords = vec3(494.0938, -1531.7460, 29.2714), 
+				size = vec3(2, 2, 2),
+				distance = 2.0,
+			},
+		},
+	},
+	{
+		groups = { ["distillerie2"] = 0 }, -- Craft de base distillerie 
+		items = {
+			{
+				name = 'malted_cereal',
+				ingredients = {
+					barley = 2,
+				},
+				duration = 4500,
+				count = 2,
+			},
+		},
+		points = {
+			vec3(491.7397, -1534.4003, 29.2714),   
+		},
+		zones = {
+			{
+				coords = vec3(491.7397, -1534.4003, 29.2714), 
 				size = vec3(2, 2, 2),
 				distance = 2.0,
 			},
