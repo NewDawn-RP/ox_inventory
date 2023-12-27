@@ -2294,9 +2294,142 @@ return {
 		weight = 3000,
 	},
 
+	['fishingrod1'] = {
+		label = 'Canne à pêche Niv.1',
+		weight = 3000,
+		stack = false,
+	},
+
+	['fishingrod2'] = {
+		label = 'Canne à pêche Niv.2',
+		weight = 3000,
+		stack = false,
+	},
+
+	['fishingrod3'] = {
+		label = 'Canne à pêche Niv.3',
+		weight = 3000,
+		stack = false,
+	},
+
+	['fishingrod4'] = {
+		label = 'Canne à pêche Niv.4',
+		weight = 3000,
+		stack = false,
+	},
+
+	['fishingrod5'] = {
+		label = 'Canne à pêche Niv.5',
+		weight = 3000,
+		stack = false,
+	},
+
 	['fishbait'] = {
 		label = 'Appât',
 		weight = 500,
+		stack = true,
+	},
+
+	['illegalfishbait'] = {
+		label = 'Appât illegal',
+		weight = 500,
+		stack = true,
+	},
+
+	['anchovy'] = {
+		label = 'Anchois',
+		weight = 1000,
+		stack = true,
+	},
+
+	['smallbluefish'] = {
+		label = 'Petit poisson bleu',
+		weight = 1000,
+		stack = true,
+	},
+
+	['bluefish'] = {
+		label = 'Poisson bleu',
+		weight = 1000,
+		stack = true,
+	},
+
+	['bonitosfish'] = {
+		label = 'Bonite',
+		weight = 2000,
+		stack = false,
+	},
+
+	['garfish'] = {
+		label = 'Aiguillette',
+		weight = 2000,
+		stack = false,
+	},
+
+	['perch'] = {
+		label = 'Perche',
+		weight = 1000,
+		stack = true,
+	},
+
+	['carettacaretta'] = {
+		label = 'Caretta caretta',
+		weight = 3000,
+		stack = false,
+	},
+
+	['pantfish'] = {
+		label = 'Poisson pantalon',
+		weight = 2000,
+		stack = false,
+	},
+
+	['sharkfish'] = {
+		label = 'Requin',
+		weight = 3000,
+		stack = false,
+	},
+
+	['whitepearl'] = {
+		label = 'Perle blanche',
+		weight = 1000,
+		stack = true,
+	},
+
+	['bluepearl'] = {
+		label = 'Perle bleue',
+		weight = 1000,
+		stack = true,
+	},
+
+	['redpearl'] = {
+		label = 'Perle rouge',
+		weight = 1000,
+		stack = true,
+	},
+
+	['greenpearl'] = {
+		label = 'Perle verte',
+		weight = 1000,
+		stack = true,
+	},
+
+	['yellowpearl'] = {
+		label = 'Perle jaune',
+		weight = 1000,
+		stack = true,
+	},
+
+	['fish'] = {
+		label = 'Poisson',
+		weight = 1000,
+		stack = true,
+	},
+
+	['used_bottle'] = {
+	    label = 'Bouteille',
+	    weight = 1000,
+	    stack = true,
 	},
 
 	['tabacco_leaf'] = {
