@@ -3091,6 +3091,9 @@ return {
 		description = "Pratique pour ouvrir des portières",
 		weight = 500,
 		stack = true,
+		client = {
+			export = "dawsmo_cartheft.hook_car"
+		},
     },
 
 	--------------------------- [Habillage / Vêtements]
