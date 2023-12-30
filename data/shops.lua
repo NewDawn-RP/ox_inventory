@@ -317,7 +317,6 @@ return {
 		},
 		inventory = {
             { name = 'Scrapmetal', price = 30, currency = 'black_money' },
-			{ name = 'kevlar', price = 3000, currency = 'black_money' },
 		}, targets = {
 			{
                 ped = `a_m_o_salton_01`,

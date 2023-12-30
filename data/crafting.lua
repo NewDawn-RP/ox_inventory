@@ -642,6 +642,8 @@ return {
 		},
 	},
 	{
+		groups = { 
+			["bloods"] = 0, },
 		items = {
 			{
 				name = 'molten_gold',
@@ -672,6 +674,8 @@ return {
 		},
 	},
 	{
+		groups = { 
+			["bloods"] = 0, },
 		items = {
 			{
 				name = 'gold_ingot',
@@ -694,6 +698,8 @@ return {
 		},
 	},
 	{
+		groups = {
+			["bloods"] = 0, },
 		items = {
 			{
 				name = 'microchip',
