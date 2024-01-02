@@ -2599,28 +2599,37 @@ return {
 		description = nil
 	},
 
-	['cocaine_bag'] = {
-		label = 'Sachet de Cocaïne',
+    ['weed_joint'] = {
+		label = 'Joint de Weed',
+		description = "C'est de la bonne vas-y !",
 		weight = 1000,
 		stack = true,
 		close = true,
-		description = "Y'a plus qu'à sniffer !"
+		server = {
+			export = 'lexinor_healthsystem.usedDrug',
+		},		
+	},
+
+	['cocaine_bag'] = {
+		label = 'Sachet de Cocaïne',
+		description = "Y'a plus qu'à sniffer !",
+		weight = 1000,
+		stack = true,
+		close = true,
+		server = {
+			export = 'lexinor_healthsystem.usedDrug',
+		},		
 	},
 
 	['meth_pipe'] = {
 		label = 'Pipe à Meth',
+		description = "Un coup de briquet et c'est parti !",
 		weight = 1000,
 		stack = true,
 		close = true,
-		description = "Un coup de briquet et c'est parti !"
-	},
-
-	['weed_joint'] = {
-		label = 'Joint de Weed',
-		weight = 1000,
-		stack = true,
-		close = true,
-		description = "C'est de la bonne vas-y !"
+		server = {
+			export = 'lexinor_healthsystem.usedDrug',
+		},		
 	},
 
 	--------------------------- ILLEGAL [Plantations Illégales]
