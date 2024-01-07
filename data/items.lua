@@ -2961,8 +2961,7 @@ return {
 	},
 
     ['curtis_jewel'] = {
-		label = "Diamant de famille Curtis",
-		description = "Permet la fabrication d'armes",
+		label = "Médaillon",
 		weight = 1000,
 		stack = true,
 	},
