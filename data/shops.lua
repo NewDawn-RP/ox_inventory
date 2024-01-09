@@ -522,8 +522,8 @@ return {
 			{
                 ped = `a_f_m_business_02`,
                 scenario = 'WORLD_HUMAN_STAND_IMPATIENT_UPRIGHT',
-                loc = vec3(638.2906, 2771.4431, 41.0454),
-                heading = 345.6284,
+                loc = vec3(-109.234550, 2795.350098, 52.304123),
+                heading = 82.869148,
             },
 		}
 	},
@@ -553,8 +553,8 @@ return {
 			{
                 ped = `a_m_m_socenlat_01`,
                 scenario = 'WORLD_HUMAN_SMOKING',
-                loc = vec3(639.7651, 2771.6265, 41.0534),
-                heading = 48.0819,
+                loc = vec3(-97.059570, 2811.551514, 52.241978),
+                heading = 164.693741,
             },
 		}
 	},
