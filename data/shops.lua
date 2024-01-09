@@ -514,6 +514,9 @@ return {
 			{ name = 'cherry', price = 2 },	
 			{ name = 'milk', price = 1 },	
 			{ name = 'chocolate_powder', price = 3 },
+			{ name = 'tea', price = 2 },	
+			{ name = 'tapioca_pearls', price = 3 },	
+			{ name = 'ice_cube', price = 1 },	
 			{ name = 'apple', price = 2 },		
 		}, targets = {
 			{
@@ -535,15 +538,15 @@ return {
 		}, inventory = {
 			{ name = 'bacon', price = 8 },
 			{ name = 'egg', price = 5 },
-			{ name = 'galette', price = 3 },
-			{ name = 'salad', price = 2 },
-			{ name = 'tomato', price = 2 },
-			{ name = 'beef_steak', price = 10 },
-			{ name = 'tofu', price = 3 },
+			{ name = 'bread', price = 3 },
+			{ name = 'breadcrumbs', price = 3 },
+			{ name = 'sausage', price = 2 },
+			{ name = 'tomato', price = 2 }, 
+			{ name = 'noodles', price = 2 },
+			{ name = 'cream', price = 2 }, 
+			{ name = 'chicken_meat', price = 8 },
 			{ name = 'cheese', price = 5 },
-			{ name = 'potato', price = 1 },
 			{ name = 'cola', price = 5 },
-			{ name = 'iced_tea', price = 8 },
 			{ name = 'orange_juice', price = 6 },
 
 		}, targets = {

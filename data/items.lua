@@ -462,8 +462,8 @@ return {
 		}
 	},
 
-	['pops_milkshake'] = {
-		label = 'Pops Dinner Milkshake',
+	['rex_milkshake'] = {
+		label = 'Rex Dinner Milkshake',
 		weight = 500,
 		stack = true,
 		close = true,
@@ -681,7 +681,54 @@ return {
 			notification = 'Vous avez mangé une banane caramélisée !'
 		}
 	},
+
+	['hot_dog'] = {
+		label = 'Hot Dog',
+		weight = 500,
+		stack = true,
+		close = true,
+		description = "Un magnifique Hot Dog pour les petites et grandes faims !",
+		client = {
+			status = { hunger = 400000 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = { model = 'prop_cs_burger_01', 
+			pos = vec3(0.05, -0.02, -0.03), rot = vec3(150.0, 340.0, 170.0) },
+			usetime = 6000,
+			notification = 'Vous avez mangé un Hot Dog !'
+		}
+	},
 	
+	['nuggets'] = {
+		label = 'Nuggets',
+		weight = 500,
+		stack = true,
+		close = true,
+		description = "De bon nuggets de poussi... poulet, poulet !",
+		client = {
+			status = { hunger = 250000 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = { model = 'prop_cs_burger_01', 
+			pos = vec3(0.05, -0.02, -0.03), rot = vec3(150.0, 340.0, 170.0) },
+			usetime = 5500,
+			notification = 'Vous avez mangé des nuggets !'  
+		}
+	},
+
+	['mcandcheese'] = {
+		label = 'Mc And Cheese',
+		weight = 500,
+		stack = true,
+		close = true,
+		description = "Un bon plat bien copieux !",
+		client = {
+			status = { hunger = 400000 },
+			anim = { dict = 'mp_player_inteat@burger', clip = 'mp_player_int_eat_burger_fp' },
+			prop = { model = 'prop_cs_burger_01', 
+			pos = vec3(0.05, -0.02, -0.03), rot = vec3(150.0, 340.0, 170.0) },
+			usetime = 6000,
+			notification = 'Vous avez mangé un Mac And Cheese !'
+		}
+	},
 	--------------------------- [Boissons Soft (thirst)]
 
 	['water'] = {
@@ -871,6 +918,22 @@ return {
 			pos = vec3(0.005, -0.001, 0.08), rot = vec3(0.0, 0.0, 160.0) },
 			usetime = 5000,
 			notification = 'Vous avez bu une limonade au gimgembre !'
+		}
+	},
+
+	['bubble_tea'] = {
+		label = 'Bubble Tea',
+		weight = 500,
+		stack = true,
+		close = true,
+		description = "Un bon Bubble Tea 100% indus... naturel, naturel",
+		client = {
+			status = { thirst = 200000 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = 'prop_drink_redwine', 
+			pos = vec3(0.005, -0.001, 0.08), rot = vec3(0.0, 0.0, 160.0) },
+			usetime = 5000,
+			notification = 'Vous avez bu un Bubble Tea !'
 		}
 	},
 	--------------------------- [Boissons Alcoolisées]
@@ -1602,6 +1665,48 @@ return {
 	
 	['carrot'] = {
 	    label = 'Carrote',
+	    weight = 250,
+	    stack = true,
+	},
+
+	['sausage'] = {
+	    label = 'Saucisse',
+	    weight = 250,
+	    stack = true,
+	},
+
+	['breadcrumbs'] = {
+	    label = 'Chapelure',
+	    weight = 250,
+	    stack = true,
+	},
+
+	['tea'] = {
+	    label = 'Thé',
+	    weight = 250,
+	    stack = true,
+	},
+
+	['tapioca_pearls'] = {
+	    label = 'Perles de Tapioca',
+	    weight = 250,
+	    stack = true,
+	},
+
+	['ice_cube'] = {
+	    label = 'Glaçons',
+	    weight = 250,
+	    stack = true,
+	},
+
+	['noodles'] = {
+	    label = 'Nouilles',
+	    weight = 250,
+	    stack = true,
+	},
+
+	['cream'] = {
+	    label = 'Crème',
 	    weight = 250,
 	    stack = true,
 	},

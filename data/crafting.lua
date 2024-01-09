@@ -167,7 +167,7 @@ return {
 		},
 	},
 	{
-		groups = { ["popsdinner"] = 0 }, -- Pops dinner - fabrication produits CRAFT 1
+		groups = { ["popsdinner"] = 0 }, -- Pops dinner & Rex Dinner - fabrication produits CRAFT 1
 		items = {
 			{
 				name = 'bacon_eggs',
@@ -179,43 +179,40 @@ return {
 				count = 1,
 			},
 			{
-				name = 'wrap_ranch',
+				name = 'hot_dog',
 				ingredients = {
-					galette = 1,
-					salad = 1,
-					beef_steak = 1,
-					tomato = 2,
+					bread = 1,
+					sausage = 1,
+					tomato = 1,
 				},
 				duration = 6000,
 				count = 1,
 			},
 			{
-				name = 'wrap_veggie',
+				name = 'nuggets',
 				ingredients = {
-					galette = 1,
-					salad = 1,
-					tofu = 2,
-					tomato = 2,
-				},
-				duration = 6000,
-				count = 1,
-			},
-			{
-				name = 'potatoes_cheese',
-				ingredients = {
-					potato = 1,
-					cheese = 1,
+					chicken_meat = 2,
+					breadcrumbs = 2,
 				},
 				duration = 3000,
 				count = 1,
 			},
 			{
-				name = 'pops_milkshake',
+				name = 'mcandcheese',
+				ingredients = {
+					noodles = 2,
+					cheese = 2,
+					cream = 1,
+				},
+				duration = 6000,
+				count = 1,
+			},
+			{
+				name = 'rex_milkshake',
 				ingredients = {
 					milk = 2,
 					chocolate_powder = 1,
 					apple = 2,
-
 				},
 				duration = 4000,
 				count = 1,
@@ -225,11 +222,20 @@ return {
 				ingredients = {
 					jelly = 3,
 					cherry = 1,
-
 				},
 				duration = 4000,
 				count = 1,
-			},			
+			},		
+			{
+				name = 'bubble_tea',
+				ingredients = {
+					tea = 1,
+					tapioca_pearls = 2,
+					ice_cube = 1,
+				},
+				duration = 4000,
+				count = 1,
+			},	
 		},
 		points = {
 			vec3(1592.5463, 6455.8828, 26.0140),
