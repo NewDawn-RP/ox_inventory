@@ -2012,6 +2012,16 @@ return {
 		},
 	},
 
+	['wheel_chair'] = {
+		label = "Chaise roulante",
+		description = "Permet de se déplacer plus facilement",
+		weight = 5000,
+		stack = false,
+		server = {
+			export = "lexinor_hospital.wheel_chair",
+		},
+    },
+
 	['stretcher'] = {
 	    label = 'Brancard',
 	    weight = 5000,
