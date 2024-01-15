@@ -3790,4 +3790,61 @@ return {
         close = true,
         description = nil
     },
+
+	-- Item de chasse
+
+	['animal_tracker'] = {
+		label = 'Animal Tracker',
+		weight = 200,
+		allowArmed = true,
+		stack = false,
+	},
+	['campfire'] = {
+		label = 'Campfire',
+		weight = 200,
+		allowArmed = true,
+		stack = false,
+	},
+	
+	['huntingbait'] = {
+		label = "Appât de chasse",
+		weight = 100,
+		allowArmed = true,
+	},
+	
+	['cooked_meat'] = {
+		label = "Viande Cuite",
+		weight = 2000,
+	},
+	['raw_meat'] = {
+		label = "Viande Crue",
+		weight = 2000,
+	},
+	
+	['skin_deer_ruined'] = {
+		label = "Peau de cerf en lambeaux",
+		weight = 2000,
+		stack = false,
+	},
+	['skin_deer_low'] = {
+		label = "Peau de cerf usée",
+		weight = 2000,
+	},
+	['skin_deer_medium'] = {
+		label = "Peau de cerf souple",
+		weight = 2000,
+	},
+	['skin_deer_good'] = {
+		label = "Peau de cerf de première qualité",
+		weight = 2000,
+	},
+	['skin_deer_perfect'] = {
+		label = "Peau de cerf impeccable",
+		weight = 2000,
+	},
+	
+	['deer_horn'] = {
+		label = "Corne de cerf",
+		weight = 10000,
+	},
 }
