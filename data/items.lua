@@ -3794,21 +3794,21 @@ return {
 	-- Item de chasse
 
 	['animal_tracker'] = {
-		label = 'Animal Tracker',
-		weight = 200,
+		label = "Traqueur Animal",
+		weight = 1000,
 		allowArmed = true,
 		stack = false,
 	},
 	['campfire'] = {
-		label = 'Campfire',
-		weight = 200,
+		label = "Feu de Camp",
+		weight = 5000,
 		allowArmed = true,
 		stack = false,
 	},
 	
 	['huntingbait'] = {
 		label = "Appât de chasse",
-		weight = 100,
+		weight = 1000,
 		allowArmed = true,
 	},
 	
