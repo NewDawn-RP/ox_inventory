@@ -3868,7 +3868,7 @@ return {
         description = nil,
     },
 
-      ['weed_brick'] = { 
+    ['weed_brick'] = { 
         label = 'Brique de meth',
         weight = 5000,
         stack = true,
