@@ -3851,4 +3851,27 @@ return {
 		label = "Corne de cerf",
 		weight = 10000,
 	},
-}
+    
+    ['coca_brick'] = { 
+        label = 'Brique de cocaine',
+        weight = 5000,
+        stack = true,
+        close = true,
+        description = nil,
+    },
+    
+    ['meth_brick'] = { 
+        label = 'Brique de meth',
+        weight = 5000,
+        stack = true,
+        close = true,
+        description = nil,
+    },
+
+      ['weed_brick'] = { 
+        label = 'Brique de meth',
+        weight = 5000,
+        stack = true,
+        close = true,
+        description = nil,
+    },
