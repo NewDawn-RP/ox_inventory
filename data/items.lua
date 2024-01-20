@@ -2053,7 +2053,7 @@ return {
 	    close = true,
 		description = "Parfait pour faire passer la douleur",
 	    client = {
-			status = { thirst = 1 },
+			status = { drunk = -500000 },
 			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
 			prop = { model = `prop_ld_flow_bottle`, pos = vec3(0.0, 0.0, 0.0), rot = vec3(0.0, 0.0, 130.0) },
 			usetime = 3000,
@@ -2081,7 +2081,14 @@ return {
 	    weight = 1000,
 	    stack = true,
 	    close = true,
-		description = "Produit douée de propriétés soporifiques et calmantes.",
+		description = "De quoi vous faire partir au 7ème ciel.", 
+		client = {
+			status = { drunk = 150000 },
+			anim = { dict = 'mp_player_intdrink', clip = 'loop_bottle' },
+			prop = { model = `prop_ld_flow_bottle`, pos = vec3(0.0, 0.0, 0.0), rot = vec3(0.0, 0.0, 130.0) },
+			usetime = 3000,
+			notification = 'Vous avez prit de la morphine !' 
+	    }
 	},
 
 	['tranquilizer'] = {
