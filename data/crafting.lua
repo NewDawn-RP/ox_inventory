@@ -1053,11 +1053,11 @@ return {
 			{
 				name = 'cocaine_cut',
 				ingredients = {
-					cocaine_raw = 20,
+					cocaine_raw = 50,
 					drug_brick = 1,
 				},
-				duration = 10000,
-				count = 10,
+				duration = 45000,
+				count = 30,
 			},
 		},
 		zones = {
@@ -1073,11 +1073,11 @@ return {
 			{
 				name = 'meth',
 				ingredients = {
-					chemicals = 20,
+					chemicals = 50,
 					drug_brick = 1,
 				},
-				duration = 10000,
-				count = 10,
+				duration = 45000,
+				count = 40,
 			},
 		},
 		zones = {
@@ -1093,11 +1093,11 @@ return {
 			{
 				name = 'weed_cut',
 				ingredients = {
-					weed = 20,
+					weed = 50,
 					drug_brick = 1,
 				},
 				duration = 10000,
-				count = 10,
+				count = 50,
 			},
 		},
 		zones = {
