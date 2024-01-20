@@ -597,7 +597,7 @@ return {
 			{
 				name = 'flipper',
 				ingredients = {
-					microchip = 30,
+					microchip = 20,
 				},
 				duration = 15000,
 				count = 1,
