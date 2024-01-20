@@ -3468,7 +3468,7 @@ return {
 	},
 
 	["weed_packaged"] = {
-		label = "Weed packet",
+		label = "Sachet de Weed",
 		weight = 2,
 		stack = true,
 		close = true,
@@ -3503,14 +3503,14 @@ return {
 	},
 
 	["cocaine_packaged"] = {
-		label = "Cocaine packet",
+		label = "Sachet de Cocaine",
 		weight = 3,
 		stack = true,
 		close = true,
 	},
 
 	["meth_packaged"] = {
-		label = "Meth packet",
+		label = "Sachet de Meth",
 		weight = 3,
 		stack = true,
 		close = true,
