@@ -3495,13 +3495,6 @@ return {
 		close = true,
 	},
 
-	["cocaine_cut"] = {
-		label = "Cocaine cut",
-		weight = 2,
-		stack = true,
-		close = true,
-	},
-
 	["cocaine_packaged"] = {
 		label = "Cocaine packet",
 		weight = 3,
@@ -3852,27 +3845,32 @@ return {
 		weight = 10000,
 	},
     
-    ['coca_brick'] = { 
-        label = 'Brique de cocaine',
-        weight = 5000,
+    ['drug_brick'] = { 
+        label = 'Brique de Drogue',
+        weight = 10000,
         stack = true,
         close = true,
-        description = nil,
     },
-    
-    ['meth_brick'] = { 
-        label = 'Brique de meth',
-        weight = 5000,
+
+    ['meth_cut'] = { 
+        label = 'Meth coupée',
+        weight = 1000,
         stack = true,
         close = true,
         description = nil,
     },
 
-    ['weed_brick'] = { 
-        label = 'Brique de meth',
-        weight = 5000,
+	['weed_cut'] = { 
+        label = 'Weed coupée',
+        weight = 1000,
         stack = true,
         close = true,
-        description = nil,
     },
+
+	["cocaine_cut"] = {
+		label = "Cocaine Coupée",
+		weight = 1000,
+		stack = true,
+		close = true,
+	},
 }

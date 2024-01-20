@@ -1048,4 +1048,64 @@ return {
 			},
 		},
 	},
+	{ -- Craft Labo COCAINE
+		items = {
+			{
+				name = 'cocaine_cut',
+				ingredients = {
+					cocaine_raw = 20,
+					drug_brick = 1,
+				},
+				duration = 10000,
+				count = 10,
+			},
+		},
+		zones = {
+			{
+				coords = vec3(1101.8121, -3193.6992, -38.9935),
+				size = vec3(3, 3, 3),
+				distance = 3.5,
+			},
+		},
+	},
+	{ -- Craft Labo METH
+		items = {
+			{
+				name = 'meth',
+				ingredients = {
+					chemicals = 20,
+					drug_brick = 1,
+				},
+				duration = 10000,
+				count = 10,
+			},
+		},
+		zones = {
+			{
+				coords = vec3(1006.0034, -3194.9407, -38.9931),
+				size = vec3(3, 3, 3),
+				distance = 3.5,
+			},
+		},
+	},
+	{ -- Craft Labo WEED
+		items = {
+			{
+				name = 'weed_cut',
+				ingredients = {
+					weed = 20,
+					drug_brick = 1,
+				},
+				duration = 10000,
+				count = 10,
+			},
+		},
+		zones = {
+			{
+				coords = vec3(1036.3566, -3203.7173, -38.1734),
+				size = vec3(3, 3, 3),
+				distance = 3.5,
+			},
+		},
+	},
 }
