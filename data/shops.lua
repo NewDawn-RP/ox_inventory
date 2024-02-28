@@ -326,9 +326,9 @@ return {
 	VendingMachineDrinks = {
 		name = 'Distributeur de canettes',
 		inventory = {
-			{ name = 'cola', price = 50 },
-			{ name = 'sprunk', price = 50 },
-			{ name = 'orange_juice', price = 45 },
+			{ name = 'cola', price = 35 },
+			{ name = 'sprunk', price = 32 },
+			{ name = 'orange_juice', price = 53 },
 		},
 		model = {
 			`prop_vend_soda_02`, `prop_vend_fridge01`, `prop_vend_water_01`, `prop_vend_soda_01`
