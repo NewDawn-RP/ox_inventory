@@ -243,15 +243,15 @@ return {
 		blip = {
 			id = 403, colour = 1, scale = 0.8
 		}, inventory = {
-			{ name = 'medikit', price = 75 },
-			{ name = 'bandage', price = 25 },
-			{ name = 'paracetamol', price = 5 },
-			{ name = 'antibiotic', price = 10 },
-			{ name = 'tranquilizer', price = 15 },
-			{ name = 'medbag', price = 100 },
+			{ name = 'medikit', price = 25 },
+			{ name = 'bandage', price = 15 },
+			{ name = 'paracetamol', price = 2 },
+			{ name = 'antibiotic', price = 5 },
+			{ name = 'tranquilizer', price = 5 },
+			{ name = 'medbag', price = 50 },
 			{ name = 'radio', price = 150 },
-			{ name = 'WEAPON_HOSE', price = 500 },
-			{ name = 'WEAPON_FIREEXTINGUISHER', price = 50 },
+			{ name = 'WEAPON_HOSE', price = 180 },
+			{ name = 'WEAPON_FIREEXTINGUISHER', price = 120 },
 			
 		}, targets = {
 			{
