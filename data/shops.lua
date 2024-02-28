@@ -16,14 +16,14 @@ return {
 		blip = {
 			id = 59, colour = 69, scale = 0.8
 		}, inventory = {
-			{ name = 'bread', price = 25 },
-			{ name = 'water', price = 25 },	
-			{ name = 'spray_remover', price = 125},
-			{ name = 'fishingrod', price = 900 },
-			{ name = 'fishbait', price = 200 },
-			{ name = 'WEAPON_HAMMER', price = 450 },
-			{ name = 'phone', price = 1400 },
-			{ name = 'radio', price = 1000 },
+			{ name = 'bread', price = 20 },
+			{ name = 'water', price = 15 },	
+			{ name = 'spray_remover', price = 50},
+			{ name = 'fishingrod', price = 200 },
+			{ name = 'fishbait', price = 45 },
+			{ name = 'WEAPON_HAMMER', price = 200 },
+			{ name = 'phone', price = 1000 },
+			{ name = 'radio', price = 450 },
 
 		}, locations = {
 			vec3(25.7, -1347.3, 29.49),
